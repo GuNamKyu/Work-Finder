@@ -82,21 +82,12 @@ export function truncate(text: string, maxLen = 80): string {
   return cleaned.length > maxLen ? cleaned.substring(0, maxLen) + '...' : cleaned;
 }
 
-/** 채용공고 관련 키워드 (keywords.txt에서 로드) */
-const JOB_KEYWORDS = loadKeywords('keywords.txt');
-
 /** 채용과 무관한 노이즈 키워드 (noise-keywords.txt에서 로드) */
 const NOISE_KEYWORDS = loadKeywords('noise-keywords.txt');
 
-/** 채용공고 여부를 판별하여 노이즈를 필터링 */
+/** 노이즈 키워드가 포함된 공고를 필터링 */
 export function isJobPosting(title: string): boolean {
-  const hasJob = JOB_KEYWORDS.some(kw => title.includes(kw));
-  const hasNoise = NOISE_KEYWORDS.some(kw => title.includes(kw));
-  // 노이즈 키워드만 있고 채용 키워드가 없으면 제외
-  if (hasNoise && !hasJob) return false;
-  // 채용 키워드가 하나도 없으면 제외
-  if (!hasJob) return false;
-  return true;
+  return !NOISE_KEYWORDS.some(kw => title.includes(kw));
 }
 
 /** 공고 목록에서 채용과 무관한 항목 제거 */
