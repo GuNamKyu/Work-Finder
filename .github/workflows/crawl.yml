@@ -1,0 +1,80 @@
+name: 채용공고 크롤링 & 배포
+
+on:
+  schedule:
+    # 매일 오전 6시 KST (UTC 21:00)
+    - cron: '0 21 * * *'
+  workflow_dispatch: # 수동 실행 가능
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: npm 의존성 설치
+        run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+
+      - name: Playwright 브라우저 캐시
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Playwright chromium 설치
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Playwright OS 의존성 설치
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
+      - name: 크롤링 실행
+        run: npm run crawl
+
+      - name: 결과 업로드
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawl-results-${{ github.run_number }}
+          path: crawlers/results.json
+          retention-days: 30
+
+      - name: 배포 파일 준비
+        run: |
+          cp crawlers/results.json web/results.json
+
+      - name: Pages 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: crawl
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v4

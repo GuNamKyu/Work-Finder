@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Playwright CLI snapshots/logs
+.playwright-cli/
+
+# Crawler results (runtime generated)
+crawlers/results.json
+crawlers/verify-results.json
+web/results.json
