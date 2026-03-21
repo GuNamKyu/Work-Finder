@@ -2,7 +2,7 @@
 import { readFile, writeFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import type { CrawlResult } from './types';
+import type { CrawlResult, JobPosting } from './types';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -39,18 +39,18 @@ async function main() {
   }
 
   // 현재 공고 중 이전에 없던 것 = 신규
-  const newKeys: string[] = [];
+  const newPostings: (JobPosting & { siteId: string; siteName: string })[] = [];
   for (const r of currResults) {
     for (const p of r.postings) {
       const key = postingKey(r.site.id, p.title);
       if (!prevKeys.has(key)) {
-        newKeys.push(key);
+        newPostings.push({ ...p, siteId: r.site.id, siteName: r.site.name });
       }
     }
   }
 
-  await writeFile(outPath, JSON.stringify(newKeys, null, 2));
-  console.log(`신규 공고: ${newKeys.length}건 (전체 ${currResults.reduce((s, r) => s + r.postings.length, 0)}건)`);
+  await writeFile(outPath, JSON.stringify(newPostings, null, 2));
+  console.log(`신규 공고: ${newPostings.length}건 (전체 ${currResults.reduce((s, r) => s + r.postings.length, 0)}건)`);
 }
 
 main().catch(console.error);
