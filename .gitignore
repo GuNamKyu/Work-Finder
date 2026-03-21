@@ -31,3 +31,4 @@ crawlers/results.json
 crawlers/verify-results.json
 crawlers/new-postings.json
 web/results.json
+web/new-postings.json
