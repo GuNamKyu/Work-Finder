@@ -1,5 +1,16 @@
 import { chromium, type Page, type Browser } from 'playwright';
+import { readFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 import type { SiteConfig, CrawlResult, JobPosting, SiteScraper } from './types.js';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const rootDir = join(__dirname, '..');
+
+function loadKeywords(filename: string): string[] {
+  const content = readFileSync(join(rootDir, filename), 'utf-8');
+  return content.split('\n').map(l => l.trim()).filter(Boolean);
+}
 
 export async function launchBrowser(): Promise<Browser> {
   return chromium.launch({ headless: true });
@@ -71,22 +82,11 @@ export function truncate(text: string, maxLen = 80): string {
   return cleaned.length > maxLen ? cleaned.substring(0, maxLen) + '...' : cleaned;
 }
 
-/** 채용공고 관련 키워드 */
-const JOB_KEYWORDS = [
-  '채용', '모집', '공고', '합격', '인턴', '근로자', '직원',
-  '서류전형', '면접', '임용', '경쟁채용', '도슨트', '강사',
-  '서포터즈', '인력풀', '보조강사', '교육사', '큐레이터', '학예',
-  '연구원', '코디네이터',
-];
+/** 채용공고 관련 키워드 (keywords.txt에서 로드) */
+const JOB_KEYWORDS = loadKeywords('keywords.txt');
 
-/** 채용과 무관한 노이즈 키워드 */
-const NOISE_KEYWORDS = [
-  '운영 안내', '휴관', '주차장', '프로그램 운영', '문화가 있는 날',
-  '설연휴', '추석', '여름방학', '시상식', '전시해설', '대관',
-  '박물관대학', '미술대전', '번역 자료', '반려동물', '매장유산',
-  '자진신고', '전시 및 시상', '일시휴관', '대체공휴일', '견학 방문',
-  '무료대관', 'SNS 운영 일정',
-];
+/** 채용과 무관한 노이즈 키워드 (noise-keywords.txt에서 로드) */
+const NOISE_KEYWORDS = loadKeywords('noise-keywords.txt');
 
 /** 채용공고 여부를 판별하여 노이즈를 필터링 */
 export function isJobPosting(title: string): boolean {
