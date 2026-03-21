@@ -29,4 +29,5 @@ dist-ssr
 # Crawler results (runtime generated)
 crawlers/results.json
 crawlers/verify-results.json
+crawlers/new-postings.json
 web/results.json

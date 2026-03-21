@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "crawl": "tsx crawlers/run.ts",
+    "crawl:diff": "tsx crawlers/diff.ts",
     "crawl:verify": "tsx crawlers/verify.ts",
-    "serve": "cp crawlers/results.json web/results.json 2>/dev/null; npx serve web"
+    "serve": "cp crawlers/results.json web/results.json 2>/dev/null; cp crawlers/new-postings.json web/new-postings.json 2>/dev/null; npx serve web"
   },
   "devDependencies": {
     "playwright": "^1.58.2",

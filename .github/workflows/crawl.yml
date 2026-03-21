@@ -48,8 +48,32 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
+      - name: 이전 크롤링 결과 복원
+        uses: actions/cache/restore@v4
+        with:
+          path: crawlers/results.prev.json
+          key: crawl-results-prev
+
       - name: 크롤링 실행
         run: npm run crawl
+
+      - name: 신규 공고 비교
+        run: npm run crawl:diff
+
+      - name: 이전 결과 캐시 저장
+        uses: actions/cache/save@v4
+        with:
+          path: crawlers/results.prev.json
+          key: crawl-results-prev-${{ github.run_number }}
+
+      - name: 다음 실행을 위해 현재 결과를 이전 결과로 복사
+        run: cp crawlers/results.json crawlers/results.prev.json
+
+      - name: 이전 결과 캐시 갱신
+        uses: actions/cache/save@v4
+        with:
+          path: crawlers/results.prev.json
+          key: crawl-results-prev
 
       - name: 결과 업로드
         uses: actions/upload-artifact@v4
@@ -61,6 +85,7 @@ jobs:
       - name: 배포 파일 준비
         run: |
           cp crawlers/results.json web/results.json
+          cp crawlers/new-postings.json web/new-postings.json
 
       - name: Pages 업로드
         uses: actions/upload-pages-artifact@v3

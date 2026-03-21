@@ -296,6 +296,19 @@ body {
   opacity: 0.6;
 }
 
+.posting-new {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+  letter-spacing: 0.03em;
+}
+
 .posting-deadline {
   grid-column: 1 / -1;
   font-size: 0.75rem;
@@ -378,6 +391,7 @@ body {
 <div class="controls">
   <input type="text" class="search-box" id="search" placeholder="공고 제목, 기관명 검색...">
   <button class="filter-btn" data-filter="all">전체</button>
+  <button class="filter-btn" data-filter="new">신규</button>
   <button class="filter-btn" data-filter="recent">최근 7일</button>
   <button class="filter-btn" data-filter="active">마감 전</button>
 </div>
@@ -404,15 +418,23 @@ body {
 <script>
 let allPostings = [];
 let allSites = [];
+let newPostingKeys = new Set();
 let activeFilter = 'all';
 let activeSite = null;
 let searchQuery = '';
 
 async function init() {
   try {
-    const res = await fetch('./results.json');
+    const [res, newRes] = await Promise.all([
+      fetch('./results.json'),
+      fetch('./new-postings.json').catch(() => null),
+    ]);
     if (!res.ok) throw new Error('results.json not found');
     const data = await res.json();
+    if (newRes && newRes.ok) {
+      const keys = await newRes.json();
+      newPostingKeys = new Set(keys);
+    }
     processData(data);
     render();
   } catch (e) {
@@ -438,7 +460,8 @@ function processData(data) {
     const site = result.site;
     for (const p of result.postings) {
       if (!p.regDate || new Date(p.regDate) < oneMonthAgo) continue;
-      allPostings.push({ ...p, siteId: site.id, siteName: site.name });
+      const key = `${site.id}::${p.title}`;
+      allPostings.push({ ...p, siteId: site.id, siteName: site.name, isNew: newPostingKeys.has(key) });
     }
   }
 
@@ -493,6 +516,7 @@ function isActive(posting) {
 function getFiltered() {
   return allPostings.filter(p => {
     if (activeSite && p.siteId !== activeSite) return false;
+    if (activeFilter === 'new' && !p.isNew) return false;
     if (activeFilter === 'recent' && !isRecent(p.regDate)) return false;
     if (activeFilter === 'active' && !isActive(p)) return false;
     if (searchQuery) {
@@ -559,7 +583,7 @@ function render() {
 
     let html = `
       <div>
-        <div class="posting-title">${escapeHtml(p.title)}</div>
+        <div class="posting-title">${escapeHtml(p.title)}${p.isNew ? '<span class="posting-new">NEW</span>' : ''}</div>
         <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}</div>
       </div>
       <div>
