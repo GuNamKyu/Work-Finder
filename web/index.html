@@ -455,15 +455,40 @@ function processData(data) {
   oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
   oneMonthAgo.setHours(0, 0, 0, 0);
 
+  // 1차: 전체 공고 수집
+  const rawPostings = [];
   for (const result of data) {
     if (result.error) continue;
     const site = result.site;
     for (const p of result.postings) {
       if (!p.regDate || new Date(p.regDate) < oneMonthAgo) continue;
       const key = `${site.id}::${p.title}`;
-      allPostings.push({ ...p, siteId: site.id, siteName: site.name, isNew: newPostingKeys.has(key) });
+      rawPostings.push({ ...p, siteId: site.id, siteName: site.name, isNew: newPostingKeys.has(key) });
     }
   }
+
+  // 2차: 중복 제거 (제목 유사도 기준, URL이 있는 공고 우선)
+  function normalizeTitle(t) {
+    return (t || '').replace(/\s+/g, '').replace(/[\(\)\[\]「」『』【】·\-_,\.]/g, '').toLowerCase();
+  }
+  const deduped = new Map();
+  for (const p of rawPostings) {
+    const normTitle = normalizeTitle(p.title);
+    if (deduped.has(normTitle)) {
+      const existing = deduped.get(normTitle);
+      // URL이 있는 공고를 우선 유지
+      if (!existing.url && p.url) {
+        deduped.set(normTitle, p);
+      } else if (existing.url && !p.url) {
+        // 기존 것 유지
+      } else if ((p.regDate || '') > (existing.regDate || '')) {
+        deduped.set(normTitle, p);
+      }
+    } else {
+      deduped.set(normTitle, p);
+    }
+  }
+  allPostings = Array.from(deduped.values());
 
   // 사이트별 공고 수 집계 (필터링 후 기준)
   const siteCounts = {};

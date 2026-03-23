@@ -83,14 +83,19 @@ export function truncate(text: string, maxLen = 80): string {
 }
 
 /** 채용과 무관한 노이즈 키워드 (noise-keywords.txt에서 로드) */
-const NOISE_KEYWORDS = loadKeywords('noise-keywords.txt');
+export const NOISE_KEYWORDS = loadKeywords('noise-keywords.txt');
 
-/** 노이즈 키워드가 포함된 공고를 필터링 */
+/** 노이즈 키워드가 포함된 공고를 필터링 (제목 기준) */
 export function isJobPosting(title: string): boolean {
   return !NOISE_KEYWORDS.some(kw => title.includes(kw));
 }
 
-/** 공고 목록에서 채용과 무관한 항목 제거 */
+/** 기관명에 노이즈 키워드가 포함되어 있는지 확인 */
+export function isNoiseOrganization(org: string): boolean {
+  return NOISE_KEYWORDS.some(kw => org.includes(kw));
+}
+
+/** 공고 목록에서 채용과 무관한 항목 제거 (제목 + 기관명 모두 검사) */
 export function filterJobPostings(postings: JobPosting[]): JobPosting[] {
-  return postings.filter(p => isJobPosting(p.title));
+  return postings.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization));
 }
