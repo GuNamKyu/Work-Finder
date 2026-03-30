@@ -26,27 +26,46 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       await page.click('#searchBtn, button:has-text("검색")');
       await page.waitForTimeout(3000);
 
-      const postings = await page.$$eval('table#apmTbl tbody tr', (rows) => {
-        return rows.map(row => {
-          const tds = row.querySelectorAll('td');
-          if (tds.length < 5) return null;
-          const titleEl = tds[1]?.querySelector('a');
-          const title = titleEl?.textContent?.trim() || '';
-          const org = tds[2]?.textContent?.trim() || '';
-          const regDate = tds[3]?.textContent?.trim() || '';
-          const deadline = tds[4]?.textContent?.trim() || '';
-          return { title, org, regDate, deadline };
-        }).filter(Boolean);
-      });
+      // 최대 3페이지까지 수집 (빠르게 넘어가는 최근 공고 누락 방지)
+      for (let pageNum = 1; pageNum <= 3; pageNum++) {
+        if (pageNum > 1) {
+          const hasPage = await page.evaluate((n) => {
+            const btn = document.querySelector(`a[onclick*="fn_egov_link_page(${n})"]`);
+            // @ts-ignore
+            if (btn && typeof fn_egov_link_page === 'function') {
+              // @ts-ignore
+              fn_egov_link_page(n);
+              return true;
+            }
+            return false;
+          }, pageNum);
 
-      for (const p of postings as any[]) {
-        allPostings.push({
-          title: truncate(p.title),
-          organization: p.org,
-          regDate: normalizeDate(p.regDate),
-          deadlineDate: p.deadline ? normalizeDate(p.deadline) : null,
-          url: null,
+          if (!hasPage) break; // 다음 페이지가 없으면 종료
+          await page.waitForTimeout(3000);
+        }
+
+        const postings = await page.$$eval('table#apmTbl tbody tr', (rows) => {
+          return rows.map(row => {
+            const tds = row.querySelectorAll('td');
+            if (tds.length < 5) return null;
+            const titleEl = tds[1]?.querySelector('a');
+            const title = titleEl?.textContent?.trim() || '';
+            const org = tds[2]?.textContent?.trim() || '';
+            const regDate = tds[3]?.textContent?.trim() || '';
+            const deadline = tds[4]?.textContent?.trim() || '';
+            return { title, org, regDate, deadline };
+          }).filter(Boolean);
         });
+
+        for (const p of postings as any[]) {
+          allPostings.push({
+            title: truncate(p.title),
+            organization: p.org,
+            regDate: normalizeDate(p.regDate),
+            deadlineDate: p.deadline ? normalizeDate(p.deadline) : null,
+            url: null,
+          });
+        }
       }
     } catch {
       // 키워드별 검색 실패 무시
