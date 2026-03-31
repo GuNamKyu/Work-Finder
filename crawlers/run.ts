@@ -39,7 +39,6 @@ import * as anseong from './sites/anseong';
 import * as artic from './sites/artic';
 import * as ddc from './sites/ddc';
 import * as historySeooul from './sites/history-seoul';
-import * as gojobsWd from './sites/gojobs-wd';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -78,7 +77,6 @@ const sites: [SiteConfig, SiteScraper][] = [
   [artic.config, artic.scrape],
   [ddc.config, ddc.scrape],
   [historySeooul.config, historySeooul.scrape],
-  [gojobsWd.config, gojobsWd.scrape],
 ];
 
 async function main() {
