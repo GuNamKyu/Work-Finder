@@ -6,14 +6,14 @@ import { normalizeDate, truncate } from '../base';
 export const config: SiteConfig = {
   id: 'gojobs',
   name: '나라일터',
-  url: 'https://gojobs.go.kr/apmList.do',
+  url: 'https://www.gojobs.go.kr/apmList.do',
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {
   const allPostings: JobPosting[] = [];
 
   try {
-    await page.goto('https://gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400', {
+    await page.goto('https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400', {
       waitUntil: 'domcontentloaded',
       timeout: 15000,
     });

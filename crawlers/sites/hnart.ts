@@ -6,7 +6,7 @@ import { normalizeDate, truncate } from '../base';
 export const config: SiteConfig = {
   id: 'hnart',
   name: '하남역사박물관',
-  url: 'https://www.hnart.or.kr/museum/selectBbsNttList.do?key=277&bbsNo=51&integrDeptCode=&searchCtgry=&searchCnd=SJ&searchKrwd=%EC%B1%84%EC%9A%A9',
+  url: 'https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0',
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {
@@ -26,7 +26,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       organization: '하남역사박물관',
       regDate: normalizeDate(item.date),
       deadlineDate: null,
-      url: item.href ? `https://www.hnart.or.kr/museum/${item.href.replace('./', '')}` : null,
+      url: item.href ? `https://www.hnart.or.kr/artcenter/${item.href.replace('./', '')}` : null,
     }))
   );
 }

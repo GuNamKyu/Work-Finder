@@ -169,35 +169,54 @@ function deduplicateResults(results: CrawlResult[]) {
     return (t || '').replace(/\s+/g, '').replace(/[\(\)\[\]「」『』【】·\-_,\.…]/g, '').toLowerCase();
   }
 
-  // 1단계: 전체에서 (정규화제목 → 최우선 posting) 맵 구축
-  const bestMap = new Map<string, { siteId: string; title: string; url: string | null }>();
+  // 1단계: 전체에서 (정규화제목 → 최우선 posting이 속한 사이트 ID) 맵 구축
+  // URL이 있는 공고를 우선으로, 같은 조건이면 먼저 발견된 것 유지
+  const bestMap = new Map<string, string>(); // key → siteId
   for (const r of results) {
     for (const p of r.postings) {
       const key = normalize(p.title);
-      const existing = bestMap.get(key);
-      if (!existing) {
-        bestMap.set(key, { siteId: r.site.id, title: p.title, url: p.url });
-      } else if (!existing.url && p.url) {
-        bestMap.set(key, { siteId: r.site.id, title: p.title, url: p.url });
+      const existingSiteId = bestMap.get(key);
+      if (!existingSiteId) {
+        bestMap.set(key, r.site.id);
+      } else if (!getPostingUrl(results, existingSiteId, key, normalize) && p.url) {
+        // 기존 것에 URL이 없고 현재 것에 URL이 있으면 교체
+        bestMap.set(key, r.site.id);
       }
     }
   }
 
-  // 2단계: 각 사이트 결과에서 다른 사이트에 이미 존재하는 공고 제거
+  // 2단계: 각 사이트 결과에서 중복 제거 — bestMap에서 선택된 사이트의 공고만 남기기
   const seen = new Set<string>();
+  let removedCount = 0;
   for (const r of results) {
+    const before = r.postings.length;
     r.postings = r.postings.filter(p => {
       const key = normalize(p.title);
-      if (seen.has(key)) return false;
+      if (seen.has(key)) return false; // 이미 다른 사이트에서 포함됨
+      const bestSiteId = bestMap.get(key);
+      if (bestSiteId && bestSiteId !== r.site.id) return false; // 이 사이트 것이 최우선이 아님
       seen.add(key);
       return true;
     });
+    removedCount += before - r.postings.length;
   }
 
-  const removedCount = Array.from(bestMap.keys()).length - seen.size;
-  if (seen.size < bestMap.size) {
-    // 이 경우는 없어야 하지만 안전장치
+  if (removedCount > 0) {
+    console.log(`  ℹ️ 중복 공고 ${removedCount}건 제거 (URL 있는 공고 우선 유지)`);
   }
+}
+
+/** bestMap 구축 시 기존 사이트의 URL 확인용 헬퍼 */
+function getPostingUrl(
+  results: CrawlResult[],
+  siteId: string,
+  normalizedKey: string,
+  normalize: (t: string) => string
+): string | null {
+  const siteResult = results.find(r => r.site.id === siteId);
+  if (!siteResult) return null;
+  const posting = siteResult.postings.find(p => normalize(p.title) === normalizedKey);
+  return posting?.url || null;
 }
 
 main().catch(console.error);

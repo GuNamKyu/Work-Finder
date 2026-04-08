@@ -6,7 +6,7 @@ import { normalizeDate, truncate } from '../base';
 export const config: SiteConfig = {
   id: 'history-seoul',
   name: '서울역사편찬원',
-  url: 'https://history.seoul.go.kr/bbsctt/view.do?bbscttSn=2602250001&sc_bbsctt_field_sn=0009&key=2210200044&pageIndex=1',
+  url: 'https://history.seoul.go.kr/bbsctt/list.do?key=2210200044',
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {

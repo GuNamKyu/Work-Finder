@@ -6,7 +6,6 @@ https://www.ncs.go.kr/blind/bl04/RecrtNotifList.do
 https://www.much.go.kr/MUCH/contents/M07090200000.do
 https://gmuseum.kr/board/jobList
 https://www.hangeul.go.kr/news/newsList.do?bbs_id=30&amp;curr_menu_cd=0106010600
-https://gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=&wd=1278
 https://www.kaah.kr/reqopen
 https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06
 https://museum.seoul.go.kr/www/board/NR_boardList.do?bbsCd=1017&amp;sso=ok
