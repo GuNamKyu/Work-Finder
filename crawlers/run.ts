@@ -39,6 +39,7 @@ import * as anseong from './sites/anseong';
 import * as artic from './sites/artic';
 import * as ddc from './sites/ddc';
 import * as historySeooul from './sites/history-seoul';
+import * as jobGG from './sites/job-gg';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -77,6 +78,7 @@ const sites: [SiteConfig, SiteScraper][] = [
   [artic.config, artic.scrape],
   [ddc.config, ddc.scrape],
   [historySeooul.config, historySeooul.scrape],
+  [jobGG.config, jobGG.scrape],
 ];
 
 async function main() {
@@ -132,6 +134,9 @@ async function main() {
 
   await browser.close();
 
+  // 전체 결과에서 중복 공고 제거 (제목 정규화 비교)
+  deduplicateResults(results);
+
   // 결과 저장
   const outputPath = join(__dirname, 'results.json');
   await writeFile(outputPath, JSON.stringify(results, null, 2));
@@ -154,6 +159,44 @@ async function main() {
     for (const r of results.filter(r => r.error)) {
       console.log(`  - ${r.site.name}: ${r.error}`);
     }
+  }
+}
+
+/** 전체 크롤링 결과에서 중복 공고 제거 (제목 정규화 비교, URL 있는 것 우선) */
+function deduplicateResults(results: CrawlResult[]) {
+  // 정규화 함수: 공백·특수문자 제거 후 소문자
+  function normalize(t: string) {
+    return (t || '').replace(/\s+/g, '').replace(/[\(\)\[\]「」『』【】·\-_,\.…]/g, '').toLowerCase();
+  }
+
+  // 1단계: 전체에서 (정규화제목 → 최우선 posting) 맵 구축
+  const bestMap = new Map<string, { siteId: string; title: string; url: string | null }>();
+  for (const r of results) {
+    for (const p of r.postings) {
+      const key = normalize(p.title);
+      const existing = bestMap.get(key);
+      if (!existing) {
+        bestMap.set(key, { siteId: r.site.id, title: p.title, url: p.url });
+      } else if (!existing.url && p.url) {
+        bestMap.set(key, { siteId: r.site.id, title: p.title, url: p.url });
+      }
+    }
+  }
+
+  // 2단계: 각 사이트 결과에서 다른 사이트에 이미 존재하는 공고 제거
+  const seen = new Set<string>();
+  for (const r of results) {
+    r.postings = r.postings.filter(p => {
+      const key = normalize(p.title);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  const removedCount = Array.from(bestMap.keys()).length - seen.size;
+  if (seen.size < bestMap.size) {
+    // 이 경우는 없어야 하지만 안전장치
   }
 }
 
