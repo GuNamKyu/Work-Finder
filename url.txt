@@ -36,3 +36,7 @@ https://gjicp.ggcf.kr/boards/news/articles?category=03
 https://www.ddc.go.kr/museum/selectBbsNttList.do?bbsNo=96&key=878
 https://history.seoul.go.kr/bbsctt/list.do?key=2210200044
 https://job.gg.go.kr/pblcEmpmn/list.do
+https://museum.or.kr/job2/
+https://www.seoul.go.kr/news/news_employ.do
+https://www.korea.kr/archive/recruitInfoList.do
+https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20

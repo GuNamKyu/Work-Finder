@@ -10,14 +10,15 @@ export const config: SiteConfig = {
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {
+  // 구조: 번호(0), 제목(1), 첨부(2), 등록일(3), 조회(4)
   return page.$$eval('table tbody tr', (rows) => {
     return rows.map(row => {
       const tds = row.querySelectorAll('td');
-      if (tds.length < 3) return null;
+      if (tds.length < 4) return null;
       const titleEl = row.querySelector('a[href*="/site/main/archive/post/"]');
       const title = titleEl?.textContent?.trim() || '';
       const href = titleEl?.getAttribute('href') || '';
-      const date = tds[2]?.textContent?.trim() || '';
+      const date = tds[3]?.textContent?.trim() || '';
       return { title, date, href };
     }).filter(Boolean);
   }).then(items =>

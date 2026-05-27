@@ -29,7 +29,21 @@ export async function crawlSite(
   const page = await context.newPage();
 
   try {
-    await page.goto(config.url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+    // goto 실패 시 최대 2회 재시도 (ERR_CONNECTION_RESET 등 일시적 오류 대비)
+    let lastError: Error | null = null;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        if (attempt > 0) await page.waitForTimeout(2000 * attempt);
+        await page.goto(config.url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+        lastError = null;
+        break;
+      } catch (e: any) {
+        lastError = e;
+        if (attempt < 2) console.log(`  ⚠️ [${config.id}] 연결 실패, 재시도 ${attempt + 1}/2...`);
+      }
+    }
+    if (lastError) throw lastError;
+
     await page.waitForTimeout(2000);
     const postings = await scraper(page, config);
     return {
@@ -95,7 +109,19 @@ export function isNoiseOrganization(org: string): boolean {
   return NOISE_KEYWORDS.some(kw => org.includes(kw));
 }
 
-/** 공고 목록에서 채용과 무관한 항목 제거 (제목 + 기관명 모두 검사) */
+/** 등록일이 1개월 이내인지 확인 (YYYY-MM-DD 형식 기준, 파싱 불가 시 true 반환) */
+export function isWithinOneMonth(regDate: string): boolean {
+  const match = regDate.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return true; // 날짜 파싱 불가 → 유지
+  const postDate = new Date(parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]));
+  const oneMonthAgo = new Date();
+  oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
+  return postDate >= oneMonthAgo;
+}
+
+/** 공고 목록에서 채용과 무관한 항목 및 1개월 초과 공고 제거 */
 export function filterJobPostings(postings: JobPosting[]): JobPosting[] {
-  return postings.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization));
+  return postings.filter(p =>
+    isJobPosting(p.title) && !isNoiseOrganization(p.organization) && isWithinOneMonth(p.regDate)
+  );
 }

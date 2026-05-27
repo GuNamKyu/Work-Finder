@@ -10,23 +10,35 @@ export const config: SiteConfig = {
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {
-  return page.$$eval('ul li', (items) => {
-    return items
-      .filter(li => {
-        const text = li.textContent || '';
-        return text.includes('채용') || text.includes('모집') || text.includes('공고');
-      })
-      .map(li => {
-        const titleEl = li.querySelector('a');
-        const title = titleEl?.textContent?.trim() || li.textContent?.trim() || '';
-        let date = '';
-        const dateMatch = (li.textContent || '').match(/\d{4}-\d{2}-\d{2}/);
-        if (dateMatch) date = dateMatch[0];
-        return { title, date };
-      })
-      .filter(item => item.title);
+  await page.waitForSelector('ul li a', { timeout: 10000 }).catch(() => {});
+
+  // 각 listitem: 번호|카테고리|제목(a 링크)|날짜 구조
+  // 게시판 영역의 모든 li 중 a 태그 포함된 것만 처리
+  return page.$$eval('main li, article li, #sub-contents li, .board-list li', (items) => {
+    return items.map(li => {
+      // 링크(제목)가 없으면 스킵
+      const link = li.querySelector('a');
+      if (!link) return null;
+      const title = link.textContent?.trim() || '';
+      if (!title) return null;
+
+      // li 내 모든 자식 요소에서 카테고리와 날짜 추출
+      const children = li.querySelectorAll(':scope > *');
+      let category = '';
+      let date = '';
+      children.forEach(child => {
+        if (child.tagName === 'A') return; // 링크는 제목이므로 스킵
+        const text = child.textContent?.trim() || '';
+        if (text === '채용' || text === '일반') category = text;
+        else if (/^\d{4}-\d{2}-\d{2}$/.test(text)) date = text;
+      });
+
+      // 채용 카테고리인 경우만 반환
+      if (category !== '채용') return null;
+      return { title, date };
+    }).filter(Boolean);
   }).then(items =>
-    items.map(item => ({
+    (items as any[]).map(item => ({
       title: truncate(item.title),
       organization: '서울역사편찬원',
       regDate: normalizeDate(item.date),
@@ -35,3 +47,4 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     }))
   );
 }
+

@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-한국 박물관/문화기관 38개 사이트의 채용공고를 Playwright로 크롤링하는 프로젝트. Node.js + tsx 런타임 사용.
+한국 박물관/문화기관 41개 사이트의 채용공고를 Playwright로 크롤링하는 프로젝트. Node.js + tsx 런타임 사용.
 
 ## Commands
 
 ```bash
 npm install                      # 의존성 설치
-npm run crawl                    # 전체 38개 사이트 크롤링 (~3분)
+npm run crawl                    # 전체 41개 사이트 크롤링 (~3분)
 npm run crawl -- <site-id>       # 특정 사이트만 크롤링 (예: gogung)
 npm run crawl:verify             # 크롤링 결과를 실제 사이트와 비교 검증
 npm run crawl:verify -- <site-id> # 특정 사이트만 검증
@@ -23,9 +23,9 @@ npx playwright install chromium  # Playwright 브라우저 최초 설치
 crawlers/
   types.ts       - 공통 인터페이스 (JobPosting, SiteConfig, CrawlResult, SiteScraper)
   base.ts        - Playwright 브라우저 관리, crawlSite() 실행기, 날짜 정규화 유틸
-  run.ts         - 메인 실행기. 33개 사이트 모듈을 임포트하고 순차 크롤링 후 results.json 저장
+  run.ts         - 메인 실행기. 36개 사이트 모듈을 임포트하고 순차 크롤링 후 results.json 저장
   verify.ts      - results.json을 읽어 실제 사이트와 제목 매칭률로 검증
-  sites/         - 사이트별 크롤러 (33개 파일, 38개 사이트)
+  sites/         - 사이트별 크롤러 (36개 파일, 41개 사이트)
 url.txt          - 크롤링 대상 URL 목록
 ```
 
