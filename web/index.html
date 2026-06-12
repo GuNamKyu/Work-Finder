@@ -121,6 +121,35 @@ body {
 .filter-btn:hover { border-color: var(--accent); color: var(--ink); }
 .filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
 
+.period-select {
+  padding: 0.6rem 2rem 0.6rem 0.85rem;
+  border: 1px solid var(--divider);
+  border-radius: 6px;
+  background: var(--card);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238a8275'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  outline: none;
+}
+
+.period-select:focus,
+.period-select:hover { border-color: var(--accent); color: var(--ink); }
+
+.period-select.active {
+  background-color: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23ffffff'/%3E%3C/svg%3E");
+}
+
 /* --- Site nav --- */
 .site-nav-wrap {
   max-width: 960px;
@@ -392,8 +421,13 @@ body {
   <input type="text" class="search-box" id="search" placeholder="공고 제목, 기관명 검색...">
   <button class="filter-btn" data-filter="all">전체</button>
   <button class="filter-btn" data-filter="new">신규</button>
-  <button class="filter-btn" data-filter="recent">최근 7일</button>
-  <button class="filter-btn" data-filter="active">마감 전</button>
+  <select class="period-select" id="period-select">
+    <option value="">기간 설정</option>
+    <option value="7">1주 이내</option>
+    <option value="14">2주 이내</option>
+    <option value="21">3주 이내</option>
+    <option value="31">1달 이내</option>
+  </select>
 </div>
 
 <div class="site-nav-wrap">
@@ -420,6 +454,7 @@ let allPostings = [];
 let allSites = [];
 let newPostingKeys = new Set();
 let activeFilter = 'all';
+let activePeriodDays = 0; // 0 = 기간 설정 없음
 let activeSite = null;
 let searchQuery = '';
 
@@ -523,27 +558,22 @@ function formatDate(str) {
   return str.replace(/-/g, '.');
 }
 
-function isRecent(dateStr) {
+function isWithinDays(dateStr, days) {
   if (!dateStr) return false;
   const d = new Date(dateStr);
   const now = new Date();
-  return (now - d) / 86400000 <= 7;
+  return (now - d) / 86400000 <= days;
 }
 
-function isActive(posting) {
-  if (!posting.deadlineDate) return true; // 마감일 없으면 활성으로 간주
-  const deadline = new Date(posting.deadlineDate);
-  const today = new Date();
-  today.setHours(0,0,0,0);
-  return deadline >= today;
+function isNew(dateStr) {
+  return isWithinDays(dateStr, 3);
 }
 
 function getFiltered() {
   return allPostings.filter(p => {
     if (activeSite && p.siteId !== activeSite) return false;
     if (activeFilter === 'new' && !p.isNew) return false;
-    if (activeFilter === 'recent' && !isRecent(p.regDate)) return false;
-    if (activeFilter === 'active' && !isActive(p)) return false;
+    if (activePeriodDays > 0 && !isWithinDays(p.regDate, activePeriodDays)) return false;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       const match = (p.title || '').toLowerCase().includes(q)
@@ -581,6 +611,10 @@ function render() {
     btn.classList.toggle('active', btn.dataset.filter === activeFilter);
   });
 
+  // Period select 활성 표시
+  const periodSel = document.getElementById('period-select');
+  periodSel.classList.toggle('active', activePeriodDays > 0);
+
   // Postings
   const filtered = getFiltered();
   const list = document.getElementById('posting-list');
@@ -608,7 +642,7 @@ function render() {
 
     let html = `
       <div>
-        <div class="posting-title">${escapeHtml(p.title)}${p.isNew ? '<span class="posting-new">NEW</span>' : ''}</div>
+        <div class="posting-title">${escapeHtml(p.title)}${isNew(p.regDate) ? '<span class="posting-new">NEW</span>' : ''}</div>
         <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}</div>
       </div>
       <div>
@@ -649,6 +683,11 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     activeFilter = btn.dataset.filter;
     render();
   });
+});
+
+document.getElementById('period-select').addEventListener('change', (e) => {
+  activePeriodDays = parseInt(e.target.value) || 0;
+  render();
 });
 
 init();
