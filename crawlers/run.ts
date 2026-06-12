@@ -210,8 +210,129 @@ function deduplicateResults(results: CrawlResult[]) {
   }
 
   if (removedCount > 0) {
-    console.log(`  ℹ️ 중복 공고 ${removedCount}건 제거 (URL 있는 공고 우선 유지)`);
+    console.log(`  ℹ️ 중복 공고 ${removedCount}건 제거 (완전일치, URL 있는 공고 우선 유지)`);
   }
+
+  // 3단계: 퍼지(fuzzy) 중복 제거 — 핵심 토큰 교집합 기반
+  const fuzzyRemoved = deduplicateFuzzy(results);
+  if (fuzzyRemoved > 0) {
+    console.log(`  ℹ️ 유사 공고 ${fuzzyRemoved}건 추가 제거 (토큰 유사도, URL 있는 공고 우선 유지)`);
+  }
+}
+
+/**
+ * 제목의 핵심 토큰(불용어 제외) 교집합을 기반으로 유사 공고를 제거한다.
+ * 두 공고의 핵심 토큰 교집합 글자 수가 MIN_OVERLAP_CHARS 이상이면 중복으로 간주하며,
+ * URL이 있는 공고를 우선 유지하고 없으면 먼저 등장한 것을 유지한다.
+ */
+function deduplicateFuzzy(results: CrawlResult[]): number {
+  // 대부분의 공고 제목에 등장하는 불용어 (비교 제외 대상)
+  const STOPWORDS = new Set([
+    '채용공고', '채용', '공고', '모집공고', '모집', '안내', '시험', '공개',
+    '경쟁', '시행', '관련', '관련공고', '알림', '공지', '접수', '추가',
+    '재공고', '수정공고', '변경공고', '정정공고', '취소공고', '긴급공고',
+    '일반', '특별', '외부', '내부', '신입', '경력', '직원', '직원채용',
+    '인재', '인재채용', '인원', '선발', '선발공고', '계획', '계획공고',
+    '20', '21', '22', '23', '24', '25', '26', // 연도 앞 2자리
+  ]);
+
+  // 최소 교집합 글자 수 (이 이상이면 유사 공고로 간주)
+  const MIN_OVERLAP_CHARS = 10;
+
+  /**
+   * 제목에서 불용어를 제거하고 핵심 토큰 집합을 반환한다.
+   * - 특수문자·괄호 제거 후 공백으로 분할
+   * - 불용어, 2글자 미만 토큰 제거
+   * - 연도(4자리 숫자) 제거
+   */
+  function extractTokens(title: string): string[] {
+    const cleaned = (title || '')
+      .replace(/[\(\)\[\]\<\>「」『』【】〔〕·\-_,\.…:：!！?？《》]/g, ' ')
+      .replace(/\d{4}년?/g, ' ') // 연도 제거
+      .replace(/\d+월\d*일?/g, ' ') // 날짜 제거 (예: 6.24 수)
+      .replace(/\d+\s*(월|일|차|기|명|분|명)/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    return cleaned
+      .split(' ')
+      .map(t => t.trim())
+      .filter(t => t.length >= 2 && !STOPWORDS.has(t));
+  }
+
+  /** 두 토큰 배열의 교집합 총 글자 수를 반환 */
+  function overlapChars(tokensA: string[], tokensB: string[]): number {
+    const setB = new Set(tokensB);
+    return tokensA
+      .filter(t => setB.has(t))
+      .reduce((sum, t) => sum + t.length, 0);
+  }
+
+  // 모든 공고를 평탄화: { posting, siteId } 형태로
+  interface FlatPosting {
+    posting: import('./types').JobPosting;
+    siteId: string;
+    tokens: string[];
+    removed: boolean;
+  }
+
+  const flat: FlatPosting[] = [];
+  for (const r of results) {
+    for (const p of r.postings) {
+      flat.push({
+        posting: p,
+        siteId: r.site.id,
+        tokens: extractTokens(p.title),
+        removed: false,
+      });
+    }
+  }
+
+  // O(n²) 비교: 핵심 토큰이 MIN_OVERLAP_CHARS 이상 겹치면 둘 중 하나 제거
+  for (let i = 0; i < flat.length; i++) {
+    if (flat[i].removed) continue;
+    if (flat[i].tokens.length === 0) continue; // 토큰이 없으면 비교 불가
+
+    for (let j = i + 1; j < flat.length; j++) {
+      if (flat[j].removed) continue;
+      if (flat[j].tokens.length === 0) continue;
+
+      const overlap = overlapChars(flat[i].tokens, flat[j].tokens);
+      if (overlap < MIN_OVERLAP_CHARS) continue;
+
+      // 유사 공고 감지: URL 있는 쪽 우선, 없으면 i (먼저 등장한 것) 유지
+      const iHasUrl = !!flat[i].posting.url;
+      const jHasUrl = !!flat[j].posting.url;
+
+      if (iHasUrl && !jHasUrl) {
+        flat[j].removed = true;
+        console.log(`  🔀 유사 중복 제거: "${flat[j].posting.title}" (교집합 ${overlap}자)`);
+      } else if (!iHasUrl && jHasUrl) {
+        flat[i].removed = true;
+        console.log(`  🔀 유사 중복 제거: "${flat[i].posting.title}" (교집합 ${overlap}자)`);
+        break; // i가 제거됐으므로 i 루프 종료
+      } else {
+        // 둘 다 URL이 있거나 둘 다 없으면 나중 것(j) 제거
+        flat[j].removed = true;
+        console.log(`  🔀 유사 중복 제거: "${flat[j].posting.title}" (교집합 ${overlap}자)`);
+      }
+    }
+  }
+
+  // 제거 대상 posting 목록 구성
+  const removedPostings = new Set(
+    flat.filter(f => f.removed).map(f => f.posting)
+  );
+
+  // 각 사이트 결과에서 제거
+  let removedCount = 0;
+  for (const r of results) {
+    const before = r.postings.length;
+    r.postings = r.postings.filter(p => !removedPostings.has(p));
+    removedCount += before - r.postings.length;
+  }
+
+  return removedCount;
 }
 
 /** bestMap 구축 시 기존 사이트의 URL 확인용 헬퍼 */
