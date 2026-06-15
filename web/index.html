@@ -572,7 +572,7 @@ function isNew(dateStr) {
 function getFiltered() {
   return allPostings.filter(p => {
     if (activeSite && p.siteId !== activeSite) return false;
-    if (activeFilter === 'new' && !p.isNew) return false;
+    if (activeFilter === 'new' && !isNew(p.regDate)) return false;
     if (activePeriodDays > 0 && !isWithinDays(p.regDate, activePeriodDays)) return false;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
