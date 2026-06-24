@@ -10,16 +10,6 @@ export const config: SiteConfig = {
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {
-  // 네트워크 불안정 대비: 페이지가 로드되지 않은 경우 재시도
-  const currentUrl = page.url();
-  if (!currentUrl.includes('korea.kr')) {
-    await page.goto('https://www.korea.kr/archive/recruitInfoList.do', {
-      waitUntil: 'domcontentloaded',
-      timeout: 30000,
-    });
-    await page.waitForTimeout(2000);
-  }
-
   await page.waitForSelector('table tbody tr', { timeout: 15000 }).catch(() => {});
 
   return page.$$eval('table tbody tr', (rows) => {

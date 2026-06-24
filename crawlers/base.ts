@@ -20,47 +20,62 @@ export async function crawlSite(
   browser: Browser,
   config: SiteConfig,
   scraper: SiteScraper,
-  timeoutMs = 30000
+  timeoutMs = 30000,
+  siteTimeoutMs = 90000
 ): Promise<CrawlResult> {
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-    locale: 'ko-KR',
-  });
-  const page = await context.newPage();
+  const run = async (): Promise<CrawlResult> => {
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+      locale: 'ko-KR',
+    });
+    const page = await context.newPage();
 
-  try {
-    // goto 실패 시 최대 2회 재시도 (ERR_CONNECTION_RESET 등 일시적 오류 대비)
-    let lastError: Error | null = null;
-    for (let attempt = 0; attempt < 3; attempt++) {
-      try {
-        if (attempt > 0) await page.waitForTimeout(2000 * attempt);
-        await page.goto(config.url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
-        lastError = null;
-        break;
-      } catch (e: any) {
-        lastError = e;
-        if (attempt < 2) console.log(`  ⚠️ [${config.id}] 연결 실패, 재시도 ${attempt + 1}/2...`);
+    try {
+      // goto 실패 시 최대 2회 재시도 (ERR_CONNECTION_RESET 등 일시적 오류 대비)
+      let lastError: Error | null = null;
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          if (attempt > 0) await page.waitForTimeout(2000 * attempt);
+          await page.goto(config.url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
+          lastError = null;
+          break;
+        } catch (e: any) {
+          lastError = e;
+          if (attempt < 2) console.log(`  ⚠️ [${config.id}] 연결 실패, 재시도 ${attempt + 1}/2...`);
+        }
       }
-    }
-    if (lastError) throw lastError;
+      if (lastError) throw lastError;
 
-    await page.waitForTimeout(2000);
-    const postings = await scraper(page, config);
-    return {
-      site: config,
-      postings: filterJobPostings(postings),
-      crawledAt: new Date().toISOString(),
-    };
-  } catch (error: any) {
-    return {
-      site: config,
-      postings: [],
-      crawledAt: new Date().toISOString(),
-      error: error?.message || 'Unknown error',
-    };
-  } finally {
-    await context.close();
-  }
+      await page.waitForTimeout(2000);
+      const postings = await scraper(page, config);
+      return {
+        site: config,
+        postings: filterJobPostings(postings),
+        crawledAt: new Date().toISOString(),
+      };
+    } catch (error: any) {
+      return {
+        site: config,
+        postings: [],
+        crawledAt: new Date().toISOString(),
+        error: error?.message || 'Unknown error',
+      };
+    } finally {
+      await context.close();
+    }
+  };
+
+  // 사이트당 최대 실행 시간 제한
+  const timeoutPromise = new Promise<CrawlResult>((_, reject) =>
+    setTimeout(() => reject(new Error(`사이트 타임아웃 (${siteTimeoutMs / 1000}초 초과)`)), siteTimeoutMs)
+  );
+
+  return Promise.race([run(), timeoutPromise]).catch((err: any) => ({
+    site: config,
+    postings: [],
+    crawledAt: new Date().toISOString(),
+    error: err?.message || 'Unknown error',
+  }));
 }
 
 /** 날짜 문자열을 YYYY-MM-DD 형식으로 정규화 */
