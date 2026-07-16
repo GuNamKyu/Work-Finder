@@ -249,13 +249,58 @@ body {
 
 .posting {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.5rem 1.5rem;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.5rem 1rem;
   padding: 1rem 1.25rem;
   background: var(--card);
   transition: background 0.15s;
   text-decoration: none;
   color: inherit;
+  position: relative;
+}
+
+.posting-hide-btn {
+  align-self: start;
+  padding-top: 0.1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--divider);
+  font-size: 1.1rem;
+  line-height: 1;
+  transition: color 0.2s;
+  flex-shrink: 0;
+}
+
+.posting-hide-btn:hover { color: var(--muted); }
+
+.show-hidden-bar {
+  max-width: 960px;
+  margin: 0.75rem auto 0;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.show-hidden-btn {
+  padding: 0.4rem 0.85rem;
+  border: 1px dashed var(--divider);
+  border-radius: 6px;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.show-hidden-btn:hover { border-color: var(--muted); color: var(--ink); }
+.show-hidden-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+
+.hidden-count-badge {
+  font-size: 0.75rem;
+  color: var(--muted);
 }
 
 .posting:hover { background: #faf7f2; }
@@ -354,6 +399,11 @@ body {
 
 .empty-state p { font-size: 1.1rem; }
 
+.posting.is-hidden-visible {
+  opacity: 0.45;
+  background: #f6f3ee;
+}
+
 /* --- Loading --- */
 .loading {
   text-align: center;
@@ -430,6 +480,12 @@ body {
   </select>
 </div>
 
+<div class="show-hidden-bar" id="show-hidden-bar" style="display:none">
+  <button class="show-hidden-btn" id="show-hidden-btn">숨긴 공고 보기</button>
+  <span class="hidden-count-badge" id="hidden-count-badge"></span>
+  <button class="show-hidden-btn" id="clear-hidden-btn" style="margin-left:auto">모두 복원</button>
+</div>
+
 <div class="site-nav-wrap">
   <nav class="site-nav" id="site-nav"></nav>
   <button class="site-nav-toggle" id="site-nav-toggle" style="display:none">
@@ -457,6 +513,36 @@ let activeFilter = 'all';
 let activePeriodDays = 0; // 0 = 기간 설정 없음
 let activeSite = null;
 let searchQuery = '';
+let showHidden = false;
+
+const HIDDEN_KEY = 'wf_hidden_postings';
+
+function getHiddenSet() {
+  try { return new Set(JSON.parse(localStorage.getItem(HIDDEN_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+
+function saveHiddenSet(set) {
+  localStorage.setItem(HIDDEN_KEY, JSON.stringify([...set]));
+}
+
+function postingKey(p) {
+  return `${p.siteId}::${p.title}`;
+}
+
+function hidePosting(key) {
+  const s = getHiddenSet();
+  s.add(key);
+  saveHiddenSet(s);
+  render();
+}
+
+function restorePosting(key) {
+  const s = getHiddenSet();
+  s.delete(key);
+  saveHiddenSet(s);
+  render();
+}
 
 async function init() {
   try {
@@ -570,7 +656,9 @@ function isNew(dateStr) {
 }
 
 function getFiltered() {
+  const hidden = getHiddenSet();
   return allPostings.filter(p => {
+    if (!showHidden && hidden.has(postingKey(p))) return false;
     if (activeSite && p.siteId !== activeSite) return false;
     if (activeFilter === 'new' && !isNew(p.regDate)) return false;
     if (activePeriodDays > 0 && !isWithinDays(p.regDate, activePeriodDays)) return false;
@@ -615,6 +703,21 @@ function render() {
   const periodSel = document.getElementById('period-select');
   periodSel.classList.toggle('active', activePeriodDays > 0);
 
+  // Show-hidden bar
+  const hidden = getHiddenSet();
+  const hiddenBar = document.getElementById('show-hidden-bar');
+  const showHiddenBtn = document.getElementById('show-hidden-btn');
+  const hiddenBadge = document.getElementById('hidden-count-badge');
+  if (hidden.size > 0) {
+    hiddenBar.style.display = 'flex';
+    hiddenBadge.textContent = `숨긴 공고 ${hidden.size}건`;
+    showHiddenBtn.classList.toggle('active', showHidden);
+    showHiddenBtn.textContent = showHidden ? '숨긴 공고 숨기기' : '숨긴 공고 보기';
+  } else {
+    hiddenBar.style.display = 'none';
+    showHidden = false;
+  }
+
   // Postings
   const filtered = getFiltered();
   const list = document.getElementById('posting-list');
@@ -632,13 +735,19 @@ function render() {
 
   for (let i = 0; i < filtered.length; i++) {
     const p = filtered[i];
+    const key = postingKey(p);
+    const isHiddenItem = hidden.has(key);
     const el = document.createElement('div');
-    el.className = 'posting';
+    el.className = 'posting' + (isHiddenItem ? ' is-hidden-visible' : '');
     el.style.animationDelay = `${Math.min(i * 0.02, 0.5)}s`;
 
     const linkHtml = p.url
       ? `<a class="posting-link" href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a>`
       : `<span class="posting-nolink">링크 없음</span>`;
+
+    const hideHtml = isHiddenItem
+      ? `<button class="posting-hide-btn restore" title="복원">↩</button>`
+      : `<button class="posting-hide-btn" title="숨기기">×</button>`;
 
     let html = `
       <div>
@@ -649,11 +758,20 @@ function render() {
         <div class="posting-date">${formatDate(p.regDate)}</div>
         ${linkHtml}
       </div>
+      ${hideHtml}
     `;
     if (p.deadlineDate) {
       html += `<div class="posting-deadline">마감 ${formatDate(p.deadlineDate)}</div>`;
     }
     el.innerHTML = html;
+
+    // Hide / restore button event
+    el.querySelector('.posting-hide-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (isHiddenItem) restorePosting(key);
+      else hidePosting(key);
+    });
+
     list.appendChild(el);
   }
 }
@@ -687,6 +805,17 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 
 document.getElementById('period-select').addEventListener('change', (e) => {
   activePeriodDays = parseInt(e.target.value) || 0;
+  render();
+});
+
+document.getElementById('show-hidden-btn').addEventListener('click', () => {
+  showHidden = !showHidden;
+  render();
+});
+
+document.getElementById('clear-hidden-btn').addEventListener('click', () => {
+  saveHiddenSet(new Set());
+  showHidden = false;
   render();
 });
 
