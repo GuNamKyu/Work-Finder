@@ -26,9 +26,15 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       const uid = tds[0]?.textContent?.trim() || '';
       if (uid === '공지사항' || uid === '공지') return null;
 
-      // 제목: .kboard-default-cut-strings 내부 텍스트만 추출
+      // 제목: .kboard-default-cut-strings 내부 텍스트만 추출 (New 배지 span 등 제외, 텍스트 노드만 수집)
       const titleDiv = tds[1]?.querySelector('.kboard-default-cut-strings');
-      const title = (titleDiv?.childNodes[0]?.textContent || titleDiv?.textContent || '').trim();
+      const title = titleDiv
+        ? Array.from(titleDiv.childNodes)
+            .filter(n => n.nodeType === 3) // TEXT_NODE만
+            .map(n => n.textContent || '')
+            .join('')
+            .trim()
+        : '';
 
       // 링크
       const titleLink = tds[1]?.querySelector('a') as HTMLAnchorElement | null;
