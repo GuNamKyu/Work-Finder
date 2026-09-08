@@ -5,6 +5,7 @@ export interface JobPosting {
   deadlineDate: string | null;
   url: string | null;
   status?: string;
+  postingType?: 'job' | 'experience'; // 채용공고 or 직무경험(봉사/훈련)
 }
 
 export interface SiteConfig {
@@ -12,6 +13,7 @@ export interface SiteConfig {
   name: string;
   url: string;
   category?: string;
+  type?: 'job' | 'experience'; // 사이트 유형
 }
 
 export interface CrawlResult {

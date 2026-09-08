@@ -30,5 +30,10 @@ dist-ssr
 crawlers/results.json
 crawlers/verify-results.json
 crawlers/new-postings.json
+crawlers/experience-results.json
 web/results.json
 web/new-postings.json
+web/experience-results.json
+
+# Playwright MCP snapshots
+.playwright-mcp/

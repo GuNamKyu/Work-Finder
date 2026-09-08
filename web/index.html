@@ -46,12 +46,88 @@ body {
   letter-spacing: -0.02em;
   color: var(--ink);
   margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
 }
 
 .header .subtitle {
   font-size: 0.95rem;
   color: var(--muted);
   font-weight: 300;
+}
+
+/* --- Flip button --- */
+.flip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.9rem;
+  background: transparent;
+  border: 1.5px solid var(--accent);
+  border-radius: 20px;
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+}
+
+.flip-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.flip-btn .flip-icon {
+  display: inline-block;
+  transition: transform 0.4s ease;
+  font-size: 1rem;
+}
+
+.flip-btn.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.flip-btn.active .flip-icon {
+  transform: rotate(180deg);
+}
+
+/* --- Experience posting badge --- */
+.posting-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  font-weight: 700;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+.posting-badge.volunteer {
+  background: #e3f0e8;
+  color: #2e7d45;
+}
+
+.posting-badge.notice {
+  background: #e8eaf6;
+  color: #3949ab;
+}
+
+/* --- View transition --- */
+.view-fade {
+  animation: viewFade 0.3s ease both;
+}
+
+@keyframes viewFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .meta-bar {
@@ -458,10 +534,15 @@ body {
 <body>
 
 <header class="header">
-  <h1>문화기관 채용공고</h1>
-  <p class="subtitle">박물관 · 기념관 · 문화재단 채용 정보를 한눈에</p>
+  <h1>
+    <span id="page-title">문화기관 채용공고</span>
+    <button class="flip-btn" id="flip-btn" title="직무경험 공고로 전환">
+      <span class="flip-icon">⇄</span> 직무경험 공고
+    </button>
+  </h1>
+  <p class="subtitle" id="page-subtitle">박물관 · 기념관 · 문화재단 채용 정보를 한눈에</p>
   <div class="meta-bar">
-    <div class="meta-chip"><span>수집 기관</span> <strong id="site-count">-</strong></div>
+    <div class="meta-chip"><span id="meta-label-sites">수집 기관</span> <strong id="site-count">-</strong></div>
     <div class="meta-chip"><span>총 공고</span> <strong id="posting-count">-</strong></div>
     <div class="meta-chip"><span>마지막 수집</span> <strong id="crawled-at">-</strong></div>
   </div>
@@ -508,6 +589,9 @@ body {
 <script>
 let allPostings = [];
 let allSites = [];
+let allExperiencePostings = [];
+let allExperienceSites = [];
+let isExperienceMode = false;
 let newPostingKeys = new Set();
 let activeFilter = 'all';
 let activePeriodDays = 0; // 0 = 기간 설정 없음
@@ -817,6 +901,198 @@ document.getElementById('clear-hidden-btn').addEventListener('click', () => {
   saveHiddenSet(new Set());
   showHidden = false;
   render();
+});
+
+// === 직무경험 공고 모드 ===
+
+async function loadExperience() {
+  if (allExperiencePostings.length > 0) return; // 이미 로드됨
+  try {
+    const res = await fetch('./experience-results.json');
+    if (!res.ok) throw new Error('experience-results.json not found');
+    const data = await res.json();
+    processExperienceData(data);
+  } catch (e) {
+    console.warn('직무경험 데이터 로드 실패:', e);
+  }
+}
+
+function processExperienceData(data) {
+  allExperienceSites = [];
+  allExperiencePostings = [];
+
+  const latestDate = data.reduce((latest, r) => {
+    const d = new Date(r.crawledAt);
+    return d > latest ? d : latest;
+  }, new Date(0));
+
+  const rawPostings = [];
+  for (const result of data) {
+    if (result.error) continue;
+    const site = result.site;
+    for (const p of result.postings) {
+      rawPostings.push({ ...p, siteId: site.id, siteName: site.name });
+    }
+  }
+  allExperiencePostings = rawPostings;
+
+  // 사이트별 집계
+  const siteCounts = {};
+  const siteMap = {};
+  for (const result of data) {
+    if (result.error) continue;
+    siteMap[result.site.id] = result.site;
+  }
+  for (const p of allExperiencePostings) {
+    siteCounts[p.siteId] = (siteCounts[p.siteId] || 0) + 1;
+  }
+  for (const [id, count] of Object.entries(siteCounts)) {
+    allExperienceSites.push({ ...siteMap[id], count });
+  }
+
+  allExperiencePostings.sort((a, b) => (b.regDate || '').localeCompare(a.regDate || ''));
+  allExperienceSites.sort((a, b) => b.count - a.count);
+}
+
+function getBadgeHtml(siteId) {
+  if (siteId === 'museum-notice-volunteer') return '<span class="posting-badge notice">알림</span>';
+  return '<span class="posting-badge volunteer">봉사</span>';
+}
+
+function renderExperience() {
+  document.getElementById('loading').style.display = 'none';
+
+  // Site nav (experience)
+  const nav = document.getElementById('site-nav');
+  const toggleBtn = document.getElementById('site-nav-toggle');
+  nav.innerHTML = '';
+  for (const site of allExperienceSites) {
+    const tag = document.createElement('button');
+    tag.className = 'site-tag' + (activeSite === site.id ? ' active' : '');
+    tag.innerHTML = `${site.name}<span class="count">${site.count}</span><a class="ext-link" href="${site.url}" target="_blank" rel="noopener noreferrer" title="원본 사이트 열기">↗</a>`;
+    tag.onclick = (e) => {
+      if (e.target.closest('.ext-link')) return;
+      activeSite = activeSite === site.id ? null : site.id;
+      renderExperience();
+    };
+    nav.appendChild(tag);
+  }
+  toggleBtn.style.display = nav.scrollHeight > 40 ? 'inline-flex' : 'none';
+
+  // Meta
+  document.getElementById('site-count').textContent = allExperienceSites.length;
+  document.getElementById('posting-count').textContent = allExperiencePostings.length;
+
+  // Filter buttons hidden in experience mode
+  document.getElementById('show-hidden-bar').style.display = 'none';
+
+  // Posting list
+  let filtered = allExperiencePostings;
+  if (activeSite) filtered = filtered.filter(p => p.siteId === activeSite);
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter(p =>
+      (p.title || '').toLowerCase().includes(q) ||
+      (p.organization || '').toLowerCase().includes(q) ||
+      (p.siteName || '').toLowerCase().includes(q)
+    );
+  }
+
+  const list = document.getElementById('posting-list');
+  const empty = document.getElementById('empty-state');
+
+  if (filtered.length === 0) {
+    list.style.display = 'none';
+    empty.style.display = 'block';
+    return;
+  }
+
+  empty.style.display = 'none';
+  list.style.display = 'flex';
+  list.classList.add('view-fade');
+  list.innerHTML = '';
+  setTimeout(() => list.classList.remove('view-fade'), 400);
+
+  for (let i = 0; i < filtered.length; i++) {
+    const p = filtered[i];
+    const el = document.createElement('div');
+    el.className = 'posting';
+    el.style.animationDelay = `${Math.min(i * 0.02, 0.5)}s`;
+
+    const linkHtml = p.url
+      ? `<a class="posting-link" href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a>`
+      : `<span class="posting-nolink">링크 없음</span>`;
+
+    const badge = getBadgeHtml(p.siteId);
+    const statusText = p.status ? ` · ${escapeHtml(p.status)}` : '';
+
+    el.innerHTML = `
+      <div>
+        <div class="posting-title">${badge} ${escapeHtml(p.title)}</div>
+        <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}${statusText}</div>
+      </div>
+      <div>
+        <div class="posting-date">${formatDate(p.regDate)}</div>
+        ${linkHtml}
+      </div>
+      <div></div>
+    `;
+    if (p.deadlineDate) {
+      el.innerHTML += `<div class="posting-deadline">마감 ${formatDate(p.deadlineDate)}</div>`;
+    }
+    list.appendChild(el);
+  }
+}
+
+// 모드 전환
+function switchMode(toExperience) {
+  isExperienceMode = toExperience;
+  activeSite = null;
+  searchQuery = '';
+  document.getElementById('search').value = '';
+
+  const flipBtn = document.getElementById('flip-btn');
+  const pageTitle = document.getElementById('page-title');
+  const pageSubtitle = document.getElementById('page-subtitle');
+  const metaLabelSites = document.getElementById('meta-label-sites');
+  const controls = document.querySelector('.controls');
+  const showHiddenBar = document.getElementById('show-hidden-bar');
+
+  if (toExperience) {
+    flipBtn.classList.add('active');
+    flipBtn.querySelector('.flip-icon').textContent = '⇄';
+    flipBtn.lastChild.textContent = ' 채용공고';
+    flipBtn.title = '채용공고로 전환';
+    pageTitle.textContent = '직무경험 공고';
+    pageSubtitle.textContent = '자원봉사 · 직업훈련 기회를 한눈에';
+    metaLabelSites.textContent = '수집 소스';
+    controls.style.display = 'none';
+    showHiddenBar.style.display = 'none';
+    renderExperience();
+  } else {
+    flipBtn.classList.remove('active');
+    flipBtn.querySelector('.flip-icon').textContent = '⇄';
+    flipBtn.lastChild.textContent = ' 직무경험 공고';
+    flipBtn.title = '직무경험 공고로 전환';
+    pageTitle.textContent = '문화기관 채용공고';
+    pageSubtitle.textContent = '박물관 · 기념관 · 문화재단 채용 정보를 한눈에';
+    metaLabelSites.textContent = '수집 기관';
+    controls.style.display = '';
+    document.getElementById('site-count').textContent = allSites.length;
+    document.getElementById('posting-count').textContent = allPostings.length;
+    render();
+  }
+}
+
+document.getElementById('flip-btn').addEventListener('click', async () => {
+  if (!isExperienceMode) {
+    // 처음 진입 시 데이터 로드
+    document.getElementById('loading').style.display = 'block';
+    document.getElementById('posting-list').style.display = 'none';
+    await loadExperience();
+    document.getElementById('loading').style.display = 'none';
+  }
+  switchMode(!isExperienceMode);
 });
 
 init();
