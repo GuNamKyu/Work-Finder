@@ -660,6 +660,17 @@ function processData(data) {
   oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
   oneMonthAgo.setHours(0, 0, 0, 0);
 
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  // 마감일 기준 모집중 여부 판단
+  // deadlineDate가 없으면(미상) 포함, 있으면 오늘 이후인 경우만 포함
+  function isActive(deadlineDate) {
+    if (!deadlineDate) return true;
+    const d = new Date(deadlineDate);
+    return !isNaN(d.getTime()) && d >= today;
+  }
+
   // 1차: 전체 공고 수집
   const rawPostings = [];
   for (const result of data) {
@@ -667,6 +678,7 @@ function processData(data) {
     const site = result.site;
     for (const p of result.postings) {
       if (!p.regDate || new Date(p.regDate) < oneMonthAgo) continue;
+      if (!isActive(p.deadlineDate)) continue; // 마감된 공고 제외
       const key = `${site.id}::${p.title}`;
       rawPostings.push({ ...p, siteId: site.id, siteName: site.name, isNew: newPostingKeys.has(key) });
     }
@@ -926,11 +938,21 @@ function processExperienceData(data) {
     return d > latest ? d : latest;
   }, new Date(0));
 
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  function isActive(deadlineDate) {
+    if (!deadlineDate) return true;
+    const d = new Date(deadlineDate);
+    return !isNaN(d.getTime()) && d >= today;
+  }
+
   const rawPostings = [];
   for (const result of data) {
     if (result.error) continue;
     const site = result.site;
     for (const p of result.postings) {
+      if (!isActive(p.deadlineDate)) continue; // 마감된 공고 제외
       rawPostings.push({ ...p, siteId: site.id, siteName: site.name });
     }
   }
