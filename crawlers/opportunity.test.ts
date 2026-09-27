@@ -46,6 +46,13 @@ test('긍정 분야명이 함께 있어도 제외 키워드를 우선한다', ()
   assert.equal(postings.length, 0);
 });
 
+test('미술 키워드는 의미가 다른 미술관까지 오탐하지 않는다', () => {
+  const postings = filterJobPostings([{
+    ...base, title: '[환기미술관] 소장품전 자원봉사자 모집', organization: '환기미술관',
+  }], 'museum');
+  assert.equal(postings.length, 1);
+});
+
 test('문화기관의 비대상 직무와 전형 후속 공지는 화면에서 제외한다', () => {
   const cleaner = enrichPosting({ ...base, title: '박물관 환경미화원 채용' }, 'museum');
   const result = enrichPosting({ ...base, title: '박물관 학예직 최종 합격자 발표' }, 'museum');

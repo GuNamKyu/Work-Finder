@@ -115,16 +115,22 @@ export function truncate(text: string, maxLen = 80): string {
 /** 채용과 무관한 노이즈 키워드 (noise-keywords.txt에서 로드) */
 export const NOISE_KEYWORDS = loadKeywords('noise-keywords.txt');
 
+function containsNoiseKeyword(value: string, keyword: string): boolean {
+  let normalized = value.normalize('NFKC').toLowerCase();
+  const normalizedKeyword = keyword.normalize('NFKC').toLowerCase();
+  // '미술'은 교과·직무 제외어이지만 '미술관'은 목표 기관이므로 같은 의미로 보지 않는다.
+  if (normalizedKeyword === '미술') normalized = normalized.replaceAll('미술관', '');
+  return normalized.includes(normalizedKeyword);
+}
+
 /** 노이즈 키워드가 포함된 공고를 필터링 (제목 기준) */
 export function isJobPosting(title: string): boolean {
-  const normalized = title.normalize('NFKC').toLowerCase();
-  return !NOISE_KEYWORDS.some(kw => normalized.includes(kw.normalize('NFKC').toLowerCase()));
+  return !NOISE_KEYWORDS.some(kw => containsNoiseKeyword(title, kw));
 }
 
 /** 기관명에 노이즈 키워드가 포함되어 있는지 확인 */
 export function isNoiseOrganization(org: string): boolean {
-  const normalized = org.normalize('NFKC').toLowerCase();
-  return NOISE_KEYWORDS.some(kw => normalized.includes(kw.normalize('NFKC').toLowerCase()));
+  return NOISE_KEYWORDS.some(kw => containsNoiseKeyword(org, kw));
 }
 
 /** 등록일이 1개월 이내인지 확인 (YYYY-MM-DD 형식 기준, 파싱 불가 시 true 반환) */
