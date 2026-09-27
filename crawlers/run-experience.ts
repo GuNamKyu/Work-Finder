@@ -6,6 +6,7 @@ import type { CrawlResult, SiteConfig, JobPosting } from './types';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { writeFile } from 'fs/promises';
+import { enrichPosting } from './opportunity.js';
 
 import * as csvCulture from './sites/experience/csv-culture';
 import * as portal1365 from './sites/experience/1365';
@@ -37,7 +38,9 @@ async function crawlExperience(
 
   const run = async (): Promise<CrawlResult> => {
     try {
-      const postings = await scraper(page);
+      const postings = (await scraper(page))
+        .map(p => enrichPosting({ ...p, postingType: 'experience' }, config.id))
+        .filter(p => p.lifecycleStatus !== 'closed');
       return { site: config, postings, crawledAt };
     } catch (err: any) {
       return { site: config, postings: [], crawledAt, error: err?.message || 'Unknown error' };

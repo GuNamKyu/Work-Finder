@@ -31,6 +31,13 @@ crawlers/results.json
 crawlers/verify-results.json
 crawlers/new-postings.json
 crawlers/experience-results.json
+crawlers/experience-results.prev.json
+crawlers/opportunity-events.json
+crawlers/source-health.json
+crawlers/notification-summary.json
+data/history/
+data/opportunity-state.json
+data/program-series.json
 web/results.json
 web/new-postings.json
 web/experience-results.json

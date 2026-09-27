@@ -61,6 +61,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     }
   } catch (error) {
     console.error('경기도일자리포털 크롤링 실패:', error);
+    throw error;
   }
 
   // 중복 제거 (제목 기준)

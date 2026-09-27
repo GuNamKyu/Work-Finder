@@ -46,22 +46,31 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
           const org = tds[2]?.textContent?.trim() || '';
           const regDate = tds[3]?.textContent?.trim() || '';
           const deadline = tds[4]?.textContent?.trim() || '';
-          return { title, org, regDate, deadline };
+          // href: javascript:fn_apmView('020', '304054') 형태에서 empmnsn 추출
+          const href = titleEl?.getAttribute('href') || '';
+          const match = href.match(/fn_apmView\(['"][^'"]*['"],\s*['"](\d+)['"]\)/);
+          const empmnsn = match ? match[1] : null;
+          return { title, org, regDate, deadline, empmnsn };
         }).filter(Boolean);
       });
 
       for (const p of postings as any[]) {
+        // empmnsn이 있으면 상세 페이지 URL 구성 (GET 방식으로 접근 가능)
+        const detailUrl = p.empmnsn
+          ? `https://www.gojobs.go.kr/apmView.do?empmnsn=${p.empmnsn}`
+          : null;
         allPostings.push({
           title: truncate(p.title),
           organization: p.org,
           regDate: normalizeDate(p.regDate),
           deadlineDate: p.deadline ? normalizeDate(p.deadline) : null,
-          url: null,
+          url: detailUrl,
         });
       }
     }
   } catch (error) {
     console.error('나라일터 크롤링 실패:', error);
+    throw error;
   }
 
   // 중복 제거 (제목 기준)

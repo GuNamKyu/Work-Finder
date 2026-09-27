@@ -3,6 +3,7 @@ import { readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import type { SiteConfig, CrawlResult, JobPosting, SiteScraper } from './types.js';
+import { enrichPosting } from './opportunity.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -50,7 +51,7 @@ export async function crawlSite(
       const postings = await scraper(page, config);
       return {
         site: config,
-        postings: filterJobPostings(postings),
+        postings: filterJobPostings(postings, config.id),
         crawledAt: new Date().toISOString(),
       };
     } catch (error: any) {
@@ -135,8 +136,10 @@ export function isWithinOneMonth(regDate: string): boolean {
 }
 
 /** 공고 목록에서 채용과 무관한 항목 및 1개월 초과 공고 제거 */
-export function filterJobPostings(postings: JobPosting[]): JobPosting[] {
-  return postings.filter(p =>
-    isJobPosting(p.title) && !isNoiseOrganization(p.organization) && isWithinOneMonth(p.regDate)
-  );
+export function filterJobPostings(postings: JobPosting[], siteId = 'unknown'): JobPosting[] {
+  return postings
+    .map(p => enrichPosting(p, siteId))
+    // 명시적으로 마감된 항목만 현재 목록에서 제외한다. 오래됐지만 모집 중인 공고와
+    // 마감일 미상 공고는 상태값으로 구분해 보존한다.
+    .filter(p => p.lifecycleStatus !== 'closed');
 }

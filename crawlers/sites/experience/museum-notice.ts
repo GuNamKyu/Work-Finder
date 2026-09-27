@@ -72,6 +72,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     }
   } catch (err: any) {
     console.error('[museum-notice] 크롤링 실패:', err?.message);
+    throw err;
   }
 
   return allPostings;

@@ -26,7 +26,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       return { title, date, href };
     }).filter(r => r && r.title);
   }).then(items =>
-    items.map(item => ({
+    items.filter((item): item is { title: string; date: string; href: string } => item !== null).map(item => ({
       title: truncate(item.title),
       organization: '서소문성지 역사박물관',
       regDate: normalizeDate(item.date),

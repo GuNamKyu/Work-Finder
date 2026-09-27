@@ -25,6 +25,7 @@ const REGIONS: { label: string; value: string }[] = [
 export async function scrape(page: Page): Promise<JobPosting[]> {
   const allPostings: JobPosting[] = [];
   const seen = new Set<string>();
+  const failures: string[] = [];
 
   for (const region of REGIONS) {
     try {
@@ -116,7 +117,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
           seen.add(key);
 
           const url = item.id
-            ? `https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?progrmRegistNo=${item.id}`
+            ? `https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=${item.id}`
             : config.url;
 
           allPostings.push({
@@ -132,7 +133,12 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       }
     } catch (err: any) {
       console.error(`[1365] ${region.label} 크롤링 실패:`, err?.message);
+      failures.push(`${region.label}: ${err?.message || 'Unknown error'}`);
     }
+  }
+
+  if (failures.length > 0) {
+    throw new Error(`지역별 수집 실패(${failures.length}/${REGIONS.length}) — ${failures.join(' / ')}`);
   }
 
   return allPostings;

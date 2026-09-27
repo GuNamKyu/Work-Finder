@@ -59,8 +59,15 @@ body {
   font-weight: 300;
 }
 
-/* --- Flip button --- */
-.flip-btn {
+/* --- Flip button & Scheduler button --- */
+.header-btns {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.flip-btn, .scheduler-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -79,24 +86,225 @@ body {
   vertical-align: middle;
 }
 
-.flip-btn:hover {
+.flip-btn:hover, .scheduler-btn:hover {
   background: var(--accent);
   color: #fff;
 }
 
-.flip-btn .flip-icon {
+.flip-btn .flip-icon, .scheduler-btn .sched-icon {
   display: inline-block;
   transition: transform 0.4s ease;
   font-size: 1rem;
 }
 
-.flip-btn.active {
+.flip-btn.active, .scheduler-btn.active {
   background: var(--accent);
   color: #fff;
 }
 
 .flip-btn.active .flip-icon {
   transform: rotate(180deg);
+}
+
+/* --- Favorite button --- */
+.fav-btn {
+  align-self: start;
+  padding-top: 0.1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--divider);
+  transition: color 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.fav-btn:hover { color: #f0c040; transform: scale(1.15); }
+.fav-btn.active { color: #f0c040; }
+
+/* --- Scheduler calendar view --- */
+.scheduler-view {
+  max-width: 960px;
+  margin: 0 auto 4rem;
+  padding: 0 1.5rem;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0 1rem;
+}
+
+.calendar-header h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  min-width: 180px;
+  text-align: center;
+}
+
+.cal-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--divider);
+  border-radius: 50%;
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.cal-nav-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  background: var(--divider);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cal-dow {
+  padding: 0.6rem 0.25rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--card);
+}
+
+.cal-dow.sun { color: var(--accent); }
+.cal-dow.sat { color: #3b6ecc; }
+
+.cal-cell {
+  min-height: 90px;
+  padding: 0.4rem;
+  background: var(--card);
+  position: relative;
+  transition: background 0.15s;
+}
+
+.cal-cell:hover { background: #faf7f2; }
+
+.cal-cell.other-month {
+  background: #f3f0ea;
+  opacity: 0.5;
+}
+
+.cal-cell.today {
+  background: #fdf5ee;
+  box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+.cal-day-num {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+}
+
+.cal-cell.other-month .cal-day-num { color: var(--muted); }
+.cal-cell .cal-day-num.sun { color: var(--accent); }
+.cal-cell .cal-day-num.sat { color: #3b6ecc; }
+
+.cal-event {
+  display: block;
+  font-size: 0.62rem;
+  padding: 0.12rem 0.3rem;
+  margin-bottom: 0.15rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  line-height: 1.4;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cal-event:hover { opacity: 0.8; }
+
+.cal-event.deadline {
+  background: #fde8e0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.cal-event.regdate, .cal-event.posted {
+  background: #e3eef8;
+  color: #2b5ea7;
+}
+
+.cal-event.application_start { background: #e8f5e9; color: #287a3d; }
+.cal-event.application_end { background: #fde8e0; color: var(--accent); font-weight: 600; }
+.cal-event.program_start, .cal-event.program_end { background: #f1e8fb; color: #6b3ca0; }
+.cal-event.interview, .cal-event.result, .cal-event.orientation, .cal-event.other { background: #fff3cd; color: #765b00; }
+
+.cal-event-more {
+  font-size: 0.6rem;
+  color: var(--muted);
+  padding: 0.1rem 0.3rem;
+  cursor: pointer;
+}
+
+.cal-event-more:hover { color: var(--ink); }
+
+.cal-legend {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem 0 0.5rem;
+  flex-wrap: wrap;
+}
+
+.cal-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.cal-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.cal-legend-dot.deadline { background: #fde8e0; border: 1px solid var(--accent); }
+.cal-legend-dot.regdate { background: #e3eef8; border: 1px solid #2b5ea7; }
+.cal-legend-dot.application { background: #e8f5e9; border: 1px solid #287a3d; }
+.cal-legend-dot.program { background: #f1e8fb; border: 1px solid #6b3ca0; }
+.cal-legend-dot.other { background: #fff3cd; border: 1px solid #765b00; }
+
+.cal-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.cal-empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.4;
+}
+
+@media (max-width: 640px) {
+  .cal-cell { min-height: 60px; }
+  .cal-event { font-size: 0.55rem; padding: 0.08rem 0.2rem; }
+  .calendar-header h2 { font-size: 1.2rem; min-width: 140px; }
+  .header-btns { gap: 0.3rem; }
+  .flip-btn, .scheduler-btn { padding: 0.3rem 0.7rem; font-size: 0.72rem; }
 }
 
 /* --- Experience posting badge --- */
@@ -335,6 +543,14 @@ body {
   position: relative;
 }
 
+.posting-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  align-self: start;
+}
+
 .posting-hide-btn {
   align-self: start;
   padding-top: 0.1rem;
@@ -438,6 +654,18 @@ body {
 
 .posting-link:hover { background: #a83d1e; }
 
+.posting-link-site {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--divider);
+}
+
+.posting-link-site:hover {
+  background: var(--accent-light);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 .posting-nolink {
   display: inline-block;
   margin-top: 0.35rem;
@@ -536,9 +764,14 @@ body {
 <header class="header">
   <h1>
     <span id="page-title">문화기관 채용공고</span>
-    <button class="flip-btn" id="flip-btn" title="직무경험 공고로 전환">
-      <span class="flip-icon">⇄</span> 직무경험 공고
-    </button>
+    <span class="header-btns">
+      <button class="flip-btn" id="flip-btn" title="직무경험 공고로 전환">
+        <span class="flip-icon">⇄</span> 직무경험 공고
+      </button>
+      <button class="scheduler-btn" id="scheduler-btn" title="스케줄러">
+        <span class="sched-icon">📅</span> 스케줄러
+      </button>
+    </span>
   </h1>
   <p class="subtitle" id="page-subtitle">박물관 · 기념관 · 문화재단 채용 정보를 한눈에</p>
   <div class="meta-bar">
@@ -574,7 +807,7 @@ body {
   </button>
 </div>
 
-<main class="content">
+<main class="content" id="main-content">
   <div class="loading" id="loading">데이터를 불러오는 중...</div>
   <div class="posting-list" id="posting-list" style="display:none"></div>
   <div class="empty-state" id="empty-state" style="display:none">
@@ -582,8 +815,30 @@ body {
   </div>
 </main>
 
+<!-- Scheduler calendar view -->
+<div class="scheduler-view" id="scheduler-view" style="display:none">
+  <div class="cal-legend">
+    <div class="cal-legend-item"><span class="cal-legend-dot deadline"></span> 마감일</div>
+    <div class="cal-legend-item"><span class="cal-legend-dot regdate"></span> 등록일</div>
+    <div class="cal-legend-item"><span class="cal-legend-dot application"></span> 접수 시작</div>
+    <div class="cal-legend-item"><span class="cal-legend-dot program"></span> 활동 기간</div>
+    <div class="cal-legend-item"><span class="cal-legend-dot other"></span> 면접·발표 등</div>
+  </div>
+  <div class="calendar-header">
+    <button class="cal-nav-btn" id="cal-prev" title="이전 달">◀</button>
+    <h2 id="cal-title">2026년 9월</h2>
+    <button class="cal-nav-btn" id="cal-next" title="다음 달">▶</button>
+  </div>
+  <div class="calendar-grid" id="calendar-grid"></div>
+  <div class="cal-empty" id="cal-empty" style="display:none">
+    <div class="cal-empty-icon">⭐</div>
+    <p>즐겨찾기한 공고가 없습니다</p>
+    <p style="font-size:0.8rem;margin-top:0.3rem;">채용공고의 별표(★)를 눌러 즐겨찾기에 추가하세요</p>
+  </div>
+</div>
+
 <footer class="footer">
-  Work-Finder — 매일 오전 6시 자동 수집
+  Work-Finder — 매일 오전·오후 자동 수집
 </footer>
 
 <script>
@@ -592,14 +847,38 @@ let allSites = [];
 let allExperiencePostings = [];
 let allExperienceSites = [];
 let isExperienceMode = false;
+let isSchedulerMode = false;
+let calYear, calMonth; // 스케줄러 캘린더 현재 년/월
 let newPostingKeys = new Set();
 let activeFilter = 'all';
 let activePeriodDays = 0; // 0 = 기간 설정 없음
 let activeSite = null;
 let searchQuery = '';
 let showHidden = false;
+let siteUrlMap = {}; // siteId → siteUrl
 
 const HIDDEN_KEY = 'wf_hidden_postings';
+const FAV_KEY = 'wf_fav_postings';
+
+// --- Favorites ---
+function getFavSet() {
+  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+
+function saveFavSet(set) {
+  localStorage.setItem(FAV_KEY, JSON.stringify([...set]));
+}
+
+function toggleFav(key) {
+  const s = getFavSet();
+  if (s.has(key)) s.delete(key);
+  else s.add(key);
+  saveFavSet(s);
+  // Re-render current view
+  if (isExperienceMode) renderExperience();
+  else render();
+}
 
 function getHiddenSet() {
   try { return new Set(JSON.parse(localStorage.getItem(HIDDEN_KEY) || '[]')); }
@@ -656,10 +935,6 @@ function processData(data) {
     return d > latest ? d : latest;
   }, new Date(0));
 
-  const oneMonthAgo = new Date();
-  oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
-  oneMonthAgo.setHours(0, 0, 0, 0);
-
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
@@ -677,7 +952,9 @@ function processData(data) {
     if (result.error) continue;
     const site = result.site;
     for (const p of result.postings) {
-      if (!p.regDate || new Date(p.regDate) < oneMonthAgo) continue;
+      // 한 달이 지나도 명시적으로 모집 중인 장기·상시 공고는 유지한다.
+      // 마감일을 알 수 없는 오래된 항목은 데이터에는 보존하되 기본 화면에서는 제외한다.
+      if (p.lifecycleStatus === 'closed' || p.lifecycleStatus === 'stale_unknown') continue;
       if (!isActive(p.deadlineDate)) continue; // 마감된 공고 제외
       const key = `${site.id}::${p.title}`;
       rawPostings.push({ ...p, siteId: site.id, siteName: site.name, isNew: newPostingKeys.has(key) });
@@ -713,6 +990,7 @@ function processData(data) {
   for (const result of data) {
     if (result.error) continue;
     siteMap[result.site.id] = result.site;
+    siteUrlMap[result.site.id] = result.site.url; // siteId → siteUrl 맵
   }
   for (const p of allPostings) {
     siteCounts[p.siteId] = (siteCounts[p.siteId] || 0) + 1;
@@ -756,7 +1034,7 @@ function getFiltered() {
   return allPostings.filter(p => {
     if (!showHidden && hidden.has(postingKey(p))) return false;
     if (activeSite && p.siteId !== activeSite) return false;
-    if (activeFilter === 'new' && !isNew(p.regDate)) return false;
+    if (activeFilter === 'new' && !p.isNew) return false;
     if (activePeriodDays > 0 && !isWithinDays(p.regDate, activePeriodDays)) return false;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
@@ -829,37 +1107,51 @@ function render() {
   list.style.display = 'flex';
   list.innerHTML = '';
 
+  const favs = getFavSet();
+
   for (let i = 0; i < filtered.length; i++) {
     const p = filtered[i];
     const key = postingKey(p);
     const isHiddenItem = hidden.has(key);
+    const isFav = favs.has(key);
     const el = document.createElement('div');
     el.className = 'posting' + (isHiddenItem ? ' is-hidden-visible' : '');
     el.style.animationDelay = `${Math.min(i * 0.02, 0.5)}s`;
 
+    const siteUrl = siteUrlMap[p.siteId] || null;
     const linkHtml = p.url
       ? `<a class="posting-link" href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a>`
-      : `<span class="posting-nolink">링크 없음</span>`;
+      : siteUrl
+        ? `<a class="posting-link posting-link-site" href="${escapeHtml(siteUrl)}" target="_blank" rel="noopener noreferrer" title="공고 직접 링크가 없어 사이트 홈으로 이동합니다">사이트 ↗</a>`
+        : `<span class="posting-nolink">링크 없음</span>`;
 
     const hideHtml = isHiddenItem
       ? `<button class="posting-hide-btn restore" title="복원">↩</button>`
       : `<button class="posting-hide-btn" title="숨기기">×</button>`;
 
+    const favHtml = `<button class="fav-btn${isFav ? ' active' : ''}" title="즐겨찾기">${isFav ? '★' : '☆'}</button>`;
+
     let html = `
       <div>
-        <div class="posting-title">${escapeHtml(p.title)}${isNew(p.regDate) ? '<span class="posting-new">NEW</span>' : ''}</div>
-        <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}</div>
+        <div class="posting-title">${escapeHtml(p.title)}${p.isNew ? '<span class="posting-new">NEW</span>' : ''}</div>
+        <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}${p.fitScore != null ? ` · 적합 ${p.fitScore}` : ''}${p.lifecycleStatus === 'active_long' ? ' · 장기모집' : ''}${p.lifecycleStatus === 'rolling' ? ' · 상시모집' : ''}</div>
       </div>
       <div>
         <div class="posting-date">${formatDate(p.regDate)}</div>
         ${linkHtml}
       </div>
-      ${hideHtml}
+      <div class="posting-actions">${hideHtml}${favHtml}</div>
     `;
     if (p.deadlineDate) {
       html += `<div class="posting-deadline">마감 ${formatDate(p.deadlineDate)}</div>`;
     }
     el.innerHTML = html;
+
+    // Fav button event
+    el.querySelector('.fav-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleFav(key);
+    });
 
     // Hide / restore button event
     el.querySelector('.posting-hide-btn').addEventListener('click', (e) => {
@@ -952,18 +1244,21 @@ function processExperienceData(data) {
     if (result.error) continue;
     const site = result.site;
     for (const p of result.postings) {
+      if (p.lifecycleStatus === 'closed' || p.lifecycleStatus === 'stale_unknown') continue;
       if (!isActive(p.deadlineDate)) continue; // 마감된 공고 제외
-      rawPostings.push({ ...p, siteId: site.id, siteName: site.name });
+      const key = `${site.id}::${p.title}`;
+      rawPostings.push({ ...p, siteId: site.id, siteName: site.name, isNew: newPostingKeys.has(key) });
     }
   }
   allExperiencePostings = rawPostings;
 
-  // 사이트별 집계
+  // 사이트별 집계 + siteUrlMap 등록 (experience 사이트도 URL 폴백 지원)
   const siteCounts = {};
   const siteMap = {};
   for (const result of data) {
     if (result.error) continue;
     siteMap[result.site.id] = result.site;
+    siteUrlMap[result.site.id] = result.site.url; // experience 사이트 URL도 등록
   }
   for (const p of allExperiencePostings) {
     siteCounts[p.siteId] = (siteCounts[p.siteId] || 0) + 1;
@@ -1035,33 +1330,48 @@ function renderExperience() {
   list.innerHTML = '';
   setTimeout(() => list.classList.remove('view-fade'), 400);
 
+  const expFavs = getFavSet();
+
   for (let i = 0; i < filtered.length; i++) {
     const p = filtered[i];
+    const key = postingKey(p);
+    const isFav = expFavs.has(key);
     const el = document.createElement('div');
     el.className = 'posting';
     el.style.animationDelay = `${Math.min(i * 0.02, 0.5)}s`;
 
+    const expSiteUrl = siteUrlMap[p.siteId] || null;
     const linkHtml = p.url
       ? `<a class="posting-link" href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a>`
-      : `<span class="posting-nolink">링크 없음</span>`;
+      : expSiteUrl
+        ? `<a class="posting-link posting-link-site" href="${escapeHtml(expSiteUrl)}" target="_blank" rel="noopener noreferrer" title="공고 직접 링크가 없어 사이트 홈으로 이동합니다">사이트 ↗</a>`
+        : `<span class="posting-nolink">링크 없음</span>`;
 
     const badge = getBadgeHtml(p.siteId);
     const statusText = p.status ? ` · ${escapeHtml(p.status)}` : '';
+    const favHtml = `<button class="fav-btn${isFav ? ' active' : ''}" title="즐겨찾기">${isFav ? '★' : '☆'}</button>`;
 
     el.innerHTML = `
       <div>
-        <div class="posting-title">${badge} ${escapeHtml(p.title)}</div>
-        <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}${statusText}</div>
+        <div class="posting-title">${badge} ${escapeHtml(p.title)}${p.isNew ? '<span class="posting-new">NEW</span>' : ''}</div>
+        <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}${statusText}${p.fitScore != null ? ` · 적합 ${p.fitScore}` : ''}</div>
       </div>
       <div>
         <div class="posting-date">${formatDate(p.regDate)}</div>
         ${linkHtml}
       </div>
-      <div></div>
+      <div class="posting-actions">${favHtml}</div>
     `;
     if (p.deadlineDate) {
       el.innerHTML += `<div class="posting-deadline">마감 ${formatDate(p.deadlineDate)}</div>`;
     }
+
+    // Fav button event
+    el.querySelector('.fav-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleFav(key);
+    });
+
     list.appendChild(el);
   }
 }
@@ -1069,16 +1379,29 @@ function renderExperience() {
 // 모드 전환
 function switchMode(toExperience) {
   isExperienceMode = toExperience;
+  isSchedulerMode = false;
   activeSite = null;
   searchQuery = '';
   document.getElementById('search').value = '';
 
   const flipBtn = document.getElementById('flip-btn');
+  const schedulerBtn = document.getElementById('scheduler-btn');
   const pageTitle = document.getElementById('page-title');
   const pageSubtitle = document.getElementById('page-subtitle');
   const metaLabelSites = document.getElementById('meta-label-sites');
   const controls = document.querySelector('.controls');
   const showHiddenBar = document.getElementById('show-hidden-bar');
+  const mainContent = document.getElementById('main-content');
+  const schedulerView = document.getElementById('scheduler-view');
+  const metaBar = document.querySelector('.meta-bar');
+  const siteNavWrap = document.querySelector('.site-nav-wrap');
+
+  // 스케줄러 모드 해제
+  schedulerBtn.classList.remove('active');
+  schedulerView.style.display = 'none';
+  mainContent.style.display = '';
+  metaBar.style.display = '';
+  siteNavWrap.style.display = '';
 
   if (toExperience) {
     flipBtn.classList.add('active');
@@ -1106,7 +1429,174 @@ function switchMode(toExperience) {
   }
 }
 
+function switchToScheduler() {
+  isSchedulerMode = true;
+  isExperienceMode = false;
+  activeSite = null;
+  searchQuery = '';
+  document.getElementById('search').value = '';
+
+  const flipBtn = document.getElementById('flip-btn');
+  const schedulerBtn = document.getElementById('scheduler-btn');
+  const pageTitle = document.getElementById('page-title');
+  const pageSubtitle = document.getElementById('page-subtitle');
+  const controls = document.querySelector('.controls');
+  const showHiddenBar = document.getElementById('show-hidden-bar');
+  const mainContent = document.getElementById('main-content');
+  const schedulerView = document.getElementById('scheduler-view');
+  const metaBar = document.querySelector('.meta-bar');
+  const siteNavWrap = document.querySelector('.site-nav-wrap');
+
+  flipBtn.classList.remove('active');
+  flipBtn.querySelector('.flip-icon').textContent = '⇄';
+  flipBtn.lastChild.textContent = ' 직무경험 공고';
+  flipBtn.title = '직무경험 공고로 전환';
+
+  schedulerBtn.classList.add('active');
+  pageTitle.textContent = '스케줄러';
+  pageSubtitle.textContent = '즐겨찾기한 공고의 일정을 달력에서 확인하세요';
+  controls.style.display = 'none';
+  showHiddenBar.style.display = 'none';
+  metaBar.style.display = 'none';
+  siteNavWrap.style.display = 'none';
+  mainContent.style.display = 'none';
+  schedulerView.style.display = 'block';
+
+  // 현재 날짜로 초기화
+  const now = new Date();
+  calYear = now.getFullYear();
+  calMonth = now.getMonth();
+  renderCalendar();
+}
+
+function getAllPostingsForCalendar() {
+  // 즐겨찾기한 공고만 필터 (채용공고 + 직무경험 모두)
+  const favs = getFavSet();
+  if (favs.size === 0) return [];
+
+  const all = [...allPostings, ...allExperiencePostings];
+  return all.filter(p => favs.has(postingKey(p)));
+}
+
+function renderCalendar() {
+  const titleEl = document.getElementById('cal-title');
+  const gridEl = document.getElementById('calendar-grid');
+  const emptyEl = document.getElementById('cal-empty');
+
+  titleEl.textContent = `${calYear}년 ${calMonth + 1}월`;
+
+  const favPostings = getAllPostingsForCalendar();
+
+  if (favPostings.length === 0) {
+    gridEl.style.display = 'none';
+    emptyEl.style.display = 'block';
+    return;
+  }
+
+  gridEl.style.display = 'grid';
+  emptyEl.style.display = 'none';
+
+  // 구조화된 일정 우선, 기존 데이터는 등록일/마감일로 폴백한다.
+  const eventMap = {};
+  const labels = {
+    posted: '등록', application_start: '접수 시작', application_end: '접수 마감',
+    program_start: '활동 시작', program_end: '활동 종료', interview: '면접',
+    result: '발표', orientation: '오리엔테이션', other: '일정',
+  };
+  for (const p of favPostings) {
+    const structured = Array.isArray(p.scheduleEvents) ? p.scheduleEvents : [];
+    const events = structured.length ? structured : [
+      ...(p.regDate ? [{ type: 'posted', date: p.regDate, label: '등록' }] : []),
+      ...(p.deadlineDate ? [{ type: 'application_end', date: p.deadlineDate, label: '접수 마감' }] : []),
+    ];
+    const seenEvents = new Set();
+    for (const event of events) {
+      const dateKey = (event.date || '').slice(0, 10);
+      const eventKey = `${event.type}::${dateKey}`;
+      if (!dateKey || seenEvents.has(eventKey)) continue;
+      seenEvents.add(eventKey);
+      if (!eventMap[dateKey]) eventMap[dateKey] = [];
+      eventMap[dateKey].push({ type: event.type, label: event.label || labels[event.type] || '일정', posting: p });
+    }
+  }
+
+  gridEl.innerHTML = '';
+
+  // 요일 헤더
+  const dows = ['일', '월', '화', '수', '목', '금', '토'];
+  for (let d = 0; d < 7; d++) {
+    const dowEl = document.createElement('div');
+    dowEl.className = 'cal-dow' + (d === 0 ? ' sun' : '') + (d === 6 ? ' sat' : '');
+    dowEl.textContent = dows[d];
+    gridEl.appendChild(dowEl);
+  }
+
+  // 달력 계산
+  const firstDay = new Date(calYear, calMonth, 1).getDay();
+  const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+  const today = new Date();
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+
+  // 이전 달 빈 칸
+  const prevMonthDays = new Date(calYear, calMonth, 0).getDate();
+  for (let i = 0; i < firstDay; i++) {
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell other-month';
+    const dayNum = prevMonthDays - firstDay + 1 + i;
+    cell.innerHTML = `<div class="cal-day-num">${dayNum}</div>`;
+    gridEl.appendChild(cell);
+  }
+
+  // 이번 달 날짜
+  for (let day = 1; day <= daysInMonth; day++) {
+    const dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
+    const dayOfWeek = new Date(calYear, calMonth, day).getDay();
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell' + (dateStr === todayStr ? ' today' : '');
+
+    const dayClass = dayOfWeek === 0 ? ' sun' : (dayOfWeek === 6 ? ' sat' : '');
+    let cellHtml = `<div class="cal-day-num${dayClass}">${day}</div>`;
+
+    const events = eventMap[dateStr] || [];
+    const maxVisible = 3;
+    for (let ei = 0; ei < Math.min(events.length, maxVisible); ei++) {
+      const ev = events[ei];
+      const label = ev.label;
+      const titleShort = (ev.posting.title || '').length > 12
+        ? (ev.posting.title || '').substring(0, 12) + '…'
+        : (ev.posting.title || '');
+      const href = ev.posting.url ? `href="${escapeHtml(ev.posting.url)}" target="_blank" rel="noopener noreferrer"` : '';
+      cellHtml += `<a class="cal-event ${ev.type}" ${href} title="[${label}] ${escapeHtml(ev.posting.title)}\n${escapeHtml(ev.posting.siteName || '')}">${label} ${escapeHtml(titleShort)}</a>`;
+    }
+    if (events.length > maxVisible) {
+      cellHtml += `<span class="cal-event-more">+${events.length - maxVisible}건 더</span>`;
+    }
+
+    cell.innerHTML = cellHtml;
+    gridEl.appendChild(cell);
+  }
+
+  // 다음 달 빈 칸
+  const totalCells = firstDay + daysInMonth;
+  const remaining = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
+  for (let i = 1; i <= remaining; i++) {
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell other-month';
+    cell.innerHTML = `<div class="cal-day-num">${i}</div>`;
+    gridEl.appendChild(cell);
+  }
+}
+
 document.getElementById('flip-btn').addEventListener('click', async () => {
+  if (isSchedulerMode) {
+    // 스케줄러 모드에서 직무경험 공고로
+    document.getElementById('loading').style.display = 'block';
+    document.getElementById('posting-list').style.display = 'none';
+    await loadExperience();
+    document.getElementById('loading').style.display = 'none';
+    switchMode(true);
+    return;
+  }
   if (!isExperienceMode) {
     // 처음 진입 시 데이터 로드
     document.getElementById('loading').style.display = 'block';
@@ -1115,6 +1605,29 @@ document.getElementById('flip-btn').addEventListener('click', async () => {
     document.getElementById('loading').style.display = 'none';
   }
   switchMode(!isExperienceMode);
+});
+
+document.getElementById('scheduler-btn').addEventListener('click', async () => {
+  if (isSchedulerMode) {
+    // 스케줄러 모드에서 돌아가기
+    switchMode(false);
+  } else {
+    // 직무경험 화면을 먼저 열지 않았어도 해당 즐겨찾기를 달력에 포함한다.
+    await loadExperience();
+    switchToScheduler();
+  }
+});
+
+document.getElementById('cal-prev').addEventListener('click', () => {
+  calMonth--;
+  if (calMonth < 0) { calMonth = 11; calYear--; }
+  renderCalendar();
+});
+
+document.getElementById('cal-next').addEventListener('click', () => {
+  calMonth++;
+  if (calMonth > 11) { calMonth = 0; calYear++; }
+  renderCalendar();
 });
 
 init();
