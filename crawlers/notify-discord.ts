@@ -21,7 +21,10 @@ function postingLine(posting: JobPosting & { siteName?: string; priority?: strin
   const prefix = posting.priority ? `**${posting.priority}** ` : '';
   const change = posting.type ? `[${posting.type}] ` : '';
   const title = posting.url ? `[${posting.title}](${posting.url})` : posting.title;
-  return `${prefix}${change}${title}\n↳ ${posting.siteName || posting.organization} · 적합 ${posting.fitScore ?? '-'} · 마감 ${deadline}`;
+  const eligibility = posting.eligibilityStatus === 'likely_eligible' ? '지원가능 신호'
+    : posting.eligibilityStatus === 'needs_review' ? '지원요건 확인'
+      : posting.eligibilityStatus === 'unknown' ? '자격 미확인' : '';
+  return `${prefix}${change}${title}\n↳ ${posting.siteName || posting.organization} · 적합 ${posting.fitScore ?? '-'}${eligibility ? ` · ${eligibility}` : ''} · 마감 ${deadline}`;
 }
 
 function limitedDescription(lines: string[], empty: string): string {
@@ -69,7 +72,12 @@ async function main(): Promise<void> {
   }
 
   const urgentLines = summary.urgent.slice(0, 10).map(postingLine);
-  const changeLines = summary.changes.filter(item => item.type !== 'closed').slice(0, 12).map(postingLine);
+  // 일일 상세는 목표/인접 공고 중 P1~P3만 노출한다. P4와 저적합 원자료는 이력에만 보존된다.
+  const changeLines = summary.changes
+    .filter(item => item.type !== 'closed' && item.userVisible !== false && item.priority !== 'P4')
+    .sort((a, b) => (b.fitScore || 0) - (a.fitScore || 0) || (b.urgencyScore || 0) - (a.urgencyScore || 0))
+    .slice(0, 12)
+    .map(postingLine);
   const healthLines = summary.sourceIssues.slice(0, 15).map(issue => `**${issue.status}** ${issue.siteName}\n↳ ${issue.message}`);
   const embeds: Array<Record<string, unknown>> = [];
   if (urgentLines.length) embeds.push({ title: '🚨 긴급 확인', color: 0xc0392b, description: limitedDescription(urgentLines, '긴급 항목 없음') });

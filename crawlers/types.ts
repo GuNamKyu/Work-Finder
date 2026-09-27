@@ -22,7 +22,15 @@ export interface JobPosting {
   fitBreakdown?: FitBreakdown;
   fitReasons?: string[];
   urgencyScore?: number;
+  relevanceTier?: RelevanceTier;
+  relevanceReasons?: string[];
+  userVisible?: boolean;
+  eligibilityStatus?: EligibilityStatus;
+  eligibilityReasons?: string[];
 }
+
+export type RelevanceTier = 'target' | 'adjacent' | 'low_relevance' | 'administrative_notice';
+export type EligibilityStatus = 'likely_eligible' | 'needs_review' | 'ineligible' | 'unknown';
 
 export type ExperienceType =
   | 'internship'

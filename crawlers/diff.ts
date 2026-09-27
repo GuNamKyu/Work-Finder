@@ -2,7 +2,8 @@ import { appendFile, mkdir, readFile, writeFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import type { ChangeType, CrawlResult, JobPosting } from './types.js';
-import { enrichPosting, normalizedTitle, postingFingerprint } from './opportunity.js';
+import { enrichPosting, isUserVisiblePosting, normalizedTitle, postingFingerprint } from './opportunity.js';
+import { isJobPosting, isNoiseOrganization } from './base.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -32,7 +33,10 @@ async function readJson<T>(path: string): Promise<T | null> {
 }
 
 function flatten(results: CrawlResult[]): IndexedPosting[] {
-  return results.flatMap(result => result.postings.map(posting => ({
+  return results.flatMap(result => result.postings
+    // 정책 변경 전의 캐시 결과에도 현재 제외 목록을 동일하게 적용해 가짜 종료 알림을 막는다.
+    .filter(posting => isJobPosting(posting.title) && !isNoiseOrganization(posting.organization))
+    .map(posting => ({
     ...enrichPosting(posting, result.site.id), siteId: result.site.id, siteName: result.site.name,
   })));
 }
@@ -51,10 +55,12 @@ function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): Source
   const now = Date.now();
   return current.map(result => {
     const prev = previousById.get(result.site.id);
-    const currentCount = result.postings.length;
-    const previousCount = prev ? prev.postings.length : null;
-    const deadlineCoverage = coverage(result.postings, p => p.applicationEndAt || p.deadlineDate);
-    const urlCoverage = coverage(result.postings, p => p.url);
+    const currentPostings = result.postings.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization));
+    const previousPostings = prev?.postings.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization)) || [];
+    const currentCount = currentPostings.length;
+    const previousCount = prev ? previousPostings.length : null;
+    const deadlineCoverage = coverage(currentPostings, p => p.applicationEndAt || p.deadlineDate);
+    const urlCoverage = coverage(currentPostings, p => p.url);
     let status: HealthStatus = 'OK';
     let message = '정상 수집';
     if (result.error) {
@@ -66,8 +72,8 @@ function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): Source
     } else if (previousCount !== null && previousCount >= 5 && currentCount <= Math.floor(previousCount * 0.3)) {
       status = 'COUNT_DROP'; message = `수집량 급감: ${previousCount}건 → ${currentCount}건`;
     } else if (prev && currentCount >= 5) {
-      const oldDeadline = coverage(prev.postings, p => p.applicationEndAt || p.deadlineDate);
-      const oldUrl = coverage(prev.postings, p => p.url);
+      const oldDeadline = coverage(previousPostings, p => p.applicationEndAt || p.deadlineDate);
+      const oldUrl = coverage(previousPostings, p => p.url);
       if (oldDeadline - deadlineCoverage >= 40 || oldUrl - urlCoverage >= 40) {
         status = 'FIELD_DROP';
         message = `필드 완성도 급락: 마감 ${oldDeadline}%→${deadlineCoverage}%, URL ${oldUrl}%→${urlCoverage}%`;
@@ -108,7 +114,9 @@ function priority(posting: JobPosting): string {
   const fit = posting.fitScore || 0, urgency = posting.urgencyScore || 0;
   if (fit >= 70 && urgency >= 75) return 'P1';
   if (fit >= 70) return 'P2';
-  if (fit >= 50 && urgency >= 75) return 'P3';
+  // 점수가 다소 낮더라도 명확한 목표 직무는 일일 요약에서 놓치지 않는다.
+  // 인접 기회는 홈페이지에는 보이되 Discord 상세에서는 P4로 요약한다.
+  if (posting.relevanceTier === 'target') return 'P3';
   return 'P4';
 }
 
@@ -161,22 +169,33 @@ async function main(): Promise<void> {
   }
 
   const newTypes: ChangeType[] = ['new', 'reposted', 'reopened', 'resurfaced'];
-  const newPostings = events.filter(e => newTypes.includes(e.type)).map(e => ({ ...e.posting, changeType: e.type }));
+  // 전체 이벤트는 상태·이력에 보존하고, 사용자용 신규 목록과 알림만 관련성 기준으로 제한한다.
+  const visibleCurrent = current.filter(isUserVisiblePosting);
+  const newPostings = events
+    .filter(e => newTypes.includes(e.type) && isUserVisiblePosting(e.posting))
+    .map(e => ({ ...e.posting, changeType: e.type }));
   const sourceHealth = analyzeSources(currentResults, previousResults);
   const sourceIssues = sourceHealth.filter(source => !['OK', 'RECOVERED'].includes(source.status));
   const changed = events.filter(e => e.type !== 'unchanged' && e.type !== 'baseline');
-  const urgent = events.filter(e => e.type !== 'closed' && priority(e.posting) === 'P1')
+  const visibleChanged = changed.filter(e => isUserVisiblePosting(e.posting));
+  const urgent = events.filter(e => e.type !== 'closed' && isUserVisiblePosting(e.posting) && priority(e.posting) === 'P1')
     .sort((a, b) => (b.posting.fitScore || 0) - (a.posting.fitScore || 0));
   const summary = {
     generatedAt: runAt, baselineCreated: !hasBaseline,
     totals: {
-      current: current.length, new: events.filter(e => e.type === 'new').length,
-      updated: events.filter(e => e.type === 'updated').length, reposted: events.filter(e => e.type === 'reposted').length,
-      reopened: events.filter(e => e.type === 'reopened').length, resurfaced: events.filter(e => e.type === 'resurfaced').length,
-      closed: events.filter(e => e.type === 'closed').length, sourceIssues: sourceIssues.length,
+      current: visibleCurrent.length, collected: current.length,
+      new: visibleChanged.filter(e => e.type === 'new').length,
+      updated: visibleChanged.filter(e => e.type === 'updated').length,
+      reposted: visibleChanged.filter(e => e.type === 'reposted').length,
+      reopened: visibleChanged.filter(e => e.type === 'reopened').length,
+      resurfaced: visibleChanged.filter(e => e.type === 'resurfaced').length,
+      closed: visibleChanged.filter(e => e.type === 'closed').length, sourceIssues: sourceIssues.length,
     },
     urgent: urgent.slice(0, 20).map(e => ({ ...e.posting, priority: priority(e.posting) })),
-    changes: changed.slice(0, 50).map(e => ({ type: e.type, ...e.posting, priority: priority(e.posting) })),
+    changes: visibleChanged
+      .sort((a, b) => (b.posting.fitScore || 0) - (a.posting.fitScore || 0) || (b.posting.urgencyScore || 0) - (a.posting.urgencyScore || 0))
+      .slice(0, 50)
+      .map(e => ({ type: e.type, ...e.posting, priority: priority(e.posting) })),
     sourceIssues,
   };
 

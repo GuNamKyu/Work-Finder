@@ -955,6 +955,9 @@ function processData(data) {
       // 한 달이 지나도 명시적으로 모집 중인 장기·상시 공고는 유지한다.
       // 마감일을 알 수 없는 오래된 항목은 데이터에는 보존하되 기본 화면에서는 제외한다.
       if (p.lifecycleStatus === 'closed' || p.lifecycleStatus === 'stale_unknown') continue;
+      // 저적합 공고와 합격자·면접 결과 같은 후속 공지는 원자료에만 보존한다.
+      // userVisible이 없는 이전 데이터도 40점 미만이면 안전하게 기본 화면에서 숨긴다.
+      if (p.userVisible === false || (p.userVisible == null && (p.fitScore || 0) < 40)) continue;
       if (!isActive(p.deadlineDate)) continue; // 마감된 공고 제외
       const key = `${site.id}::${p.title}`;
       rawPostings.push({ ...p, siteId: site.id, siteName: site.name, isNew: newPostingKeys.has(key) });
@@ -999,8 +1002,13 @@ function processData(data) {
     allSites.push({ ...siteMap[id], count });
   }
 
-  // 날짜 기준 내림차순 정렬
-  allPostings.sort((a, b) => (b.regDate || '').localeCompare(a.regDate || ''));
+  // 지원 가능성이 확인된 공고를 먼저, 상세 확인이 필요한 공고를 뒤로 보낸다.
+  const eligibilityRank = { likely_eligible: 3, unknown: 2, needs_review: 1, ineligible: 0 };
+  allPostings.sort((a, b) =>
+    (eligibilityRank[b.eligibilityStatus] ?? 2) - (eligibilityRank[a.eligibilityStatus] ?? 2)
+    || (b.fitScore || 0) - (a.fitScore || 0)
+    || (b.regDate || '').localeCompare(a.regDate || '')
+  );
   allSites.sort((a, b) => b.count - a.count);
 
   document.getElementById('site-count').textContent = allSites.length;
@@ -1134,7 +1142,7 @@ function render() {
     let html = `
       <div>
         <div class="posting-title">${escapeHtml(p.title)}${p.isNew ? '<span class="posting-new">NEW</span>' : ''}</div>
-        <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}${p.fitScore != null ? ` · 적합 ${p.fitScore}` : ''}${p.lifecycleStatus === 'active_long' ? ' · 장기모집' : ''}${p.lifecycleStatus === 'rolling' ? ' · 상시모집' : ''}</div>
+        <div class="posting-org"><span class="posting-source">${escapeHtml(p.siteName)}</span>${p.organization && p.organization !== p.siteName ? escapeHtml(p.organization) : ''}${p.fitScore != null ? ` · 적합 ${p.fitScore}` : ''}${p.eligibilityStatus === 'likely_eligible' ? ' · 지원가능 신호' : ''}${p.eligibilityStatus === 'needs_review' ? ' · 지원요건 확인' : ''}${p.eligibilityStatus === 'unknown' ? ' · 자격 미확인' : ''}${p.lifecycleStatus === 'active_long' ? ' · 장기모집' : ''}${p.lifecycleStatus === 'rolling' ? ' · 상시모집' : ''}</div>
       </div>
       <div>
         <div class="posting-date">${formatDate(p.regDate)}</div>

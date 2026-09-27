@@ -117,12 +117,14 @@ export const NOISE_KEYWORDS = loadKeywords('noise-keywords.txt');
 
 /** 노이즈 키워드가 포함된 공고를 필터링 (제목 기준) */
 export function isJobPosting(title: string): boolean {
-  return !NOISE_KEYWORDS.some(kw => title.includes(kw));
+  const normalized = title.normalize('NFKC').toLowerCase();
+  return !NOISE_KEYWORDS.some(kw => normalized.includes(kw.normalize('NFKC').toLowerCase()));
 }
 
 /** 기관명에 노이즈 키워드가 포함되어 있는지 확인 */
 export function isNoiseOrganization(org: string): boolean {
-  return NOISE_KEYWORDS.some(kw => org.includes(kw));
+  const normalized = org.normalize('NFKC').toLowerCase();
+  return NOISE_KEYWORDS.some(kw => normalized.includes(kw.normalize('NFKC').toLowerCase()));
 }
 
 /** 등록일이 1개월 이내인지 확인 (YYYY-MM-DD 형식 기준, 파싱 불가 시 true 반환) */
@@ -135,9 +137,12 @@ export function isWithinOneMonth(regDate: string): boolean {
   return postDate >= oneMonthAgo;
 }
 
-/** 공고 목록에서 채용과 무관한 항목 및 1개월 초과 공고 제거 */
+/** 제외 키워드와 명시적 마감 상태를 적용해 현재 공고 목록 구성 */
 export function filterJobPostings(postings: JobPosting[], siteId = 'unknown'): JobPosting[] {
   return postings
+    // 사용자가 관리하는 제외 목록을 최우선 관문으로 적용한다. 적합도 계산은 이 관문을
+    // 통과한 공고에만 수행하므로 박물관 명칭만으로 제외 조건을 뒤집을 수 없다.
+    .filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization))
     .map(p => enrichPosting(p, siteId))
     // 명시적으로 마감된 항목만 현재 목록에서 제외한다. 오래됐지만 모집 중인 공고와
     // 마감일 미상 공고는 상태값으로 구분해 보존한다.

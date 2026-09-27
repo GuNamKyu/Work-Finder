@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { classifyLifecycle, enrichPosting, stablePostingId } from './opportunity.js';
+import { assessEligibility, classifyLifecycle, enrichPosting, stablePostingId } from './opportunity.js';
+import { filterJobPostings } from './base.js';
 import type { JobPosting } from './types.js';
 
 const base: JobPosting = {
@@ -29,4 +30,42 @@ test('일정과 적합도·긴급도를 파생한다', () => {
   assert.ok(posting.scheduleEvents?.some(event => event.type === 'application_end'));
   assert.ok((posting.fitScore || 0) > 0);
   assert.equal(posting.urgencyScore, 90);
+});
+
+test('학교 기간제교사는 제외 키워드 1차 관문에서 제거한다', () => {
+  const postings = filterJobPostings([{
+    ...base, title: '기간제교사(미술) 채용 공고', organization: '테스트고등학교',
+  }], 'school');
+  assert.equal(postings.length, 0);
+});
+
+test('긍정 분야명이 함께 있어도 제외 키워드를 우선한다', () => {
+  const postings = filterJobPostings([{
+    ...base, title: '미술관 교육강사 모집', organization: '테스트미술관',
+  }], 'museum');
+  assert.equal(postings.length, 0);
+});
+
+test('문화기관의 비대상 직무와 전형 후속 공지는 화면에서 제외한다', () => {
+  const cleaner = enrichPosting({ ...base, title: '박물관 환경미화원 채용' }, 'museum');
+  const result = enrichPosting({ ...base, title: '박물관 학예직 최종 합격자 발표' }, 'museum');
+  assert.equal(cleaner.relevanceTier, 'low_relevance');
+  assert.equal(cleaner.userVisible, false);
+  assert.equal(result.relevanceTier, 'administrative_notice');
+  assert.equal(result.userVisible, false);
+});
+
+test('제외 키워드는 박물관·학예 적합도보다 먼저 적용한다', () => {
+  const filtered = filterJobPostings([{
+    ...base,
+    title: '[국립항공박물관] 상임이사(학예본부장) 모집공고',
+    organization: '국립항공박물관',
+  }], 'museum');
+  assert.equal(filtered.length, 0);
+});
+
+test('임원급과 고경력 필수요건은 지원 가능성에서 별도로 탈락시킨다', () => {
+  assert.equal(assessEligibility({ ...base, title: '상임이사 모집' }).status, 'ineligible');
+  assert.equal(assessEligibility({ ...base, title: '학예직 경력 3년 이상 채용' }).status, 'needs_review');
+  assert.equal(assessEligibility({ ...base, title: '학예 보조 신입 채용' }).status, 'likely_eligible');
 });
