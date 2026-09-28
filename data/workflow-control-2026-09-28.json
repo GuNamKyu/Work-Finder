@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "repository": "GuNamKyu/Work-Finder",
+  "reason": "사용자 요청: workfinder skill의 Chrome 수집·게시와 기존 자동 수집의 충돌 방지",
+  "verifiedAt": "2026-09-28T14:11:30.9788634Z",
+  "workflow": {
+    "id": 248953310,
+    "name": "채용공고 크롤링 & 배포",
+    "path": ".github/workflows/crawl.yml",
+    "previousState": "active",
+    "state": "disabled_manually",
+    "control": "GitHub Actions REST API workflow disable",
+    "scheduleDefinitionsPreserved": ["0 21 * * *", "0 9 * * *"],
+    "automaticExecutionEnabled": false,
+    "legacyManualExecutionEnabled": false,
+    "inProgressRuns": [],
+    "queuedRuns": []
+  },
+  "preserved": ["existing homepage", "posting data and history", "favorites and hidden records", "Discord webhook secret", "repository GitHub Actions capability"],
+  "skillPublication": {
+    "skill": "workfinder",
+    "workflowPath": ".github/workflows/publish-browser.yml",
+    "installedAtVerification": false,
+    "installation": "workfinder 최초 게시 실행에서 전용 workflow_dispatch 경로 설치",
+    "reenableLegacyCrawlerAutomatically": false
+  },
+  "discordScheduledNotificationsEnabled": false
+}
