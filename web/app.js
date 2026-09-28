@@ -1,4 +1,4 @@
-import { TYPE_LABELS, EVENT_LABELS, identity, legacyKey, todayKST, scheduleOf, emptyFavorites, syncFavorites, isActive, flattenResults, safeUrl } from './model.js';
+import { TYPE_LABELS, EVENT_LABELS, identity, legacyKey, todayKST, scheduleOf, emptyFavorites, syncFavorites, isActive, flattenResults, safeUrl, relevantSources } from './model.js';
 import { emptyHidden, validHidden, migrateHidden, toggleHiddenRecord, hasHiddenPosting, learnRules, exportRules, matchesRule, ruleId, validateRules } from './exclusions.js';
 
 const $ = id => document.getElementById(id);
@@ -7,7 +7,7 @@ const STORE = 'wf_favorites_v2';
 const HIDDEN_STORE = 'wf_hidden_learning_v1';
 let hiddenState = emptyHidden(), learnedRules = [], serverRules = [];
 let sources = [], health = [], postings = [], newIds = new Set(), favorites = emptyFavorites();
-let mode = 'job', previousMode = 'job', activeSite = '', type = 'nonvolunteer', recordKind = 'recruitment', filter = 'all', showHidden = false;
+let mode = 'job', previousMode = 'job', activeSite = '', type = 'nonvolunteer', recordKind = 'recruitment', filter = 'all', showHidden = false, includeUnverified = false;
 let calDate = new Date(), includePosted = false;
 let storageBroken = false;
 function read(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { storageBroken = true; return fallback; } }
@@ -65,7 +65,7 @@ async function init() {
 }
 function baseRows() {
   if (mode === 'favorites') return Object.values(favorites.records).map(r => ({ ...r.posting, savedRecord: r }));
-  return postings.filter(p => p.postingType === mode && p.userVisible !== false && isActive(p));
+  return postings.filter(p => p.postingType === mode && p.userVisible !== false && isActive(p, todayKST(), includeUnverified));
 }
 function selectRows(skipType = false) {
   let rows = baseRows();
@@ -75,7 +75,7 @@ function selectRows(skipType = false) {
   }
   const query = $('search').value.trim().toLowerCase();
   const period = Number($('period-select').value);
-  const oldest = new Date(Date.now() - period * 86400000).toISOString().slice(0, 10);
+  const oldest = new Date(Date.parse(`${todayKST()}T00:00:00Z`) - period * 86400000).toISOString().slice(0, 10);
   return rows.filter(p => (!activeSite || p.siteId === activeSite) && (showHidden || (!isHidden(p) && (mode === 'favorites' || !learnedExcluded(p))))
     && (filter !== 'new' || newIds.has(identity(p)))
     && (!period || (p.postedAt || p.regDate || p.applicationStartAt || '') >= oldest)
@@ -106,6 +106,9 @@ function card(p) {
     ${(p.informationLinks || []).filter(l => safeUrl(l.url)).map(l => `<a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener noreferrer">${esc(l.label)} ↗</a>`).join(' · ')}
     <div class="schedule-summary">${support ? '접수기간 확인 전 — 모집 중으로 표시하지 않음' : deadline ? `접수 ${esc(p.applicationStartAt || '시작일 미확인')} ~ ${esc(deadline)}` : '접수 마감일 미확인'}${p.programStartAt ? `<br>활동 ${esc(p.programStartAt)} ~ ${esc(p.programEndAt || '종료일 미확인')}` : ''}</div>
     ${p.detailWarning ? `<div class="posting-note warning">${esc(p.detailWarning)}</div>` : ''}
+    ${p.verificationStatus === 'retained' ? `<div class="warning">이번 수집에서 재확인 못함 · 이전 확인값 보존 · 마지막 확인 ${esc(p.lastConfirmedAt || '시각 미상')} · 현재 모집 여부는 원문 확인 필요</div>` : ''}
+    ${p.lifecycleStatus === 'stale_unknown' ? '<div class="warning">오래된 공고 · 마감일 미확인 (모집 중으로 확정하지 않음)</div>' : ''}
+    ${p.retainedSchedule ? '<div class="warning">일부 일정은 이전 확인값 보존 · 이번 상세 수집에서 재확인 못함</div>' : ''}
     ${saved?.missingFromLatest ? '<div class="warning">현재 수집에서 미확인 · 저장 당시 사본 보존 (종료 확정 아님)</div>' : ''}
     ${saved?.retainedDates ? '<div class="warning">일부 일정은 이전 확인값 보존 · 원문 재확인 필요</div>' : ''}
     ${saved && !isActive(p) ? '<div class="warning">종료 또는 오래된 공고 · 즐겨찾기 이력으로 보존</div>' : ''}
@@ -122,8 +125,17 @@ function sourceStatus() {
   $('source-status').innerHTML = '<summary>수집 상태·누락 확인</summary>' + sources.map(r => {
     const stale = Date.now() - new Date(r.crawledAt).getTime() > 36 * 3600000;
     const issue = health.find(h => h.siteId === r.site.id && !['OK', 'RECOVERED'].includes(h.status));
-    return `<p class="${r.error || stale || issue ? 'warning' : ''}">${esc(r.site.name)}: ${r.error ? `실패 — ${esc(r.error)}` : `${r.postings.length}건 수집 / ${r.postings.filter(p => p.userVisible !== false && isActive(p)).length}건 노출 대상`}${stale ? ' · 36시간 이상 갱신 없음' : ''}${issue ? ` · ${esc(issue.status)} ${esc(issue.message)}` : ''}<br><small>${esc(r.crawledAt)} ${(r.warnings || []).map(esc).join(' / ')}</small></p>`;
+    return `<p class="${r.error || stale || issue ? 'warning' : ''}">${esc(r.site.name)}: ${r.error ? `${r.observedCount ? '부분 실패' : '실패'} — ${esc(r.error)} · 이번 확인 ${r.observedCount || 0}건 / 이전 확인값 ${r.retainedCount || 0}건 보존` : `${r.postings.length}건 수집 / ${r.postings.filter(p => p.userVisible !== false && isActive(p)).length}건 노출 대상`}${stale ? ' · 36시간 이상 갱신 없음' : ''}${issue ? ` · ${esc(issue.status)} ${esc(issue.message)}` : ''}<br><small>시도 ${esc(r.crawledAt)}${r.lastSuccessfulAt ? ` · 마지막 전체 성공 ${esc(r.lastSuccessfulAt)}` : ''} ${(r.warnings || []).map(esc).join(' / ')}</small></p>`;
   }).join('');
+}
+function collectionWarnings() {
+  const relevant = relevantSources(sources, mode, activeSite, type);
+  const problems = relevant.filter(r => r.error || Date.now() - Date.parse(r.crawledAt) > 36 * 3600000 || health.some(h => h.siteId === r.site.id && !['OK', 'RECOVERED'].includes(h.status)))
+    .sort((a, b) => Number(!!b.error) - Number(!!a.error));
+  $('collection-warning').hidden = !problems.length;
+  $('collection-warning').innerHTML = problems.length ? `<strong>수집 상태 주의 — 공고가 없다는 뜻이 아닙니다.</strong><ul>${problems.slice(0, 5).map(r => `<li>${esc(r.site.name)}: ${r.error ? `${r.observedCount ? '부분 실패' : '수집 실패'} · 이번 확인 ${r.observedCount || 0}건 · 이전 확인값 ${r.retainedCount || 0}건 보존` : esc(health.find(h => h.siteId === r.site.id)?.message || '갱신 지연')}</li>`).join('')}</ul>${problems.length > 5 ? `<p>외 ${problems.length - 5}개 수집처 — 상세 상태에서 모두 확인할 수 있습니다.</p>` : ''}<button id="open-source-status">상세 수집 상태 보기</button>` : '';
+  if (problems.length) $('open-source-status').onclick = () => { $('source-status').open = true; $('source-status').scrollIntoView({ behavior: 'smooth' }); };
+  return problems.length;
 }
 function renderExclusions() {
   $('exclusion-controls').hidden = mode === 'scheduler';
@@ -166,6 +178,8 @@ function render() {
   $('show-hidden-btn').textContent = showHidden ? '숨긴 공고 감추기' : '숨긴 공고 보기';
   document.querySelectorAll('[data-filter]').forEach(b => b.classList.toggle('active', b.dataset.filter === filter));
   sourceStatus();
+  const problemCount = collectionWarnings();
+  $('unverified-controls').hidden = !['job', 'experience'].includes(mode);
   renderExclusions();
   if (scheduler) { renderCalendar(); return; }
   const rows = selectRows();
@@ -175,9 +189,10 @@ function render() {
     $('experience-type').innerHTML = [['nonvolunteer', '자원봉사 제외'], ['all', '전체 유형'], ...Object.entries(TYPE_LABELS)].map(([key, label]) => `<option value="${key}" ${type === key ? 'selected' : ''}>${label} (${pool.filter(p => key === 'all' || (key === 'nonvolunteer' ? p.experienceType !== 'volunteer' : p.experienceType === key)).length})</option>`).join('');
   }
   $('site-nav').replaceChildren();
-  for (const [id, name] of new Map(baseRows().map(p => [p.siteId, p.siteName]))) {
+  const navSources = relevantSources(sources, mode, '', mode === 'experience' ? type : 'all');
+  for (const [id, name] of new Map([...baseRows().map(p => [p.siteId, p.siteName]), ...navSources.filter(r => r.error).map(r => [r.site.id, r.site.name])])) {
     const wrap = document.createElement('span'); wrap.className = 'source-nav-item';
-    const b = document.createElement('button'); b.className = `site-tag${activeSite === id ? ' active' : ''}`; b.textContent = `${name} (${baseRows().filter(p => p.siteId === id).length})`; b.onclick = () => { activeSite = activeSite === id ? '' : id; render(); }; wrap.append(b);
+    const b = document.createElement('button'); b.className = `site-tag${activeSite === id ? ' active' : ''}`; b.textContent = `${name} (${baseRows().filter(p => p.siteId === id).length})${sources.find(r => r.site.id === id)?.error ? ' ⚠ 수집 실패' : ''}`; b.onclick = () => { activeSite = activeSite === id ? '' : id; render(); }; wrap.append(b);
     const url = safeUrl(sources.find(r => r.site.id === id)?.site.url);
     if (url) { const a = document.createElement('a'); a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = '↗'; a.title = `${name} 원본 사이트`; wrap.append(a); }
     $('site-nav').append(wrap);
@@ -186,7 +201,7 @@ function render() {
   $('posting-list').style.display = rows.length ? 'flex' : 'none';
   $('posting-list').replaceChildren(...rows.map(card));
   $('empty-state').style.display = rows.length ? 'none' : 'block';
-  $('empty-state').innerHTML = `<p>${mode === 'experience' ? '선택한 유형의 확인된 공고가 없습니다. 사업 안내 탭과 수집 상태를 확인하세요.' : '조건에 맞는 공고가 없습니다.'}</p>`;
+  $('empty-state').innerHTML = `<p>${problemCount ? '조건에 맞는 공고가 표시되지 않습니다. 수집 실패·불완전 소스가 있어 실제 공고 부재로 판단할 수 없습니다.' : mode === 'experience' ? '선택한 유형의 확인된 공고가 없습니다. 사업 안내 탭과 수집 상태를 확인하세요.' : '조건에 맞는 공고가 없습니다.'}</p>`;
   $('unresolved-favorites').textContent = favorites.unresolved.length ? `이전 즐겨찾기 ${favorites.unresolved.length}건은 현재 자료와 연결되지 않았습니다. 제목을 보존했으며 다시 수집되면 복구합니다: ${favorites.unresolved.join(', ')}` : '';
 }
 function favoriteEvents() {
@@ -235,6 +250,7 @@ $('flip-btn').onclick = () => switchMode(mode === 'experience' ? 'job' : 'experi
 $('favorites-btn').onclick = () => switchMode(mode === 'favorites' ? 'job' : 'favorites');
 $('scheduler-btn').onclick = () => switchMode('scheduler');
 $('search').oninput = render; $('period-select').onchange = render;
+$('include-unverified').onchange = e => { includeUnverified = e.target.checked; render(); };
 document.querySelectorAll('[data-filter]').forEach(b => b.onclick = () => { filter = b.dataset.filter; render(); });
 $('experience-type').onchange = e => { type = e.target.value; render(); };
 $('record-kind').onchange = e => { recordKind = e.target.value; activeSite = ''; render(); };

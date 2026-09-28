@@ -2,6 +2,8 @@
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../types';
 import { normalizeDate, truncate } from '../base';
+import { submitList } from '../navigation.js';
+import { PartialCrawlError } from '../partial-crawl.js';
 
 export const config: SiteConfig = {
   id: 'gojobs',
@@ -22,7 +24,9 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     // 검색어 지정 없이 전체보기에서 최대 10페이지까지 수집
     for (let pageNum = 1; pageNum <= 10; pageNum++) {
       if (pageNum > 1) {
-        const hasPage = await page.evaluate((n) => {
+        const hasPage = await page.locator(`a[onclick*="fn_egov_link_page(${pageNum})"]`).count();
+        if (!hasPage) break;
+        await submitList(page, () => page.evaluate((n) => {
           const btn = document.querySelector(`a[onclick*="fn_egov_link_page(${n})"]`);
           // @ts-ignore
           if (btn && typeof fn_egov_link_page === 'function') {
@@ -31,10 +35,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
             return true;
           }
           return false;
-        }, pageNum);
-
-        if (!hasPage) break; // 다음 페이지가 없으면 종료
-        await page.waitForTimeout(3000);
+        }, pageNum), 'table#apmTbl tbody');
       }
 
       const postings = await page.$$eval('table#apmTbl tbody tr', (rows) => {
@@ -70,7 +71,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     }
   } catch (error) {
     console.error('나라일터 크롤링 실패:', error);
-    throw error;
+    throw new PartialCrawlError(error instanceof Error ? error.message : '나라일터 수집 실패', allPostings);
   }
 
   // 중복 제거 (제목 기준)

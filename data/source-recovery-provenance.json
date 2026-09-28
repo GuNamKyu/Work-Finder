@@ -1,0 +1,42 @@
+{
+  "recoveredAt": "2026-09-28T07:27:22.824Z",
+  "note": "이전 정상 수집 기록이며 현재 모집 여부 확정이 아님. 초기 캐시 복구용; 이후 정상 수집값보다 우선하지 않음.",
+  "sources": [
+    {
+      "siteId": "gojobs",
+      "runId": 36364659952,
+      "crawledAt": "2026-09-28T01:10:41.812Z",
+      "count": 2
+    },
+    {
+      "siteId": "khs",
+      "runId": 36364659952,
+      "crawledAt": "2026-09-28T01:11:10.831Z",
+      "count": 4
+    },
+    {
+      "siteId": "cha",
+      "runId": 36364659952,
+      "crawledAt": "2026-09-28T01:12:56.583Z",
+      "count": 4
+    },
+    {
+      "siteId": "csv-culture",
+      "runId": 36364659952,
+      "crawledAt": "2026-09-28T01:16:17.877Z",
+      "count": 6
+    },
+    {
+      "siteId": "1365-volunteer",
+      "runId": 36364659952,
+      "crawledAt": "2026-09-28T01:17:37.248Z",
+      "count": 5
+    },
+    {
+      "siteId": "gjf-youth",
+      "runId": 36361968359,
+      "crawledAt": "2026-09-28T00:30:32.599Z",
+      "count": 6
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 import type { Page } from 'playwright';
 import type { JobPosting } from './types.js';
 import { extractSchedule } from './schedule.js';
+import { classifyRelevance } from './opportunity.js';
 
 /** Bounded, read-only detail enrichment. Missing dates are explicit, never replaced by publication dates. */
 export async function enrichDetailDates(page: Page, postings: JobPosting[], limit = 12): Promise<JobPosting[]> {
-  const candidates = postings.filter(p => p.recordKind !== 'program_info' && !p.applicationEndAt && !p.deadlineDate && p.url && !p.sourceForm);
+  const candidates = postings.filter(p => p.recordKind !== 'program_info' && classifyRelevance(p).visible && !p.applicationEndAt && !p.deadlineDate && p.url && !p.sourceForm);
   const target = await page.context().newPage();
   await target.route('**/*', route => route.abort());
   const deadline = Date.now() + 35000;

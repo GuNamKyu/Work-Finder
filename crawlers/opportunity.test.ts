@@ -20,6 +20,19 @@ test('오래됐지만 미래 마감일이 있으면 장기 모집으로 보존�
   assert.equal(status, 'active_long');
 });
 
+test('서버 시간대와 무관하게 한국 날짜로 31일 경계 판정', () => {
+  const posting = { ...base, regDate: '2026-08-28' };
+  assert.equal(classifyLifecycle(posting, new Date('2026-09-27T23:55:00Z')), 'fresh');
+  assert.equal(classifyLifecycle(posting, new Date('2026-09-28T01:43:00Z')), 'fresh');
+  assert.equal(classifyLifecycle(posting, new Date('2026-09-28T15:00:00Z')), 'stale_unknown');
+  assert.equal(classifyLifecycle({ ...posting, deadlineDate: '2026-09-28' }, new Date('2026-09-28T01:43:00Z')), 'fresh');
+});
+
+test('오래된 모집중 표시 공고는 장기 모집으로 구분, 모집완료는 종료', () => {
+  assert.equal(classifyLifecycle({ ...base, status: '모집중' }, new Date('2026-09-28T01:43:00Z')), 'active_long');
+  assert.equal(classifyLifecycle({ ...base, status: '모집완료' }, new Date('2026-09-28T01:43:00Z')), 'closed');
+});
+
 test('마감일이 없는 오래된 공고는 삭제 대신 상태로 구분한다', () => {
   const status = classifyLifecycle(base, new Date('2026-09-27T00:00:00+09:00'));
   assert.equal(status, 'stale_unknown');

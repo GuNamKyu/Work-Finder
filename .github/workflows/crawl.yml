@@ -50,12 +50,29 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
+      # Cache version includes the path list. Preserve the old history on the first migration.
+      # The following new-format restore overwrites this with newer state when available.
+      - name: 기존 형식 이력 캐시 복원 (마이그레이션)
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            crawlers/results.prev.json
+            crawlers/experience-results.prev.json
+            data/history
+            data/opportunity-state.json
+            data/program-series.json
+          key: work-finder-state-${{ github.run_number }}
+          restore-keys: |
+            work-finder-state-
+
       - name: 이전 결과와 누적 이력 복원
         uses: actions/cache/restore@v4
         with:
           path: |
             crawlers/results.prev.json
             crawlers/experience-results.prev.json
+            crawlers/results.last-good.json
+            crawlers/experience-results.last-good.json
             data/history
             data/opportunity-state.json
             data/program-series.json
@@ -69,7 +86,13 @@ jobs:
       - name: 회귀 테스트
         run: npm test
 
-      - name: 크롤링 실행
+      - name: 수집 실패·보존 분석 통합 테스트
+        run: npm run test:resilience:analysis
+
+      - name: 마지막 정상 소스 캐시 초기 복구
+        run: npx tsx crawlers/bootstrap-cache.ts
+
+      - name: 채용 크롤링 실행
         run: npm run crawl
 
       - name: 직무경험 공고 크롤링
@@ -96,6 +119,8 @@ jobs:
           path: |
             crawlers/results.prev.json
             crawlers/experience-results.prev.json
+            crawlers/results.last-good.json
+            crawlers/experience-results.last-good.json
             data/history
             data/opportunity-state.json
             data/program-series.json
@@ -108,6 +133,8 @@ jobs:
           path: |
             crawlers/results.json
             crawlers/experience-results.json
+            crawlers/results.last-good.json
+            crawlers/experience-results.last-good.json
             crawlers/opportunity-events.json
             crawlers/source-health.json
             crawlers/notification-summary.json

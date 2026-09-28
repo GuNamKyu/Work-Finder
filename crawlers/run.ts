@@ -5,7 +5,7 @@ import { deduplicateResults } from './deduplicate.js';
 import type { CrawlResult, SiteConfig, SiteScraper } from './types';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { writeFile } from 'fs/promises';
+import { saveResilientResults } from './resilience.js';
 
 // 개별 사이트 모듈 임포트
 import * as museumGoKr from './sites/museum-go-kr';
@@ -148,7 +148,8 @@ async function main() {
 
   // 결과 저장
   const outputPath = join(__dirname, 'results.json');
-  await writeFile(outputPath, JSON.stringify(results, null, 2));
+  const saved = await saveResilientResults(outputPath, results);
+  console.log(`이전 정상 결과 보존: ${saved.reduce((n, r) => n + (r.retainedCount || 0), 0)}건 (실패 상태는 유지)`);
   console.log(`\n결과 저장: ${outputPath}`);
 
   // 요약
@@ -171,4 +172,4 @@ async function main() {
   }
 }
 
-main().catch(console.error);
+main().catch(error => { console.error(error); process.exitCode = 1; });

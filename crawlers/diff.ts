@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import type { ChangeType, CrawlResult, JobPosting } from './types.js';
 import { enrichPosting, isUserVisiblePosting, normalizedTitle, postingFingerprint } from './opportunity.js';
 import { passesExclusions } from './base.js';
+import { isActive } from '../web/model.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -18,6 +19,7 @@ type HealthStatus = 'OK' | 'ERROR' | 'PARTIAL' | 'ZERO_ANOMALY' | 'COUNT_DROP' |
 interface SourceHealth {
   siteId: string; siteName: string; status: HealthStatus; currentCount: number;
   previousCount: number | null; deadlineCoverage: number; urlCoverage: number; message: string;
+  retainedCount: number; lastSuccessfulAt?: string | null;
 }
 interface OpportunityState {
   firstSeen: string; lastSeen: string; lastFingerprint: string; seenCount: number;
@@ -50,21 +52,23 @@ function coverage(postings: JobPosting[], selector: (posting: JobPosting) => unk
   return Math.round((postings.filter(selector).length / postings.length) * 100);
 }
 
-function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): SourceHealth[] {
+export function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): SourceHealth[] {
   const previousById = new Map(previous.map(result => [result.site.id, result]));
   const now = Date.now();
   return current.map(result => {
     const prev = previousById.get(result.site.id);
-    const currentPostings = result.postings.filter(p => passesExclusions(p, result.site.type || 'job'));
+    const currentPostings = result.postings.filter(p => p.verificationStatus !== 'retained' && passesExclusions(p, result.site.type || 'job'));
     const previousPostings = prev?.postings.filter(p => passesExclusions(p, prev.site.type || 'job')) || [];
-    const currentCount = currentPostings.length;
+    const currentCount = result.observedCount ?? (result.error ? 0 : currentPostings.length);
+    const retainedCount = result.retainedCount || 0;
     const previousCount = prev ? previousPostings.length : null;
     const deadlineCoverage = coverage(currentPostings, p => p.applicationEndAt || p.deadlineDate);
     const urlCoverage = coverage(currentPostings, p => p.url);
     let status: HealthStatus = 'OK';
     let message = '정상 수집';
     if (result.error) {
-      status = 'ERROR'; message = `수집 실패: ${result.error}`;
+      status = currentCount > 0 ? 'PARTIAL' : 'ERROR';
+      message = `수집 ${currentCount > 0 ? '부분 실패' : '실패'}: ${result.error} · 이번 확인 ${currentCount}건 / 이전 확인값 ${retainedCount}건 보존${result.lastSuccessfulAt ? ` · 마지막 전체 성공 ${result.lastSuccessfulAt}` : ''}`;
     } else if (prev?.error) {
       status = 'RECOVERED'; message = `이전 실패에서 복구됨 (${currentCount}건)`;
     } else if (previousCount !== null && previousCount > 0 && currentCount === 0) {
@@ -86,7 +90,7 @@ function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): Source
     if (status === 'OK' && currentPostings.some(p => p.detailStatus === 'failed')) {
       status = 'PARTIAL'; message = `목록 수집 성공, 상세 날짜 수집 ${currentPostings.filter(p => p.detailStatus === 'failed').length}건 실패`;
     }
-    return { siteId: result.site.id, siteName: result.site.name, status, currentCount, previousCount, deadlineCoverage, urlCoverage, message };
+    return { siteId: result.site.id, siteName: result.site.name, status, currentCount, previousCount, deadlineCoverage, urlCoverage, retainedCount, lastSuccessfulAt: result.lastSuccessfulAt, message };
   });
 }
 
@@ -149,6 +153,11 @@ async function main(): Promise<void> {
   const events: OpportunityEvent[] = [];
 
   for (const posting of current) {
+    if (posting.verificationStatus === 'retained') {
+      posting.changeType = 'unchanged';
+      // Cached evidence is not a new discovery or another successful observation.
+      continue;
+    }
     const old = previousById.get(posting.stableId!);
     const similar = previousByTitleOrg.get(titleOrgKey(posting));
     const priorState = state[posting.stableId!];
@@ -180,15 +189,15 @@ async function main(): Promise<void> {
 
   const newTypes: ChangeType[] = ['new', 'reposted', 'reopened', 'resurfaced'];
   // 전체 이벤트는 상태·이력에 보존하고, 사용자용 신규 목록과 알림만 관련성 기준으로 제한한다.
-  const visibleCurrent = current.filter(isUserVisiblePosting);
+  const visibleCurrent = current.filter(p => isUserVisiblePosting(p) && isActive(p));
   const newPostings = events
-    .filter(e => newTypes.includes(e.type) && isUserVisiblePosting(e.posting))
+    .filter(e => newTypes.includes(e.type) && isUserVisiblePosting(e.posting) && isActive(e.posting))
     .map(e => ({ ...e.posting, changeType: e.type }));
   const sourceHealth = analyzeSources(currentResults, previousResults);
   const sourceIssues = sourceHealth.filter(source => !['OK', 'RECOVERED'].includes(source.status));
   const changed = events.filter(e => e.type !== 'unchanged' && e.type !== 'baseline');
-  const visibleChanged = changed.filter(e => isUserVisiblePosting(e.posting));
-  const urgent = events.filter(e => e.type !== 'closed' && isUserVisiblePosting(e.posting) && priority(e.posting) === 'P1')
+  const visibleChanged = changed.filter(e => isUserVisiblePosting(e.posting) && (e.type === 'closed' || isActive(e.posting)));
+  const urgent = events.filter(e => !['closed', 'missing'].includes(e.type) && e.posting.verificationStatus !== 'retained' && !e.posting.retainedSchedule && isUserVisiblePosting(e.posting) && isActive(e.posting) && priority(e.posting) === 'P1')
     .sort((a, b) => (b.posting.fitScore || 0) - (a.posting.fitScore || 0));
   const summary = {
     generatedAt: runAt, baselineCreated: !hasBaseline,
@@ -212,7 +221,7 @@ async function main(): Promise<void> {
   await mkdir(dataDir, { recursive: true });
   await mkdir(join(dataDir, 'history'), { recursive: true });
   const seriesPath = join(dataDir, 'program-series.json');
-  const series = updateSeries(current, await readJson<Record<string, ProgramSeries>>(seriesPath) || {}, runAt);
+  const series = updateSeries(current.filter(p => p.verificationStatus !== 'retained'), await readJson<Record<string, ProgramSeries>>(seriesPath) || {}, runAt);
   const historyRecord = { runAt, totals: summary.totals, events: changed, sourceHealth };
   await Promise.all([
     writeFile(join(__dirname, 'results.json'), JSON.stringify(currentJob, null, 2)),
@@ -229,4 +238,4 @@ async function main(): Promise<void> {
   if (!hasBaseline) console.log('이전 결과가 없어 기준선만 생성했습니다. 첫 실행 항목은 신규 알림으로 보내지 않습니다.');
 }
 
-main().catch(error => { console.error(error); process.exitCode = 1; });
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) main().catch(error => { console.error(error); process.exitCode = 1; });

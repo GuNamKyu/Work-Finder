@@ -28,6 +28,8 @@ dist-ssr
 
 # Crawler results (runtime generated)
 crawlers/results.json
+crawlers/results.last-good.json
+crawlers/experience-results.last-good.json
 crawlers/verify-results.json
 crawlers/new-postings.json
 crawlers/experience-results.json

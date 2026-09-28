@@ -9,6 +9,8 @@ import { writeFile, mkdir } from 'fs/promises';
 import { enrichPosting } from './opportunity.js';
 import { passesExclusions } from './base.js';
 import { enrichDetailDates } from './detail-dates.js';
+import { saveResilientResults } from './resilience.js';
+import { PartialCrawlError } from './partial-crawl.js';
 
 import * as csvCulture from './sites/experience/csv-culture';
 import * as portal1365 from './sites/experience/1365';
@@ -28,7 +30,7 @@ const sites: [SiteConfig, ExpScraper][] = [
   [museumNotice.config, museumNotice.scrape],
 ];
 
-const SITE_TIMEOUT_MS = 120_000;
+const SITE_TIMEOUT_MS = 180_000;
 
 async function crawlExperience(
   browser: Browser,
@@ -41,18 +43,25 @@ async function crawlExperience(
     locale: 'ko-KR',
   });
   const page = await context.newPage();
+  let collected: JobPosting[] = [];
 
   const run = async (): Promise<CrawlResult> => {
     try {
-      const raw = (await scraper(page)).filter(p => passesExclusions(p, 'experience'));
-      const dated = await enrichDetailDates(page, raw);
+      let collectionError: string | undefined;
+      try { collected = await scraper(page); }
+      catch (err) {
+        if (!(err instanceof PartialCrawlError)) throw err;
+        collected = err.postings; collectionError = err.message;
+      }
+      collected = collected.filter(p => passesExclusions(p, 'experience'));
+      const dated = await enrichDetailDates(page, collected);
       const postings = dated
         .map(p => enrichPosting({ ...p, postingType: 'experience', experienceType: p.experienceType || 'volunteer' }, config.id))
-        .filter(p => p.lifecycleStatus !== 'closed');
+        .filter(p => collectionError || p.lifecycleStatus !== 'closed');
       const unresolved = postings.filter(p => p.detailWarning).length;
-      return { site: config, postings, crawledAt, warnings: unresolved ? [`${unresolved}건의 상세 접수기간 미확인 (공고별 detailWarning 참고)`] : [] };
+      return { site: config, postings, crawledAt, error: collectionError, warnings: unresolved ? [`${unresolved}건의 상세 접수기간 미확인 (공고별 detailWarning 참고)`] : [] };
     } catch (err: any) {
-      return { site: config, postings: [], crawledAt, error: err?.message || 'Unknown error' };
+      return { site: config, postings: collected.map(p => enrichPosting({ ...p, postingType: 'experience', experienceType: p.experienceType || 'volunteer' }, config.id)), crawledAt, error: err?.message || 'Unknown error' };
     } finally {
       await context.close().catch(() => {});
     }
@@ -65,7 +74,7 @@ async function crawlExperience(
 
   return Promise.race([run(), timeoutPromise]).catch((err: any) => ({
     site: config,
-    postings: [],
+    postings: collected.map(p => enrichPosting({ ...p, postingType: 'experience', experienceType: p.experienceType || 'volunteer' }, config.id)),
     crawledAt,
     error: err?.message || 'Unknown error',
   })).finally(async () => { clearTimeout(timer); await context.close().catch(() => {}); });
@@ -113,13 +122,14 @@ async function main() {
   await browser.close();
 
   const outputPath = join(__dirname, 'experience-results.json');
-  await writeFile(outputPath, JSON.stringify(results, null, 2));
+  const saved = await saveResilientResults(outputPath, results);
+  console.log(`이전 정상 결과 보존: ${saved.reduce((n, r) => n + (r.retainedCount || 0), 0)}건 (실패 상태는 유지)`);
   if (!targetId) {
     await mkdir(join(__dirname, '..', 'data'), { recursive: true });
     await writeFile(join(__dirname, '..', 'data', 'program-catalog.json'), JSON.stringify({
       checkedAt: new Date().toISOString(),
       note: '사업 안내이며 현재 모집 중임을 보장하지 않음. 운영기간과 접수기간을 분리한다.',
-      programs: results.flatMap(r => r.postings.filter(p => p.recordKind === 'program_info').map(p => ({ ...p, siteId: r.site.id }))),
+      programs: saved.flatMap(r => r.postings.filter(p => p.recordKind === 'program_info').map(p => ({ ...p, siteId: r.site.id }))),
     }, null, 2));
   }
   console.log(`\n결과 저장: ${outputPath}`);
@@ -136,4 +146,4 @@ async function main() {
   console.log(`소요 시간: ${elapsed}초`);
 }
 
-main().catch(console.error);
+main().catch(error => { console.error(error); process.exitCode = 1; });

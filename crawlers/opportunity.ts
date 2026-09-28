@@ -86,15 +86,15 @@ function parseDate(value: string | null | undefined): Date | null {
 
 export function classifyLifecycle(posting: JobPosting, now = new Date()): LifecycleStatus {
   const text = `${posting.status || ''} ${posting.title}`;
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const todayKey = now.toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' });
+  const today = parseDate(todayKey)!;
   const deadline = parseDate(posting.applicationEndAt || posting.deadlineDate);
   const posted = parseDate(posting.postedAt || posting.regDate);
 
-  const todayKey = now.toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' });
   if (/^(마감|종료|모집완료|접수완료|closed)$/i.test(posting.status || '') || (deadline && (posting.applicationEndAt || posting.deadlineDate || '') < todayKey)) return 'closed';
   if (/상시|수시|채용시|충원시|rolling/i.test(text)) return 'rolling';
   if (posted && today.getTime() - posted.getTime() > 31 * DAY_MS) {
-    return deadline && deadline >= today ? 'active_long' : 'stale_unknown';
+    return (deadline && deadline >= today) || /^(모집중|접수중)$/.test(posting.status || '') ? 'active_long' : 'stale_unknown';
   }
   return 'fresh';
 }

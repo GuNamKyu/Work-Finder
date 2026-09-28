@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-28",
+  "scope": "수집 실패 보존, 부분 결과, 기간 경계, 경고 UI, 알림·이력 정확성",
+  "local": {
+    "typecheck": "passed",
+    "unitTests": "47 passed",
+    "existingUiRegression": "passed: 즐겨찾기, 스케줄러, 모바일, 동일 크기 버튼, 숨김 학습·내보내기·해제, 사업 안내",
+    "resilienceUiRegression": "passed: 오류 소스 보존, 실패 경고, 미확인 보기, 실패 빈 목록, 즐겨찾기·달력, 모바일",
+    "analysisIntegration": "passed: 보존 자료의 신규·긴급·관측 횟수·패턴 오인 없음"
+  },
+  "liveReadOnlyChecks": {
+    "culture": { "excludedKeywordPassed": 32, "collectionError": null, "note": "화면 노출 건수와 다름" },
+    "1365": { "excludedKeywordPassedAndNotClosed": 7, "collectionError": null },
+    "nrich": { "multiplePageCollection": "passed", "twoEarlierMissingPostings": [{ "bbs_idx": "48368", "applicationEndAt": "2026-09-18" }, { "bbs_idx": "48355", "applicationEndAt": "2026-09-11" }], "note": "두 공고는 정상 종료 제외; 복원하지 않음" }
+  },
+  "preserved": ["제외 키워드 우선", "개인 숨김", "숨김 학습·수동 내보내기", "지원 불가·비대상·후속 공지 필터", "즐겨찾기 사본·일정", "버튼 크기"],
+  "userBrowserRecordsModified": false,
+  "deployment": { "status": "not yet deployed" }
+}

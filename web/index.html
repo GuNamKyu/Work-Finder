@@ -783,6 +783,11 @@ body {
   </div>
 </header>
 <p id="app-message" role="alert"></p>
+<section id="collection-warning" role="status" aria-live="polite" hidden></section>
+<div id="unverified-controls" class="extra-controls">
+  <label><input type="checkbox" id="include-unverified"> 오래된·모집 여부 미확인 공고도 보기</label>
+  <small>기본 목록에서는 제외합니다. 확인된 마감·제외 키워드·개인 숨김은 그대로 적용합니다.</small>
+</div>
 <div id="experience-controls" class="extra-controls" hidden>
   <label>정보 구분 <select id="record-kind"><option value="recruitment">모집 공고</option><option value="program_info">사업 안내·모집 확인 대기</option></select></label>
   <label>경험 유형 <select id="experience-type"></select></label>

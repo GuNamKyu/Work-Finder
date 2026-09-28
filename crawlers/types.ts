@@ -37,6 +37,9 @@ export interface JobPosting {
   userVisible?: boolean;
   eligibilityStatus?: EligibilityStatus;
   eligibilityReasons?: string[];
+  verificationStatus?: 'current' | 'retained';
+  lastConfirmedAt?: string;
+  retainedSchedule?: boolean;
 }
 
 export type RelevanceTier = 'target' | 'adjacent' | 'low_relevance' | 'administrative_notice';
@@ -99,6 +102,9 @@ export interface CrawlResult {
   crawledAt: string;
   error?: string;
   warnings?: string[];
+  observedCount?: number;
+  retainedCount?: number;
+  lastSuccessfulAt?: string | null;
 }
 
 export type SiteScraper = (page: import('playwright').Page, config: SiteConfig) => Promise<JobPosting[]>;

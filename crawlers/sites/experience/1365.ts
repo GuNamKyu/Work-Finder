@@ -8,6 +8,8 @@
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../../types';
 import { truncate } from '../../base';
+import { openList, submitList } from '../../navigation.js';
+import { PartialCrawlError } from '../../partial-crawl.js';
 
 export const config: SiteConfig = {
   id: '1365-volunteer',
@@ -29,8 +31,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
 
   for (const region of REGIONS) {
     try {
-      await page.goto(config.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(2000);
+      await openList(page, config.url, '#searchHopeArea1');
 
       // 봉사지역 시/도 선택
       await page.selectOption('#searchHopeArea1', { value: region.value });
@@ -40,20 +41,20 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       await page.fill('#searchKeyword', '박물관');
 
       // 검색 버튼 클릭 (id: btnSearch)
-      await page.click('#btnSearch');
-      await page.waitForTimeout(3000);
+      await submitList(page, () => page.click('#btnSearch'), '#searchHopeArea1');
 
       // 최대 3페이지 수집
       for (let pageNum = 1; pageNum <= 3; pageNum++) {
         if (pageNum > 1) {
-          const paginated = await page.evaluate((n) => {
+          const paginated = await page.evaluate((n) => Array.from(document.querySelectorAll('a'))
+            .some(a => a.textContent?.trim() === String(n) && a.getAttribute('onclick')?.includes('goPage')), pageNum);
+          if (!paginated) break;
+          await submitList(page, () => page.evaluate((n) => {
             const links = Array.from(document.querySelectorAll('a'));
             const link = links.find(a => a.textContent?.trim() === String(n) && a.getAttribute('onclick')?.includes('goPage'));
             if (link) { (link as HTMLElement).click(); return true; }
             return false;
-          }, pageNum);
-          if (!paginated) break;
-          await page.waitForTimeout(2500);
+          }, pageNum), '#searchHopeArea1');
         }
 
         // a.list[href*="show("] 로 공고 링크 수집
@@ -126,8 +127,10 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
             regDate: '',
             deadlineDate: null,
             url,
+            region: item.region,
             status: item.status || '',
             postingType: 'experience',
+            experienceType: 'volunteer',
           });
         }
       }
@@ -138,7 +141,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
   }
 
   if (failures.length > 0) {
-    throw new Error(`지역별 수집 실패(${failures.length}/${REGIONS.length}) — ${failures.join(' / ')}`);
+    throw new PartialCrawlError(`지역별 수집 실패(${failures.length}/${REGIONS.length}) — ${failures.join(' / ')}`, allPostings);
   }
 
   return allPostings;

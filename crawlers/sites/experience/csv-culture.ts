@@ -13,6 +13,8 @@
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../../types';
 import { normalizeDate, truncate } from '../../base';
+import { openList, submitList } from '../../navigation.js';
+import { PartialCrawlError } from '../../partial-crawl.js';
 
 export const config: SiteConfig = {
   id: 'csv-culture',
@@ -26,8 +28,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
   const seen = new Set<string>();
 
   try {
-    await page.goto(config.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(2000);
+    await openList(page, config.url, '#simpleSearchCondition4');
 
     // 간단검색 탭(tab01) 활성화
     await page.evaluate(() => {
@@ -53,7 +54,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     await page.waitForTimeout(300);
 
     // 간단검색 폼 제출 (사이트의 실제 함수: simple_fn_list)
-    await page.evaluate(() => {
+    await submitList(page, () => page.evaluate(() => {
       if (typeof (window as any).simple_fn_list === 'function') {
         (window as any).simple_fn_list(1);
       } else {
@@ -61,15 +62,20 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
         const btn = document.querySelector<HTMLElement>(
           '#tabs-01 button.icon-search, #tabs-01 button[title="검색"]'
         );
-        if (btn) btn.click();
+        if (!btn) throw new Error('문화품앗이 검색 제출 함수를 찾지 못함');
+        btn.click();
       }
-    });
-    await page.waitForTimeout(3000);
+    }), 'table tbody');
 
     // 최대 10페이지 수집
     for (let pageNum = 1; pageNum <= 10; pageNum++) {
       if (pageNum > 1) {
         const hasNextPage = await page.evaluate((n) => {
+          return Array.from(document.querySelectorAll('.pagination a, .paging a, a[onclick], a[href^="javascript:"]'))
+            .some(a => a.textContent?.trim() === String(n) && /simple_fn_list|fn_list/.test((a.getAttribute('onclick') || '') + (a.getAttribute('href') || '')));
+        }, pageNum);
+        if (!hasNextPage) break;
+        await submitList(page, () => page.evaluate((n) => {
           // 간단검색 페이지네이션: simple_fn_list(n)
           if (typeof (window as any).simple_fn_list === 'function') {
             (window as any).simple_fn_list(n);
@@ -80,9 +86,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
           const pageLink = links.find(a => a.textContent?.trim() === String(n)) as HTMLElement | null;
           if (pageLink) { pageLink.click(); return true; }
           return false;
-        }, pageNum);
-        if (!hasNextPage) break;
-        await page.waitForTimeout(3000);
+        }, pageNum), 'table tbody');
       }
 
       const rows = await page.$$eval('table tbody tr', (trs) => {
@@ -109,10 +113,12 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
 
       if (rows.length === 0) break;
 
+      let added = 0;
       for (const row of rows as any[]) {
-        const key = row.title;
+        const key = row.href || row.title;
         if (seen.has(key)) continue;
         seen.add(key);
+        added++;
 
         const dateMatches = row.recruitPeriod.match(/\d{4}\.\d{2}\.\d{2}/g) || [];
         const regDate = dateMatches[0] ? normalizeDate(dateMatches[0]) : '';
@@ -142,10 +148,11 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
           experienceType: 'volunteer',
         });
       }
+      if (!added) break;
     }
   } catch (err: any) {
     console.error('[csv-culture] 크롤링 실패:', err?.message);
-    throw err;
+    throw new PartialCrawlError(err?.message || '문화품앗이 수집 실패', allPostings);
   }
 
   return allPostings;

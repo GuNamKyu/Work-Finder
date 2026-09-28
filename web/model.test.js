@@ -32,3 +32,9 @@ test('추정 접수일 제외, 원문 링크 프로토콜 제한, 명시적 마�
   assert.equal(isActive({ deadlineDate: '2026-09-27' }, '2026-09-27'), true);
   assert.equal(isActive({ deadlineDate: '2026-09-26' }, '2026-09-27'), false);
 });
+
+test('보존 공고로 즐겨찾기의 마지막 실제 확인 시각을 새로 늘리지 않음', () => {
+  const saved = syncFavorites(emptyFavorites(), [p], [legacyKey(p)], '2026-09-27T00:00:00Z');
+  const next = syncFavorites(saved, [{ ...p, verificationStatus: 'retained', lastConfirmedAt: '2026-09-27T00:00:00Z' }], [], '2026-09-28T00:00:00Z');
+  assert.equal(next.records[identity(p)].lastSeenAt, '2026-09-27T00:00:00Z');
+});

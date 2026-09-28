@@ -37,17 +37,26 @@ export function syncFavorites(store, postings, legacy = [], now = new Date().toI
       const old = scheduleOf(record.posting, true);
       const fresh = scheduleOf(p, true);
       merged.scheduleEvents = [...fresh, ...old.filter(e => !fresh.some(n => n.type === e.type))];
-      next.records[id] = { ...record, posting: merged, lastSeenAt: now, missingFromLatest: false, retainedDates: old.some(e => !fresh.some(n => n.type === e.type)) };
+      next.records[id] = { ...record, posting: merged, lastSeenAt: p.verificationStatus === 'retained' ? record.lastSeenAt || p.lastConfirmedAt : now, missingFromLatest: false, retainedDates: old.some(e => !fresh.some(n => n.type === e.type)) };
     } else next.records[id] = { ...record, missingFromLatest: true };
   }
   return next;
 }
-export function isActive(p, today = todayKST()) {
-  if (p.lifecycleStatus === 'closed' || p.lifecycleStatus === 'stale_unknown') return false;
+export function isActive(p, today = todayKST(), includeUnverified = false) {
+  if (p.lifecycleStatus === 'closed' || /^(마감|종료|모집완료|접수완료|closed)$/i.test(p.status || '')) return false;
   const end = p.applicationEndAt || p.deadlineDate;
-  return !validDate(end) || end >= today;
+  if (validDate(end) && end < today) return false;
+  const expiredEvidence = p.verificationStatus === 'retained' && !validDate(end) && p.recordKind !== 'program_info'
+    && (!p.lastConfirmedAt || Date.parse(`${today}T00:00:00+09:00`) - Date.parse(p.lastConfirmedAt) > 7 * 86400000);
+  return includeUnverified || (p.lifecycleStatus !== 'stale_unknown' && !expiredEvidence);
 }
 export function flattenResults(results) {
-  return results.flatMap(r => r.error ? [] : r.postings.map(p => ({ ...p, siteId: r.site.id, siteName: r.site.name, siteUrl: r.site.url, postingType: p.postingType || r.site.type || 'job' })));
+  return results.flatMap(r => r.postings.map(p => ({ ...p, siteId: r.site.id, siteName: r.site.name, siteUrl: r.site.url, postingType: p.postingType || r.site.type || 'job', sourceError: r.error || null })));
+}
+export function relevantSources(sources, mode, activeSite = '', type = 'all') {
+  const types = { 'work24-youth': ['internship', 'work_experience', 'project'], 'gjf-youth': ['recurring_program', 'work_experience', 'counseling', 'training', 'financial_support'], 'csv-culture': ['volunteer'], '1365-volunteer': ['volunteer'], 'museum-notice-volunteer': ['volunteer'] };
+  return sources.filter(r => (!['job', 'experience'].includes(mode) || (r.site.type || 'job') === mode)
+    && (!activeSite || r.site.id === activeSite)
+    && (mode !== 'experience' || type === 'all' || (types[r.site.id] || r.postings.map(p => p.experienceType)).some(t => type === 'nonvolunteer' ? t !== 'volunteer' : t === type)));
 }
 export function safeUrl(value) { try { const u = new URL(value); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } }
