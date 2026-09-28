@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { reconcileResults } from './resilience.js';
-import { analyzeSources } from './diff.js';
+import { analyzeSources, changeForKnownState } from './diff.js';
 import { flattenResults, isActive } from '../web/model.js';
 import type { CrawlResult, JobPosting } from './types.js';
 
@@ -84,4 +84,12 @@ test('부분 수집에서 확인한 종료 공고는 이전 모집중 사본으�
   assert.equal(isActive(first.results[0].postings[0], '2026-09-28'), false);
   const next = reconcileResults([source([], '전체 실패')], first.results, first.cache, now);
   assert.equal(isActive(next.results[0].postings[0], '2026-09-28'), false);
+});
+
+test('같은 날 실패 후 재수집해도 누적 이력에 있는 ID를 신규로 보지 않음', () => {
+  const prior = { firstSeen: good.crawledAt, lastSeen: good.crawledAt, lastFingerprint: 'same', seenCount: 2, lastStatus: 'fresh', seenDates: ['2026-09-28'] };
+  assert.equal(changeForKnownState(prior, 'same', true), 'unchanged');
+  assert.equal(changeForKnownState(prior, 'changed', true), 'updated');
+  assert.equal(changeForKnownState(prior, 'same', false), 'resurfaced');
+  assert.equal(changeForKnownState({ ...prior, lastStatus: 'closed' }, 'same', true), 'reopened');
 });

@@ -3,17 +3,539 @@
   "scope": "수집 실패 보존, 부분 결과, 기간 경계, 경고 UI, 알림·이력 정확성",
   "local": {
     "typecheck": "passed",
-    "unitTests": "47 passed",
+    "unitTests": "48 passed",
     "existingUiRegression": "passed: 즐겨찾기, 스케줄러, 모바일, 동일 크기 버튼, 숨김 학습·내보내기·해제, 사업 안내",
     "resilienceUiRegression": "passed: 오류 소스 보존, 실패 경고, 미확인 보기, 실패 빈 목록, 즐겨찾기·달력, 모바일",
     "analysisIntegration": "passed: 보존 자료의 신규·긴급·관측 횟수·패턴 오인 없음"
   },
   "liveReadOnlyChecks": {
-    "culture": { "excludedKeywordPassed": 32, "collectionError": null, "note": "화면 노출 건수와 다름" },
-    "1365": { "excludedKeywordPassedAndNotClosed": 7, "collectionError": null },
-    "nrich": { "multiplePageCollection": "passed", "twoEarlierMissingPostings": [{ "bbs_idx": "48368", "applicationEndAt": "2026-09-18" }, { "bbs_idx": "48355", "applicationEndAt": "2026-09-11" }], "note": "두 공고는 정상 종료 제외; 복원하지 않음" }
+    "1365": {
+      "excludedKeywordPassedAndNotClosed": 7,
+      "collectionError": null
+    },
+    "culture": {
+      "excludedKeywordPassed": 32,
+      "collectionError": null,
+      "note": "화면 노출 건수와 다름"
+    },
+    "nrich": {
+      "multiplePageCollection": "passed",
+      "twoEarlierMissingPostings": [
+        {
+          "bbs_idx": "48368",
+          "applicationEndAt": "2026-09-18"
+        },
+        {
+          "bbs_idx": "48355",
+          "applicationEndAt": "2026-09-11"
+        }
+      ],
+      "note": "두 공고는 정상 종료 제외; 복원하지 않음"
+    }
   },
-  "preserved": ["제외 키워드 우선", "개인 숨김", "숨김 학습·수동 내보내기", "지원 불가·비대상·후속 공지 필터", "즐겨찾기 사본·일정", "버튼 크기"],
+  "preserved": [
+    "제외 키워드 우선",
+    "개인 숨김",
+    "숨김 학습·수동 내보내기",
+    "지원 불가·비대상·후속 공지 필터",
+    "즐겨찾기 사본·일정",
+    "버튼 크기"
+  ],
   "userBrowserRecordsModified": false,
-  "deployment": { "status": "not yet deployed" }
+  "migrationNewDuplicateCorrection": {
+    "confirmedPreviousPostingsMarkedNew": 11,
+    "culture": 6,
+    "1365": 5,
+    "fix": "같은 날도 누적 이력을 참조하며, 실패 후 복구는 unchanged/updated로 분류",
+    "regression": "passed",
+    "deployment": "pending"
+  },
+  "deployment": {
+    "status": "verified",
+    "checkedAt": "2026-09-28T07:57:56.898Z",
+    "url": "https://gunamkyu.github.io/Work-Finder/",
+    "runId": 36392949091,
+    "functionalCommit": "fe975c6858a02a9552804c524b88bce28a8bd974",
+    "countsWithoutPersonalHidden": {
+      "jobs": 25,
+      "nonvolunteer": 49,
+      "volunteer": 39,
+      "programInfo": 6
+    },
+    "sources": [
+      {
+        "siteId": "museum-go-kr",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:41:28.206Z",
+        "crawledAt": "2026-09-28T07:41:28.206Z",
+        "visible": 1
+      },
+      {
+        "siteId": "gogung",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:41:35.850Z",
+        "crawledAt": "2026-09-28T07:41:35.850Z",
+        "visible": 0
+      },
+      {
+        "siteId": "nrich",
+        "observed": 13,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:42:09.690Z",
+        "crawledAt": "2026-09-28T07:42:09.690Z",
+        "visible": 3
+      },
+      {
+        "siteId": "nfm",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:42:16.322Z",
+        "crawledAt": "2026-09-28T07:42:16.322Z",
+        "visible": 0
+      },
+      {
+        "siteId": "ncs",
+        "observed": 5,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:43:09.729Z",
+        "crawledAt": "2026-09-28T07:43:09.729Z",
+        "visible": 0
+      },
+      {
+        "siteId": "much",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:43:14.336Z",
+        "crawledAt": "2026-09-28T07:43:14.336Z",
+        "visible": 0
+      },
+      {
+        "siteId": "gmuseum",
+        "observed": 4,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:43:24.155Z",
+        "crawledAt": "2026-09-28T07:43:24.155Z",
+        "visible": 0
+      },
+      {
+        "siteId": "hangeul",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:43:29.195Z",
+        "crawledAt": "2026-09-28T07:43:29.195Z",
+        "visible": 0
+      },
+      {
+        "siteId": "gojobs",
+        "observed": 0,
+        "retained": 2,
+        "error": "사이트 타임아웃 (90초 초과)",
+        "lastSuccessfulAt": "2026-09-28T01:10:41.812Z",
+        "crawledAt": "2026-09-28T07:44:59.207Z",
+        "visible": 1
+      },
+      {
+        "siteId": "kaah",
+        "observed": 15,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:45:13.197Z",
+        "crawledAt": "2026-09-28T07:45:13.197Z",
+        "visible": 10
+      },
+      {
+        "siteId": "khs",
+        "observed": 0,
+        "retained": 4,
+        "error": "사이트 타임아웃 (90초 초과)",
+        "lastSuccessfulAt": "2026-09-28T01:11:10.831Z",
+        "crawledAt": "2026-09-28T07:46:43.205Z",
+        "visible": 3
+      },
+      {
+        "siteId": "museum-seoul",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:46:49.131Z",
+        "crawledAt": "2026-09-28T07:46:49.131Z",
+        "visible": 0
+      },
+      {
+        "siteId": "baekje",
+        "observed": 2,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:46:56.533Z",
+        "crawledAt": "2026-09-28T07:46:56.533Z",
+        "visible": 0
+      },
+      {
+        "siteId": "craftmuseum",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:06.097Z",
+        "crawledAt": "2026-09-28T07:47:06.097Z",
+        "visible": 0
+      },
+      {
+        "siteId": "yongsan",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:12.512Z",
+        "crawledAt": "2026-09-28T07:47:12.512Z",
+        "visible": 0
+      },
+      {
+        "siteId": "ep-museum",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:17.799Z",
+        "crawledAt": "2026-09-28T07:47:17.799Z",
+        "visible": 0
+      },
+      {
+        "siteId": "namu-sdm",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:22.957Z",
+        "crawledAt": "2026-09-28T07:47:22.957Z",
+        "visible": 0
+      },
+      {
+        "siteId": "warmemo",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:35.573Z",
+        "crawledAt": "2026-09-28T07:47:35.573Z",
+        "visible": 0
+      },
+      {
+        "siteId": "nmkpg",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:43.891Z",
+        "crawledAt": "2026-09-28T07:47:43.891Z",
+        "visible": 0
+      },
+      {
+        "siteId": "kimkoo",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:48.382Z",
+        "crawledAt": "2026-09-28T07:47:48.382Z",
+        "visible": 0
+      },
+      {
+        "siteId": "seosomun",
+        "observed": 2,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:47:54.867Z",
+        "crawledAt": "2026-09-28T07:47:54.867Z",
+        "visible": 0
+      },
+      {
+        "siteId": "jfac",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:48:01.136Z",
+        "crawledAt": "2026-09-28T07:48:01.136Z",
+        "visible": 0
+      },
+      {
+        "siteId": "cha",
+        "observed": 0,
+        "retained": 4,
+        "error": "사이트 타임아웃 (90초 초과)",
+        "lastSuccessfulAt": "2026-09-28T01:12:56.583Z",
+        "crawledAt": "2026-09-28T07:49:31.140Z",
+        "visible": 3
+      },
+      {
+        "siteId": "musenet",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:49:39.741Z",
+        "crawledAt": "2026-09-28T07:49:39.741Z",
+        "visible": 0
+      },
+      {
+        "siteId": "gcm",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:49:47.694Z",
+        "crawledAt": "2026-09-28T07:49:47.694Z",
+        "visible": 0
+      },
+      {
+        "siteId": "ngcm",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:49:57.408Z",
+        "crawledAt": "2026-09-28T07:49:57.408Z",
+        "visible": 0
+      },
+      {
+        "siteId": "jgpm",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:50:05.376Z",
+        "crawledAt": "2026-09-28T07:50:05.376Z",
+        "visible": 0
+      },
+      {
+        "siteId": "silhak",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:50:13.523Z",
+        "crawledAt": "2026-09-28T07:50:13.523Z",
+        "visible": 0
+      },
+      {
+        "siteId": "gjicp",
+        "observed": 2,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:50:23.889Z",
+        "crawledAt": "2026-09-28T07:50:23.889Z",
+        "visible": 0
+      },
+      {
+        "siteId": "bcmuseum",
+        "observed": 6,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:50:29.144Z",
+        "crawledAt": "2026-09-28T07:50:29.144Z",
+        "visible": 0
+      },
+      {
+        "siteId": "nyj",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:50:46.140Z",
+        "crawledAt": "2026-09-28T07:50:46.140Z",
+        "visible": 0
+      },
+      {
+        "siteId": "hnart",
+        "observed": 2,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:50:51.816Z",
+        "crawledAt": "2026-09-28T07:50:51.816Z",
+        "visible": 1
+      },
+      {
+        "siteId": "hsmuseum",
+        "observed": 2,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:50:59.215Z",
+        "crawledAt": "2026-09-28T07:50:59.215Z",
+        "visible": 0
+      },
+      {
+        "siteId": "anseong",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:51:06.856Z",
+        "crawledAt": "2026-09-28T07:51:06.856Z",
+        "visible": 0
+      },
+      {
+        "siteId": "artic",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:51:13.017Z",
+        "crawledAt": "2026-09-28T07:51:13.017Z",
+        "visible": 0
+      },
+      {
+        "siteId": "ddc",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:51:18.190Z",
+        "crawledAt": "2026-09-28T07:51:18.190Z",
+        "visible": 0
+      },
+      {
+        "siteId": "history-seoul",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:51:34.698Z",
+        "crawledAt": "2026-09-28T07:51:34.698Z",
+        "visible": 0
+      },
+      {
+        "siteId": "job-gg",
+        "observed": 0,
+        "retained": 0,
+        "error": "page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:1:176)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+        "lastSuccessfulAt": null,
+        "crawledAt": "2026-09-28T07:51:38.791Z",
+        "visible": 0
+      },
+      {
+        "siteId": "museum-or-kr",
+        "observed": 5,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:51:46.584Z",
+        "crawledAt": "2026-09-28T07:51:46.584Z",
+        "visible": 2
+      },
+      {
+        "siteId": "seoul",
+        "observed": 2,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:51:51.175Z",
+        "crawledAt": "2026-09-28T07:51:51.175Z",
+        "visible": 0
+      },
+      {
+        "siteId": "korea-kr",
+        "observed": 1,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:51:57.705Z",
+        "crawledAt": "2026-09-28T07:51:57.705Z",
+        "visible": 0
+      },
+      {
+        "siteId": "kdp-aks",
+        "observed": 3,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:52:20.218Z",
+        "crawledAt": "2026-09-28T07:52:20.218Z",
+        "visible": 1
+      },
+      {
+        "siteId": "work24-youth",
+        "observed": 136,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:52:21.325Z",
+        "crawledAt": "2026-09-28T07:52:21.325Z",
+        "visible": 49
+      },
+      {
+        "siteId": "gjf-youth",
+        "observed": 0,
+        "retained": 6,
+        "error": "page.goto: net::ERR_CONNECTION_RESET at https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305\nCall log:\n  - navigating to \"https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305\", waiting until \"domcontentloaded\"\n",
+        "lastSuccessfulAt": "2026-09-28T00:30:32.599Z",
+        "crawledAt": "2026-09-28T07:52:29.559Z",
+        "visible": 6
+      },
+      {
+        "siteId": "csv-culture",
+        "observed": 32,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:52:30.321Z",
+        "crawledAt": "2026-09-28T07:52:30.321Z",
+        "visible": 32
+      },
+      {
+        "siteId": "1365-volunteer",
+        "observed": 7,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:53:46.622Z",
+        "crawledAt": "2026-09-28T07:53:46.622Z",
+        "visible": 7
+      },
+      {
+        "siteId": "museum-notice-volunteer",
+        "observed": 0,
+        "retained": 0,
+        "error": null,
+        "lastSuccessfulAt": "2026-09-28T07:54:39.204Z",
+        "crawledAt": "2026-09-28T07:54:39.204Z",
+        "visible": 0
+      }
+    ],
+    "healthIssues": [
+      {
+        "siteId": "gojobs",
+        "status": "ERROR",
+        "currentCount": 0,
+        "retainedCount": 2
+      },
+      {
+        "siteId": "kaah",
+        "status": "PARTIAL",
+        "currentCount": 15,
+        "retainedCount": 0
+      },
+      {
+        "siteId": "khs",
+        "status": "ERROR",
+        "currentCount": 0,
+        "retainedCount": 4
+      },
+      {
+        "siteId": "warmemo",
+        "status": "PARTIAL",
+        "currentCount": 1,
+        "retainedCount": 0
+      },
+      {
+        "siteId": "seosomun",
+        "status": "PARTIAL",
+        "currentCount": 2,
+        "retainedCount": 0
+      },
+      {
+        "siteId": "cha",
+        "status": "ERROR",
+        "currentCount": 0,
+        "retainedCount": 4
+      },
+      {
+        "siteId": "job-gg",
+        "status": "ERROR",
+        "currentCount": 0,
+        "retainedCount": 0
+      },
+      {
+        "siteId": "gjf-youth",
+        "status": "ERROR",
+        "currentCount": 0,
+        "retainedCount": 6
+      }
+    ]
+  }
 }

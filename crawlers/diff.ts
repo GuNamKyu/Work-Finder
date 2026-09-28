@@ -130,6 +130,12 @@ function priority(posting: JobPosting): string {
   return 'P4';
 }
 
+export function changeForKnownState(prior: OpportunityState, fingerprint: string, sourcePreviouslyFailed: boolean): ChangeType {
+  if (prior.lastStatus === 'closed') return 'reopened';
+  if (sourcePreviouslyFailed) return prior.lastFingerprint === fingerprint ? 'unchanged' : 'updated';
+  return 'resurfaced';
+}
+
 async function main(): Promise<void> {
   const runAt = new Date().toISOString();
   const currentJob = await readJson<CrawlResult[]>(join(__dirname, 'results.json'));
@@ -145,6 +151,7 @@ async function main(): Promise<void> {
   const previousResults = [...(previousJob || []), ...(previousExperience || [])];
   const current = flatten(currentResults), previous = flatten(previousResults);
   const sourcesWithBaseline = new Set(previousResults.map(result => result.site.id));
+  const previouslyFailedSources = new Set(previousResults.filter(result => result.error).map(result => result.site.id));
   const previousById = new Map(previous.map(posting => [posting.stableId!, posting]));
   const previousByTitleOrg = new Map(previous.map(posting => [titleOrgKey(posting), posting]));
   const currentIds = new Set(current.map(posting => posting.stableId!));
@@ -161,16 +168,16 @@ async function main(): Promise<void> {
     const old = previousById.get(posting.stableId!);
     const similar = previousByTitleOrg.get(titleOrgKey(posting));
     const priorState = state[posting.stableId!];
+    const fingerprint = postingFingerprint(posting);
     let type: ChangeType;
-    if (!sourcesWithBaseline.has(posting.siteId)) type = 'baseline';
-    else if (old) type = postingFingerprint(old) === postingFingerprint(posting) ? 'unchanged' : 'updated';
-    else if (priorState && priorState.lastSeen.slice(0, 10) < runAt.slice(0, 10)) type = 'resurfaced';
+    if (!sourcesWithBaseline.has(posting.siteId) && !priorState) type = 'baseline';
+    else if (old) type = postingFingerprint(old) === fingerprint ? 'unchanged' : 'updated';
+    else if (priorState) type = changeForKnownState(priorState, fingerprint, previouslyFailedSources.has(posting.siteId));
     else if (similar?.lifecycleStatus === 'closed') type = 'reopened';
     else if (similar) type = 'reposted';
     else type = 'new';
     posting.changeType = type;
     events.push({ runAt, type, stableId: posting.stableId!, siteId: posting.siteId, siteName: posting.siteName, posting, previous: old });
-    const fingerprint = postingFingerprint(posting);
     state[posting.stableId!] = {
       firstSeen: priorState?.firstSeen || runAt, lastSeen: runAt, lastFingerprint: fingerprint,
       seenCount: (priorState?.seenCount || 0) + 1, lastStatus: posting.lifecycleStatus || 'fresh',
