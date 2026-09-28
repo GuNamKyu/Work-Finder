@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-09-28T00:34:52.598Z",
+  "commit": "a9b9a38",
+  "workflowRunId": 36361968359,
+  "workflowUrl": "https://github.com/GuNamKyu/Work-Finder/actions/runs/36361968359",
+  "websiteUrl": "https://gunamkyu.github.io/Work-Finder/",
+  "workflowConclusion": "success",
+  "discord": {
+    "webhookSecretConfigured": true,
+    "dailySummarySent": true,
+    "evidence": "Completed workflow log contains Discord 일일 요약 전송 완료; no webhook value stored",
+    "scheduleKST": ["06:00 daily summary", "18:00 urgent/source alerts"],
+    "note": "GitHub schedule may run later than its configured time"
+  },
+  "publicPageChecks": {
+    "deployedHtmlJsCssMatchLocal": true,
+    "nonVolunteerRecruitmentVisible": 40,
+    "programInformationVisible": 6,
+    "bookmark": "passed",
+    "calendar": "passed",
+    "mobile": "passed",
+    "pageScriptErrors": 0
+  },
+  "sourceIssuesRemain": [
+    { "source": "csv-culture", "status": "ERROR", "reason": "목록 읽기 중 navigation으로 실행 컨텍스트 소멸" },
+    { "source": "job-gg", "status": "ERROR", "reason": "목록 요청 Failed to fetch" },
+    { "source": "kaah", "status": "PARTIAL", "detailFailures": 12 },
+    { "source": "warmemo", "status": "PARTIAL", "detailFailures": 1 },
+    { "source": "seosomun", "status": "PARTIAL", "detailFailures": 2 },
+    { "source": "1365-volunteer", "status": "PARTIAL", "detailFailures": 1 }
+  ],
+  "note": "배포 및 UI 검증 완료와 모든 소스의 완전한 수집은 별개다. source-health 경고를 유지한다."
+}

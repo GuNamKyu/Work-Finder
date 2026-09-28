@@ -1,0 +1,84 @@
+{
+  "verifiedAt": "2026-09-28T00:34:52.598Z",
+  "url": "https://gunamkyu.github.io/Work-Finder/",
+  "deployedFilesMatchLocal": {
+    "index.html": "5c39cb03b907ca634b25265e65840cafe8876cd9980870e8063e7b903423ed25",
+    "app.js": "24eb8beb8cce3764c6e4e6d9cc909c298917442f67adb2b234a88b8c1e795887",
+    "model.js": "0818ccd59dc54f817a859e03d626a2a145a1e3412dfc6646d2803d922e9818d5",
+    "app.css": "a1735b14a3a17ec258478ef117ab5c1e073be2dbbcad0fd3b29fb6b56879019a"
+  },
+  "nonVolunteerRecruitmentVisible": 40,
+  "programInformationVisible": 6,
+  "experienceSources": [
+    {
+      "id": "work24-youth",
+      "count": 119,
+      "error": null,
+      "crawledAt": "2026-09-28T00:30:20.501Z"
+    },
+    {
+      "id": "gjf-youth",
+      "count": 6,
+      "error": null,
+      "crawledAt": "2026-09-28T00:30:32.599Z"
+    },
+    {
+      "id": "csv-culture",
+      "count": 0,
+      "error": "page.$$eval: Execution context was destroyed, most likely because of a navigation",
+      "crawledAt": "2026-09-28T00:31:00.682Z"
+    },
+    {
+      "id": "1365-volunteer",
+      "count": 7,
+      "error": null,
+      "crawledAt": "2026-09-28T00:32:17.321Z"
+    },
+    {
+      "id": "museum-notice-volunteer",
+      "count": 0,
+      "error": null,
+      "crawledAt": "2026-09-28T00:33:10.638Z"
+    }
+  ],
+  "sourceWarnings": [
+    {
+      "source": "kaah",
+      "status": "PARTIAL",
+      "message": "목록 수집 성공, 상세 날짜 수집 12건 실패"
+    },
+    {
+      "source": "warmemo",
+      "status": "PARTIAL",
+      "message": "목록 수집 성공, 상세 날짜 수집 1건 실패"
+    },
+    {
+      "source": "seosomun",
+      "status": "PARTIAL",
+      "message": "목록 수집 성공, 상세 날짜 수집 2건 실패"
+    },
+    {
+      "source": "job-gg",
+      "status": "ERROR",
+      "message": "수집 실패: page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:1:176)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    },
+    {
+      "source": "csv-culture",
+      "status": "ERROR",
+      "message": "수집 실패: page.$$eval: Execution context was destroyed, most likely because of a navigation"
+    },
+    {
+      "source": "1365-volunteer",
+      "status": "PARTIAL",
+      "message": "목록 수집 성공, 상세 날짜 수집 1건 실패"
+    }
+  ],
+  "checks": {
+    "actualPage": "passed",
+    "bookmark": "passed",
+    "calendar": "passed",
+    "programInformation": "passed",
+    "mobile": "passed",
+    "scriptErrors": 0
+  }
+}
