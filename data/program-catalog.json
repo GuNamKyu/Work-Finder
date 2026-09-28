@@ -1,0 +1,308 @@
+{
+  "checkedAt": "2026-09-27T13:19:08.422Z",
+  "note": "사업 안내이며 현재 모집 중임을 보장하지 않음. 운영기간과 접수기간을 분리한다.",
+  "programs": [
+    {
+      "title": "경기도 대학생 드림링크 직무실습",
+      "organization": "경기도일자리재단",
+      "postingId": "103",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=103",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "work_experience",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "참여대학: 4년제 및 전문대(국·공·사립대학) 중 학점연계 직무실습(현장실습) 운영 가능 대학 참여학생: 경기도 내 협력대학 재학생 및 경기도외 협력대학 재학생 중 경기도민 ※ 중",
+      "programPeriodText": "2026년 1월 ~ 2027년 1월",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=103",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:103",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "siteId": "gjf-youth"
+    },
+    {
+      "title": "2026년 미래내일 일경험 지원사업",
+      "organization": "경기도일자리재단",
+      "postingId": "94",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "work_experience",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "15세 ~ 34세 이하 미취업 청년(군필자의 경우 최대 39세 한함)",
+      "programPeriodText": "2026년 3월 ~ 2027년 2월",
+      "informationLinks": [
+        {
+          "label": "청년 모집 바로가기(공공특화)",
+          "url": "https://m.site.naver.com/23Oq0"
+        },
+        {
+          "label": "청년일경험 포털(전체)",
+          "url": "https://yw.work24.go.kr/main.do"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:94",
+      "lifecycleStatus": "fresh",
+      "fitScore": 34,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 12,
+        "quality": 4
+      },
+      "fitReasons": [
+        "기회 품질: 일경험",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "siteId": "gjf-youth"
+    },
+    {
+      "title": "청년 엔지니어 육성 사업",
+      "organization": "경기도일자리재단",
+      "postingId": "67",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "training",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "도내 청소년 및 청년, 시흥시 기업",
+      "programPeriodText": "2026년 2월 ~ 2027년 2월",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:67",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "siteId": "gjf-youth"
+    },
+    {
+      "title": "경기청년 해외진출(일본, 미국, 독일) 사업",
+      "organization": "경기도일자리재단",
+      "postingId": "59",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "training",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "해외진출(일본, 미국, 유럽)을 희망하는 도내 19 ~ 39세 청년 미취업자 대상※ 사업 대상 및 세부 지원자격은 세부사업별로 일부 상이하여, 관련사항은 각 모집 공고문 참조必",
+      "programPeriodText": "2026년 1월 ~ 2026년 12월",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:59",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "siteId": "gjf-youth"
+    },
+    {
+      "title": "경기청년 맞춤형 채용지원 서비스",
+      "organization": "경기도일자리재단",
+      "postingId": "55",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "counseling",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "도내 만 18세 이상 39세 이하 미취업 청년",
+      "programPeriodText": "2026년 3월 ~ 2026년 11월",
+      "informationLinks": [
+        {
+          "label": "참여 신청 바로가기",
+          "url": "https://apply.jobaba.net/"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:55",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "siteId": "gjf-youth"
+    },
+    {
+      "title": "경기청년 역량강화 기회지원 사업",
+      "organization": "경기도일자리재단",
+      "postingId": "16",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "financial_support",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "도내 거주 미취업 청년",
+      "programPeriodText": "2026년 5월 ~ 2026년 12월 (예정)",
+      "informationLinks": [
+        {
+          "label": "신청방법 바로가기",
+          "url": "https://apply.jobaba.net/special/GGtestfees/main.do"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:16",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "siteId": "gjf-youth"
+    }
+  ]
+}

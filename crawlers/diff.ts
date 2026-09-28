@@ -14,7 +14,7 @@ interface OpportunityEvent {
   runAt: string; type: ChangeType; stableId: string; siteId: string; siteName: string;
   posting: IndexedPosting; previous?: IndexedPosting;
 }
-type HealthStatus = 'OK' | 'ERROR' | 'ZERO_ANOMALY' | 'COUNT_DROP' | 'FIELD_DROP' | 'STALE' | 'RECOVERED';
+type HealthStatus = 'OK' | 'ERROR' | 'PARTIAL' | 'ZERO_ANOMALY' | 'COUNT_DROP' | 'FIELD_DROP' | 'STALE' | 'RECOVERED';
 interface SourceHealth {
   siteId: string; siteName: string; status: HealthStatus; currentCount: number;
   previousCount: number | null; deadlineCoverage: number; urlCoverage: number; message: string;
@@ -83,6 +83,9 @@ function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): Source
     if (status === 'OK' && (!Number.isFinite(crawledAt) || now - crawledAt > 36 * 60 * 60 * 1000)) {
       status = 'STALE'; message = `마지막 수집 시각이 36시간 이상 지남: ${result.crawledAt}`;
     }
+    if (status === 'OK' && currentPostings.some(p => p.detailStatus === 'failed')) {
+      status = 'PARTIAL'; message = `목록 수집 성공, 상세 날짜 수집 ${currentPostings.filter(p => p.detailStatus === 'failed').length}건 실패`;
+    }
     return { siteId: result.site.id, siteName: result.site.name, status, currentCount, previousCount, deadlineCoverage, urlCoverage, message };
   });
 }
@@ -90,6 +93,7 @@ function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): Source
 function updateSeries(postings: IndexedPosting[], existing: Record<string, ProgramSeries>, runAt: string): Record<string, ProgramSeries> {
   const next = { ...existing };
   for (const posting of postings) {
+    if (posting.recordKind === 'program_info') continue;
     const key = `${posting.siteId}::${normalizedTitle(posting.title)}`;
     if (key.endsWith('::')) continue;
     if (!next[key]) {
@@ -97,7 +101,7 @@ function updateSeries(postings: IndexedPosting[], existing: Record<string, Progr
     }
     const series = next[key];
     series.opportunityIds ||= [];
-    const month = Number((posting.applicationStartAt || posting.regDate || runAt).slice(5, 7));
+    const month = Number((posting.applicationStartAt || '').slice(5, 7));
     if (!series.opportunityIds.includes(posting.stableId!)) {
       series.opportunityIds.push(posting.stableId!);
       series.occurrences = series.opportunityIds.length;
@@ -111,12 +115,14 @@ function updateSeries(postings: IndexedPosting[], existing: Record<string, Progr
 }
 
 function priority(posting: JobPosting): string {
+  if (posting.recordKind === 'program_info') return 'P4';
   const fit = posting.fitScore || 0, urgency = posting.urgencyScore || 0;
   if (fit >= 70 && urgency >= 75) return 'P1';
   if (fit >= 70) return 'P2';
   // 점수가 다소 낮더라도 명확한 목표 직무는 일일 요약에서 놓치지 않는다.
   // 인접 기회는 홈페이지에는 보이되 Discord 상세에서는 P4로 요약한다.
   if (posting.relevanceTier === 'target') return 'P3';
+  if (posting.postingType === 'experience' && posting.userVisible && posting.experienceType !== 'volunteer') return 'P3';
   return 'P4';
 }
 
@@ -129,6 +135,9 @@ async function main(): Promise<void> {
   const previousExperience = await readJson<CrawlResult[]>(join(__dirname, 'experience-results.prev.json'));
   const hasBaseline = previousJob !== null || previousExperience !== null;
   const currentResults = [...currentJob, ...currentExperience];
+  for (const result of currentResults) result.postings = result.postings
+    .filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization))
+    .map(p => enrichPosting(p, result.site.id));
   const previousResults = [...(previousJob || []), ...(previousExperience || [])];
   const current = flatten(currentResults), previous = flatten(previousResults);
   const sourcesWithBaseline = new Set(previousResults.map(result => result.site.id));
@@ -163,8 +172,9 @@ async function main(): Promise<void> {
   const healthySources = new Set(currentResults.filter(r => !r.error).map(r => r.site.id));
   for (const posting of previous) {
     if (!currentIds.has(posting.stableId!) && healthySources.has(posting.siteId)) {
-      events.push({ runAt, type: 'closed', stableId: posting.stableId!, siteId: posting.siteId, siteName: posting.siteName, posting });
-      if (state[posting.stableId!]) state[posting.stableId!].lastStatus = 'closed';
+      const type = posting.lifecycleStatus === 'closed' ? 'closed' : 'missing';
+      events.push({ runAt, type, stableId: posting.stableId!, siteId: posting.siteId, siteName: posting.siteName, posting });
+      if (state[posting.stableId!]) state[posting.stableId!].lastStatus = type;
     }
   }
 
@@ -205,6 +215,8 @@ async function main(): Promise<void> {
   const series = updateSeries(current, await readJson<Record<string, ProgramSeries>>(seriesPath) || {}, runAt);
   const historyRecord = { runAt, totals: summary.totals, events: changed, sourceHealth };
   await Promise.all([
+    writeFile(join(__dirname, 'results.json'), JSON.stringify(currentJob, null, 2)),
+    writeFile(join(__dirname, 'experience-results.json'), JSON.stringify(currentExperience, null, 2)),
     writeFile(join(__dirname, 'new-postings.json'), JSON.stringify(newPostings, null, 2)),
     writeFile(join(__dirname, 'opportunity-events.json'), JSON.stringify(events, null, 2)),
     writeFile(join(__dirname, 'source-health.json'), JSON.stringify(sourceHealth, null, 2)),

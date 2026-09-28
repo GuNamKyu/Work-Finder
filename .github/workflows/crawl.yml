@@ -66,6 +66,9 @@ jobs:
       - name: 타입 검사
         run: npm run typecheck
 
+      - name: 회귀 테스트
+        run: npm test
+
       - name: 크롤링 실행
         run: npm run crawl
 
@@ -117,6 +120,7 @@ jobs:
           cp crawlers/results.json web/results.json
           cp crawlers/new-postings.json web/new-postings.json
           cp crawlers/experience-results.json web/experience-results.json
+          cp crawlers/source-health.json web/source-health.json
 
       - name: Pages 업로드
         uses: actions/upload-pages-artifact@v3

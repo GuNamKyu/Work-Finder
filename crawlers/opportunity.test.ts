@@ -76,3 +76,8 @@ test('임원급과 고경력 필수요건은 지원 가능성에서 별도로 �
   assert.equal(assessEligibility({ ...base, title: '학예직 경력 3년 이상 채용' }).status, 'needs_review');
   assert.equal(assessEligibility({ ...base, title: '학예 보조 신입 채용' }).status, 'likely_eligible');
 });
+
+test('목표 박물관의 전시 소식은 채용공고로 노출하지 않는다', () => {
+  assert.equal(enrichPosting({ ...base, title: '제20회 기획전시 시간을 품은 어천역' }, 'museum').userVisible, false);
+  assert.equal(enrichPosting({ ...base, title: '직원채용 채용기준 사전 공개' }, 'museum').userVisible, false);
+});

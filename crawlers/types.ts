@@ -7,6 +7,16 @@ export interface JobPosting {
   status?: string;
   postingType?: 'job' | 'experience'; // 채용공고 or 직무경험(봉사/훈련)
   experienceType?: ExperienceType;
+  recordKind?: 'recruitment' | 'program_info';
+  roleText?: string;
+  region?: string;
+  summary?: string;
+  eligibilityText?: string;
+  programPeriodText?: string;
+  informationLinks?: Array<{ label: string; url: string }>;
+  detailStatus?: 'verified' | 'list_only' | 'failed';
+  detailWarning?: string;
+  sourceForm?: { action: string; fields: Record<string, string> };
   postingId?: string;
   canonicalUrl?: string | null;
   postedAt?: string | null;
@@ -44,7 +54,7 @@ export type ExperienceType =
   | 'recurring_program';
 
 export type LifecycleStatus = 'fresh' | 'active_long' | 'rolling' | 'stale_unknown' | 'closed';
-export type ChangeType = 'baseline' | 'new' | 'updated' | 'reposted' | 'reopened' | 'unchanged' | 'resurfaced' | 'closed';
+export type ChangeType = 'baseline' | 'new' | 'updated' | 'reposted' | 'reopened' | 'unchanged' | 'resurfaced' | 'closed' | 'missing';
 
 export type ScheduleEventType =
   | 'posted'

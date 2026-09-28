@@ -129,7 +129,8 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
         allPostings.push({
           title: truncate(row.title),
           organization: '문화자원봉사센터',
-          regDate,
+          regDate: '',
+          postedAt: null,
           deadlineDate,
           applicationStartAt: regDate || null,
           applicationEndAt: deadlineDate,
@@ -138,6 +139,7 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
           url,
           status: row.status || '',
           postingType: 'experience',
+          experienceType: 'volunteer',
         });
       }
     }

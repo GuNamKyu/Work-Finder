@@ -4,6 +4,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import type { SiteConfig, CrawlResult, JobPosting, SiteScraper } from './types.js';
 import { enrichPosting } from './opportunity.js';
+import { enrichDetailDates } from './detail-dates.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -24,11 +25,13 @@ export async function crawlSite(
   timeoutMs = 30000,
   siteTimeoutMs = 90000
 ): Promise<CrawlResult> {
+  let activeContext: import('playwright').BrowserContext | undefined;
   const run = async (): Promise<CrawlResult> => {
     const context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
       locale: 'ko-KR',
     });
+    activeContext = context;
     const page = await context.newPage();
 
     try {
@@ -48,11 +51,13 @@ export async function crawlSite(
       if (lastError) throw lastError;
 
       await page.waitForTimeout(2000);
-      const postings = await scraper(page, config);
+      const raw = await scraper(page, config);
+      const postings = await enrichDetailDates(page, raw.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization)));
       return {
         site: config,
         postings: filterJobPostings(postings, config.id),
         crawledAt: new Date().toISOString(),
+        warnings: postings.some(p => p.detailWarning) ? [`${postings.filter(p => p.detailWarning).length}건 상세 접수기간 미확인`] : [],
       };
     } catch (error: any) {
       return {
@@ -67,8 +72,9 @@ export async function crawlSite(
   };
 
   // 사이트당 최대 실행 시간 제한
+  let timer: ReturnType<typeof setTimeout>;
   const timeoutPromise = new Promise<CrawlResult>((_, reject) =>
-    setTimeout(() => reject(new Error(`사이트 타임아웃 (${siteTimeoutMs / 1000}초 초과)`)), siteTimeoutMs)
+    timer = setTimeout(() => reject(new Error(`사이트 타임아웃 (${siteTimeoutMs / 1000}초 초과)`)), siteTimeoutMs)
   );
 
   return Promise.race([run(), timeoutPromise]).catch((err: any) => ({
@@ -76,7 +82,7 @@ export async function crawlSite(
     postings: [],
     crawledAt: new Date().toISOString(),
     error: err?.message || 'Unknown error',
-  }));
+  })).finally(async () => { clearTimeout(timer); await activeContext?.close().catch(() => {}); });
 }
 
 /** 날짜 문자열을 YYYY-MM-DD 형식으로 정규화 */

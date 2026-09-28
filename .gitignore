@@ -41,6 +41,9 @@ data/program-series.json
 web/results.json
 web/new-postings.json
 web/experience-results.json
+web/source-health.json
+.test-artifacts/
+.codex-backups/
 
 # Playwright MCP snapshots
 .playwright-mcp/

@@ -1,0 +1,32 @@
+{
+  "verifiedOn": "2026-09-27",
+  "environment": "Windows local Work-Finder",
+  "checks": {
+    "unitTestsPassed": 22,
+    "typecheck": "passed",
+    "browserIntegration": "passed",
+    "browserCoverage": ["자원봉사 제외 기본 목록", "인턴·프로젝트 실제 데이터 표시", "사업 안내 분리", "즐겨찾기 사본 보존", "현재 목록 누락 후 복원", "다음 달 일정 자동 이동", "하루 4건 이상 펼치기", "일정 미확인 목록", "모바일 가로 넘침 없음", "페이지 스크립트 오류 없음"]
+  },
+  "crawl": {
+    "sourceCount": 47,
+    "listFailures": 0,
+    "jobCollected": 61,
+    "jobVisible": 20,
+    "nonVolunteerRecruitmentVisible": 46,
+    "nonVolunteerRecruitmentWithDeadline": 46,
+    "programInformationVisible": 6,
+    "volunteerVisible": 41,
+    "partialDetailFailures": [
+      { "source": "kaah", "count": 12, "reason": "상세 요청 인증서 확인 실패" },
+      { "source": "warmemo", "count": 1, "reason": "상세 요청 인증서 확인 실패" },
+      { "source": "seosomun", "count": 2, "reason": "상세 요청 인증서 확인 실패" }
+    ]
+  },
+  "delivery": {
+    "localFilesAndDataUpdated": true,
+    "remoteDeploymentPerformed": false,
+    "discordTestMessageSent": false,
+    "previewUrl": "http://127.0.0.1:4173",
+    "backupDirectory": ".codex-backups/2026-09-27-page-completion"
+  }
+}

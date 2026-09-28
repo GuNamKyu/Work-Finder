@@ -1,22 +1,28 @@
 ﻿// 직무경험 공고 크롤러 실행 스크립트
 // (자원봉사/직업훈련 공고 수집 → experience-results.json 출력)
-// crawlSite 미사용 - 노이즈 필터 우회, 시그니처 독립 유지
+// 채용과 동일하게 제외 키워드를 최우선 적용한다.
 import { chromium, type Browser, type Page } from 'playwright';
 import type { CrawlResult, SiteConfig, JobPosting } from './types';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { writeFile } from 'fs/promises';
+import { writeFile, mkdir } from 'fs/promises';
 import { enrichPosting } from './opportunity.js';
+import { isJobPosting, isNoiseOrganization } from './base.js';
+import { enrichDetailDates } from './detail-dates.js';
 
 import * as csvCulture from './sites/experience/csv-culture';
 import * as portal1365 from './sites/experience/1365';
 import * as museumNotice from './sites/experience/museum-notice';
+import * as work24Youth from './sites/experience/work24-youth.js';
+import * as gjfYouth from './sites/experience/gjf-youth.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 type ExpScraper = (page: Page) => Promise<JobPosting[]>;
 
 const sites: [SiteConfig, ExpScraper][] = [
+  [work24Youth.config, work24Youth.scrape],
+  [gjfYouth.config, gjfYouth.scrape],
   [csvCulture.config, csvCulture.scrape],
   [portal1365.config, portal1365.scrape],
   [museumNotice.config, museumNotice.scrape],
@@ -38,10 +44,13 @@ async function crawlExperience(
 
   const run = async (): Promise<CrawlResult> => {
     try {
-      const postings = (await scraper(page))
-        .map(p => enrichPosting({ ...p, postingType: 'experience' }, config.id))
+      const raw = (await scraper(page)).filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization));
+      const dated = await enrichDetailDates(page, raw);
+      const postings = dated
+        .map(p => enrichPosting({ ...p, postingType: 'experience', experienceType: p.experienceType || 'volunteer' }, config.id))
         .filter(p => p.lifecycleStatus !== 'closed');
-      return { site: config, postings, crawledAt };
+      const unresolved = postings.filter(p => p.detailWarning).length;
+      return { site: config, postings, crawledAt, warnings: unresolved ? [`${unresolved}건의 상세 접수기간 미확인 (공고별 detailWarning 참고)`] : [] };
     } catch (err: any) {
       return { site: config, postings: [], crawledAt, error: err?.message || 'Unknown error' };
     } finally {
@@ -49,8 +58,9 @@ async function crawlExperience(
     }
   };
 
+  let timer: ReturnType<typeof setTimeout>;
   const timeoutPromise = new Promise<CrawlResult>((_, reject) =>
-    setTimeout(() => reject(new Error(`타임아웃 (${SITE_TIMEOUT_MS / 1000}초 초과)`)), SITE_TIMEOUT_MS)
+    timer = setTimeout(() => reject(new Error(`타임아웃 (${SITE_TIMEOUT_MS / 1000}초 초과)`)), SITE_TIMEOUT_MS)
   );
 
   return Promise.race([run(), timeoutPromise]).catch((err: any) => ({
@@ -58,7 +68,7 @@ async function crawlExperience(
     postings: [],
     crawledAt,
     error: err?.message || 'Unknown error',
-  }));
+  })).finally(async () => { clearTimeout(timer); await context.close().catch(() => {}); });
 }
 
 async function main() {
@@ -104,6 +114,14 @@ async function main() {
 
   const outputPath = join(__dirname, 'experience-results.json');
   await writeFile(outputPath, JSON.stringify(results, null, 2));
+  if (!targetId) {
+    await mkdir(join(__dirname, '..', 'data'), { recursive: true });
+    await writeFile(join(__dirname, '..', 'data', 'program-catalog.json'), JSON.stringify({
+      checkedAt: new Date().toISOString(),
+      note: '사업 안내이며 현재 모집 중임을 보장하지 않음. 운영기간과 접수기간을 분리한다.',
+      programs: results.flatMap(r => r.postings.filter(p => p.recordKind === 'program_info').map(p => ({ ...p, siteId: r.site.id }))),
+    }, null, 2));
+  }
   console.log(`\n결과 저장: ${outputPath}`);
 
   const totalPostings = results.reduce((sum, r) => sum + r.postings.length, 0);

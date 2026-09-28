@@ -23,6 +23,7 @@ const TEACHER_KEYWORDS = ['기간제교사', '기간제교원', '교사', '교�
 const ADMIN_NOTICE_PATTERNS = [
   /최종\s*합격/, /서류(?:전형)?\s*(?:합격|결과)/, /면접(?:전형)?\s*(?:대상|결과|일정)/,
   /채용\s*(?:결과|합격자)/, /합격자\s*(?:발표|공고)/, /임용\s*(?:결과|후보)/,
+  /채용기준\s*사전\s*공개/, /채용.*(?:면접심사|대면심사)\s*공고/,
 ];
 const INELIGIBLE_TITLE_PATTERNS = [
   /(?:상임|대표|비상임)?\s*이사/, /본부장/, /관장/, /사장/, /임원/, /상임\s*감사/, /비상임\s*감사/,
@@ -89,7 +90,8 @@ export function classifyLifecycle(posting: JobPosting, now = new Date()): Lifecy
   const deadline = parseDate(posting.applicationEndAt || posting.deadlineDate);
   const posted = parseDate(posting.postedAt || posting.regDate);
 
-  if (/마감|종료|모집완료|접수완료|closed/i.test(text) || (deadline && deadline < today)) return 'closed';
+  const todayKey = now.toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' });
+  if (/^(마감|종료|모집완료|접수완료|closed)$/i.test(posting.status || '') || (deadline && (posting.applicationEndAt || posting.deadlineDate || '') < todayKey)) return 'closed';
   if (/상시|수시|채용시|충원시|rolling/i.test(text)) return 'rolling';
   if (posted && today.getTime() - posted.getTime() > 31 * DAY_MS) {
     return deadline && deadline >= today ? 'active_long' : 'stale_unknown';
@@ -131,6 +133,9 @@ export function classifyRelevance(posting: JobPosting): {
   if (ADMIN_NOTICE_PATTERNS.some(pattern => pattern.test(title))) {
     return { tier: 'administrative_notice', visible: false, reasons: ['채용 기회가 아닌 전형 결과·후속 공지'] };
   }
+  if (posting.postingType !== 'experience' && (!/채용|구인|임용|모집|인력|근로|직원|연구원|학예사/.test(title) || /참여\s*기관\s*모집|유아\s*교육|어린이\s*교육/.test(title))) {
+    return { tier: 'administrative_notice', visible: false, reasons: ['채용 모집이 아닌 전시·관람·교육 안내'] };
+  }
 
   if (nonTargetJobs.length > 0) {
     return { tier: 'low_relevance', visible: false, reasons: [`비대상 직무: ${nonTargetJobs.join(', ')}`] };
@@ -146,7 +151,13 @@ export function classifyRelevance(posting: JobPosting): {
   }
 
   if (posting.postingType === 'experience') {
-    return { tier: 'target', visible: true, reasons: ['직무경험·취업지원 기회'] };
+    if (posting.recordKind === 'program_info' || /counseling|financial_support|fair|recurring_program/.test(posting.experienceType || '')) {
+      return { tier: 'adjacent', visible: true, reasons: ['취업지원 사업 — 대상·모집기간 별도 확인'] };
+    }
+    const role = `${title} ${posting.roleText || ''} ${organization}`;
+    if (/박물관|미술관|학예|문화|유산|기록|전시|아카이브/.test(role)) return { tier: 'target', visible: true, reasons: ['목표 분야 직무경험'] };
+    if (/경영|사무|공공행정|취업지원/.test(role) && /서울|경기|인천|전국|온라인/.test(posting.region || '')) return { tier: 'adjacent', visible: true, reasons: ['수도권 사무·행정 경험 — 학예 경력인정은 미확인'] };
+    return { tier: 'low_relevance', visible: false, reasons: ['목표 분야 또는 수도권 인접 직무경험에 해당하지 않음'] };
   }
 
   if (culturalOrganizations.length > 0) {
@@ -213,8 +224,8 @@ export function calculateFit(posting: JobPosting): { score: number; breakdown: F
 export function calculateUrgency(posting: JobPosting, now = new Date()): number {
   const deadline = parseDate(posting.applicationEndAt || posting.deadlineDate);
   if (!deadline) return classifyLifecycle(posting, now) === 'rolling' ? 25 : 40;
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const days = Math.ceil((deadline.getTime() - today.getTime()) / DAY_MS);
+  const today = now.toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' });
+  const days = Math.round((Date.parse(`${(posting.applicationEndAt || posting.deadlineDate)!.slice(0, 10)}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / DAY_MS);
   if (days <= 1) return 100;
   if (days <= 3) return 90;
   if (days <= 7) return 75;
@@ -242,12 +253,12 @@ function addEvent(events: ScheduleEvent[], event: ScheduleEvent): void {
 }
 
 export function enrichPosting(posting: JobPosting, siteId: string, now = new Date()): JobPosting {
-  const applicationStartAt = posting.applicationStartAt || (posting.deadlineDate ? posting.regDate || null : null);
+  const applicationStartAt = posting.applicationStartAt || null;
   const applicationEndAt = posting.applicationEndAt || posting.deadlineDate || null;
-  const postedAt = posting.postedAt || posting.regDate || null;
+  const postedAt = posting.postedAt !== undefined ? posting.postedAt : posting.regDate || null;
   const events = [...(posting.scheduleEvents || [])];
   if (postedAt) addEvent(events, { type: 'posted', date: postedAt, label: '등록', source: 'list', precision: 'exact', confidence: 0.9 });
-  if (applicationStartAt) addEvent(events, { type: 'application_start', date: applicationStartAt, label: '접수 시작', source: 'inferred', precision: 'exact', confidence: 0.65 });
+  if (applicationStartAt) addEvent(events, { type: 'application_start', date: applicationStartAt, label: '접수 시작', source: 'list', precision: 'exact', confidence: 0.9 });
   if (applicationEndAt) addEvent(events, { type: 'application_end', date: applicationEndAt, label: '접수 마감', source: 'list', precision: 'exact', confidence: 0.9 });
   if (posting.programStartAt) addEvent(events, { type: 'program_start', date: posting.programStartAt, label: '활동 시작', source: 'detail', precision: 'exact', confidence: 0.8 });
   if (posting.programEndAt) addEvent(events, { type: 'program_end', date: posting.programEndAt, label: '활동 종료', source: 'detail', precision: 'exact', confidence: 0.8 });

@@ -1,5 +1,7 @@
 # Work-Finder 기회 추적 모델
 
+> 2026-09-27 구현 보완: [페이지 구성 이행 기록](page-completion-2026-09-27.md)과 `data/experience-sources.json`을 함께 참고한다. 계획된 분류와 실제 수집 범위는 다르며, 아래 기존 정책은 그 문서의 보완 사항을 제외하고 유지한다.
+
 ## 알림과 소스 상태
 
 - **긴급(P1)**: 적합도 70점 이상이면서 마감 긴급도 75점 이상(D-7 이내). 오전 6시 일일 요약과 오후 6시 긴급 점검에 포함한다.
@@ -35,7 +37,7 @@
 2. 추적 파라미터를 제거한 상세 URL
 3. `소스 + 기관 + 정규화 제목 + 접수 시작일` 복합 키
 
-이전 한 번의 결과만 보지 않고 `data/opportunity-state.json`의 첫 발견·마지막 발견·지문·관찰일을 누적한다. 최초 실행은 `baseline`이라 하여 신규 알림을 보내지 않는다. 이후에는 `new`, `updated`, `reposted`, `reopened`, `resurfaced`, `closed`, `unchanged`로 구분한다.
+이전 한 번의 결과만 보지 않고 `data/opportunity-state.json`의 첫 발견·마지막 발견·지문·관찰일을 누적한다. 최초 실행은 `baseline`이라 하여 신규 알림을 보내지 않는다. 이후에는 `new`, `updated`, `reposted`, `reopened`, `resurfaced`, `closed`, `missing`, `unchanged`로 구분한다. 현재 목록 누락은 종료 확정이 아니므로 `missing`으로 남긴다.
 
 ## 이력과 반복 패턴
 

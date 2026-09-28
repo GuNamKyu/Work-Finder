@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-09-27",
+  "policy": {
+    "topLevel": ["job", "experience"],
+    "exclusionFirst": "noise-keywords.txt (제목·기관명)",
+    "defaultExperienceView": "자원봉사 제외 모집 공고",
+    "programInfo": "사업 안내 탭에 별도 표시. 접수·활동 날짜로 추정하지 않음",
+    "eligibility": "목록 신호와 실제 지원자격 확정을 구분. 인턴이어도 연령·미취업·학력 등 원문 확인",
+    "adjacentExperience": "서울·경기·인천·전국·온라인의 경영·사무·공공행정 경험. 학예 경력 인정 미확인"
+  },
+  "sources": [
+    { "id": "work24-youth", "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do", "kind": "recruitment", "types": ["internship", "project", "work_experience"], "pagination": "48건씩 공식 총 건수까지, 최대 40페이지. 부족하거나 중복 페이지면 ERROR", "dates": "공식 목록의 모집기간·사전직무교육·일경험기간", "detail": "상세 열기는 공식 POST 폼. Discord는 프로그램명 검색 링크" },
+    { "id": "gjf-youth", "url": "https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305", "kind": "program_info", "types": ["work_experience", "training", "counseling", "financial_support"], "dates": "사업시기를 설명으로만 보존. 접수일 미확인", "detail": "사업대상·사업시기·공식 안내 링크 수집" },
+    { "id": "csv-culture", "kind": "recruitment", "types": ["volunteer"], "dates": "목록 모집기간·활동기간 분리" },
+    { "id": "1365-volunteer", "kind": "recruitment", "types": ["volunteer"], "dates": "상세 모집기간·봉사기간 보강, 건수·시간 한도 초과 시 미확인 경고" },
+    { "id": "museum-notice-volunteer", "kind": "recruitment", "types": ["volunteer"], "dates": "목록 및 가능한 상세 본문" }
+  ],
+  "notYetCovered": ["고용24 전체 훈련과정과 모든 지역 취업지원 프로그램 통합검색", "첨부 HWP/PDF·이미지 OCR 날짜 및 자격요건 분석", "박람회 독립 자동 수집 소스", "반복 관찰 월 기반 자동 사전 예고", "즐겨찾기 기기 간 서버 동기화"]
+}

@@ -74,7 +74,7 @@ async function main(): Promise<void> {
   const urgentLines = summary.urgent.slice(0, 10).map(postingLine);
   // 일일 상세는 목표/인접 공고 중 P1~P3만 노출한다. P4와 저적합 원자료는 이력에만 보존된다.
   const changeLines = summary.changes
-    .filter(item => item.type !== 'closed' && item.userVisible !== false && item.priority !== 'P4')
+    .filter(item => item.type !== 'closed' && item.type !== 'missing' && item.userVisible !== false && item.priority !== 'P4')
     .sort((a, b) => (b.fitScore || 0) - (a.fitScore || 0) || (b.urgencyScore || 0) - (a.urgencyScore || 0))
     .slice(0, 12)
     .map(postingLine);

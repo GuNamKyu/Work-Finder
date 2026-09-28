@@ -11,8 +11,10 @@
     "analyze": "tsx crawlers/diff.ts",
     "notify:discord": "tsx crawlers/notify-discord.ts",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test crawlers/opportunity.test.ts",
-    "serve": "cp crawlers/results.json web/results.json 2>/dev/null; cp crawlers/new-postings.json web/new-postings.json 2>/dev/null; npx serve web"
+    "test": "tsx --test crawlers/opportunity.test.ts crawlers/schedule.test.ts web/model.test.js",
+    "prepare:web": "node scripts/prepare-web.mjs",
+    "serve": "npm run prepare:web && node scripts/serve.mjs",
+    "test:ui": "node scripts/test-ui.mjs"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
