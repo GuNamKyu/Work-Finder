@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-28",
+  "implementationCommit": "4b96a7abde85f3bd2aa657e7a83f52e4742609ff",
+  "criterion": "Hide at least three distinct similar postings, not three clicks or crawler sightings",
+  "delivery": "Export from browser, validate and import into repository, commit and push for scheduled crawler",
+  "typecheck": "passed",
+  "regressionTests": { "passed": 35, "failed": 0 },
+  "isolatedBrowserChecks": [
+    "three hidden examples exclude a fourth matching posting locally",
+    "rules survive reload",
+    "disabled rule reveals the fourth posting",
+    "restoring a hidden example removes its learning evidence",
+    "exported JSON contains the scoped keyword and three-example count",
+    "source/favorite/hide buttons measure 112x40 CSS pixels on desktop and mobile",
+    "favorite active state and hide/restore state keep identical button dimensions",
+    "favorite retention, scheduler and program information regression checks pass",
+    "no JavaScript page errors or mobile horizontal overflow"
+  ],
+  "importChecks": ["valid file replaces rules with previous-file backup", "invalid file leaves existing rules unchanged", "empty rule file removes previous rules"],
+  "userBrowserHiddenHistoryInspected": false,
+  "actualUserRulesImported": false,
+  "serverRulesAtImplementation": 0,
+  "deployment": { "runId": 36364659952, "url": "https://github.com/GuNamKyu/Work-Finder/actions/runs/36364659952", "verified": true, "conclusion": "success" },
+  "production": {
+    "url": "https://gunamkyu.github.io/Work-Finder/",
+    "fileComparisonAt": "2026-09-28T01:20:17.794Z",
+    "matchingFiles": ["index.html", "app.js", "app.css", "model.js", "exclusions.js"],
+    "requestedFeatureUITests": "passed",
+    "gjfProgramInfoRealDataTest": "not_verified_due_to_source_connection_failure",
+    "gjfSourceFailureIndicator": "verified",
+    "gjfSourceError": "ERR_CONNECTION_RESET",
+    "csvCulture": { "crawledAt": "2026-09-28T01:16:17.877Z", "postings": 6, "visible": 6, "error": null },
+    "visibleInternships": { "total": 38, "businessOffice": 37, "manufacturing": 1 },
+    "coordinateTolerance": "CSS must be exactly 112px x 40px; physical bounding-box rounding tolerance is less than 0.01px"
+  }
+}
