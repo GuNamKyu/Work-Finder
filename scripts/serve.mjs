@@ -10,4 +10,4 @@ http.createServer(async (req, res) => {
     res.writeHead(200, { 'content-type': mime[extname(path)] || 'application/octet-stream', 'cache-control': 'no-store' });
     res.end(await readFile(path));
   } catch { res.writeHead(404).end('Not found'); }
-}).listen(Number(process.env.PORT || 4173), '127.0.0.1', () => console.log('Work-Finder preview: http://127.0.0.1:4173'));
+}).listen(Number(process.env.PORT || 4173), '127.0.0.1', () => console.log(`Work-Finder preview: http://127.0.0.1:${process.env.PORT || 4173}`));

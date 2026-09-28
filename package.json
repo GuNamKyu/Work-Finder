@@ -11,7 +11,8 @@
     "analyze": "tsx crawlers/diff.ts",
     "notify:discord": "tsx crawlers/notify-discord.ts",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test crawlers/opportunity.test.ts crawlers/schedule.test.ts web/model.test.js",
+    "test": "tsx --test crawlers/opportunity.test.ts crawlers/schedule.test.ts web/model.test.js web/exclusions.test.js crawlers/exclusions.test.ts scripts/import-exclusions.test.mjs",
+    "exclusions:import": "node scripts/import-exclusions.mjs",
     "prepare:web": "node scripts/prepare-web.mjs",
     "serve": "npm run prepare:web && node scripts/serve.mjs",
     "test:ui": "node scripts/test-ui.mjs"

@@ -1,8 +1,11 @@
 import { TYPE_LABELS, EVENT_LABELS, identity, legacyKey, todayKST, scheduleOf, emptyFavorites, syncFavorites, isActive, flattenResults, safeUrl } from './model.js';
+import { emptyHidden, validHidden, migrateHidden, toggleHiddenRecord, hasHiddenPosting, learnRules, exportRules, matchesRule, ruleId, validateRules } from './exclusions.js';
 
 const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const STORE = 'wf_favorites_v2';
+const HIDDEN_STORE = 'wf_hidden_learning_v1';
+let hiddenState = emptyHidden(), learnedRules = [], serverRules = [];
 let sources = [], health = [], postings = [], newIds = new Set(), favorites = emptyFavorites();
 let mode = 'job', previousMode = 'job', activeSite = '', type = 'nonvolunteer', recordKind = 'recruitment', filter = 'all', showHidden = false;
 let calDate = new Date(), includePosted = false;
@@ -14,7 +17,11 @@ function write(key, value) {
   catch { message('브라우저 저장에 실패했습니다. 백업을 내보낸 뒤 저장 공간·권한을 확인하세요.'); return false; }
 }
 function message(text) { $('app-message').textContent = text; }
-let hidden = new Set(read('wf_hidden_postings', []));
+const legacyHidden = read('wf_hidden_postings', []);
+let hidden = new Set(Array.isArray(legacyHidden) ? legacyHidden : []);
+if (!Array.isArray(legacyHidden) || ![...hidden].every(k => typeof k === 'string')) { storageBroken = true; hidden.clear(); }
+hiddenState = read(HIDDEN_STORE, emptyHidden());
+if (!validHidden(hiddenState)) { storageBroken = true; hiddenState = emptyHidden(); }
 favorites = read(STORE, emptyFavorites());
 if (favorites?.version !== 2 || !favorites.records || !Array.isArray(favorites.unresolved)) { storageBroken = true; favorites = emptyFavorites(); }
 function favoriteId(p) { return Object.keys(favorites.records).find(id => id === identity(p) || legacyKey(favorites.records[id].posting) === legacyKey(p)); }
@@ -25,18 +32,31 @@ function toggleFavorite(p) {
   if (write(STORE, next)) { favorites = next; render(); }
 }
 function toggleHidden(p) {
-  const key = legacyKey(p), next = new Set(hidden);
-  next.has(key) ? next.delete(key) : next.add(key);
-  if (write('wf_hidden_postings', [...next])) { hidden = next; render(); }
+  saveHidden(toggleHiddenRecord(hiddenState, p));
+}
+function updateHidden() {
+  hidden = new Set(Object.values(hiddenState.records).map(r => legacyKey(r.posting)));
+  learnedRules = learnRules(hiddenState);
+}
+function saveHidden(next) { if (write(HIDDEN_STORE, next)) { hiddenState = next; updateHidden(); render(); } }
+function isHidden(p) { return hasHiddenPosting(hiddenState, p); }
+function learnedExcluded(p) {
+  const rules = [...learnedRules, ...serverRules].filter(r => !hiddenState.disabledRules.includes(ruleId(r)));
+  return matchesRule(p, rules);
 }
 async function json(path) { const r = await fetch(path, { cache: 'no-cache' }); if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`); return r.json(); }
 async function init() {
-  const results = await Promise.allSettled([json('./results.json'), json('./experience-results.json'), json('./new-postings.json'), json('./source-health.json')]);
+  const results = await Promise.allSettled([json('./results.json'), json('./experience-results.json'), json('./new-postings.json'), json('./source-health.json'), json('./learned-exclusions.json')]);
   const errors = [];
   results.slice(0, 2).forEach((r, i) => { if (r.status === 'fulfilled') sources.push(...r.value); else errors.push(`${i ? '직무경험' : '채용'} 데이터 불러오기 실패`); });
   postings = flattenResults(sources);
   if (results[2].status === 'fulfilled') newIds = new Set(results[2].value.map(identity));
   if (results[3].status === 'fulfilled') health = results[3].value;
+  if (results[4].status === 'fulfilled') serverRules = validateRules(results[4].value).rules;
+  else errors.push('서버 제외 규칙 불러오기 실패');
+  const migratedHidden = migrateHidden(hiddenState, [...hidden], postings);
+  if (write(HIDDEN_STORE, migratedHidden)) { hiddenState = migratedHidden; write('wf_hidden_postings', []); }
+  updateHidden();
   const migrated = syncFavorites(favorites, postings, read('wf_fav_postings', []));
   if (write(STORE, migrated)) { favorites = migrated; write('wf_fav_postings', []); }
   if (storageBroken) message('저장 데이터 읽기에 실패했습니다. 기존 데이터는 덮어쓰지 않았습니다.');
@@ -56,7 +76,7 @@ function selectRows(skipType = false) {
   const query = $('search').value.trim().toLowerCase();
   const period = Number($('period-select').value);
   const oldest = new Date(Date.now() - period * 86400000).toISOString().slice(0, 10);
-  return rows.filter(p => (!activeSite || p.siteId === activeSite) && (showHidden || !hidden.has(legacyKey(p)))
+  return rows.filter(p => (!activeSite || p.siteId === activeSite) && (showHidden || (!isHidden(p) && (mode === 'favorites' || !learnedExcluded(p))))
     && (filter !== 'new' || newIds.has(identity(p)))
     && (!period || (p.postedAt || p.regDate || p.applicationStartAt || '') >= oldest)
     && (!query || `${p.title} ${p.organization} ${p.siteName} ${p.roleText || ''} ${p.region || ''}`.toLowerCase().includes(query)))
@@ -90,8 +110,9 @@ function card(p) {
     ${saved?.retainedDates ? '<div class="warning">일부 일정은 이전 확인값 보존 · 원문 재확인 필요</div>' : ''}
     ${saved && !isActive(p) ? '<div class="warning">종료 또는 오래된 공고 · 즐겨찾기 이력으로 보존</div>' : ''}
     ${saved && p.userVisible === false ? '<div class="warning">현재 추천 대상에서 제외됨 · 사용자가 저장한 기록</div>' : ''}
+    ${learnedExcluded(p) ? '<div class="warning">숨김 학습 제외 문구에 일치 · 즐겨찾기 사본은 보존</div>' : ''}
     <details><summary>일정·판단 근거</summary><ul>${dates.map(e => `<li>${esc(e.date)} ${esc(e.label)}${e.evidence ? ` — ${esc(e.evidence)}` : ''}</li>`).join('') || '<li>등록일 외 확인된 일정 없음</li>'}</ul><p>${esc([...(p.relevanceReasons || []), ...(p.eligibilityReasons || [])].join(' / '))}</p><p>적합도 ${p.fitScore ?? '-'}점은 정렬 보조값이며 지원자격을 보장하지 않습니다.</p></details></div>
-    <div class="posting-actions"><button class="source-btn">원문 열기 ↗</button><button class="fav-btn ${fav ? 'active' : ''}" aria-pressed="${fav}" aria-label="${esc(p.title)} 즐겨찾기 ${fav ? '해제' : '추가'}">${fav ? '★ 저장됨' : '☆ 즐겨찾기'}</button><button class="posting-hide-btn">${hidden.has(legacyKey(p)) ? '복원' : '숨기기'}</button></div>`;
+    <div class="posting-actions"><button class="source-btn">원문 열기 ↗</button><button class="fav-btn ${fav ? 'active' : ''}" aria-pressed="${fav}" aria-label="${esc(p.title)} 즐겨찾기 ${fav ? '해제' : '추가'}">${fav ? '★ 저장됨' : '☆ 즐겨찾기'}</button><button class="posting-hide-btn">${isHidden(p) ? '복원' : '숨기기'}</button></div>`;
   el.querySelector('.source-btn').onclick = () => openSource(p);
   el.querySelector('.fav-btn').onclick = () => toggleFavorite(p);
   el.querySelector('.posting-hide-btn').onclick = () => toggleHidden(p);
@@ -103,6 +124,26 @@ function sourceStatus() {
     const issue = health.find(h => h.siteId === r.site.id && !['OK', 'RECOVERED'].includes(h.status));
     return `<p class="${r.error || stale || issue ? 'warning' : ''}">${esc(r.site.name)}: ${r.error ? `실패 — ${esc(r.error)}` : `${r.postings.length}건 수집 / ${r.postings.filter(p => p.userVisible !== false && isActive(p)).length}건 노출 대상`}${stale ? ' · 36시간 이상 갱신 없음' : ''}${issue ? ` · ${esc(issue.status)} ${esc(issue.message)}` : ''}<br><small>${esc(r.crawledAt)} ${(r.warnings || []).map(esc).join(' / ')}</small></p>`;
   }).join('');
+}
+function renderExclusions() {
+  $('exclusion-controls').hidden = mode === 'scheduler';
+  const rules = new Map(serverRules.map(r => [ruleId(r), { ...r, server: true }]));
+  learnedRules.forEach(r => rules.set(ruleId(r), { ...rules.get(ruleId(r)), ...r }));
+  $('learned-rule-count').textContent = `(${rules.size}개)`;
+  $('learned-rules').replaceChildren();
+  for (const [id, r] of rules) {
+    const active = !hiddenState.disabledRules.includes(id);
+    const row = document.createElement('div'); row.className = 'learned-rule';
+    const description = document.createElement('span');
+    description.textContent = `“${r.keyword}” · ${r.postingType === 'job' ? '채용' : TYPE_LABELS[r.experienceType]} · 서로 다른 ${r.count}건 · ${active ? '적용' : '해제'}${r.server ? ' · 서버 반영됨' : ' · 이 브라우저에서 학습'} `;
+    const button = document.createElement('button'); button.textContent = active ? '규칙 해제' : '규칙 재적용';
+    button.onclick = () => { const next = structuredClone(hiddenState); next.disabledRules = active ? [...new Set([...next.disabledRules, id])] : next.disabledRules.filter(k => k !== id); saveHidden(next); };
+    const evidence = document.createElement('small'); evidence.textContent = `근거: ${r.examples.join(' / ')}`;
+    row.append(description, button, evidence); $('learned-rules').append(row);
+  }
+  if (!rules.size) $('learned-rules').textContent = '3건 이상 반복된 구체적인 제목 문구가 아직 없습니다.';
+  const unresolved = Object.values(hiddenState.records).filter(r => !r.posting.postingType).length;
+  $('hidden-unresolved').textContent = unresolved ? `이전 숨김 ${unresolved}건은 유형 미확인으로 보존 중입니다. 다시 수집되어 유형이 확인되면 학습에 포함합니다.` : '';
 }
 function render() {
   const scheduler = mode === 'scheduler';
@@ -120,11 +161,12 @@ function render() {
   const activeSources = ['favorites', 'scheduler'].includes(mode) ? sources : sources.filter(r => (r.site.type || 'job') === mode);
   $('site-count').textContent = activeSources.length;
   $('crawled-at').textContent = activeSources.length ? new Date(Math.max(...activeSources.map(r => new Date(r.crawledAt).getTime()))).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' }) : '미수집';
-  $('show-hidden-bar').style.display = hidden.size && !scheduler ? 'flex' : 'none';
-  $('hidden-count-badge').textContent = `${hidden.size}건`;
+  $('show-hidden-bar').style.display = (hidden.size || learnedRules.length || serverRules.length) && !scheduler ? 'flex' : 'none';
+  $('hidden-count-badge').textContent = `${Object.keys(hiddenState.records).length}건`;
   $('show-hidden-btn').textContent = showHidden ? '숨긴 공고 감추기' : '숨긴 공고 보기';
   document.querySelectorAll('[data-filter]').forEach(b => b.classList.toggle('active', b.dataset.filter === filter));
   sourceStatus();
+  renderExclusions();
   if (scheduler) { renderCalendar(); return; }
   const rows = selectRows();
   $('posting-count').textContent = rows.length;
@@ -197,7 +239,17 @@ document.querySelectorAll('[data-filter]').forEach(b => b.onclick = () => { filt
 $('experience-type').onchange = e => { type = e.target.value; render(); };
 $('record-kind').onchange = e => { recordKind = e.target.value; activeSite = ''; render(); };
 $('show-hidden-btn').onclick = () => { showHidden = !showHidden; render(); };
-$('clear-hidden-btn').onclick = () => { if (write('wf_hidden_postings', [])) { hidden.clear(); render(); } };
+$('clear-hidden-btn').onclick = () => saveHidden({ ...hiddenState, records: {} });
+$('exclusion-export').onclick = () => {
+  const payload = exportRules(hiddenState);
+  // Keep previously imported server rules unless explicitly disabled in this browser.
+  const rules = new Map(payload.rules.map(r => [ruleId(r), r]));
+  serverRules.filter(r => !hiddenState.disabledRules.includes(ruleId(r))).forEach(r => { if (!rules.has(ruleId(r))) rules.set(ruleId(r), r); });
+  payload.rules = [...rules.values()];
+  const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' }));
+  const a = document.createElement('a'); a.href = url; a.download = `work-finder-exclusions-${todayKST()}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+  message(`${payload.rules.length}개 규칙을 내보냈습니다. 서버 수집 반영은 파일 가져오기와 커밋·푸시 후 적용됩니다.`);
+};
 $('site-nav-toggle').onclick = () => { $('site-nav').classList.toggle('expanded'); };
 $('cal-prev').onclick = () => { calDate.setMonth(calDate.getMonth() - 1, 1); renderCalendar(); };
 $('cal-next').onclick = () => { calDate.setMonth(calDate.getMonth() + 1, 1); renderCalendar(); };

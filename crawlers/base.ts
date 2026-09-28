@@ -5,9 +5,12 @@ import { fileURLToPath } from 'url';
 import type { SiteConfig, CrawlResult, JobPosting, SiteScraper } from './types.js';
 import { enrichPosting } from './opportunity.js';
 import { enrichDetailDates } from './detail-dates.js';
+import { matchesRule, validateRules } from '../web/exclusions.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
+// Invalid data fails loudly before crawling; never silently disable the user's rules.
+const LEARNED_RULES = validateRules(JSON.parse(readFileSync(join(rootDir, 'data', 'learned-exclusions.json'), 'utf-8'))).rules;
 
 function loadKeywords(filename: string): string[] {
   const content = readFileSync(join(rootDir, filename), 'utf-8');
@@ -52,7 +55,7 @@ export async function crawlSite(
 
       await page.waitForTimeout(2000);
       const raw = await scraper(page, config);
-      const postings = await enrichDetailDates(page, raw.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization)));
+      const postings = await enrichDetailDates(page, raw.filter(p => passesExclusions(p, config.type || 'job')));
       return {
         site: config,
         postings: filterJobPostings(postings, config.id),
@@ -139,6 +142,12 @@ export function isNoiseOrganization(org: string): boolean {
   return NOISE_KEYWORDS.some(kw => containsNoiseKeyword(org, kw));
 }
 
+/** Manual exclusions first, then scoped learned title phrases, before scoring/date requests. */
+export function passesExclusions(posting: JobPosting, postingType = posting.postingType || 'job', learnedRules = LEARNED_RULES): boolean {
+  return isJobPosting(posting.title) && !isNoiseOrganization(posting.organization)
+    && !matchesRule({ ...posting, postingType }, learnedRules);
+}
+
 /** 등록일이 1개월 이내인지 확인 (YYYY-MM-DD 형식 기준, 파싱 불가 시 true 반환) */
 export function isWithinOneMonth(regDate: string): boolean {
   const match = regDate.match(/^(\d{4})-(\d{2})-(\d{2})$/);
@@ -154,7 +163,7 @@ export function filterJobPostings(postings: JobPosting[], siteId = 'unknown'): J
   return postings
     // 사용자가 관리하는 제외 목록을 최우선 관문으로 적용한다. 적합도 계산은 이 관문을
     // 통과한 공고에만 수행하므로 박물관 명칭만으로 제외 조건을 뒤집을 수 없다.
-    .filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization))
+    .filter(p => passesExclusions(p))
     .map(p => enrichPosting(p, siteId))
     // 명시적으로 마감된 항목만 현재 목록에서 제외한다. 오래됐지만 모집 중인 공고와
     // 마감일 미상 공고는 상태값으로 구분해 보존한다.

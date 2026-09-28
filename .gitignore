@@ -42,6 +42,7 @@ web/results.json
 web/new-postings.json
 web/experience-results.json
 web/source-health.json
+web/learned-exclusions.json
 .test-artifacts/
 .codex-backups/
 

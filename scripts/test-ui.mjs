@@ -3,24 +3,31 @@ import assert from 'node:assert/strict';
 import { mkdir, readFile } from 'node:fs/promises';
 import { spawn } from 'node:child_process';
 import { once } from 'node:events';
-const server = spawn(process.execPath, ['scripts/serve.mjs'], { stdio: ['ignore', 'pipe', 'inherit'], windowsHide: true });
+const port = process.env.PORT || '4174';
+const server = spawn(process.execPath, ['scripts/serve.mjs'], { env: { ...process.env, PORT: port }, stdio: ['ignore', 'pipe', 'inherit'], windowsHide: true });
 let browser;
 try {
   await once(server.stdout, 'data');
   browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
   const errors = []; page.on('pageerror', error => errors.push(error.message));
-  await page.goto('http://127.0.0.1:4173');
+  await page.goto(`http://127.0.0.1:${port}`);
   await page.waitForFunction(() => document.querySelector('#loading').style.display === 'none');
   await page.click('#flip-btn');
   await page.waitForSelector('.posting');
   assert.equal(await page.locator('#experience-type').inputValue(), 'nonvolunteer');
   assert.equal(await page.locator('.kind-badge').filter({ hasText: '자원봉사' }).count(), 0);
   assert.ok(await page.locator('.kind-badge').filter({ hasText: '인턴' }).count() > 0);
+  const equalActions = async () => {
+    const sizes = await page.locator('.posting').first().locator('.posting-actions button').evaluateAll(buttons => buttons.map(b => ({ width: b.getBoundingClientRect().width, height: b.getBoundingClientRect().height })));
+    assert.equal(sizes.length, 3); sizes.forEach(s => assert.deepEqual(s, { width: 112, height: 40 }));
+  };
+  await equalActions();
   const p = JSON.parse(await readFile('web/experience-results.json', 'utf8')).find(r => r.site.id === 'work24-youth').postings.find(p => p.userVisible);
   const title = await page.locator('.posting-title').first().textContent();
   await page.locator('.fav-btn').first().click();
   assert.equal(await page.locator('.fav-btn').first().getAttribute('aria-pressed'), 'true');
+  await equalActions();
   await page.click('#favorites-btn');
   assert.equal(await page.locator('.posting').count(), 1);
   assert.ok((await page.locator('.posting-title').textContent()).includes(title.trim()));
@@ -46,6 +53,7 @@ try {
   assert.ok((await page.locator('.posting-list').textContent()).includes('미래내일'));
   await page.screenshot({ path: '.test-artifacts/program-info.png', fullPage: false, animations: 'disabled' });
   await page.setViewportSize({ width: 390, height: 844 });
+  await equalActions();
   await page.screenshot({ path: '.test-artifacts/mobile.png', fullPage: false, animations: 'disabled' });
   assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
   // Synthetic fixtures exist only in an isolated test browser, never in collected JSON.
@@ -65,6 +73,31 @@ try {
   await page.locator('.cal-cell summary').click();
   assert.equal(await page.locator('.cal-cell details .cal-event:visible').count(), 1);
   assert.ok((await page.locator('#undated-favorites').textContent()).includes('달력 회귀 4'));
+  // Four distinct fixture postings: after hiding three, the fourth is excluded locally.
+  const fixture = Array.from({ length: 4 }, (_, i) => ({ title: `특수장비검사관 ${i + 1}차 모집`, organization: `기관${i + 1}`, stableId: `learn-${i}`, regDate: `2026-09-0${i + 1}`, deadlineDate: '2099-12-31', url: `https://example.org/view/${i}`, userVisible: true }));
+  await page.route('**/results.json', route => route.fulfill({ json: [{ site: { id: 'fixture', name: '검증 기관', url: 'https://example.org' }, crawledAt: new Date().toISOString(), postings: fixture }] }));
+  await page.reload(); await page.waitForFunction(() => document.querySelector('#loading').style.display === 'none');
+  assert.equal(await page.locator('.posting').count(), 4);
+  for (let i = 0; i < 3; i++) await page.locator('.posting-hide-btn').first().click();
+  assert.equal(await page.locator('.posting').count(), 0);
+  await page.locator('#exclusion-controls summary').click();
+  assert.ok((await page.locator('#learned-rules').textContent()).includes('서로 다른 3건'));
+  const downloadEvent = page.waitForEvent('download'); await page.click('#exclusion-export');
+  const download = await downloadEvent;
+  const exported = JSON.parse(await readFile(await download.path(), 'utf8'));
+  assert.equal(exported.rules[0].keyword, '특수장비검사관');
+  assert.equal(exported.rules[0].count, 3);
+  await page.reload(); await page.waitForFunction(() => document.querySelector('#loading').style.display === 'none');
+  assert.equal(await page.locator('.posting').count(), 0);
+  await page.locator('#exclusion-controls summary').click();
+  await page.locator('.learned-rule button').click();
+  assert.equal(await page.locator('.posting').count(), 1);
+  await page.click('#show-hidden-btn'); assert.equal(await page.locator('.posting').count(), 4);
+  await equalActions();
+  await page.locator('.posting-hide-btn').first().click();
+  assert.equal(await page.locator('.learned-rule').count(), 0);
+  await page.screenshot({ path: '.test-artifacts/hidden-learning-mobile.png', fullPage: true, animations: 'disabled' });
+  assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
   assert.deepEqual(errors, []);
   console.log(`UI 통합 검증 통과: 비봉사 공고·사업 안내·즐겨찾기 저장/누락 보존·달력·모바일. 실제 공고 표본: ${p.title}`);
 } finally { await browser?.close(); server.kill(); }

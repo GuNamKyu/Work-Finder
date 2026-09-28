@@ -3,7 +3,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import type { ChangeType, CrawlResult, JobPosting } from './types.js';
 import { enrichPosting, isUserVisiblePosting, normalizedTitle, postingFingerprint } from './opportunity.js';
-import { isJobPosting, isNoiseOrganization } from './base.js';
+import { passesExclusions } from './base.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -35,7 +35,7 @@ async function readJson<T>(path: string): Promise<T | null> {
 function flatten(results: CrawlResult[]): IndexedPosting[] {
   return results.flatMap(result => result.postings
     // 정책 변경 전의 캐시 결과에도 현재 제외 목록을 동일하게 적용해 가짜 종료 알림을 막는다.
-    .filter(posting => isJobPosting(posting.title) && !isNoiseOrganization(posting.organization))
+    .filter(posting => passesExclusions(posting, result.site.type || 'job'))
     .map(posting => ({
     ...enrichPosting(posting, result.site.id), siteId: result.site.id, siteName: result.site.name,
   })));
@@ -55,8 +55,8 @@ function analyzeSources(current: CrawlResult[], previous: CrawlResult[]): Source
   const now = Date.now();
   return current.map(result => {
     const prev = previousById.get(result.site.id);
-    const currentPostings = result.postings.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization));
-    const previousPostings = prev?.postings.filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization)) || [];
+    const currentPostings = result.postings.filter(p => passesExclusions(p, result.site.type || 'job'));
+    const previousPostings = prev?.postings.filter(p => passesExclusions(p, prev.site.type || 'job')) || [];
     const currentCount = currentPostings.length;
     const previousCount = prev ? previousPostings.length : null;
     const deadlineCoverage = coverage(currentPostings, p => p.applicationEndAt || p.deadlineDate);
@@ -136,7 +136,7 @@ async function main(): Promise<void> {
   const hasBaseline = previousJob !== null || previousExperience !== null;
   const currentResults = [...currentJob, ...currentExperience];
   for (const result of currentResults) result.postings = result.postings
-    .filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization))
+    .filter(p => passesExclusions(p, result.site.type || 'job'))
     .map(p => enrichPosting(p, result.site.id));
   const previousResults = [...(previousJob || []), ...(previousExperience || [])];
   const current = flatten(currentResults), previous = flatten(previousResults);

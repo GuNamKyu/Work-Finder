@@ -7,7 +7,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { writeFile, mkdir } from 'fs/promises';
 import { enrichPosting } from './opportunity.js';
-import { isJobPosting, isNoiseOrganization } from './base.js';
+import { passesExclusions } from './base.js';
 import { enrichDetailDates } from './detail-dates.js';
 
 import * as csvCulture from './sites/experience/csv-culture';
@@ -44,7 +44,7 @@ async function crawlExperience(
 
   const run = async (): Promise<CrawlResult> => {
     try {
-      const raw = (await scraper(page)).filter(p => isJobPosting(p.title) && !isNoiseOrganization(p.organization));
+      const raw = (await scraper(page)).filter(p => passesExclusions(p, 'experience'));
       const dated = await enrichDetailDates(page, raw);
       const postings = dated
         .map(p => enrichPosting({ ...p, postingType: 'experience', experienceType: p.experienceType || 'volunteer' }, config.id))
