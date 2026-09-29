@@ -1,0 +1,66 @@
+name: Chrome 확인 결과 게시 (재수집 없음)
+
+on:
+  workflow_dispatch:
+    inputs:
+      collection_id:
+        description: '검증한 data/browser-publications 폴더의 ID'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      COLLECTION_ID: ${{ inputs.collection_id }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+      - name: ID와 스냅샷 검증
+        run: |
+          [[ "$COLLECTION_ID" =~ ^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$ ]] || exit 1
+          node scripts/browser-publication.mjs verify . "data/browser-publications/$COLLECTION_ID" --check-public
+      - name: 다음 정기 수집에 확인 결과와 이력 전달
+        run: |
+          cp -R "data/browser-publications/$COLLECTION_ID/runtime/". ./
+          cp crawlers/results.json crawlers/results.prev.json
+          cp crawlers/experience-results.json crawlers/experience-results.prev.json
+      - uses: actions/cache/save@v4
+        with:
+          path: |
+            crawlers/results.prev.json
+            crawlers/experience-results.prev.json
+            crawlers/results.last-good.json
+            crawlers/experience-results.last-good.json
+            data/history
+            data/opportunity-state.json
+            data/program-series.json
+          key: work-finder-state-browser-${{ github.run_id }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: data/browser-publications/${{ inputs.collection_id }}/web
+  deploy:
+    needs: prepare
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

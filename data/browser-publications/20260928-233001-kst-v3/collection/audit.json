@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260928-233001-kst",
+  "startedAt": "2026-09-28T14:30:01Z",
+  "finishedAt": "2026-09-29T00:24:00Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:35:00Z",
+      "scope": "국립중앙박물관 채용 게시판, 최신 목록의 홍보지원 공고 1건",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:39:00Z",
+      "scope": "국립문화유산연구원 채용 게시판의 부여·경주 고고학 공고",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:41:00Z",
+      "scope": "국가유산청 공고 목록 최신 고고학 게시물 2건과 원문 교차 확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:43:00Z",
+      "scope": "최신 페이지의 2026년 9월 박물관 학예사 공고 2건",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:46:00Z",
+      "scope": "하남문화재단 채용 공고 제5회 직원채용 첨부 PDF",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:48:00Z",
+      "scope": "고용24 청년 일경험 목록에서 문화재 키워드 검색 결과 2건",
+      "rawObserved": 2,
+      "excluded": 2
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:49:00Z",
+      "scope": "경기일자리재단 청년사업 main_biz_sn=94",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "failed",
+      "checkedAt": "2026-09-28T14:51:00Z",
+      "scope": "문화품앗이 문화 자원봉사 목록 접속 확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "checkedAt": "2026-09-28T14:54:00Z",
+      "scope": "1365 봉사명 박물관 검색, 전체 지역 기본 결과 첫 페이지",
+      "rawObserved": 5,
+      "excluded": 1
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "checkedAt": "2026-09-28T14:56:00Z",
+      "scope": "남양주시립박물관 공고 검색 URL 목록 접속 확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:03:00Z",
+      "scope": "국립고궁박물관 채용 게시판 최신 목록 1페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:04:00Z",
+      "scope": "국립민속박물관 채용 목록 최신 공무직 게시물",
+      "rawObserved": 2,
+      "excluded": 2
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:04:00Z",
+      "scope": "NCS 공정채용 통합 채용목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:04:00Z",
+      "scope": "대한민국역사박물관 채용 게시판 최신 게시물",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:04:00Z",
+      "scope": "경기도박물관협회 구인 게시판 첫 화면",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:05:00Z",
+      "scope": "국립한글박물관 채용 게시판 최신 게시물",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:05:00Z",
+      "scope": "나라일터 공고 목록 첫 화면",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:08:00Z",
+      "scope": "한국문화유산협회 채용공고 160건 중 1페이지와 세부 공고 573–567",
+      "rawObserved": 8,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:08:00Z",
+      "scope": "서울역사박물관 채용 게시판 최신 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:09:00Z",
+      "scope": "한성백제박물관 채용 게시판 최신 목록",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:09:00Z",
+      "scope": "서울공예박물관 채용 게시판",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:09:00Z",
+      "scope": "용산역사박물관 공지 게시판 13개 항목",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:09:00Z",
+      "scope": "은평역사한옥박물관 채용 검색 결과 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:09:00Z",
+      "scope": "서대문자연사박물관 채용·소식 게시판 최신 목록",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "전쟁기념관 채용 게시판 최신 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "국립대한민국임시정부기념관 채용 게시판 최신 목록",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "백범김구기념관 최신 전시해설 양성과정 공지",
+      "rawObserved": 1,
+      "excluded": 1
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "서소문성지 역사박물관 채용 게시판 최신 공고·결과",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "종로문화재단 채용 게시판 최신 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "국가유산청 채용 목록 최신 게시물 교차 확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "경기도박물관 소식·채용 게시판 첫 화면",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "경기도어린이박물관 채용 게시판",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:10:00Z",
+      "scope": "경기북부어린이박물관 채용 게시판 최신 목록",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "전곡선사박물관 공고 694·688 상세",
+      "rawObserved": 2,
+      "excluded": 2
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "실학박물관 최신 공고 969 상세",
+      "rawObserved": 1,
+      "excluded": 1
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "경기도자미술관 공고 4078·4071 상세",
+      "rawObserved": 2,
+      "excluded": 2
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "부천시박물관 채용·공지 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "화성시역사박물관 일반 소식 게시판 최신 목록",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "안성맞춤박물관 게시판 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "이천시립박물관 채용 검색 게시판 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "동두천자유수호평화박물관 최신 게시물",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:11:00Z",
+      "scope": "서울역사편찬원 채용 게시판 최신 목록",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:12:00Z",
+      "scope": "경기도일자리포털 박물관 검색 및 국립농업박물관 공식 포털",
+      "rawObserved": 2,
+      "excluded": 2
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:12:00Z",
+      "scope": "서울특별시 일반 채용정보 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:12:00Z",
+      "scope": "정책브리핑 박물관·학예·문화재 검색 최신 결과",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:15:00Z",
+      "scope": "한국학중앙연구원 채용 게시물 7063·7075 상세",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "checkedAt": "2026-09-29T00:02:00Z",
+      "scope": "국립중앙박물관 알림의 자원봉사 검색 결과",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}
