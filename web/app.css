@@ -23,10 +23,6 @@ button, select { font: inherit; }
 .learned-rule small { display: block; overflow-wrap: anywhere; }
 .schedule-summary { margin: .65rem 0; color: #713d25; font-size: .86rem; }
 .warning, #app-message { color: #9b351e; font-size: .85rem; }
-#collection-warning { max-width: 1052px; margin: 1rem auto; padding: 1rem; border: 1px solid #bd773c; border-radius: 8px; background: #fff3e4; color: #713d25; font-size: .85rem; overflow-wrap: anywhere; }
-#collection-warning ul { padding-left: 1.3rem; margin: .5rem 0; }
-#collection-warning button { padding: .3rem .6rem; border: 1px solid #bd773c; border-radius: 4px; cursor: pointer; }
-@media (max-width: 1100px) { #collection-warning { margin: 1rem 1.5rem; } }
 details { font-size: .8rem; margin-top: .6rem; }
 summary { cursor: pointer; }
 details ul { padding-left: 1.3rem; }

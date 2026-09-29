@@ -38,6 +38,7 @@ crawlers/opportunity-events.json
 crawlers/source-health.json
 crawlers/notification-summary.json
 data/history/
+data/ui-publications/
 data/opportunity-state.json
 data/program-series.json
 web/results.json

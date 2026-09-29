@@ -1,11 +1,19 @@
-name: Chrome 확인 결과 게시 (재수집 없음)
+name: Work-Finder 게시 (데이터 또는 UI 전용)
 
 on:
   workflow_dispatch:
     inputs:
-      collection_id:
-        description: '검증한 data/browser-publications 폴더의 ID'
+      mode:
+        description: '데이터와 UI 게시 또는 UI 전용 게시'
         required: true
+        type: choice
+        options:
+          - data-and-ui
+          - ui-only
+        default: data-and-ui
+      collection_id:
+        description: 'data-and-ui 모드의 검증된 data/browser-publications ID (UI 전용은 비움)'
+        required: false
         type: string
 
 permissions:
@@ -21,27 +29,52 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      should_deploy: ${{ steps.data_mode.outputs.should_deploy || steps.ui_only.outputs.should_deploy }}
     env:
+      MODE: ${{ inputs.mode }}
       COLLECTION_ID: ${{ inputs.collection_id }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-      - run: npm ci
-        env:
-          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
-      - name: ID와 스냅샷 검증
+      - name: Validate mode and target branch
+        run: |
+          [[ "$GITHUB_REF" == "refs/heads/main" ]] || { echo '게시 workflow는 main에서만 실행합니다.' >&2; exit 1; }
+          [[ "$MODE" == "data-and-ui" || "$MODE" == "ui-only" ]] || { echo '알 수 없는 게시 모드' >&2; exit 1; }
+          if [[ "$MODE" == "ui-only" ]]; then
+            [[ -z "$COLLECTION_ID" ]] || { echo 'UI 전용 게시에는 collection_id를 지정하지 않습니다.' >&2; exit 1; }
+          fi
+      - name: ID 확인 및 공개 변경 비교
+        id: data_mode
+        if: inputs.mode == 'data-and-ui'
         run: |
           [[ "$COLLECTION_ID" =~ ^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$ ]] || exit 1
-          node scripts/browser-publication.mjs verify . "data/browser-publications/$COLLECTION_ID" --check-public
-      - name: 다음 정기 수집에 확인 결과와 이력 전달
+          node scripts/ui-publication.mjs compare . "data/browser-publications/$COLLECTION_ID/web" data-and-ui
+      - name: 데이터 변경 시 검증 도구 설치
+        if: inputs.mode == 'data-and-ui' && steps.data_mode.outputs.should_deploy == 'true'
+        run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+      - name: 실제 게시 대상 스냅샷 검증
+        if: inputs.mode == 'data-and-ui' && steps.data_mode.outputs.should_deploy == 'true'
+        run: node scripts/browser-publication.mjs verify . "data/browser-publications/$COLLECTION_ID" --check-public
+      - name: 데이터 경로의 runtime 결과와 이력 전달
+        if: inputs.mode == 'data-and-ui' && steps.data_mode.outputs.should_deploy == 'true'
         run: |
           cp -R "data/browser-publications/$COLLECTION_ID/runtime/". ./
           cp crawlers/results.json crawlers/results.prev.json
           cp crawlers/experience-results.json crawlers/experience-results.prev.json
+      - name: UI 전용 스냅샷 생성 (라이브 JSON 바이트 보존)
+        id: ui_only
+        if: inputs.mode == 'ui-only'
+        run: node scripts/ui-publication.mjs prepare-ui . "$GITHUB_RUN_ID"
+      - name: UI 전용 스냅샷 및 라이브 JSON 재검증
+        if: inputs.mode == 'ui-only' && steps.ui_only.outputs.should_deploy == 'true'
+        run: node scripts/ui-publication.mjs verify-ui . "$GITHUB_RUN_ID"
       - uses: actions/cache/save@v4
+        if: inputs.mode == 'data-and-ui' && steps.data_mode.outputs.should_deploy == 'true'
         with:
           path: |
             crawlers/results.prev.json
@@ -52,11 +85,19 @@ jobs:
             data/opportunity-state.json
             data/program-series.json
           key: work-finder-state-browser-${{ github.run_id }}
-      - uses: actions/upload-pages-artifact@v3
+      - name: 데이터+UI artifact 업로드
+        if: inputs.mode == 'data-and-ui' && steps.data_mode.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: data/browser-publications/${{ inputs.collection_id }}/web
+      - name: UI 전용 artifact 업로드
+        if: inputs.mode == 'ui-only' && steps.ui_only.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.ui_only.outputs.web_path }}
   deploy:
     needs: prepare
+    if: needs.prepare.outputs.should_deploy == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

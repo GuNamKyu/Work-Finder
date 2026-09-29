@@ -130,12 +130,7 @@ function sourceStatus() {
 }
 function collectionWarnings() {
   const relevant = relevantSources(sources, mode, activeSite, type);
-  const problems = relevant.filter(r => r.error || Date.now() - Date.parse(r.crawledAt) > 36 * 3600000 || health.some(h => h.siteId === r.site.id && !['OK', 'RECOVERED'].includes(h.status)))
-    .sort((a, b) => Number(!!b.error) - Number(!!a.error));
-  $('collection-warning').hidden = !problems.length;
-  $('collection-warning').innerHTML = problems.length ? `<strong>수집 상태 주의 — 공고가 없다는 뜻이 아닙니다.</strong><ul>${problems.slice(0, 5).map(r => `<li>${esc(r.site.name)}: ${r.error ? `${r.observedCount ? '부분 실패' : '수집 실패'} · 이번 확인 ${r.observedCount || 0}건 · 이전 확인값 ${r.retainedCount || 0}건 보존` : esc(health.find(h => h.siteId === r.site.id)?.message || '갱신 지연')}</li>`).join('')}</ul>${problems.length > 5 ? `<p>외 ${problems.length - 5}개 수집처 — 상세 상태에서 모두 확인할 수 있습니다.</p>` : ''}<button id="open-source-status">상세 수집 상태 보기</button>` : '';
-  if (problems.length) $('open-source-status').onclick = () => { $('source-status').open = true; $('source-status').scrollIntoView({ behavior: 'smooth' }); };
-  return problems.length;
+  return relevant.filter(r => r.error || Date.now() - Date.parse(r.crawledAt) > 36 * 3600000 || health.some(h => h.siteId === r.site.id && !['OK', 'RECOVERED'].includes(h.status))).length;
 }
 function renderExclusions() {
   $('exclusion-controls').hidden = mode === 'scheduler';

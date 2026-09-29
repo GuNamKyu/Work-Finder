@@ -41,6 +41,7 @@ import * as artic from './sites/artic';
 import * as ddc from './sites/ddc';
 import * as historySeooul from './sites/history-seoul';
 import * as jobGG from './sites/job-gg';
+import * as namuk from './sites/namuk.js';
 import * as museumOrKr from './sites/museum-or-kr';
 import * as seoul from './sites/seoul';
 import * as koreaKr from './sites/korea-kr';
@@ -84,6 +85,7 @@ const sites: [SiteConfig, SiteScraper][] = [
   [ddc.config, ddc.scrape],
   [historySeooul.config, historySeooul.scrape],
   [jobGG.config, jobGG.scrape],
+  [namuk.config, namuk.scrape],
   [museumOrKr.config, museumOrKr.scrape],
   [seoul.config, seoul.scrape],
   [koreaKr.config, koreaKr.scrape],

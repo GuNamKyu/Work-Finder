@@ -42,12 +42,14 @@ test('정상 0건은 과거 결과로 덮어쓰지 않고 마지막 정상 상�
   assert.equal(analyzeSources(merged.results, [good])[0].status, 'ZERO_ANOMALY');
 });
 
-test('보존 시에도 제외어·지원 불가 관문 유지하고 확정 마감은 노출 안 함', () => {
+test('보존 시 박물관 공고 수집 예외를 유지하고 확정 마감은 노출 안 함', () => {
   const excluded = { ...p, title: '박물관 상임이사 학예본부장 모집' };
   const closed = { ...p, url: 'https://example.org/closed', deadlineDate: '2026-09-27' };
   const merged = reconcileResults([source([], 'timeout')], [source([p, excluded, closed])], [], now);
-  assert.equal(merged.results[0].postings.length, 2);
-  assert.equal(merged.results[0].postings.filter(x => isActive(x, '2026-09-28')).length, 1);
+  assert.equal(merged.results[0].postings.length, 3);
+  assert.equal(merged.results[0].postings.some(x => x.title === excluded.title), true);
+  assert.equal(merged.results[0].postings.filter(x => isActive(x, '2026-09-28')).length, 2);
+  assert.equal(isActive(merged.results[0].postings.find(x => x.url === closed.url)!, '2026-09-28'), false);
 });
 
 test('날짜 없는 보존 공고는 7일 지나면 기본 목록 제외, 검토 보기와 이력은 유지', () => {

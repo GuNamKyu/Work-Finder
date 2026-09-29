@@ -151,8 +151,19 @@ export function isNoiseOrganization(org: string): boolean {
   return NOISE_KEYWORDS.some(kw => containsNoiseKeyword(org, kw));
 }
 
-/** Manual exclusions first, then scoped learned title phrases, before scoring/date requests. */
+/** 박물관 예외를 먼저 적용한 뒤 수동 제외어와 학습 제목 규칙을 평가한다. */
 export function passesExclusions(posting: JobPosting, postingType = posting.postingType || 'job', learnedRules = LEARNED_RULES): boolean {
+  // 박물관 채용·경험은 사용자가 명시적으로 수집 대상으로 지정했으므로
+  // 제목 또는 기관명에 박물관이 있으면 수동/학습 제외어보다 우선한다.
+  const isMuseumOpportunity = [
+    posting.title, posting.organization, posting.status, posting.roleText,
+    posting.summary, posting.eligibilityText, posting.programPeriodText,
+    ...(posting.informationLinks || []).map(link => link.label),
+  ].filter(Boolean).join(' ')
+    .normalize('NFKC')
+    .includes('박물관');
+  if (isMuseumOpportunity) return true;
+
   return isJobPosting(posting.title) && !isNoiseOrganization(posting.organization)
     && !matchesRule({ ...posting, postingType }, learnedRules);
 }
@@ -170,8 +181,8 @@ export function isWithinOneMonth(regDate: string): boolean {
 /** 제외 키워드와 명시적 마감 상태를 적용해 현재 공고 목록 구성 */
 export function filterJobPostings(postings: JobPosting[], siteId = 'unknown', includeClosed = false): JobPosting[] {
   return postings
-    // 사용자가 관리하는 제외 목록을 최우선 관문으로 적용한다. 적합도 계산은 이 관문을
-    // 통과한 공고에만 수행하므로 박물관 명칭만으로 제외 조건을 뒤집을 수 없다.
+    // 사용자가 관리하는 제외 목록을 최우선 관문으로 적용하되, 박물관 명칭이 있는
+    // 항목은 명시적인 수집 대상으로서 이 제외 관문을 우회한다.
     .filter(p => passesExclusions(p))
     .map(p => enrichPosting(p, siteId))
     // 명시적으로 마감된 항목만 현재 목록에서 제외한다. 오래됐지만 모집 중인 공고와

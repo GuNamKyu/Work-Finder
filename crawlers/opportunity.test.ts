@@ -75,13 +75,15 @@ test('문화기관의 비대상 직무와 전형 후속 공지는 화면에서 �
   assert.equal(result.userVisible, false);
 });
 
-test('제외 키워드는 박물관·학예 적합도보다 먼저 적용한다', () => {
+test('박물관 공고는 수집하되 지원 불가 직급은 기본 노출에서 제외한다', () => {
   const filtered = filterJobPostings([{
     ...base,
     title: '[국립항공박물관] 상임이사(학예본부장) 모집공고',
     organization: '국립항공박물관',
   }], 'museum');
-  assert.equal(filtered.length, 0);
+  assert.equal(filtered.length, 1);
+  assert.equal(filtered[0].eligibilityStatus, 'ineligible');
+  assert.equal(filtered[0].userVisible, false);
 });
 
 test('임원급과 고경력 필수요건은 지원 가능성에서 별도로 탈락시킨다', () => {
