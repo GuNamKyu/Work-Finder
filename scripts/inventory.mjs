@@ -14,7 +14,7 @@ export async function discover(repo, includeDetails = true) {
   const files = new Map();
   async function read(path) {
     const text = await readFile(join(repo, path), 'utf8');
-    files.set(path.replaceAll('\\', '/'), hash(text));
+    files.set(path.replaceAll('\\', '/'), hash(text.replace(/\r\n/g, '\n')));
     return text;
   }
   function literal(node) {
