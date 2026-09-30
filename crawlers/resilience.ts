@@ -27,6 +27,7 @@ export function reconcileResults(current: CrawlResult[], previous: CrawlResult[]
     const observed = r.postings.filter(clean).map(p => {
       const prior = oldById.get(stablePostingId(r.site.id, p));
       const merged = { ...p, retainedSchedule: false };
+      if (!p.detailCheckedAt && prior?.detailCheckedAt) merged.detailCheckedAt = prior.detailCheckedAt;
       if (prior) for (const field of ['applicationStartAt', 'applicationEndAt', 'deadlineDate', 'programStartAt', 'programEndAt'] as const) {
         if (!p[field] && prior[field]) { merged[field] = prior[field]; merged.retainedSchedule = true; }
       }

@@ -16,6 +16,7 @@ export interface JobPosting {
   informationLinks?: Array<{ label: string; url: string }>;
   detailStatus?: 'verified' | 'list_only' | 'failed';
   detailWarning?: string;
+  detailCheckedAt?: string;
   sourceForm?: { action: string; fields: Record<string, string> };
   postingId?: string;
   canonicalUrl?: string | null;
