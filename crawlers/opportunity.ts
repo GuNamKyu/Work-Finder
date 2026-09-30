@@ -92,6 +92,7 @@ export function classifyLifecycle(posting: JobPosting, now = new Date()): Lifecy
   const posted = parseDate(posting.postedAt || posting.regDate);
 
   if (/^(마감|종료|모집완료|접수완료|closed)$/i.test(posting.status || '') || (deadline && (posting.applicationEndAt || posting.deadlineDate || '') < todayKey)) return 'closed';
+  if (posting.recordKind !== 'program_info' && posting.status === '상태 미확인') return 'stale_unknown';
   if (/상시|수시|채용시|충원시|rolling/i.test(text)) return 'rolling';
   if (posted && today.getTime() - posted.getTime() > 31 * DAY_MS) {
     return (deadline && deadline >= today) || /^(모집중|접수중)$/.test(posting.status || '') ? 'active_long' : 'stale_unknown';

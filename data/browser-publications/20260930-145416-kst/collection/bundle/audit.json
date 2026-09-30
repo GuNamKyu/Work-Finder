@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260930-145416-kst",
+  "startedAt": "2026-09-30T05:54:16.901Z",
+  "finishedAt": "2026-09-30T06:38:32.073Z",
+  "sources": [
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "full",
+      "startedAt": "2026-09-30T06:03:03.898Z",
+      "checkedAt": "2026-09-30T06:09:21.097Z",
+      "elapsedMs": 377199,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 45,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "현재 모집중; 봉사명 박물관; 서울특별시 3페이지/25건과 경기도 2페이지/20건, 기간 2026-09-30~2026-12-30; 두 지역 전체 페이지",
+      "rawObserved": 45,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "full",
+      "startedAt": "2026-09-30T06:04:30.103Z",
+      "checkedAt": "2026-09-30T06:05:42.645Z",
+      "elapsedMs": 72542,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 47,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "간단검색 구분 문화 + 모집현황 모집중; 5페이지(10+10+10+10+7) 전체",
+      "rawObserved": 47,
+      "excluded": 13
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "startedAt": "2026-09-30T06:14:10.335Z",
+      "checkedAt": "2026-09-30T06:14:29.077Z",
+      "elapsedMs": 18742,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "고용24 청년 일경험 목록에서 노원문화재단 프로그램명 검색, 일치 1건의 상세 확인",
+      "rawObserved": 1,
+      "excluded": 1
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-09-30T06:02:31.350Z",
+      "checkedAt": "2026-09-30T06:15:04.214Z",
+      "elapsedMs": 752864,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "청년사업 목록에서 미래내일 일경험 지원사업(사업 94) 상세와 공식 모집 바로가기의 목적지 확인",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "full",
+      "startedAt": "2026-09-30T06:16:07.068Z",
+      "checkedAt": "2026-09-30T06:17:10.233Z",
+      "elapsedMs": 63165,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 4,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "국립중앙박물관 채용 게시판의 채용중 검색 결과 1페이지/4건; 첨부 요건은 상세 미확인",
+      "rawObserved": 4,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "startedAt": "2026-09-30T06:17:35.138Z",
+      "checkedAt": "2026-09-30T06:17:53.754Z",
+      "elapsedMs": 18616,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "국립문화유산연구원 채용 게시판 1페이지(10건), 48368 사무원 공고 상세 1건 추가 확인",
+      "rawObserved": 10,
+      "excluded": 7
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}

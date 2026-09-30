@@ -20,6 +20,11 @@ test('오래됐지만 미래 마감일이 있으면 장기 모집으로 보존�
   assert.equal(status, 'active_long');
 });
 
+test('현재 모집 상태가 확인되지 않은 부분 수집 공고는 미확인 상태로 둔다', () => {
+  assert.equal(classifyLifecycle({ ...base, status: '상태 미확인' }, new Date('2026-09-30T00:00:00+09:00')), 'stale_unknown');
+  assert.equal(classifyLifecycle({ ...base, regDate: '2026-09-29', recordKind: 'program_info', status: '모집일정 미확인' }, new Date('2026-09-30T00:00:00+09:00')), 'fresh');
+});
+
 test('서버 시간대와 무관하게 한국 날짜로 31일 경계 판정', () => {
   const posting = { ...base, regDate: '2026-08-28' };
   assert.equal(classifyLifecycle(posting, new Date('2026-09-27T23:55:00Z')), 'fresh');

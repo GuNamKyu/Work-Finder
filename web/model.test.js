@@ -33,6 +33,12 @@ test('추정 접수일 제외, 원문 링크 프로토콜 제한, 명시적 마�
   assert.equal(isActive({ deadlineDate: '2026-09-26' }, '2026-09-27'), false);
 });
 
+test('모집 상태 미확인은 기본 목록에서 숨기고 요청 시 표시한다', () => {
+  const p = { status: '상태 미확인', lifecycleStatus: 'stale_unknown' };
+  assert.equal(isActive(p, '2026-09-30'), false);
+  assert.equal(isActive(p, '2026-09-30', true), true);
+});
+
 test('보존 공고로 즐겨찾기의 마지막 실제 확인 시각을 새로 늘리지 않음', () => {
   const saved = syncFavorites(emptyFavorites(), [p], [legacyKey(p)], '2026-09-27T00:00:00Z');
   const next = syncFavorites(saved, [{ ...p, verificationStatus: 'retained', lastConfirmedAt: '2026-09-27T00:00:00Z' }], [], '2026-09-28T00:00:00Z');
