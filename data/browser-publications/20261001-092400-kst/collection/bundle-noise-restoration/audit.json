@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261001-092400-kst",
+  "startedAt": "2026-10-01T00:24:04.496Z",
+  "finishedAt": "2026-10-01T01:30:38.227Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:05:37.141Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:05:43.442Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:05:47.963Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:05:54.170Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:02.124Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:15.517Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:19.897Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:24.279Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:30.917Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:41:53.360Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:44:27.000Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 3,
+      "excluded": 1
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:36.840Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:49.856Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:54.867Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:06:59.198Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:07:05.007Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:07:11.479Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:07:23.362Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:07:31.662Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:07:36.259Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:07:42.048Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:07:48.297Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:40:26.052Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:40:30.873Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:40:35.777Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:41:03.273Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:41:08.307Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:41:12.986Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:45:27.334Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:45:37.217Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "checkedAt": "2026-10-01T00:45:42.089Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:46:07.665Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:46:13.567Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:46:27.541Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:50:37.573Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:50:42.980Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:50:47.220Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:54:17.749Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:54:39.268Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:54:43.822Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:54:47.609Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:54:52.987Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:54:57.502Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:00:20.909Z",
+      "scope": "청년일경험 목록 48건씩 보기의 1페이지(전체 8페이지 중) 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:56:38.883Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T01:00:58.679Z",
+      "scope": "문화·모집중 조건의 1페이지(전체 5페이지 중)만 Chrome UI로 확인.",
+      "rawObserved": 2,
+      "excluded": 2
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:56:50.966Z",
+      "scope": "서울·경기, 모집중, 제목 박물관 조건. 5개 페이지/46행을 Chrome UI에서 읽었으나 정규화된 후보 일부만 기록; 모든 상세 미확인.",
+      "rawObserved": 11,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "checkedAt": "2026-10-01T00:56:57.031Z",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}

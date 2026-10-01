@@ -134,10 +134,8 @@ export function truncate(text: string, maxLen = 80): string {
 export const NOISE_KEYWORDS = loadKeywords('noise-keywords.txt');
 
 function containsNoiseKeyword(value: string, keyword: string): boolean {
-  let normalized = value.normalize('NFKC').toLowerCase();
+  const normalized = value.normalize('NFKC').toLowerCase();
   const normalizedKeyword = keyword.normalize('NFKC').toLowerCase();
-  // '미술'은 교과·직무 제외어이지만 '미술관'은 목표 기관이므로 같은 의미로 보지 않는다.
-  if (normalizedKeyword === '미술') normalized = normalized.replaceAll('미술관', '');
   return normalized.includes(normalizedKeyword);
 }
 

@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261001-092400-kst",
+  "inventoryFingerprint": "52db63368736e3e30c955267a66bb371cf73946694c46d3ba735a6f70748e112",
+  "startedAt": "2026-10-01T00:24:04.496Z",
+  "finishedAt": "2026-10-01T01:07:48.297Z",
+  "browser": "Chrome UI",
+  "sourceCount": 48,
+  "coverage": {
+    "partial": 47,
+    "failed": 1,
+    "unvisited": 0
+  },
+  "captures": [
+    {
+      "siteId": "museum-go-kr",
+      "startedAt": "2026-10-01T01:05:31.761Z",
+      "checkedAt": "2026-10-01T01:05:37.141Z",
+      "title": "국립중앙박물관>소식·참여>소식>채용 안내>목록",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54"
+    },
+    {
+      "siteId": "gogung",
+      "startedAt": "2026-10-01T01:05:37.146Z",
+      "checkedAt": "2026-10-01T01:05:43.442Z",
+      "title": "채용공고 | 새소식 | 소식·행사 | gogung",
+      "structuredRowCount": 11,
+      "observedUrl": "https://www.gogung.go.kr/gogung/bbs/BMSR00022/list.do?gubunCd=B22_003&menuNo=800090"
+    },
+    {
+      "siteId": "nrich",
+      "startedAt": "2026-10-01T01:05:43.446Z",
+      "checkedAt": "2026-10-01T01:05:47.963Z",
+      "title": "채용정보 - 국립문화유산연구원",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.nrich.go.kr/kor/boardList.do?menuIdx=285&bbscd=40"
+    },
+    {
+      "siteId": "nfm",
+      "startedAt": "2026-10-01T01:05:47.968Z",
+      "checkedAt": "2026-10-01T01:05:54.170Z",
+      "title": "국립민속박물관 > 소식 > 알림·공고 > 채용안내(목록보기)",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataList.do"
+    },
+    {
+      "siteId": "ncs",
+      "startedAt": "2026-10-01T01:05:54.175Z",
+      "checkedAt": "2026-10-01T01:06:02.124Z",
+      "title": "공정채용 > 구직자 취업준비 > 직무설계 < 채용공고 | NCS 국가직무능력표준, NCS 공정채용",
+      "structuredRowCount": 11,
+      "observedUrl": "https://www.ncs.go.kr/blind/bl04/RecrtNotifList.do"
+    },
+    {
+      "siteId": "much",
+      "startedAt": "2026-10-01T01:06:10.339Z",
+      "checkedAt": "2026-10-01T01:06:15.517Z",
+      "title": "대한민국역사박물관>소개·소식>알림>채용정보",
+      "structuredRowCount": 11,
+      "observedUrl": "https://www.much.go.kr/MUCH/contents/M07090200000.do"
+    },
+    {
+      "siteId": "gmuseum",
+      "startedAt": "2026-10-01T01:06:15.521Z",
+      "checkedAt": "2026-10-01T01:06:19.897Z",
+      "title": "경기도박물관협회",
+      "structuredRowCount": 11,
+      "observedUrl": "https://gmuseum.kr/board/jobList"
+    },
+    {
+      "siteId": "hangeul",
+      "startedAt": "2026-10-01T01:06:19.901Z",
+      "checkedAt": "2026-10-01T01:06:24.279Z",
+      "title": "채용공고 | 새소식 | 소식 | 국립한글박물관",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.hangeul.go.kr/news/newsList.do?bbs_id=30&curr_menu_cd=0106010600"
+    },
+    {
+      "siteId": "gojobs",
+      "startedAt": "2026-10-01T01:06:24.283Z",
+      "checkedAt": "2026-10-01T01:06:30.917Z",
+      "title": "모집공고 < 일반채용 | 나라일터",
+      "structuredRowCount": 5,
+      "observedUrl": "https://www.gojobs.go.kr/apmList.do"
+    },
+    {
+      "siteId": "kaah",
+      "startedAt": "2026-10-01T00:41:48.590Z",
+      "checkedAt": "2026-10-01T00:41:53.360Z",
+      "title": "한국문화유산협회",
+      "structuredRowCount": 16,
+      "observedUrl": "https://www.kaah.kr/reqopen"
+    },
+    {
+      "siteId": "khs",
+      "startedAt": "2026-10-01T00:42:55.650Z",
+      "checkedAt": "2026-10-01T00:44:27.000Z",
+      "title": "시험/채용 목록- 국가유산청",
+      "structuredRowCount": 11,
+      "observedUrl": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam"
+    },
+    {
+      "siteId": "museum-seoul",
+      "startedAt": "2026-10-01T01:06:30.921Z",
+      "checkedAt": "2026-10-01T01:06:36.840Z",
+      "title": "소식·참여 > 알림 > 공고/구인 | 서울역사박물관",
+      "structuredRowCount": 11,
+      "observedUrl": "https://museum.seoul.go.kr/www/board/NR_boardList.do?bbsCd=1017&sso=ok"
+    },
+    {
+      "siteId": "baekje",
+      "startedAt": "2026-10-01T01:06:44.179Z",
+      "checkedAt": "2026-10-01T01:06:49.856Z",
+      "title": "열린마당 > 알림 > 공고/구인 목록페이지 | 한성백제박물관",
+      "structuredRowCount": 12,
+      "observedUrl": "https://baekjemuseum.seoul.go.kr/module/index.jsp?mpid=SBM0501020000"
+    },
+    {
+      "siteId": "craftmuseum",
+      "startedAt": "2026-10-01T01:06:49.860Z",
+      "checkedAt": "2026-10-01T01:06:54.867Z",
+      "title": "공고/채용 < 소식 < 소개 < SeMoCA",
+      "structuredRowCount": 0,
+      "observedUrl": "https://craftmuseum.seoul.go.kr/introduce/recruit_list/1"
+    },
+    {
+      "siteId": "yongsan",
+      "startedAt": "2026-10-01T01:06:54.873Z",
+      "checkedAt": "2026-10-01T01:06:59.198Z",
+      "title": "용산역사박물관 > 공지사항",
+      "structuredRowCount": 0,
+      "observedUrl": "https://museum.yongsan.go.kr/articles/index?boardCode=notice&category=C1002-1"
+    },
+    {
+      "siteId": "ep-museum",
+      "startedAt": "2026-10-01T01:06:59.202Z",
+      "checkedAt": "2026-10-01T01:07:05.007Z",
+      "title": "공지사항 | 은평역사한옥박물관",
+      "structuredRowCount": 2,
+      "observedUrl": "https://museum.ep.go.kr/board/board.asp?bbs_code=Fboard_1&gotopage=1&keyfield=title&keyword=%C3%A4%BF%EB"
+    },
+    {
+      "siteId": "namu-sdm",
+      "startedAt": "2026-10-01T01:07:05.011Z",
+      "checkedAt": "2026-10-01T01:07:11.479Z",
+      "title": "목록 | 채용공고 | 새소식 | 소식·행사 | 서대문자연사박물관",
+      "structuredRowCount": 12,
+      "observedUrl": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/list"
+    },
+    {
+      "siteId": "warmemo",
+      "startedAt": "2026-10-01T01:07:18.751Z",
+      "checkedAt": "2026-10-01T01:07:23.362Z",
+      "title": "전쟁기념사업회 전쟁기념관 > 소개·소식> 알림> 채용공고",
+      "structuredRowCount": 10,
+      "observedUrl": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardList"
+    },
+    {
+      "siteId": "nmkpg",
+      "startedAt": "2026-10-01T01:07:23.367Z",
+      "checkedAt": "2026-10-01T01:07:31.662Z",
+      "title": "공지사항 < 공지사항/보도자료 < 알림마당 | 국립대한민국임시정부기념관",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.nmkpg.go.kr/main/board/1/board_list.do"
+    },
+    {
+      "siteId": "kimkoo",
+      "startedAt": "2026-10-01T01:07:31.667Z",
+      "checkedAt": "2026-10-01T01:07:36.259Z",
+      "title": "백범김구기념관 - KimKoo Museum & Library",
+      "structuredRowCount": 21,
+      "observedUrl": "https://www.kimkoomuseum.org/inf/inf_1_list.asp?BoardDiv=Notice"
+    },
+    {
+      "siteId": "seosomun",
+      "startedAt": "2026-10-01T01:07:36.263Z",
+      "checkedAt": "2026-10-01T01:07:42.048Z",
+      "title": "서소문성지 역사박물관 |",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.seosomun.org/retrieveBoard.do?mCode=159"
+    },
+    {
+      "siteId": "jfac",
+      "startedAt": "2026-10-01T01:07:42.052Z",
+      "checkedAt": "2026-10-01T01:07:48.297Z",
+      "title": "채용정보 | 종로문화재단",
+      "structuredRowCount": 13,
+      "observedUrl": "https://www.jfac.or.kr/site/main/archive/post/category/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4"
+    },
+    {
+      "siteId": "cha",
+      "startedAt": "2026-10-01T00:40:19.617Z",
+      "checkedAt": "2026-10-01T00:40:26.052Z",
+      "title": "시험/채용 목록- 국가유산청",
+      "structuredRowCount": 11,
+      "observedUrl": "https://www.cha.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06"
+    },
+    {
+      "siteId": "musenet",
+      "startedAt": "2026-10-01T00:40:26.056Z",
+      "checkedAt": "2026-10-01T00:40:30.873Z",
+      "title": "공고",
+      "structuredRowCount": 0,
+      "observedUrl": "https://musenet.ggcf.kr/boards/notice/articles?category=03&page=1"
+    },
+    {
+      "siteId": "gcm",
+      "startedAt": "2026-10-01T00:40:30.877Z",
+      "checkedAt": "2026-10-01T00:40:35.777Z",
+      "title": "소식참여",
+      "structuredRowCount": 0,
+      "observedUrl": "https://gcm.ggcf.kr/boards/news/articles?category=03"
+    },
+    {
+      "siteId": "ngcm",
+      "startedAt": "2026-10-01T00:40:57.529Z",
+      "checkedAt": "2026-10-01T00:41:03.273Z",
+      "title": "소식참여",
+      "structuredRowCount": 0,
+      "observedUrl": "https://ngcm.ggcf.kr/boards/news/articles?category=03"
+    },
+    {
+      "siteId": "jgpm",
+      "startedAt": "2026-10-01T00:41:03.278Z",
+      "checkedAt": "2026-10-01T00:41:08.307Z",
+      "title": "소식참여",
+      "structuredRowCount": 0,
+      "observedUrl": "https://jgpm.ggcf.kr/boards/news/articles?category=03"
+    },
+    {
+      "siteId": "silhak",
+      "startedAt": "2026-10-01T00:41:08.310Z",
+      "checkedAt": "2026-10-01T00:41:12.986Z",
+      "title": "공지사항",
+      "structuredRowCount": 0,
+      "observedUrl": "https://silhak.ggcf.kr/boards/news/articles?category=03"
+    },
+    {
+      "siteId": "gjicp",
+      "startedAt": "2026-10-01T00:45:20.074Z",
+      "checkedAt": "2026-10-01T00:45:27.334Z",
+      "title": "공지사항",
+      "structuredRowCount": 0,
+      "observedUrl": "https://gjicp.ggcf.kr/boards/news/articles?category=03"
+    },
+    {
+      "siteId": "bcmuseum",
+      "startedAt": "2026-10-01T00:45:27.340Z",
+      "checkedAt": "2026-10-01T00:45:37.217Z",
+      "title": "새소식 | 부천시박물관",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.bcmuseum.or.kr/ko/boards/notice/?sc=03&pageIndex=1&searchKeyword="
+    },
+    {
+      "siteId": "nyj",
+      "startedAt": "2026-10-01T00:45:37.221Z",
+      "checkedAt": "2026-10-01T00:45:42.089Z",
+      "title": "개발자도구감지",
+      "structuredRowCount": 0,
+      "observedUrl": "https://nyj.go.kr/tracer/info.jsp"
+    },
+    {
+      "siteId": "hnart",
+      "startedAt": "2026-10-01T00:46:03.229Z",
+      "checkedAt": "2026-10-01T00:46:07.665Z",
+      "title": "공지사항 목록",
+      "structuredRowCount": 11,
+      "observedUrl": "https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0"
+    },
+    {
+      "siteId": "hsmuseum",
+      "startedAt": "2026-10-01T00:46:07.669Z",
+      "checkedAt": "2026-10-01T00:46:13.567Z",
+      "title": "화성시역사박물관",
+      "structuredRowCount": 26,
+      "observedUrl": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1.jsp"
+    },
+    {
+      "siteId": "anseong",
+      "startedAt": "2026-10-01T00:46:13.572Z",
+      "checkedAt": "2026-10-01T00:46:27.541Z",
+      "title": "공지사항 목록 | 안성시 문화관광",
+      "structuredRowCount": 11,
+      "observedUrl": "https://www.anseong.go.kr/tourPortal/museum/bbs/list.do?ptIdx=16&mId=0600000000"
+    },
+    {
+      "siteId": "artic",
+      "startedAt": "2026-10-01T00:50:31.779Z",
+      "checkedAt": "2026-10-01T00:50:37.573Z",
+      "title": "목록 : 공지사항 | 알림 | 이천시립박물관",
+      "structuredRowCount": 2,
+      "observedUrl": "https://www.artic.or.kr/icmus/board/list?boardManagementNo=26&menuLevel=2&menuNo=53&searchType=total&searchWord=%EC%B1%84%EC%9A%A9"
+    },
+    {
+      "siteId": "ddc",
+      "startedAt": "2026-10-01T00:50:37.576Z",
+      "checkedAt": "2026-10-01T00:50:42.980Z",
+      "title": "알림마당 - 동두천시 자유수호평화박물관",
+      "structuredRowCount": 14,
+      "observedUrl": "https://www.ddc.go.kr/museum/selectBbsNttList.do?bbsNo=96&key=878"
+    },
+    {
+      "siteId": "history-seoul",
+      "startedAt": "2026-10-01T00:50:42.985Z",
+      "checkedAt": "2026-10-01T00:50:47.220Z",
+      "title": "서울역사편찬원 > 편찬원 소개 > 공지사항 > 알림",
+      "structuredRowCount": 0,
+      "observedUrl": "https://history.seoul.go.kr/bbsctt/list.do?key=2210200044"
+    },
+    {
+      "siteId": "job-gg",
+      "startedAt": "2026-10-01T00:54:16.840Z",
+      "checkedAt": "2026-10-01T00:54:17.749Z",
+      "title": "공공일자리 | 잡아바 채용정보",
+      "structuredRowCount": 63,
+      "observedUrl": "https://job.gg.go.kr/pblcEmpmn/list.do"
+    },
+    {
+      "siteId": "namuk",
+      "startedAt": "2026-10-01T00:54:34.975Z",
+      "checkedAt": "2026-10-01T00:54:39.268Z",
+      "title": "국립농업박물관 채용 | 채용 공고",
+      "structuredRowCount": 0,
+      "observedUrl": "https://namukrecruit.recruiter.co.kr/career/job"
+    },
+    {
+      "siteId": "museum-or-kr",
+      "startedAt": "2026-10-01T00:54:39.272Z",
+      "checkedAt": "2026-10-01T00:54:43.822Z",
+      "title": "채용공고 – 사단법인 한국박물관협회",
+      "structuredRowCount": 12,
+      "observedUrl": "https://museum.or.kr/job2/"
+    },
+    {
+      "siteId": "seoul",
+      "startedAt": "2026-10-01T00:54:43.827Z",
+      "checkedAt": "2026-10-01T00:54:47.609Z",
+      "title": "채용시험 | 서울특별시",
+      "structuredRowCount": 10,
+      "observedUrl": "https://www.seoul.go.kr/news/news_employ.do"
+    },
+    {
+      "siteId": "korea-kr",
+      "startedAt": "2026-10-01T00:54:47.612Z",
+      "checkedAt": "2026-10-01T00:54:52.987Z",
+      "title": "채용정보 | 정책자료 | 대한민국 정책브리핑",
+      "structuredRowCount": 21,
+      "observedUrl": "https://www.korea.kr/archive/recruitInfoList.do"
+    },
+    {
+      "siteId": "kdp-aks",
+      "startedAt": "2026-10-01T00:54:52.990Z",
+      "checkedAt": "2026-10-01T00:54:57.502Z",
+      "title": "한국학자료통합플랫폼 - 한국학 소식",
+      "structuredRowCount": 21,
+      "observedUrl": "https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20"
+    },
+    {
+      "siteId": "work24-youth",
+      "startedAt": "2026-10-01T00:59:50.896Z",
+      "checkedAt": "2026-10-01T01:00:20.909Z",
+      "title": "프로그램 정보 | 홈 > 일경험 프로그램 > 프로그램 정보 | 청년일경험 포털",
+      "structuredRowCount": 48,
+      "observedUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do"
+    },
+    {
+      "siteId": "gjf-youth",
+      "startedAt": "2026-10-01T00:56:30.549Z",
+      "checkedAt": "2026-10-01T00:56:38.883Z",
+      "title": "경기도일자리재단 - 청년",
+      "structuredRowCount": 0,
+      "observedUrl": "https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305"
+    },
+    {
+      "siteId": "csv-culture",
+      "startedAt": "2026-10-01T01:00:36.339Z",
+      "checkedAt": "2026-10-01T01:00:58.679Z",
+      "title": "문화품앗이 문화체육자원봉사 연결시스템 [봉사자 모집공고]",
+      "structuredRowCount": 10,
+      "observedUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "startedAt": "2026-10-01T00:56:44.255Z",
+      "checkedAt": "2026-10-01T00:56:50.966Z",
+      "title": "시간인증봉사(목록보기) | 1365 자원봉사포털",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do"
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "startedAt": "2026-10-01T00:56:50.971Z",
+      "checkedAt": "2026-10-01T00:56:57.031Z",
+      "title": "국립중앙박물관>소식·참여>소식>알림>전체>목록",
+      "structuredRowCount": 0,
+      "observedUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701010000.do?pageSize=10&catCustomType=united&catId=128&arcDataType=&sc=&sv=%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC"
+    }
+  ],
+  "collectionNotes": [
+    "미술 키워드 제거 외에, 복원 공고 제목을 재검사했을 때 독립 차단어 가급도 일치해 해당 키워드 한 항목을 추가 제거했다. 1급~5급 및 가급 연구원 등 나머지 제외어는 유지했다.",
+    "모든 등록 소스의 Chrome 방문 기록을 실행 observation에 포함했다. 페이지 전체를 열지 않은 소스는 partial, 브라우저 차단은 failed로 표시했다.",
+    "1365는 서울·경기 5개 페이지, 46개 결과를 확인했으나 핵심 후보만 정규화해 partial로 보존했다.",
+    "문화품앗이는 41개 결과 중 1페이지/5페이지만 확인했다.",
+    "잡아바 박물관 검색 결과의 경비원 공고는 기존 경비 제외어가 적용되어 노출 후보에서 제외된다."
+  ],
+  "restoredCandidate": {
+    "priorSource": "nrich",
+    "priorPostingId": "48402",
+    "title": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+    "priorBehavior": "지난 실행에서 해당 제목이 제외 집계에 들어갔다. 당시에는 미술과 가급이 모두 제목과 일치했으며, 현재는 두 독립 차단어를 제거해 다시 통과한다.",
+    "currentSource": "khs",
+    "currentCheckUrl": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+    "outcome": "현행 규칙에서 제외되지 않으며, 국가유산청 원문에서 접수 마감 2026-10-07 및 직무를 재확인해 후보로 저장했다.",
+    "uncertainty": "응시자격은 HWPX 첨부 미확인 상태로 미상 처리한다."
+  },
+  "detailChecks": [
+    {
+      "siteId": "khs",
+      "checkedAt": "2026-10-01T00:43:09.000Z",
+      "title": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+      "fields": [
+        "title",
+        "applicationEndAt",
+        "roleText"
+      ],
+      "attachmentEligibility": "미확인"
+    },
+    {
+      "siteId": "khs",
+      "checkedAt": "2026-10-01T00:44:08.000Z",
+      "title": "국립부여문화유산연구소 기간제근로자(선임연구원/연구원, 고고학) 신규 채용 공고",
+      "fields": [
+        "title",
+        "applicationStartAt",
+        "applicationEndAt",
+        "roleText"
+      ],
+      "attachmentEligibility": "미확인"
+    },
+    {
+      "siteId": "khs",
+      "checkedAt": "2026-10-01T00:44:27.000Z",
+      "title": "국립경주문화유산연구소 기간제근로자(금척리고분군-고고) 채용 공고",
+      "fields": [
+        "title",
+        "applicationStartAt",
+        "applicationEndAt",
+        "roleText"
+      ],
+      "attachmentEligibility": "미확인"
+    }
+  ],
+  "lineageDiagnostics": {
+    "builderInventoryGenerator": "installed workfinder/scripts/inventory.mjs",
+    "builderFingerprint": "52db63368736e3e30c955267a66bb371cf73946694c46d3ba735a6f70748e112",
+    "repositoryInventoryGenerator": "scripts/inventory.mjs",
+    "repositoryGeneratorFingerprint": "52db63368736e3e30c955267a66bb371cf73946694c46d3ba735a6f70748e112",
+    "finding": "The skill inventory generator previously hashed raw CRLF while the repository publisher normalized CRLF to LF. The skill now performs the same normalization and both generators produce the same fingerprint."
+  },
+  "scheduleConflicts": [
+    "국립중앙박물관 중국어 전시해설사 공고: 목록 접수 마감 2026-10-06, 상세 일정표 접수 마감 2026-10-14로 상충; 자료에는 확정 날짜를 넣지 않고 경고를 보존했다.",
+    "하남문화재단 공고 PDF: 본문 일부 연도 표기 오탈자와 일부 페이지 세부 검토 미완료; 마감 2026-10-02, 이후 전형일은 참고 정보로만 취급한다."
+  ],
+  "limitations": [
+    "다수 소스는 최신 목록 1페이지만 확인했다. partial은 미확인 페이지에 후보가 더 있을 수 있다는 뜻이다.",
+    "남양주시 소스는 브라우저 개발자 도구 감지 차단 화면으로 실패 처리했다.",
+    "첨부 응시자격, 일정 충돌, 목록-only 자원봉사는 사용자 지원 가능성을 확정하지 않는다."
+  ]
+}

@@ -1,0 +1,1595 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261001-092400-kst",
+  "inventoryFingerprint": "01208deee7e093a7e5a043c48da11ab60c51069f4a7ce0f38e76b0590631f8a2",
+  "startedAt": "2026-10-01T00:24:04.496Z",
+  "finishedAt": "2026-10-01T01:37:48.895Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "startedAt": "2026-10-01T01:05:31.761Z",
+      "checkedAt": "2026-10-01T01:05:37.141Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+          "text": "Chrome UI 확인: 국립중앙박물관>소식·참여>소식>채용 안내>목록; checkedAt=2026-10-01T01:05:37.141Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "국립익산박물관 공무직근로자(사무보조) 채용 공고",
+            "organization": "국립익산박물관",
+            "applicationStartAt": "2026-10-08",
+            "applicationEndAt": "2026-10-13",
+            "deadlineDate": "2026-10-13",
+            "detailStatus": "list_only"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+              "text": "국립익산박물관 공무직근로자(사무보조) 채용 공고 / 접수 2026.10.08~10.13 / 채용중",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+              "text": "국립익산박물관 공무직근로자(사무보조) 채용 공고 / 접수 2026.10.08~10.13",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+              "text": "국립익산박물관 공무직근로자(사무보조) 채용 공고 / 접수 2026.10.08~10.13",
+              "source": "list"
+            },
+            {
+              "field": "deadlineDate",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+              "text": "국립익산박물관 공무직근로자(사무보조) 채용 공고 / 접수 2026.10.08~10.13",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026년 국립중앙박물관 고객지원팀 공무직 채용 공고(중국어 전시해설사)",
+            "organization": "국립중앙박물관",
+            "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24007&cp=1&sv=",
+            "status": "채용중",
+            "detailStatus": "verified",
+            "detailWarning": "목록은 접수 2026.09.28~10.06, 상세 일정표는 2026.09.28~10.14로 마감일이 상충하므로 원문/담당부서 재확인 필요"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+              "text": "2026년 국립중앙박물관 고객지원팀 공무직 채용 공고(중국어 전시해설사) / 접수 2026.09.28~10.06 / 채용중",
+              "source": "list"
+            },
+            {
+              "field": "status",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+              "text": "2026년 국립중앙박물관 고객지원팀 공무직 채용 공고(중국어 전시해설사) / 채용중",
+              "source": "list"
+            },
+            {
+              "field": "detailWarning",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24007&cp=1&sv=",
+              "text": "상세 본문 일반 기간 2026.09.28~10.14; 일정표 최종 접수일 2026.10.14. 목록 표시 최종 접수일은 2026.10.06으로 상충",
+              "source": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "gogung",
+      "startedAt": "2026-10-01T01:05:37.146Z",
+      "checkedAt": "2026-10-01T01:05:43.442Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.gogung.go.kr/gogung/bbs/BMSR00022/list.do?gubunCd=B22_003&menuNo=800090",
+          "text": "Chrome UI 확인: 채용공고 | 새소식 | 소식·행사 | gogung; checkedAt=2026-10-01T01:05:43.442Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nrich",
+      "startedAt": "2026-10-01T01:05:43.446Z",
+      "checkedAt": "2026-10-01T01:05:47.963Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.nrich.go.kr/kor/boardList.do?menuIdx=285&bbscd=40",
+          "text": "Chrome UI 확인: 채용정보 - 국립문화유산연구원; checkedAt=2026-10-01T01:05:47.963Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nfm",
+      "startedAt": "2026-10-01T01:05:47.968Z",
+      "checkedAt": "2026-10-01T01:05:54.170Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataList.do",
+          "text": "Chrome UI 확인: 국립민속박물관 > 소식 > 알림·공고 > 채용안내(목록보기); checkedAt=2026-10-01T01:05:54.170Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ncs",
+      "startedAt": "2026-10-01T01:05:54.175Z",
+      "checkedAt": "2026-10-01T01:06:02.124Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.ncs.go.kr/blind/bl04/RecrtNotifList.do",
+          "text": "Chrome UI 확인: 공정채용 > 구직자 취업준비 > 직무설계 < 채용공고 | NCS 국가직무능력표준, NCS 공정채용; checkedAt=2026-10-01T01:06:02.124Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "much",
+      "startedAt": "2026-10-01T01:06:10.339Z",
+      "checkedAt": "2026-10-01T01:06:15.517Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.much.go.kr/MUCH/contents/M07090200000.do",
+          "text": "Chrome UI 확인: 대한민국역사박물관>소개·소식>알림>채용정보; checkedAt=2026-10-01T01:06:15.517Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gmuseum",
+      "startedAt": "2026-10-01T01:06:15.521Z",
+      "checkedAt": "2026-10-01T01:06:19.897Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://gmuseum.kr/board/jobList",
+          "text": "Chrome UI 확인: 경기도박물관협회; checkedAt=2026-10-01T01:06:19.897Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "hangeul",
+      "startedAt": "2026-10-01T01:06:19.901Z",
+      "checkedAt": "2026-10-01T01:06:24.279Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.hangeul.go.kr/news/newsList.do?bbs_id=30&curr_menu_cd=0106010600",
+          "text": "Chrome UI 확인: 채용공고 | 새소식 | 소식 | 국립한글박물관; checkedAt=2026-10-01T01:06:24.279Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gojobs",
+      "startedAt": "2026-10-01T01:06:24.283Z",
+      "checkedAt": "2026-10-01T01:06:30.917Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.gojobs.go.kr/apmList.do",
+          "text": "Chrome UI 확인: 모집공고 < 일반채용 | 나라일터; checkedAt=2026-10-01T01:06:30.917Z; structuredRowCount=5; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "kaah",
+      "startedAt": "2026-10-01T00:41:48.590Z",
+      "checkedAt": "2026-10-01T00:41:53.360Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.kaah.kr/reqopen",
+          "text": "Chrome UI 확인: 한국문화유산협회; checkedAt=2026-10-01T00:41:53.360Z; structuredRowCount=16; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "khs",
+      "startedAt": "2026-10-01T00:42:55.650Z",
+      "checkedAt": "2026-10-01T00:44:27.000Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+          "text": "Chrome UI 확인: 시험/채용 목록- 국가유산청; checkedAt=2026-10-01T00:44:27.000Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+            "organization": "국립문화유산연구원",
+            "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+            "applicationEndAt": "2026-10-07",
+            "deadlineDate": "2026-10-07",
+            "roleText": "지정동산문화유산 정기조사 및 보고서 작성 지원",
+            "detailStatus": "verified",
+            "detailWarning": "응시자격 세부요건이 담긴 HWPX 첨부파일은 열어 확인하지 못했으므로 자격 적합성은 미확인"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+              "text": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고 / 접수 마감 2026-10-07",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "원서접수 기간 2026.10.06 ~ 2026.10.07",
+              "source": "detail"
+            },
+            {
+              "field": "deadlineDate",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "원서접수 기간 2026.10.06 ~ 2026.10.07",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "지정동산문화유산 정기조사 및 보고서 작성 지원 업무",
+              "source": "detail"
+            },
+            {
+              "field": "detailWarning",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "응시자격은 첨부 HWPX에 수록되어 있으나 해당 첨부는 열어 확인하지 않음",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "국립부여문화유산연구소 기간제근로자(선임연구원/연구원, 고고학) 신규 채용 공고",
+            "organization": "국립부여문화유산연구소",
+            "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9979&no=34577&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+            "applicationStartAt": "2026-09-30",
+            "applicationEndAt": "2026-10-08",
+            "deadlineDate": "2026-10-08",
+            "roleText": "왕궁리·관북리 유적 고고학 조사 관련 기간제 연구 업무",
+            "detailStatus": "verified",
+            "detailWarning": "첨부서류의 자격 세부항목은 별도 검토 필요"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+              "text": "국립부여문화유산연구소 기간제근로자(선임연구원/연구원, 고고학) 신규 채용 공고 / 원서접수 2026.09.30 ~ 2026.10.08",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9979&no=34577&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "원서접수 기간 2026.09.30 ~ 2026.10.08",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9979&no=34577&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "원서접수 기간 2026.09.30 ~ 2026.10.08",
+              "source": "detail"
+            },
+            {
+              "field": "deadlineDate",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9979&no=34577&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "원서접수 기간 2026.09.30 ~ 2026.10.08",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9979&no=34577&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "익산 왕궁리유적 및 부여 관북리유적 고고학 조사 관련 업무",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "국립경주문화유산연구소 기간제근로자(금척리고분군-고고) 채용 공고",
+            "organization": "국립경주문화유산연구소",
+            "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9978&no=34576&bbzId=newexam&pageIndex=1&pageUnit=10&mn=NS_01_06&strWhere=&searchWrd=&sdate=&edate=",
+            "applicationStartAt": "2026-10-06",
+            "applicationEndAt": "2026-10-09",
+            "deadlineDate": "2026-10-09",
+            "roleText": "금척리고분군 고고학 조사 관련 기간제 업무",
+            "detailStatus": "verified",
+            "detailWarning": "첨부서류의 자격 세부항목은 별도 검토 필요"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+              "text": "국립경주문화유산연구소 기간제근로자(금척리고분군-고고) 채용 공고 / 원서접수 2026.10.06 ~ 2026.10.09 18:00",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9978&no=34576&bbzId=newexam&pageIndex=1&pageUnit=10&mn=NS_01_06&strWhere=&searchWrd=&sdate=&edate=",
+              "text": "원서접수 기간 2026.10.06 ~ 2026.10.09 18:00",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9978&no=34576&bbzId=newexam&pageIndex=1&pageUnit=10&mn=NS_01_06&strWhere=&searchWrd=&sdate=&edate=",
+              "text": "원서접수 기간 2026.10.06 ~ 2026.10.09 18:00",
+              "source": "detail"
+            },
+            {
+              "field": "deadlineDate",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9978&no=34576&bbzId=newexam&pageIndex=1&pageUnit=10&mn=NS_01_06&strWhere=&searchWrd=&sdate=&edate=",
+              "text": "원서접수 기간 2026.10.06 ~ 2026.10.09 18:00",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9978&no=34576&bbzId=newexam&pageIndex=1&pageUnit=10&mn=NS_01_06&strWhere=&searchWrd=&sdate=&edate=",
+              "text": "금척리고분군 고고학 조사 업무",
+              "source": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "museum-seoul",
+      "startedAt": "2026-10-01T01:06:30.921Z",
+      "checkedAt": "2026-10-01T01:06:36.840Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://museum.seoul.go.kr/www/board/NR_boardList.do?bbsCd=1017&sso=ok",
+          "text": "Chrome UI 확인: 소식·참여 > 알림 > 공고/구인 | 서울역사박물관; checkedAt=2026-10-01T01:06:36.840Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "baekje",
+      "startedAt": "2026-10-01T01:06:44.179Z",
+      "checkedAt": "2026-10-01T01:06:49.856Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?mpid=SBM0501020000",
+          "text": "Chrome UI 확인: 열린마당 > 알림 > 공고/구인 목록페이지 | 한성백제박물관; checkedAt=2026-10-01T01:06:49.856Z; structuredRowCount=12; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "craftmuseum",
+      "startedAt": "2026-10-01T01:06:49.860Z",
+      "checkedAt": "2026-10-01T01:06:54.867Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://craftmuseum.seoul.go.kr/introduce/recruit_list/1",
+          "text": "Chrome UI 확인: 공고/채용 < 소식 < 소개 < SeMoCA; checkedAt=2026-10-01T01:06:54.867Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "yongsan",
+      "startedAt": "2026-10-01T01:06:54.873Z",
+      "checkedAt": "2026-10-01T01:06:59.198Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://museum.yongsan.go.kr/articles/index?boardCode=notice&category=C1002-1",
+          "text": "Chrome UI 확인: 용산역사박물관 > 공지사항; checkedAt=2026-10-01T01:06:59.198Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ep-museum",
+      "startedAt": "2026-10-01T01:06:59.202Z",
+      "checkedAt": "2026-10-01T01:07:05.007Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://museum.ep.go.kr/board/board.asp?bbs_code=Fboard_1&gotopage=1&keyfield=title&keyword=%C3%A4%BF%EB",
+          "text": "Chrome UI 확인: 공지사항 | 은평역사한옥박물관; checkedAt=2026-10-01T01:07:05.007Z; structuredRowCount=2; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "namu-sdm",
+      "startedAt": "2026-10-01T01:07:05.011Z",
+      "checkedAt": "2026-10-01T01:07:11.479Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/list",
+          "text": "Chrome UI 확인: 목록 | 채용공고 | 새소식 | 소식·행사 | 서대문자연사박물관; checkedAt=2026-10-01T01:07:11.479Z; structuredRowCount=12; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "warmemo",
+      "startedAt": "2026-10-01T01:07:18.751Z",
+      "checkedAt": "2026-10-01T01:07:23.362Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardList",
+          "text": "Chrome UI 확인: 전쟁기념사업회 전쟁기념관 > 소개·소식> 알림> 채용공고; checkedAt=2026-10-01T01:07:23.362Z; structuredRowCount=10; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nmkpg",
+      "startedAt": "2026-10-01T01:07:23.367Z",
+      "checkedAt": "2026-10-01T01:07:31.662Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.nmkpg.go.kr/main/board/1/board_list.do",
+          "text": "Chrome UI 확인: 공지사항 < 공지사항/보도자료 < 알림마당 | 국립대한민국임시정부기념관; checkedAt=2026-10-01T01:07:31.662Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "kimkoo",
+      "startedAt": "2026-10-01T01:07:31.667Z",
+      "checkedAt": "2026-10-01T01:07:36.259Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.kimkoomuseum.org/inf/inf_1_list.asp?BoardDiv=Notice",
+          "text": "Chrome UI 확인: 백범김구기념관 - KimKoo Museum & Library; checkedAt=2026-10-01T01:07:36.259Z; structuredRowCount=21; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "seosomun",
+      "startedAt": "2026-10-01T01:07:36.263Z",
+      "checkedAt": "2026-10-01T01:07:42.048Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+          "text": "Chrome UI 확인: 서소문성지 역사박물관 |; checkedAt=2026-10-01T01:07:42.048Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "jfac",
+      "startedAt": "2026-10-01T01:07:42.052Z",
+      "checkedAt": "2026-10-01T01:07:48.297Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.jfac.or.kr/site/main/archive/post/category/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4",
+          "text": "Chrome UI 확인: 채용정보 | 종로문화재단; checkedAt=2026-10-01T01:07:48.297Z; structuredRowCount=13; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "cha",
+      "startedAt": "2026-10-01T00:40:19.617Z",
+      "checkedAt": "2026-10-01T00:40:26.052Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.cha.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06",
+          "text": "Chrome UI 확인: 시험/채용 목록- 국가유산청; checkedAt=2026-10-01T00:40:26.052Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "musenet",
+      "startedAt": "2026-10-01T00:40:26.056Z",
+      "checkedAt": "2026-10-01T00:40:30.873Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://musenet.ggcf.kr/boards/notice/articles?category=03&page=1",
+          "text": "Chrome UI 확인: 공고; checkedAt=2026-10-01T00:40:30.873Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gcm",
+      "startedAt": "2026-10-01T00:40:30.877Z",
+      "checkedAt": "2026-10-01T00:40:35.777Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://gcm.ggcf.kr/boards/news/articles?category=03",
+          "text": "Chrome UI 확인: 소식참여; checkedAt=2026-10-01T00:40:35.777Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ngcm",
+      "startedAt": "2026-10-01T00:40:57.529Z",
+      "checkedAt": "2026-10-01T00:41:03.273Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://ngcm.ggcf.kr/boards/news/articles?category=03",
+          "text": "Chrome UI 확인: 소식참여; checkedAt=2026-10-01T00:41:03.273Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "jgpm",
+      "startedAt": "2026-10-01T00:41:03.278Z",
+      "checkedAt": "2026-10-01T00:41:08.307Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://jgpm.ggcf.kr/boards/news/articles?category=03",
+          "text": "Chrome UI 확인: 소식참여; checkedAt=2026-10-01T00:41:08.307Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "silhak",
+      "startedAt": "2026-10-01T00:41:08.310Z",
+      "checkedAt": "2026-10-01T00:41:12.986Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://silhak.ggcf.kr/boards/news/articles?category=03",
+          "text": "Chrome UI 확인: 공지사항; checkedAt=2026-10-01T00:41:12.986Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gjicp",
+      "startedAt": "2026-10-01T00:45:20.074Z",
+      "checkedAt": "2026-10-01T00:45:27.334Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://gjicp.ggcf.kr/boards/news/articles?category=03",
+          "text": "Chrome UI 확인: 공지사항; checkedAt=2026-10-01T00:45:27.334Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "bcmuseum",
+      "startedAt": "2026-10-01T00:45:27.340Z",
+      "checkedAt": "2026-10-01T00:45:37.217Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.bcmuseum.or.kr/ko/boards/notice/?sc=03&pageIndex=1&searchKeyword=",
+          "text": "Chrome UI 확인: 새소식 | 부천시박물관; checkedAt=2026-10-01T00:45:37.217Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nyj",
+      "startedAt": "2026-10-01T00:45:37.221Z",
+      "checkedAt": "2026-10-01T00:45:42.089Z",
+      "coverage": "failed",
+      "error": "Chrome에서 개발자 도구 감지 차단 화면이 노출되어 우회하지 않고 중단함.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [],
+      "postings": []
+    },
+    {
+      "siteId": "hnart",
+      "startedAt": "2026-10-01T00:46:03.229Z",
+      "checkedAt": "2026-10-01T00:46:07.665Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+          "text": "Chrome UI 확인: 공지사항 목록; checkedAt=2026-10-01T00:46:07.665Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "hsmuseum",
+      "startedAt": "2026-10-01T00:46:07.669Z",
+      "checkedAt": "2026-10-01T00:46:13.567Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1.jsp",
+          "text": "Chrome UI 확인: 화성시역사박물관; checkedAt=2026-10-01T00:46:13.567Z; structuredRowCount=26; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "anseong",
+      "startedAt": "2026-10-01T00:46:13.572Z",
+      "checkedAt": "2026-10-01T00:46:27.541Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.anseong.go.kr/tourPortal/museum/bbs/list.do?ptIdx=16&mId=0600000000",
+          "text": "Chrome UI 확인: 공지사항 목록 | 안성시 문화관광; checkedAt=2026-10-01T00:46:27.541Z; structuredRowCount=11; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "artic",
+      "startedAt": "2026-10-01T00:50:31.779Z",
+      "checkedAt": "2026-10-01T00:50:37.573Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.artic.or.kr/icmus/board/list?boardManagementNo=26&menuLevel=2&menuNo=53&searchType=total&searchWord=%EC%B1%84%EC%9A%A9",
+          "text": "Chrome UI 확인: 목록 : 공지사항 | 알림 | 이천시립박물관; checkedAt=2026-10-01T00:50:37.573Z; structuredRowCount=2; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ddc",
+      "startedAt": "2026-10-01T00:50:37.576Z",
+      "checkedAt": "2026-10-01T00:50:42.980Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.ddc.go.kr/museum/selectBbsNttList.do?bbsNo=96&key=878",
+          "text": "Chrome UI 확인: 알림마당 - 동두천시 자유수호평화박물관; checkedAt=2026-10-01T00:50:42.980Z; structuredRowCount=14; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "history-seoul",
+      "startedAt": "2026-10-01T00:50:42.985Z",
+      "checkedAt": "2026-10-01T00:50:47.220Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://history.seoul.go.kr/bbsctt/list.do?key=2210200044",
+          "text": "Chrome UI 확인: 서울역사편찬원 > 편찬원 소개 > 공지사항 > 알림; checkedAt=2026-10-01T00:50:47.220Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "job-gg",
+      "startedAt": "2026-10-01T00:54:16.840Z",
+      "checkedAt": "2026-10-01T00:54:17.749Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://job.gg.go.kr/pblcEmpmn/list.do",
+          "text": "Chrome UI 확인: 공공일자리 | 잡아바 채용정보; checkedAt=2026-10-01T00:54:17.749Z; structuredRowCount=63; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "namuk",
+      "startedAt": "2026-10-01T00:54:34.975Z",
+      "checkedAt": "2026-10-01T00:54:39.268Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://namukrecruit.recruiter.co.kr/career/job",
+          "text": "Chrome UI 확인: 국립농업박물관 채용 | 채용 공고; checkedAt=2026-10-01T00:54:39.268Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "museum-or-kr",
+      "startedAt": "2026-10-01T00:54:39.272Z",
+      "checkedAt": "2026-10-01T00:54:43.822Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://museum.or.kr/job2/",
+          "text": "Chrome UI 확인: 채용공고 – 사단법인 한국박물관협회; checkedAt=2026-10-01T00:54:43.822Z; structuredRowCount=12; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "seoul",
+      "startedAt": "2026-10-01T00:54:43.827Z",
+      "checkedAt": "2026-10-01T00:54:47.609Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.seoul.go.kr/news/news_employ.do",
+          "text": "Chrome UI 확인: 채용시험 | 서울특별시; checkedAt=2026-10-01T00:54:47.609Z; structuredRowCount=10; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "korea-kr",
+      "startedAt": "2026-10-01T00:54:47.612Z",
+      "checkedAt": "2026-10-01T00:54:52.987Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.korea.kr/archive/recruitInfoList.do",
+          "text": "Chrome UI 확인: 채용정보 | 정책자료 | 대한민국 정책브리핑; checkedAt=2026-10-01T00:54:52.987Z; structuredRowCount=21; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "kdp-aks",
+      "startedAt": "2026-10-01T00:54:52.990Z",
+      "checkedAt": "2026-10-01T00:54:57.502Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20",
+          "text": "Chrome UI 확인: 한국학자료통합플랫폼 - 한국학 소식; checkedAt=2026-10-01T00:54:57.502Z; structuredRowCount=21; Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "work24-youth",
+      "startedAt": "2026-10-01T00:59:50.896Z",
+      "checkedAt": "2026-10-01T01:00:20.909Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "청년일경험 목록 48건씩 보기의 1페이지(전체 8페이지 중) 확인.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do",
+          "text": "Chrome UI 확인: 프로그램 정보 | 홈 > 일경험 프로그램 > 프로그램 정보 | 청년일경험 포털; checkedAt=2026-10-01T01:00:20.909Z; structuredRowCount=48; 청년일경험 목록 48건씩 보기의 1페이지(전체 8페이지 중) 확인.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gjf-youth",
+      "startedAt": "2026-10-01T00:56:30.549Z",
+      "checkedAt": "2026-10-01T00:56:38.883Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305",
+          "text": "Chrome UI 확인: 경기도일자리재단 - 청년; checkedAt=2026-10-01T00:56:38.883Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "csv-culture",
+      "startedAt": "2026-10-01T01:00:36.339Z",
+      "checkedAt": "2026-10-01T01:00:58.679Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "문화·모집중 조건의 1페이지(전체 5페이지 중)만 Chrome UI로 확인.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+          "text": "Chrome UI 확인: 문화품앗이 문화체육자원봉사 연결시스템 [봉사자 모집공고]; checkedAt=2026-10-01T01:00:58.679Z; structuredRowCount=10; 문화·모집중 조건의 1페이지(전체 5페이지 중)만 Chrome UI로 확인.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집",
+            "organization": "대구보건대학교 인당뮤지엄",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-29",
+            "programStartAt": "2026-10-09",
+            "programEndAt": "2026-10-31",
+            "eligibilityText": "성인",
+            "detailStatus": "list_only"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집 / 모집 2026.09.28~2026.10.29 / 활동 2026.10.09~2026.10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집 / 모집 2026.09.28~2026.10.29 / 활동 2026.10.09~2026.10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집 / 모집 2026.09.28~2026.10.29 / 활동 2026.10.09~2026.10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집 / 모집 2026.09.28~2026.10.29 / 활동 2026.10.09~2026.10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집 / 모집 2026.09.28~2026.10.29 / 활동 2026.10.09~2026.10.31 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026 유네스코 세계유산 자원봉사단(WHV) 「Living Heritage at Hoeamsa」 청소년 문화유산 기획·지원단 모집",
+            "organization": "유네스코 세계유산 자원봉사단",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-03",
+            "programStartAt": "2026-10-03",
+            "programEndAt": "2026-10-10",
+            "detailStatus": "list_only",
+            "detailWarning": "참여 자격의 연령 범위는 목록에 상세히 표시되지 않아 원문 확인 필요"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "2026 유네스코 세계유산 자원봉사단(WHV) 「Living Heritage at Hoeamsa」 청소년 문화유산 기획·지원단 모집 / 모집 2026.09.27~2026.10.03 / 활동 2026.10.03~2026.10.10 / 모집중",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "2026 유네스코 세계유산 자원봉사단(WHV) 「Living Heritage at Hoeamsa」 청소년 문화유산 기획·지원단 모집 / 모집 2026.09.27~2026.10.03 / 활동 2026.10.03~2026.10.10 / 모집중",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "2026 유네스코 세계유산 자원봉사단(WHV) 「Living Heritage at Hoeamsa」 청소년 문화유산 기획·지원단 모집 / 모집 2026.09.27~2026.10.03 / 활동 2026.10.03~2026.10.10 / 모집중",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "2026 유네스코 세계유산 자원봉사단(WHV) 「Living Heritage at Hoeamsa」 청소년 문화유산 기획·지원단 모집 / 모집 2026.09.27~2026.10.03 / 활동 2026.10.03~2026.10.10 / 모집중",
+              "source": "list"
+            },
+            {
+              "field": "detailWarning",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "2026 유네스코 세계유산 자원봉사단(WHV) 「Living Heritage at Hoeamsa」 청소년 문화유산 기획·지원단 모집 / 모집 2026.09.27~2026.10.03 / 활동 2026.10.03~2026.10.10 / 모집중",
+              "source": "list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "1365-volunteer",
+      "startedAt": "2026-10-01T00:56:44.255Z",
+      "checkedAt": "2026-10-01T00:56:50.966Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "서울·경기, 모집중, 제목 박물관 조건. 5개 페이지/46행을 Chrome UI에서 읽었으나 정규화된 후보 일부만 기록; 모든 상세 미확인.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+          "text": "Chrome UI 확인: 시간인증봉사(목록보기) | 1365 자원봉사포털; checkedAt=2026-10-01T00:56:50.966Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); 서울·경기, 모집중, 제목 박물관 조건. 5개 페이지/46행을 Chrome UI에서 읽었으나 정규화된 후보 일부만 기록; 모든 상세 미확인.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "암사동선사유적박물관 자원봉사자 모집 (2026.10.09~10.11 오후팀)",
+            "organization": "서울암사동유적",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-07",
+            "programStartAt": "2026-10-09",
+            "programEndAt": "2026-10-11",
+            "detailStatus": "list_only",
+            "region": "서울특별시 강동구"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "암사동선사유적박물관 자원봉사자 모집 / 봉사 2026.10.09~10.11 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "암사동선사유적박물관 자원봉사자 모집 / 봉사 2026.10.09~10.11 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "암사동선사유적박물관 자원봉사자 모집 / 봉사 2026.10.09~10.11 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "암사동선사유적박물관 자원봉사자 모집 / 봉사 2026.10.09~10.11 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "암사동선사유적박물관 자원봉사자 모집 / 봉사 2026.10.09~10.11 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "허준축제 허준박물관 전시 부스 도우미 (10:00~13:00)",
+            "organization": "강서문화원·허준박물관",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-07",
+            "programStartAt": "2026-10-10",
+            "programEndAt": "2026-10-11",
+            "detailStatus": "list_only",
+            "region": "서울특별시 강서구"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 허준박물관 전시 부스 도우미 / 봉사 2026.10.10~10.11 10:00~13:00 / 신청 2026.09.30~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 허준박물관 전시 부스 도우미 / 봉사 2026.10.10~10.11 10:00~13:00 / 신청 2026.09.30~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 허준박물관 전시 부스 도우미 / 봉사 2026.10.10~10.11 10:00~13:00 / 신청 2026.09.30~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 허준박물관 전시 부스 도우미 / 봉사 2026.10.10~10.11 10:00~13:00 / 신청 2026.09.30~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 허준박물관 전시 부스 도우미 / 봉사 2026.10.10~10.11 10:00~13:00 / 신청 2026.09.30~10.07 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오후팀",
+            "organization": "상명대학교박물관",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-23",
+            "programStartAt": "2026-09-01",
+            "programEndAt": "2026-10-30",
+            "detailStatus": "list_only",
+            "region": "서울특별시 종로구"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오후팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.12~10.23 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오후팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.12~10.23 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오후팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.12~10.23 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오후팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.12~10.23 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오후팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.12~10.23 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오전팀",
+            "organization": "상명대학교박물관",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-29",
+            "programStartAt": "2026-09-01",
+            "programEndAt": "2026-10-30",
+            "detailStatus": "list_only",
+            "region": "서울특별시 종로구"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오전팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.25~10.29 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오전팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.25~10.29 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오전팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.25~10.29 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오전팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.25~10.29 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "상명대학교박물관 기획전시실 전시지킴이 및 관리보조 오전팀 / 봉사 2026.09.01~10.30 / 신청 2026.08.25~10.29 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "국립항공박물관 10월 전시실 오전 자원봉사",
+            "organization": "국립항공박물관",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-28",
+            "programStartAt": "2026-10-01",
+            "programEndAt": "2026-10-31",
+            "detailStatus": "list_only",
+            "region": "서울특별시 강서구"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오전 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오전 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오전 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오전 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오전 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "국립항공박물관 10월 전시실 오후 자원봉사",
+            "organization": "국립항공박물관",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-28",
+            "programStartAt": "2026-10-01",
+            "programEndAt": "2026-10-31",
+            "detailStatus": "list_only",
+            "region": "서울특별시 강서구"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오후 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오후 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오후 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오후 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "국립항공박물관 10월 전시실 오후 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.23~10.28 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026 수원광교박물관 문화행사 가을문화축제 행사 요원",
+            "organization": "수원광교박물관",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-07",
+            "programStartAt": "2026-10-09",
+            "programEndAt": "2026-10-09",
+            "detailStatus": "list_only",
+            "region": "경기도 수원시"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "수원광교박물관 가을문화축제 행사 요원 / 봉사 2026.10.09 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "수원광교박물관 가을문화축제 행사 요원 / 봉사 2026.10.09 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "수원광교박물관 가을문화축제 행사 요원 / 봉사 2026.10.09 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "수원광교박물관 가을문화축제 행사 요원 / 봉사 2026.10.09 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "수원광교박물관 가을문화축제 행사 요원 / 봉사 2026.10.09 / 신청 2026.09.11~10.07 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "이천시립박물관 10월 자원봉사자 모집(QR승인)",
+            "organization": "이천문화재단(이천시립박물관·서희역사관)",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-30",
+            "programStartAt": "2026-10-01",
+            "programEndAt": "2026-10-31",
+            "detailStatus": "list_only",
+            "region": "경기도 이천시"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "이천시립박물관 10월 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.15~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "이천시립박물관 10월 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.15~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "이천시립박물관 10월 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.15~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "이천시립박물관 10월 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.15~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "이천시립박물관 10월 자원봉사 / 봉사 2026.10.01~10.31 / 신청 2026.09.15~10.30 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "시흥오이도박물관 상설전시실 안내데스크 방문객 안내 (성인 주말 오후)",
+            "organization": "시흥오이도박물관(시흥시 관광과)",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-30",
+            "programStartAt": "2026-10-03",
+            "programEndAt": "2026-10-31",
+            "detailStatus": "list_only",
+            "region": "경기도 시흥시"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "시흥오이도박물관 상설전시실 안내데스크 방문객 안내 / 봉사 2026.10.03~10.31 / 신청 2026.09.18~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "시흥오이도박물관 상설전시실 안내데스크 방문객 안내 / 봉사 2026.10.03~10.31 / 신청 2026.09.18~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "시흥오이도박물관 상설전시실 안내데스크 방문객 안내 / 봉사 2026.10.03~10.31 / 신청 2026.09.18~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "시흥오이도박물관 상설전시실 안내데스크 방문객 안내 / 봉사 2026.10.03~10.31 / 신청 2026.09.18~10.30 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "시흥오이도박물관 상설전시실 안내데스크 방문객 안내 / 봉사 2026.10.03~10.31 / 신청 2026.09.18~10.30 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "경기도자박물관 교육프로그램 키트 준비·보조 및 환경정비",
+            "organization": "(재)한국도자재단 경기도자박물관",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-10-31",
+            "programStartAt": "2026-09-23",
+            "programEndAt": "2026-11-01",
+            "detailStatus": "list_only",
+            "region": "경기도 광주시"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "경기도자박물관 교육키트 준비·보조 및 환경정비 / 봉사 2026.09.23~11.01 / 신청 2026.09.22~10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "경기도자박물관 교육키트 준비·보조 및 환경정비 / 봉사 2026.09.23~11.01 / 신청 2026.09.22~10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "경기도자박물관 교육키트 준비·보조 및 환경정비 / 봉사 2026.09.23~11.01 / 신청 2026.09.22~10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "경기도자박물관 교육키트 준비·보조 및 환경정비 / 봉사 2026.09.23~11.01 / 신청 2026.09.22~10.31 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "경기도자박물관 교육키트 준비·보조 및 환경정비 / 봉사 2026.09.23~11.01 / 신청 2026.09.22~10.31 / 성인",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "자연생태박물관 전시장 관리 및 안내 (2026년 10~12월 오전)",
+            "organization": "부천시 공원조성과",
+            "experienceType": "volunteer",
+            "applicationEndAt": "2026-12-25",
+            "programStartAt": "2026-10-01",
+            "programEndAt": "2026-12-31",
+            "detailStatus": "list_only",
+            "region": "경기도 부천시"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "자연생태박물관 전시장 관리 및 안내 오전 / 봉사 2026.10.01~12.31 / 신청 2026.09.07~12.25 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "자연생태박물관 전시장 관리 및 안내 오전 / 봉사 2026.10.01~12.31 / 신청 2026.09.07~12.25 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "자연생태박물관 전시장 관리 및 안내 오전 / 봉사 2026.10.01~12.31 / 신청 2026.09.07~12.25 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "자연생태박물관 전시장 관리 및 안내 오전 / 봉사 2026.10.01~12.31 / 신청 2026.09.07~12.25 / 성인",
+              "source": "list"
+            },
+            {
+              "field": "region",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "자연생태박물관 전시장 관리 및 안내 오전 / 봉사 2026.10.01~12.31 / 신청 2026.09.07~12.25 / 성인",
+              "source": "list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "startedAt": "2026-10-01T00:56:50.971Z",
+      "checkedAt": "2026-10-01T00:56:57.031Z",
+      "coverage": "partial",
+      "error": "확인 범위의 Chrome UI는 검토했으나 전체 페이지 또는 전체 공고 상세를 확인하지 않아 완전한 후보 집합으로 볼 수 없음.",
+      "scope": "Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+      "expectedCount": null,
+      "listEvidence": [
+        {
+          "url": "https://www.museum.go.kr/MUSEUM/contents/M0701010000.do?pageSize=10&catCustomType=united&catId=128&arcDataType=&sc=&sv=%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC",
+          "text": "Chrome UI 확인: 국립중앙박물관>소식·참여>소식>알림>전체>목록; checkedAt=2026-10-01T00:56:57.031Z; structuredRowCount=0 (화면 내 구조화된 행 추출은 확인되지 않음; 공고 0건을 뜻하지 않음); Chrome UI에서 확인한 현재 화면/검색범위. 전체 페이지 및 상세 확인은 미완료.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    }
+  ]
+}

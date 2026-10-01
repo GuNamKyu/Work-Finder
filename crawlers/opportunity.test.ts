@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { assessEligibility, classifyLifecycle, enrichPosting, stablePostingId } from './opportunity.js';
-import { filterJobPostings } from './base.js';
+import { filterJobPostings, passesExclusions } from './base.js';
 import type { JobPosting } from './types.js';
 
 const base: JobPosting = {
@@ -52,23 +52,25 @@ test('일정과 적합도·긴급도를 파생한다', () => {
 
 test('학교 기간제교사는 제외 키워드 1차 관문에서 제거한다', () => {
   const postings = filterJobPostings([{
-    ...base, title: '기간제교사(미술) 채용 공고', organization: '테스트고등학교',
+    ...base, title: '기간제교사(체육) 채용 공고', organization: '테스트고등학교',
   }], 'school');
   assert.equal(postings.length, 0);
 });
 
 test('긍정 분야명이 함께 있어도 제외 키워드를 우선한다', () => {
   const postings = filterJobPostings([{
-    ...base, title: '미술관 교육강사 모집', organization: '테스트미술관',
+    ...base, title: '문화유산 교육강사 모집', organization: '테스트기관',
   }], 'museum');
   assert.equal(postings.length, 0);
 });
 
-test('미술 키워드는 의미가 다른 미술관까지 오탐하지 않는다', () => {
-  const postings = filterJobPostings([{
-    ...base, title: '[환기미술관] 소장품전 자원봉사자 모집', organization: '환기미술관',
-  }], 'museum');
-  assert.equal(postings.length, 1);
+test('미술 분야 문화유산 연구직은 제외어 판정에서 보존한다', () => {
+  const posting = {
+    ...base,
+    title: '국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급/라급) 채용 공고',
+    organization: '국립문화유산연구원',
+  };
+  assert.equal(passesExclusions(posting), true);
 });
 
 test('문화기관의 비대상 직무와 전형 후속 공지는 화면에서 제외한다', () => {
