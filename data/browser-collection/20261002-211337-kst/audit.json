@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261002-211337-kst",
+  "startedAt": "2026-10-02T12:13:37.000Z",
+  "finishedAt": "2026-10-02T12:58:32.000Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 5,
+        "detailOpened": 3,
+        "detailReused": 0
+      },
+      "scope": "등록 채용안내 첫 페이지; 공고 전체 및 첨부 자격요건은 확인 범위 밖",
+      "rawObserved": 5,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 연구원 원문은 같은 공고 KHS 교차검증에 사용",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 및 해당 art-job 상세; HWPX 자격요건 미열람",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 및 신규 공고 상세 확인",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 검색 결과 확인; 후속 페이지 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "Chrome에서 개발자 도구 감지 차단 화면만 표시되어 정상 공고목록 확인 불가",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 총 7페이지 중 첫 페이지만 봄",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 검색 첫 페이지 확인; 휴관 안내와 과거 공고 외 현행 적격 공고 없음",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 표시된 공고는 만료 2건",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 및 국립민속박물관 개방형 직위 원문 PDF 확인; 안내서 일부 범위 미열람",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·모집공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 후속 페이지·모집공고 상세 미확인",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 2,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "첫 목록 페이지 및 신규 대구보건대 인당뮤지엄 봉사상세 2건 확인",
+      "rawObserved": 2,
+      "excluded": 2
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 전체 약 950페이지 탐색하지 않음",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-02T12:13:37.000Z",
+      "checkedAt": "2026-10-02T12:58:32.000Z",
+      "elapsedMs": 2695000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지 확인; 현재 박물관 자원봉사 모집 없음",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+[
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "updated",
+    "stableId": "museum-go-kr:composite:bbf2ce88af1af498fe66",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-13",
+      "url": null,
+      "title": "국립익산박물관 공무직근로자(사무보조) 채용 공고",
+      "organization": "국립익산박물관",
+      "applicationStartAt": "2026-10-08",
+      "applicationEndAt": "2026-10-13",
+      "status": "채용중",
+      "detailStatus": "list_only",
+      "detailWarning": "목록형 기존 레코드를 최신 목록 기간으로 갱신; 상세 첨부 지원요건은 미확인.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-08",
+          "source": "list",
+          "evidence": "접수 2026.10.08~10.13",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-13",
+          "source": "list",
+          "evidence": "접수 2026.10.08~10.13",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": null,
+      "stableId": "museum-go-kr:composite:bbf2ce88af1af498fe66",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "updated",
+    "stableId": "museum-go-kr:url:3fcfbec7ae284d353d82",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-29",
+      "deadlineDate": "2026-10-13",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24010&cp=1&sv=",
+      "title": "국립익산박물관 공무직근로자(사무보조) 채용 공고",
+      "organization": "국립익산박물관",
+      "applicationStartAt": "2026-10-08",
+      "applicationEndAt": "2026-10-13",
+      "roleText": "공무직 사무보조 채용 공고. 상세 직무와 자격은 첨부 HWPX 확인 필요.",
+      "status": "채용중",
+      "detailStatus": "list_only",
+      "detailWarning": "상세 안내의 첨부 HWPX에서 직무 세부와 지원요건을 확인하지 못함.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-29",
+          "source": "detail",
+          "evidence": "등록일 2026-09-29",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-08",
+          "source": "list",
+          "evidence": "접수 2026.10.08~10.13",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-13",
+          "source": "list",
+          "evidence": "접수 2026.10.08~10.13",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24010&cp=1&sv=",
+      "stableId": "museum-go-kr:url:3fcfbec7ae284d353d82",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "updated",
+    "stableId": "museum-go-kr:url:1b93a55cbbbdd5da4a8a",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-28",
+      "deadlineDate": "2026-10-14",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24007&cp=1&sv=",
+      "title": "2026년 국립중앙박물관 고객지원팀 공무직 채용 공고(중국어 전시해설사)",
+      "organization": "국립중앙박물관",
+      "applicationStartAt": "2026-09-28",
+      "applicationEndAt": "2026-10-14",
+      "roleText": "공무직 중국어 전시해설사 1명; 서울에서 중국어·한국어 전시 관람객 해설, 주 5일·주 40시간. 관련 전시해설 경력·관련 학위·HSK6·관광통역안내사·학예사 자격은 우대 요건으로 기재.",
+      "status": "채용중",
+      "detailStatus": "verified",
+      "detailWarning": "상세 일반 접수기간은 9/28~10/14, 일정표는 실제 원서접수를 10/6~10/14로 표기. 종료일은 10/14로 일치하며 시작일 충돌을 공개함. 첨부 HWP 미열람.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-28",
+          "source": "detail",
+          "evidence": "등록일 2026-09-28",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-09-28",
+          "source": "detail",
+          "evidence": "상세 본문 일반 접수기간 2026-09-28~2026-10-14; 일정표 원서접수 시작은 2026-10-06로 상충",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-14",
+          "source": "detail",
+          "evidence": "상세 일정표 원서접수 2026-10-06~2026-10-14; 일반 접수기간 2026-09-28~2026-10-14",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24007&cp=1&sv=",
+      "stableId": "museum-go-kr:url:1b93a55cbbbdd5da4a8a",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "updated",
+    "stableId": "museum-go-kr:composite:85da4e8f6b4088ea9d60",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-28",
+      "deadlineDate": "2026-10-14",
+      "url": null,
+      "title": "2026년 국립중앙박물관 고객지원팀 공무직 채용 공고(중국어 전시해설사)",
+      "organization": "국립중앙박물관",
+      "applicationStartAt": "2026-09-28",
+      "applicationEndAt": "2026-10-14",
+      "status": "채용중",
+      "detailStatus": "list_only",
+      "detailWarning": "상세 일반 접수기간은 9/28~10/14, 일정표는 실제 원서접수를 10/6~10/14로 표기. 종료일은 10/14로 일치하며 시작일 충돌을 공개함. 첨부 HWP 미열람.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-28",
+          "source": "list",
+          "evidence": "등록일 2026-09-28",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-09-28",
+          "source": "detail",
+          "evidence": "상세 본문 일반 접수기간 2026-09-28~2026-10-14; 일정표 원서접수 시작은 2026-10-06로 상충",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-14",
+          "source": "detail",
+          "evidence": "상세 일정표·접수기간 모두 2026-10-14 마감",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": null,
+      "stableId": "museum-go-kr:composite:85da4e8f6b4088ea9d60",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "new",
+    "stableId": "museum-go-kr:url:e895f7c447b4acf80334",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-02",
+      "deadlineDate": "2026-10-16",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+      "title": "2026년 국립춘천박물관 한시임기제(6호) 공무원 경력경쟁채용 공고",
+      "organization": "국립춘천박물관",
+      "applicationStartAt": "2026-10-14",
+      "applicationEndAt": "2026-10-16",
+      "roleText": "한시임기제 6호 일반학예 직무 1명 경력경쟁채용. 직무·자격 세부는 첨부 HWP 확인 필요.",
+      "status": "채용중",
+      "detailStatus": "verified",
+      "detailWarning": "상세 HTML 공고·접수일은 확인; 첨부 HWP의 세부 직무·자격요건은 미열람.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-02",
+          "source": "detail",
+          "evidence": "2026-10-02 등록",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-14",
+          "source": "detail",
+          "evidence": "접수 2026-10-14 09:00 시작",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-16",
+          "source": "detail",
+          "evidence": "접수 2026-10-16 18:00 마감",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+      "stableId": "museum-go-kr:url:e895f7c447b4acf80334",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "updated",
+    "stableId": "khs:url:64b9cf0fd5e6e882fff9",
+    "siteId": "khs",
+    "siteName": "국가유산청",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-30",
+      "deadlineDate": "2026-10-07",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+      "title": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+      "organization": "국립문화유산연구원",
+      "applicationStartAt": "2026-10-02",
+      "applicationEndAt": "2026-10-07",
+      "roleText": "국가지정 동산문화유산 정기조사 및 보고서 발간 지원; 미술문화유산연구실 연구과제 등 학예 업무 지원.",
+      "status": "모집중",
+      "detailStatus": "verified",
+      "detailWarning": "국가유산청 상세·국립문화유산연구원 원문 교차검증. HWPX 첨부 자격요건 미열람.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "등록일 2026-09-30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-02",
+          "source": "detail",
+          "evidence": "원서접수 2026-10-02 시작",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-07",
+          "source": "detail",
+          "evidence": "원서접수 2026-10-02~2026-10-07",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageUnit=10&strWhere=&sdate=&edate=&mn=NS_01_06",
+      "stableId": "khs:url:64b9cf0fd5e6e882fff9",
+      "lifecycleStatus": "fresh",
+      "fitScore": 26,
+      "fitBreakdown": {
+        "roleField": 6,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "khs",
+      "siteName": "국가유산청",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "new",
+    "stableId": "seosomun:url:f5e48f42d57fecc5b75b",
+    "siteId": "seosomun",
+    "siteName": "서소문성지 역사박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-30",
+      "deadlineDate": "2026-10-15",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444&pageNo=1",
+      "title": "학예실 직원 채용 공고_WYD대비 전시사업을 위한 충원",
+      "organization": "서소문성지 역사박물관",
+      "applicationStartAt": "2026-09-30",
+      "applicationEndAt": "2026-10-15",
+      "roleText": "학예실 계약직 1명; WYD 대비 전시 기획·운영, 교육·연계 프로그램, 도록 기획·편집·발간, 행정. 화~일 중 주 5일 근무, 1년 계약·평가에 따라 연장(최대 2년).",
+      "eligibilityText": "관련 전공 석사 이상, 3급 정학예사 이상, 독립 기획전시 1회 포함 관련경력 3년 이상. 외국어 및 가톨릭 역사 우대.",
+      "status": "채용중",
+      "detailStatus": "verified",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "등록 2026-09-30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "지원 2026-09-30부터",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "지원 2026-10-15 마감",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444",
+      "stableId": "seosomun:url:f5e48f42d57fecc5b75b",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "seosomun",
+      "siteName": "서소문성지 역사박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-02T13:12:23.396Z",
+    "type": "new",
+    "stableId": "kdp-aks:url:8bc1977188d266a19767",
+    "siteId": "kdp-aks",
+    "siteName": "한국학중앙연구원",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-01",
+      "deadlineDate": "2026-10-12",
+      "url": "https://www.mcst.go.kr/site/s_notice/notice/jobView.jsp?pSeq=19525&pMenuCD=0301030000&pTab=01&pAction=&pCurrentPage=1&pCntPerPage=10&pSearchType=01&pSearchWord=",
+      "title": "문화체육관광부 국립민속박물관 전시운영과장(개방형 직위) 공개모집",
+      "organization": "국립민속박물관",
+      "applicationStartAt": "2026-10-01",
+      "applicationEndAt": "2026-10-12",
+      "roleText": "국립민속박물관 전시운영과장 개방형 직위: 전시관·야외전시장 관리, 전시기획·운영, 국내외 전시 추진 및 환경개선.",
+      "eligibilityText": "공식 PDF 기준 관련 전공 박사 취득 후 관련 경력 4년 이상, 또는 석사 이하 학위자는 관련 경력 7년 이상, 또는 4급 이상/이에 상응하는 공무원으로 관련 분야 3년 이상 요건 중 하나; 세부 문구는 원문 PDF와 직무수행계획 안내서 재확인 필요.",
+      "status": "접수중",
+      "detailStatus": "verified",
+      "detailWarning": "문화체육관광부 공고 및 공고 PDF를 확인; 첨부 직무수행계획 안내서와 자격 문구 전체 대조는 미완료.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-01",
+          "source": "detail",
+          "evidence": "등록 2026-10-01",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-01",
+          "source": "attachment",
+          "evidence": "공고 PDF 응시원서 접수 2026-10-01부터",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-12",
+          "source": "attachment",
+          "evidence": "공고 PDF 응시원서 접수 2026-10-12 18:00 마감",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.mcst.go.kr/site/s_notice/notice/jobView.jsp?pSeq=19525&pMenuCD=0301030000&pTab=01&pAction=&pCurrentPage=1&pCntPerPage=10&pSearchType=01&pSearchWord=",
+      "stableId": "kdp-aks:url:8bc1977188d266a19767",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 0,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시, 민속",
+        "임원·고위직 또는 충족하기 어려운 필수 경력·학위 신호"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "ineligible",
+      "eligibilityReasons": [
+        "임원·고위직 또는 충족하기 어려운 필수 경력·학위 신호"
+      ],
+      "relevanceTier": "low_relevance",
+      "relevanceReasons": [
+        "지원 불가 가능성이 높은 직급·필수요건"
+      ],
+      "userVisible": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "changeType": "new"
+    }
+  }
+]

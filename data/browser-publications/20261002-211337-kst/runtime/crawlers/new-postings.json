@@ -1,0 +1,146 @@
+[
+  {
+    "regDate": "",
+    "postedAt": "2026-10-02",
+    "deadlineDate": "2026-10-16",
+    "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+    "title": "2026년 국립춘천박물관 한시임기제(6호) 공무원 경력경쟁채용 공고",
+    "organization": "국립춘천박물관",
+    "applicationStartAt": "2026-10-14",
+    "applicationEndAt": "2026-10-16",
+    "roleText": "한시임기제 6호 일반학예 직무 1명 경력경쟁채용. 직무·자격 세부는 첨부 HWP 확인 필요.",
+    "status": "채용중",
+    "detailStatus": "verified",
+    "detailWarning": "상세 HTML 공고·접수일은 확인; 첨부 HWP의 세부 직무·자격요건은 미열람.",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-02",
+        "source": "detail",
+        "evidence": "2026-10-02 등록",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_start",
+        "date": "2026-10-14",
+        "source": "detail",
+        "evidence": "접수 2026-10-14 09:00 시작",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-10-16",
+        "source": "detail",
+        "evidence": "접수 2026-10-16 18:00 마감",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+    "stableId": "museum-go-kr:url:e895f7c447b4acf80334",
+    "lifecycleStatus": "fresh",
+    "fitScore": 30,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": "2026-09-30",
+    "deadlineDate": "2026-10-15",
+    "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444&pageNo=1",
+    "title": "학예실 직원 채용 공고_WYD대비 전시사업을 위한 충원",
+    "organization": "서소문성지 역사박물관",
+    "applicationStartAt": "2026-09-30",
+    "applicationEndAt": "2026-10-15",
+    "roleText": "학예실 계약직 1명; WYD 대비 전시 기획·운영, 교육·연계 프로그램, 도록 기획·편집·발간, 행정. 화~일 중 주 5일 근무, 1년 계약·평가에 따라 연장(최대 2년).",
+    "eligibilityText": "관련 전공 석사 이상, 3급 정학예사 이상, 독립 기획전시 1회 포함 관련경력 3년 이상. 외국어 및 가톨릭 역사 우대.",
+    "status": "채용중",
+    "detailStatus": "verified",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-09-30",
+        "source": "detail",
+        "evidence": "등록 2026-09-30",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_start",
+        "date": "2026-09-30",
+        "source": "detail",
+        "evidence": "지원 2026-09-30부터",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-10-15",
+        "source": "detail",
+        "evidence": "지원 2026-10-15 마감",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444",
+    "stableId": "seosomun:url:f5e48f42d57fecc5b75b",
+    "lifecycleStatus": "fresh",
+    "fitScore": 50,
+    "fitBreakdown": {
+      "roleField": 30,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 박물관, 전시",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 전시"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-02T12:58:32.000Z",
+    "siteId": "seosomun",
+    "siteName": "서소문성지 역사박물관",
+    "changeType": "new"
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261002-211337-kst",
+  "inventoryFingerprint": "52db63368736e3e30c955267a66bb371cf73946694c46d3ba735a6f70748e112",
+  "startedAt": "2026-10-02T12:13:37.000Z",
+  "finishedAt": "2026-10-02T12:58:32.000Z",
+  "browser": "Chrome UI",
+  "sourceCount": 48,
+  "coverage": {
+    "partial": 47,
+    "failed": 1,
+    "unvisited": 0
+  },
+  "captureSummary": {
+    "attemptedSources": 48,
+    "listPagesOpened": 48,
+    "candidateObservationRows": 10,
+    "uniqueCandidates": 8,
+    "detailPagesOpened": 8,
+    "fullSources": 0,
+    "failedSourceIds": [
+      "nyj"
+    ],
+    "failedReason": "Chrome displayed the official site's developer-tools detection page. No bypass was attempted."
+  },
+  "collectionNotes": [
+    "현재 등록된 전체 48개 소스를 Chrome에서 각각 열어 목록 첫 페이지를 확인했다. 페이지네이션 전체 또는 전 공고 상세를 확인하지 않았으므로 47개는 partial이며, nyj는 차단 화면으로 failed다. unvisited는 없다.",
+    "각 source.startedAt/checkedAt은 개별 탭의 실제 초 단위 기록이 아니라 이 실행의 수집 구간 경계다. 소스별 방문 시각을 별도 계측하지 않았으므로 정밀 타임스탬프로 해석하지 않는다.",
+    "8개 고유 후보(채용 6, 봉사 2)를 기록했다. 중국어 전시해설사 공고는 지난 목록형 레코드의 마감일 오류도 고치기 위해 목록형 1건과 상세형 1건으로 각각 관찰했다.",
+    "국립문화유산연구원 미술문화유산연구실 공고는 NRICH 공식 원문과 국가유산청 KHS 목록·상세가 동일 공고임을 교차검증했다. 중복 후보 생성을 막기 위해 KHS 레코드 한 건으로만 저장했다. '미술' 단독 noise keyword는 없고 공고를 노이즈 제외하지 않았다.",
+    "문화품앗이 11월과 12월 대구보건대학교 인당뮤지엄 모집은 접수기간과 활동기간이 서로 다르므로 별도 필드로 보존했다. 1365 첫 페이지와 국립중앙박물관 자원봉사 알림 첫 페이지에서는 새 박물관 활동 후보를 기록하지 않았다."
+  ],
+  "detailChecks": [
+    {
+      "siteId": "museum-go-kr",
+      "count": 3,
+      "items": [
+        "익산 공무직 사무보조(상세 HTML 확인, HWPX 미열람)",
+        "중국어 전시해설사(본문/일정표 확인, 시작일 충돌·HWP 미열람)",
+        "춘천 한시임기제 6호(본문/접수일 확인, HWP 미열람)"
+      ]
+    },
+    {
+      "siteId": "khs",
+      "count": 1,
+      "items": [
+        "미술문화유산연구실 공무직(국가유산청 상세와 NRICH 원문 교차확인, 자격 HWPX 미열람)"
+      ]
+    },
+    {
+      "siteId": "seosomun",
+      "count": 1,
+      "items": [
+        "WYD 대비 전시사업 학예실 충원(본문, 일정, 학력·자격·경력 확인)"
+      ]
+    },
+    {
+      "siteId": "kdp-aks",
+      "count": 1,
+      "items": [
+        "국립민속박물관 전시운영과장(문화체육관광부 원문과 공고 PDF 확인; 직무수행계획 안내서와 자격 문구 전체 대조 미완료)"
+      ]
+    },
+    {
+      "siteId": "csv-culture",
+      "count": 2,
+      "items": [
+        "인당뮤지엄 11월 활동(모집/활동기간, 역할, 대상 확인)",
+        "인당뮤지엄 12월 활동(모집/활동기간, 역할, 대상 확인)"
+      ]
+    }
+  ],
+  "scheduleConflicts": [
+    "중국어 전시해설사: 상세 본문의 일반 접수기간은 2026-09-28~2026-10-14이나 상세 일정표 원서접수는 2026-10-06~2026-10-14. 종료일 10월 14일은 일치하며 시작일은 null로 보존하고 충돌을 공개한다.",
+    "중앙박물관·국립문화유산연구원 채용의 첨부 HWP/HWPX 지원자격 일부는 열지 않았으므로 자격 적합성을 확정하지 않는다."
+  ],
+  "restoredCandidate": {
+    "source": "khs",
+    "title": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+    "crossCheckedOriginal": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48402&boardTypeGubun=1",
+    "outcome": "미술 분야 noise keyword로 제외하지 않고 노출 후보에 포함; 접수기간 2026-10-02~2026-10-07 확인"
+  },
+  "limitations": [
+    "전체 소스의 pagination을 돌지 않았다. partial 기록은 전체 결과 집합이 아니며 다른 후보가 후속 페이지에 있을 수 있다.",
+    "nyj는 공식 페이지가 개발자 도구 감지 화면을 반환하여 목록을 확인할 수 없었다."
+  ]
+}
