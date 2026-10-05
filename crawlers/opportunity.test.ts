@@ -2,12 +2,24 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { assessEligibility, classifyLifecycle, enrichPosting, stablePostingId } from './opportunity.js';
 import { filterJobPostings, passesExclusions } from './base.js';
+import { analyzeSources } from './diff.js';
 import type { JobPosting } from './types.js';
 
 const base: JobPosting = {
   title: '박물관 학예 보조 모집', organization: '테스트박물관', regDate: '2026-01-01',
   deadlineDate: null, url: 'https://example.com/view?id=10&utm_source=test',
 };
+
+test('partial source with no matching postings remains partial; failed and unvisited sources are errors', () => {
+  const site = { id: 'test-source', name: '테스트 소스', url: 'https://example.com' };
+  const analyzed = analyzeSources([
+    { site, postings: [], crawledAt: '2026-10-05T00:00:00Z', error: '첫 페이지만 확인', coverage: 'partial' },
+    { site: { ...site, id: 'failed-source' }, postings: [], crawledAt: '2026-10-05T00:00:00Z', error: '접속 실패', coverage: 'failed' },
+    { site: { ...site, id: 'unvisited-source' }, postings: [], crawledAt: '2026-10-05T00:00:00Z', error: 'Chrome 미확인', coverage: 'unvisited' },
+  ] as any, []);
+  assert.deepEqual(analyzed.map(source => source.status), ['PARTIAL', 'ERROR', 'ERROR']);
+  assert.match(analyzed[0].message, /^부분 확인:/);
+});
 
 test('같은 상세 URL은 추적 파라미터와 무관하게 같은 ID를 만든다', () => {
   const a = stablePostingId('museum', base);

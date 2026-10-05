@@ -1,0 +1,259 @@
+[
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-10-29",
+    "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012419",
+    "title": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집(월 단위로 모집 중)",
+    "organization": "대구보건대학교 인당뮤지엄",
+    "postingId": "VOLT_000000000012419",
+    "applicationStartAt": "2026-09-28",
+    "applicationEndAt": "2026-10-29",
+    "programStartAt": "2026-10-09",
+    "programEndAt": "2026-10-31",
+    "status": "모집중",
+    "experienceType": "volunteer",
+    "region": "대구광역시 북구",
+    "roleText": "부지현 초대전 전시에서 박물관 운영 보조 및 전시실 관람객 안내. 오전 3시간, 오후 4시간 또는 1일 최대 7시간 선택; 일요일 휴관.",
+    "eligibilityText": "일반 성인, 대학생 또는 대구보건대학교 교직원.",
+    "programPeriodText": "월~토 중 희망일 신청; 활동시간 10:00~17:00, 오전 10:00~13:00, 오후 13:00~17:00.",
+    "detailStatus": "verified",
+    "detailCheckedAt": "2026-10-05T01:06:57.757Z",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-09-28",
+        "source": "detail",
+        "evidence": "모집기간 시작 2026.09.28.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-10-09",
+        "source": "detail",
+        "evidence": "봉사기간 2026.10.09~10.31, 일요일 휴관.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-10-29",
+        "source": "detail",
+        "evidence": "모집기간 2026.09.28~2026.10.29.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-10-31",
+        "source": "detail",
+        "evidence": "봉사기간 2026.10.09~10.31, 일요일 휴관.",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012419",
+    "stableId": "csv-culture:id:VOLT_000000000012419",
+    "lifecycleStatus": "fresh",
+    "fitScore": 30,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 전시",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 전시"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-05T01:06:57.757Z",
+    "siteId": "csv-culture",
+    "siteName": "문화자원봉사센터",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-10-07",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+    "title": "허준축제 허준박물관 전시 부스 도우미",
+    "organization": "허준박물관",
+    "postingId": "3528668",
+    "applicationStartAt": "2026-09-30",
+    "applicationEndAt": "2026-10-07",
+    "programStartAt": "2026-10-10",
+    "programEndAt": "2026-10-11",
+    "status": "모집중",
+    "experienceType": "volunteer",
+    "eligibilityText": "성인.",
+    "roleText": "허준축제 기간 허준박물관 전시 부스 도우미; 오전 10:00~13:00, 최대 3시간.",
+    "detailStatus": "verified",
+    "detailCheckedAt": "2026-10-05T00:22:31.923Z",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-09-30",
+        "source": "detail",
+        "evidence": "모집기간 2026.09.30~10.07.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-10-07",
+        "source": "detail",
+        "evidence": "모집기간 2026.09.30~10.07; 봉사기간 2026.10.10~10.11, 10:00~13:00.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-10-10",
+        "source": "detail",
+        "evidence": "봉사기간 2026.10.10~10.11.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-10-11",
+        "source": "detail",
+        "evidence": "봉사기간 2026.10.10~10.11.",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+    "stableId": "1365-volunteer:id:3528668",
+    "lifecycleStatus": "fresh",
+    "fitScore": 40,
+    "fitBreakdown": {
+      "roleField": 20,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관, 전시",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 90,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관, 전시"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-05T00:49:27.396Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-10-07",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528672",
+    "title": "허준축제 허준박물관 전시 부스 도우미",
+    "organization": "허준박물관",
+    "postingId": "3528672",
+    "applicationStartAt": "2026-09-30",
+    "applicationEndAt": "2026-10-07",
+    "programStartAt": "2026-10-10",
+    "programEndAt": "2026-10-11",
+    "status": "모집중",
+    "experienceType": "volunteer",
+    "eligibilityText": "성인.",
+    "roleText": "허준축제 기간 허준박물관 전시 부스 도우미; 오후 13:00~17:00, 최대 4시간.",
+    "detailStatus": "list_only",
+    "detailWarning": "목록에서 오전 건과 별도 공고로 확인; 해당 상세는 열지 않음.",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-09-30",
+        "source": "list",
+        "evidence": "모집기간 2026.09.30~10.07.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-10-07",
+        "source": "list",
+        "evidence": "모집기간 2026.09.30~10.07; 봉사기간 2026.10.10~10.11, 13:00~17:00.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-10-10",
+        "source": "list",
+        "evidence": "봉사기간 2026.10.10~10.11.",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-10-11",
+        "source": "list",
+        "evidence": "봉사기간 2026.10.10~10.11.",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528672",
+    "stableId": "1365-volunteer:id:3528672",
+    "lifecycleStatus": "fresh",
+    "fitScore": 40,
+    "fitBreakdown": {
+      "roleField": 20,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관, 전시",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 90,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관, 전시"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-05T00:49:27.396Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  }
+]

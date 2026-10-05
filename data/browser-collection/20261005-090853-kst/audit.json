@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261005-090853-kst",
+  "startedAt": "2026-10-05T00:08:53.398Z",
+  "finishedAt": "2026-10-05T01:07:23.486Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "full",
+      "startedAt": "2026-10-05T00:08:53.398Z",
+      "checkedAt": "2026-10-05T00:54:52.802Z",
+      "elapsedMs": 2759404,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 4,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "채용중 필터 전체 4건",
+      "rawObserved": 4,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:38:31.488Z",
+      "checkedAt": "2026-10-05T00:38:35.507Z",
+      "elapsedMs": 4019,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:38:35.507Z",
+      "checkedAt": "2026-10-05T00:38:40.430Z",
+      "elapsedMs": 4923,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:38:40.430Z",
+      "checkedAt": "2026-10-05T00:38:44.657Z",
+      "elapsedMs": 4227,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:38:44.657Z",
+      "checkedAt": "2026-10-05T00:38:52.447Z",
+      "elapsedMs": 7790,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "일반 채용검색 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:38:52.447Z",
+      "checkedAt": "2026-10-05T00:38:55.894Z",
+      "elapsedMs": 3447,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:38:55.894Z",
+      "checkedAt": "2026-10-05T00:38:59.694Z",
+      "elapsedMs": 3800,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용·봉사 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:38:59.694Z",
+      "checkedAt": "2026-10-05T00:39:02.888Z",
+      "elapsedMs": 3194,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:39:58.638Z",
+      "checkedAt": "2026-10-05T00:40:03.171Z",
+      "elapsedMs": 4533,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "일반 채용검색 UI 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:03.171Z",
+      "checkedAt": "2026-10-05T00:40:07.403Z",
+      "elapsedMs": 4232,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:07.403Z",
+      "checkedAt": "2026-10-05T01:07:23.486Z",
+      "elapsedMs": 1636083,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 3,
+        "detailOpened": 3,
+        "detailReused": 0
+      },
+      "scope": "시험·채용 목록 1페이지에서 확인된 마감 임박 3건과 상세 첨부",
+      "rawObserved": 3,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:11.977Z",
+      "checkedAt": "2026-10-05T00:40:15.556Z",
+      "elapsedMs": 3579,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 1페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:15.556Z",
+      "checkedAt": "2026-10-05T00:40:19.223Z",
+      "elapsedMs": 3667,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:19.223Z",
+      "checkedAt": "2026-10-05T00:40:23.477Z",
+      "elapsedMs": 4254,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:23.477Z",
+      "checkedAt": "2026-10-05T00:40:27.821Z",
+      "elapsedMs": 4344,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지·채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:27.821Z",
+      "checkedAt": "2026-10-05T00:40:32.475Z",
+      "elapsedMs": 4654,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "제목 채용 검색 결과 첫 화면",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:43.372Z",
+      "checkedAt": "2026-10-05T00:40:47.659Z",
+      "elapsedMs": 4287,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 1페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:47.660Z",
+      "checkedAt": "2026-10-05T00:40:53.933Z",
+      "elapsedMs": 6273,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 1페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:53.933Z",
+      "checkedAt": "2026-10-05T00:40:59.981Z",
+      "elapsedMs": 6048,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지·채용 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:40:59.981Z",
+      "checkedAt": "2026-10-05T00:41:03.469Z",
+      "elapsedMs": 3488,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지·채용 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:03.469Z",
+      "checkedAt": "2026-10-05T00:53:43.812Z",
+      "elapsedMs": 760343,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "채용 게시판 첫 페이지와 신규 학예직 상세",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:07.382Z",
+      "checkedAt": "2026-10-05T00:41:11.805Z",
+      "elapsedMs": 4423,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용정보 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:11.805Z",
+      "checkedAt": "2026-10-05T00:41:16.215Z",
+      "elapsedMs": 4410,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국가유산청 시험·채용 별도 등록 소스 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:16.215Z",
+      "checkedAt": "2026-10-05T00:41:20.159Z",
+      "elapsedMs": 3944,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:32.596Z",
+      "checkedAt": "2026-10-05T00:41:37.068Z",
+      "elapsedMs": 4472,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:37.068Z",
+      "checkedAt": "2026-10-05T00:41:43.014Z",
+      "elapsedMs": 5946,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:43.014Z",
+      "checkedAt": "2026-10-05T00:41:46.760Z",
+      "elapsedMs": 3746,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:46.760Z",
+      "checkedAt": "2026-10-05T00:41:51.094Z",
+      "elapsedMs": 4334,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:51.095Z",
+      "checkedAt": "2026-10-05T00:41:56.807Z",
+      "elapsedMs": 5712,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:41:56.807Z",
+      "checkedAt": "2026-10-05T00:42:02.434Z",
+      "elapsedMs": 5627,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "startedAt": "2026-10-05T00:42:02.434Z",
+      "checkedAt": "2026-10-05T00:42:08.790Z",
+      "elapsedMs": 6356,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 남양주시립박물관 채용 게시판 접속",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:08.790Z",
+      "checkedAt": "2026-10-05T00:42:15.318Z",
+      "elapsedMs": 6528,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:25.255Z",
+      "checkedAt": "2026-10-05T00:42:32.753Z",
+      "elapsedMs": 7498,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지·채용 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:32.753Z",
+      "checkedAt": "2026-10-05T00:42:36.959Z",
+      "elapsedMs": 4206,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "박물관 게시판 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:36.959Z",
+      "checkedAt": "2026-10-05T00:42:41.296Z",
+      "elapsedMs": 4337,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 검색 결과 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:41.296Z",
+      "checkedAt": "2026-10-05T00:42:45.860Z",
+      "elapsedMs": 4564,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용·공지 게시판 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:45.860Z",
+      "checkedAt": "2026-10-05T00:42:49.248Z",
+      "elapsedMs": 3388,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용·공지 게시판 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:49.249Z",
+      "checkedAt": "2026-10-05T00:42:54.881Z",
+      "elapsedMs": 5632,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기일자리재단 청년사업 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:54.881Z",
+      "checkedAt": "2026-10-05T00:42:59.913Z",
+      "elapsedMs": 5032,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:42:59.913Z",
+      "checkedAt": "2026-10-05T00:43:04.995Z",
+      "elapsedMs": 5082,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 범주 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:43:45.530Z",
+      "checkedAt": "2026-10-05T00:43:49.965Z",
+      "elapsedMs": 4435,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울시 채용정보 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:43:49.965Z",
+      "checkedAt": "2026-10-05T00:43:55.346Z",
+      "elapsedMs": 5381,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "정부 정책브리핑 채용검색 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:43:55.346Z",
+      "checkedAt": "2026-10-05T00:43:59.582Z",
+      "elapsedMs": 4236,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "한국학중앙연구원 채용 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:43:59.582Z",
+      "checkedAt": "2026-10-05T00:44:05.460Z",
+      "elapsedMs": 5878,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "청년 일경험 프로그램 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:44:05.460Z",
+      "checkedAt": "2026-10-05T00:44:13.290Z",
+      "elapsedMs": 7830,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기청년사업 목록 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:19:01.696Z",
+      "checkedAt": "2026-10-05T01:06:57.757Z",
+      "elapsedMs": 2876061,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 3,
+        "detailOpened": 3,
+        "detailReused": 0
+      },
+      "scope": "문화·모집중 필터 37건 4페이지 전부와 전체목록 첫 페이지; 박물관 우선후보 3건 표준화",
+      "rawObserved": 3,
+      "excluded": 0
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:19:05.810Z",
+      "checkedAt": "2026-10-05T00:49:27.396Z",
+      "elapsedMs": 1821586,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 6,
+        "detailOpened": 3,
+        "detailReused": 0
+      },
+      "scope": "서울·경기 각 박물관·모집중 필터 전체 47건, 5페이지; 우선후보 6건 표준화",
+      "rawObserved": 6,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-05T00:44:25.430Z",
+      "checkedAt": "2026-10-05T00:44:31.952Z",
+      "elapsedMs": 6522,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립중앙박물관 자원봉사 검색 첫 페이지",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}

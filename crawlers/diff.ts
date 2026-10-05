@@ -64,9 +64,14 @@ export function analyzeSources(current: CrawlResult[], previous: CrawlResult[]):
     const previousCount = prev ? previousPostings.length : null;
     const deadlineCoverage = coverage(currentPostings, p => p.applicationEndAt || p.deadlineDate);
     const urlCoverage = coverage(currentPostings, p => p.url);
+    const sourceCoverage = (result as CrawlResult & { coverage?: 'full' | 'partial' | 'failed' | 'unvisited' }).coverage;
     let status: HealthStatus = 'OK';
     let message = '정상 수집';
-    if (result.error) {
+    if (sourceCoverage === 'partial') {
+      // A checked first page with zero matching rows is still partial, not a source failure.
+      status = 'PARTIAL';
+      message = `부분 확인: ${result.error || '일부 범위 미확인'} · 이번 확인 ${currentCount}건 / 이전 확인값 ${retainedCount}건 보존${result.lastSuccessfulAt ? ` · 마지막 전체 성공 ${result.lastSuccessfulAt}` : ''}`;
+    } else if (result.error) {
       status = currentCount > 0 ? 'PARTIAL' : 'ERROR';
       message = `수집 ${currentCount > 0 ? '부분 실패' : '실패'}: ${result.error} · 이번 확인 ${currentCount}건 / 이전 확인값 ${retainedCount}건 보존${result.lastSuccessfulAt ? ` · 마지막 전체 성공 ${result.lastSuccessfulAt}` : ''}`;
     } else if (prev?.error) {
