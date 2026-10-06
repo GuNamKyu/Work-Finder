@@ -1,0 +1,2183 @@
+{
+  "schemaVersion": 2,
+  "runId": "20261006-090123-kst",
+  "inventoryFingerprint": "d669f975af7efc2dea5995eb958e2423408fd3773b74729189e2b17791f96607",
+  "startedAt": "2026-10-06T00:01:36.320Z",
+  "finishedAt": "2026-10-06T00:52:14Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "startedAt": "2026-10-06T00:04:42.357Z",
+      "checkedAt": "2026-10-06T00:23:01.616Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 3,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "coverage": "full",
+      "scope": "채용중 필터 1페이지/3건 전체 확인; 최종 합격 발표 1건 포함.",
+      "expectedCount": 3,
+      "listEvidence": [
+        {
+          "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+          "text": "채용중 필터 1페이지/총 3건 전체 확인; 합격 발표 1건 포함.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "2026년 국립춘천박물관 한시임기제(6호) 공무원 경력경쟁채용 공고",
+            "organization": "국립춘천박물관",
+            "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+            "applicationStartAt": "2026-10-14",
+            "applicationEndAt": "2026-10-16",
+            "status": "채용중",
+            "detailStatus": "list_only",
+            "detailWarning": "목록 기간 확인. HWP 지원요건은 미확인."
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "2026년 국립춘천박물관 한시임기제(6호) 공무원 경력경쟁채용 공고",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "접수 2026.10.14~10.16",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "접수 2026.10.14~10.16",
+              "source": "list"
+            },
+            {
+              "field": "status",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "채용중 필터에 표시.",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "국립청주박물관 학예연구실 기간제 근로자(육아휴직 대체인력) 채용 최종 합격자 발표",
+            "organization": "국립청주박물관",
+            "status": "합격자발표",
+            "detailStatus": "list_only",
+            "detailWarning": "채용 공고가 아닌 최종 합격자 발표; 노출 제외."
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "국립청주박물관 학예연구실 기간제 근로자(육아휴직 대체인력) 채용 최종 합격자 발표",
+              "source": "list"
+            },
+            {
+              "field": "status",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "최종 합격자 발표 공고로 확인.",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "국립익산박물관 공무직근로자(사무보조) 채용 공고",
+            "organization": "국립익산박물관",
+            "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24010&cp=1&sv=",
+            "applicationStartAt": "2026-10-08",
+            "applicationEndAt": "2026-10-13",
+            "status": "채용중",
+            "detailStatus": "list_only",
+            "detailWarning": "목록 기간 확인. 첨부 공고문 지원요건은 미확인."
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "국립익산박물관 공무직근로자(사무보조) 채용 공고",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "접수 2026.10.08~10.13",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "접수 2026.10.08~10.13",
+              "source": "list"
+            },
+            {
+              "field": "status",
+              "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54&recruitYn=Y",
+              "text": "채용중 필터에 표시.",
+              "source": "list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "gogung",
+      "startedAt": "2026-10-06T00:06:01.922Z",
+      "checkedAt": "2026-10-06T00:06:14.330Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "공식 채용 목록 첫 페이지, 전체 530건 중 1페이지.",
+      "error": "나머지 52페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.gogung.go.kr/gogung/bbs/BMSR00022/list.do?gubunCd=B22_003&menuNo=800090",
+          "text": "공식 채용 목록 첫 페이지, 전체 530건 중 1페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nrich",
+      "startedAt": "2026-10-06T00:06:14.330Z",
+      "checkedAt": "2026-10-06T00:16:15.530Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "공식 채용 목록 첫 페이지, 2,650건 중 1페이지; 동일 공고는 KHS에 통합 기록.",
+      "error": "나머지 264페이지 및 세부 자격 첨부 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.nrich.go.kr/kor/boardList.do?menuIdx=285&bbscd=40",
+          "text": "공식 채용 목록 1페이지/2,650건 확인; 미술문화유산연구실 공고는 KHS 목록·상세와 교차확인되어 중복기록하지 않음.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nfm",
+      "startedAt": "2026-10-06T00:06:25.462Z",
+      "checkedAt": "2026-10-06T00:06:35.486Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "공식 채용 목록 첫 페이지, 1,720건 중 1페이지.",
+      "error": "나머지 목록과 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataList.do",
+          "text": "공식 채용 목록 첫 페이지, 1,720건 중 1페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ncs",
+      "startedAt": "2026-10-06T00:06:35.486Z",
+      "checkedAt": "2026-10-06T00:23:23.759Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "문화·예술 > 문화유산 관리 > 학예 직무로 필터 후 181건/19페이지 중 1페이지 확인.",
+      "error": "필터된 19페이지 중 첫 페이지만 확인; 목록은 대부분 마감 이전 공고.",
+      "listEvidence": [
+        {
+          "url": "https://www.ncs.go.kr/blind/bl04/RecrtNotifList.do?searchNcsLclasCd=08&searchNcsMclasCd=01&searchNcsSclasCd=04&searchNcsSubdCd=01&searchStatus=&searchStartDt=&searchEndDt=&searchDstin=&searchType=&searchField=&searchCondition=0&searchKeyword=",
+          "text": "08 문화예술 > 01 문화예술 > 04 문화유산 관리 > 01 학예 필터, 181건/19페이지 중 1페이지. 화면상 최근 항목은 마감된 공고.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "much",
+      "startedAt": "2026-10-06T00:06:50.637Z",
+      "checkedAt": "2026-10-06T00:07:02.752Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "채용 목록 첫 페이지, 869건 중 1페이지.",
+      "error": "나머지 86페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.much.go.kr/MUCH/contents/M07090200000.do",
+          "text": "채용 목록 첫 페이지, 869건 중 1페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gmuseum",
+      "startedAt": "2026-10-06T00:07:38.464Z",
+      "checkedAt": "2026-10-06T00:07:52.372Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "경기도박물관협회 채용 목록 첫 페이지 확인.",
+      "error": "페이지 전체 및 상세 날짜·요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://gmuseum.kr/board/jobList",
+          "text": "경기도박물관협회 채용 목록 첫 페이지 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "hangeul",
+      "startedAt": "2026-10-06T00:07:52.372Z",
+      "checkedAt": "2026-10-06T00:08:03.188Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "공식 채용/소식 목록 첫 페이지, 768건 중 일부 확인.",
+      "error": "나머지 페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.hangeul.go.kr/news/newsList.do?bbs_id=30&curr_menu_cd=0106010600",
+          "text": "공식 채용/소식 목록 첫 페이지, 768건 중 일부 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gojobs",
+      "startedAt": "2026-10-06T00:08:03.188Z",
+      "checkedAt": "2026-10-06T00:24:15.957Z",
+      "metrics": {
+        "listPages": 5,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "나라일터 검색 결과 1~5페이지 확인; 상주박물관 임기제 학예연구 후보 상세 1건 확인.",
+      "error": "5페이지 이후와 첨부 HWPX 지원요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=&wd=1286",
+          "text": "나라일터 검색 첫 5페이지 확인; 상주시 임기제 학예연구 공고를 목록에서 찾아 상세 1건 확인.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "2026년 제3회 상주시 임기제공무원 임용시험 계획 공고(6) - 학예연구 분야",
+            "organization": "경상북도 상주시",
+            "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304990",
+            "postingId": "304990",
+            "applicationStartAt": "2026-10-19",
+            "applicationEndAt": "2026-10-20",
+            "roleText": "시간선택제임기제 나급 1명; 상주박물관 학예연구 분야.",
+            "detailStatus": "verified",
+            "detailWarning": "상세 본문과 접수기간 확인; 첨부 HWPX의 학력·경력 자격요건은 미확인.",
+            "detailCheckedAt": "2026-10-06T00:24:15.957Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=&wd=1286",
+              "text": "2026년 제3회 상주시 임기제공무원 임용시험 계획 공고(6) - 학예연구 분야",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304990",
+              "text": "원서접수 2026.10.19~10.20.",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304990",
+              "text": "원서접수 2026.10.19~10.20.",
+              "source": "list"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304990",
+              "text": "시간선택제임기제 나급 1명; 상주박물관 학예연구 분야.",
+              "source": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "kaah",
+      "startedAt": "2026-10-06T00:08:14.110Z",
+      "checkedAt": "2026-10-06T00:52:14Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 3,
+        "detailOpened": 3,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "한국문화유산협회 구인 목록 165건/11페이지 중 첫 페이지와 후보 상세 3건 확인.",
+      "error": "나머지 10페이지 및 첨부 자격자료 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.kaah.kr/reqopen",
+          "text": "2026-10-06 재확인: 첫 목록 페이지 165·164·163행에 게시물 578·577·576, 상세 3건 확인.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "(재)삼도문화유산연구원(준조사원, 보조원) 채용공고",
+            "organization": "재단법인 삼도문화유산연구원",
+            "url": "https://www.kaah.kr/reqopen_view/578?page=1&searchTxt=",
+            "postingId": "578",
+            "applicationStartAt": "2026-10-01",
+            "roleText": "문화재조사 및 연구직; 준조사원 및 보조원 각 ○명(정규직), 본원 및 전국 문화유산 조사 현장.",
+            "eligibilityText": "「매장문화재 보호 및 조사에 관한 법령」의 조사요원별 자격기준에 준하는 자; 공무원 임용기준상 결격 없음; 해외여행 결격 사유 없음.",
+            "status": "채용시까지",
+            "detailStatus": "verified",
+            "detailWarning": "법정 조사요원별 자격기준의 본인 해당 여부 확인 필요; 첨부 지원서 미검토.",
+            "detailCheckedAt": "2026-10-06T00:51:59Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.kaah.kr/reqopen",
+              "text": "(재)삼도문화유산연구원(준조사원, 보조원) 채용공고",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.kaah.kr/reqopen_view/578?page=1&searchTxt=",
+              "text": "접수기간: 2026년 10월 01일부터 ~ 채용시까지.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.kaah.kr/reqopen_view/578?page=1&searchTxt=",
+              "text": "문화재조사 및 연구직; 준조사원 및 보조원 각 ○명(정규직), 본원 및 전국 문화유산 조사 현장.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.kaah.kr/reqopen_view/578?page=1&searchTxt=",
+              "text": "「매장문화재 보호 및 조사에 관한 법령」의 조사요원별 자격기준에 준하는 자; 공무원 임용기준상 결격 없음; 해외여행 결격 사유 없음.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.kaah.kr/reqopen_view/578?page=1&searchTxt=",
+              "text": "채용시까지",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "(공고 제2026-6호) 충청북도역사문화연구원 정규직원(연구직,사무직)채용공고",
+            "organization": "충청북도역사문화연구원",
+            "url": "https://www.kaah.kr/reqopen_view/577?page=1&searchTxt=",
+            "postingId": "577",
+            "applicationStartAt": "2026-10-01",
+            "applicationEndAt": "2026-10-12",
+            "roleText": "정규직 연구직·사무직; 채용인원·직급은 첨부 공고문 참조.",
+            "status": "접수중",
+            "detailStatus": "verified",
+            "detailWarning": "첨부 HWP의 세부 자격·업무 미검토.",
+            "detailCheckedAt": "2026-10-06T00:52:09Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.kaah.kr/reqopen",
+              "text": "(공고 제2026-6호) 충청북도역사문화연구원 정규직원(연구직,사무직)채용공고",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.kaah.kr/reqopen_view/577?page=1&searchTxt=",
+              "text": "접수 시작 2026-10-01.",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.kaah.kr/reqopen_view/577?page=1&searchTxt=",
+              "text": "접수기간 2026-10-01~2026-10-12.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.kaah.kr/reqopen_view/577?page=1&searchTxt=",
+              "text": "연구직,사무직 블라인드 채용; 정규직 연구직·사무직, 채용인원·직급은 첨부 공고문 참조. 첨부 HWP 미열람.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.kaah.kr/reqopen_view/577?page=1&searchTxt=",
+              "text": "접수중",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "(재)기남문화유산연구원 조사연구원 채용공고(보조원)",
+            "organization": "(재)기남문화유산연구원",
+            "url": "https://www.kaah.kr/reqopen_view/576?page=1&searchTxt=",
+            "postingId": "576",
+            "applicationStartAt": "2026-07-01",
+            "roleText": "보조원(조사직); 매장유산 조사 및 연구, 보고서 작성; 평택 본원·조사현장; 정규직.",
+            "eligibilityText": "매장문화재 보호 및 조사에 관한 법률 시행규칙 제14조 제2항 별표 3 기준; 결격 없음; Photoshop·Illustrator·CAD 우대.",
+            "status": "채용시까지",
+            "detailStatus": "verified",
+            "detailWarning": "게시일은 2026-10-01이나 접수 시작은 2026-07-01이며 보조원 0명으로 표기됨. 날짜·채용인원 확인 필요; 첨부 HWP 미검토.",
+            "detailCheckedAt": "2026-10-06T00:52:14Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.kaah.kr/reqopen",
+              "text": "(재)기남문화유산연구원 조사연구원 채용공고(보조원)",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.kaah.kr/reqopen_view/576?page=1&searchTxt=",
+              "text": "접수 시작 2026-07-01.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.kaah.kr/reqopen_view/576?page=1&searchTxt=",
+              "text": "보조원(조사직); 매장유산 조사 및 연구, 보고서 작성; 평택 본원·조사현장; 정규직; 모집인원 0명 표기.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.kaah.kr/reqopen_view/576?page=1&searchTxt=",
+              "text": "매장문화재 보호 및 조사에 관한 법률 시행규칙 제14조 제2항 별표 3 기준; 결격 없음; Photoshop·Illustrator·CAD 우대. 첨부 HWP 미열람.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.kaah.kr/reqopen_view/576?page=1&searchTxt=",
+              "text": "게시일 2026-10-01, 접수기간 2026.07.01~채용시. 게시일과 시작일이 달라 확인 필요.",
+              "source": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "khs",
+      "startedAt": "2026-10-06T00:08:35.073Z",
+      "checkedAt": "2026-10-06T00:16:15.530Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "국가유산청 채용 목록 첫 페이지; 국립문화유산연구원 미술문화유산연구실 공고 상세와 NRICH 원문 교차확인.",
+      "error": "나머지 9647건 목록 및 HWPX 자격요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+          "text": "첫 페이지 공고와 미술문화유산연구실 채용 1건을 저장; NRICH 원문 상세에서 직무를 교차확인.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+            "organization": "국립문화유산연구원",
+            "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+            "postedAt": "2026-09-30",
+            "applicationStartAt": "2026-10-02",
+            "applicationEndAt": "2026-10-07",
+            "roleText": "국가지정 동산문화유산 정기조사 및 보고서 발간 지원; 미술문화유산연구실 연구과제 등 학예 업무 지원.",
+            "status": "모집중",
+            "detailStatus": "verified",
+            "detailWarning": "국가유산청 목록과 국립문화유산연구원 원문을 교차확인; HWPX 자격요건 미확인.",
+            "detailCheckedAt": "2026-10-06T00:16:15.530Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+              "text": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+              "source": "list"
+            },
+            {
+              "field": "postedAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "등록일 2026-09-30.",
+              "source": "detail"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "원서접수 2026-10-02 시작.",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "원서접수 2026-10-02~2026-10-07.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48402&boardTypeGubun=1",
+              "text": "국가지정 동산문화유산 정기조사·보고서 발간과 연구과제 등 학예 업무 지원.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+              "text": "확인 당시 공식 공고 상태: 모집중.",
+              "source": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "museum-seoul",
+      "startedAt": "2026-10-06T00:08:46.664Z",
+      "checkedAt": "2026-10-06T00:08:56.135Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "서울역사박물관 채용 목록 529건 중 첫 페이지.",
+      "error": "나머지 52페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://museum.seoul.go.kr/www/board/NR_boardList.do?bbsCd=1017&sso=ok",
+          "text": "서울역사박물관 채용 목록 529건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "baekje",
+      "startedAt": "2026-10-06T00:08:56.135Z",
+      "checkedAt": "2026-10-06T00:09:06.563Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "한성백제박물관 채용 목록 첫 페이지 확인.",
+      "error": "나머지 목록과 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?mpid=SBM0501020000",
+          "text": "한성백제박물관 채용 목록 첫 페이지 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "craftmuseum",
+      "startedAt": "2026-10-06T00:09:06.563Z",
+      "checkedAt": "2026-10-06T00:09:18.398Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "서울공예박물관 채용 목록 주소 접속; 제목 영역 중심 확인.",
+      "error": "행 전체와 공고 본문 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://craftmuseum.seoul.go.kr/introduce/recruit_list/1",
+          "text": "서울공예박물관 채용 목록 주소 접속; 제목 영역 중심 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "yongsan",
+      "startedAt": "2026-10-06T00:09:18.398Z",
+      "checkedAt": "2026-10-06T00:09:28.175Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "용산역사박물관 채용 목록 1페이지 확인.",
+      "error": "상단 기간제 채용 게시물의 기간·요건 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://museum.yongsan.go.kr/articles/index?boardCode=notice&category=C1002-1",
+          "text": "용산역사박물관 채용 목록 1페이지 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ep-museum",
+      "startedAt": "2026-10-06T00:09:36.172Z",
+      "checkedAt": "2026-10-06T00:09:46.496Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "은평역사한옥박물관 채용 목록 1페이지, 기간제 연구원 공고 확인.",
+      "error": "상세 일정·자격요건은 이번 실행에서 재확인하지 않음.",
+      "listEvidence": [
+        {
+          "url": "https://museum.ep.go.kr/board/board.asp?bbs_code=Fboard_1&gotopage=1&keyfield=title&keyword=%C3%A4%BF%EB",
+          "text": "은평역사한옥박물관 채용 목록 1페이지, 기간제 연구원 공고 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "namu-sdm",
+      "startedAt": "2026-10-06T00:09:46.496Z",
+      "checkedAt": "2026-10-06T00:09:57.683Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "서대문자연사박물관 채용 목록 55건 중 첫 페이지.",
+      "error": "나머지 5페이지 및 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/list",
+          "text": "서대문자연사박물관 채용 목록 55건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "warmemo",
+      "startedAt": "2026-10-06T00:09:57.683Z",
+      "checkedAt": "2026-10-06T00:10:09.369Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "전쟁기념관 채용 목록 116건 중 첫 페이지.",
+      "error": "나머지 페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardList",
+          "text": "전쟁기념관 채용 목록 116건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nmkpg",
+      "startedAt": "2026-10-06T00:10:09.369Z",
+      "checkedAt": "2026-10-06T00:10:21.366Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "국립대한민국임시정부기념관 채용 목록 첫 페이지.",
+      "error": "상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.nmkpg.go.kr/main/board/1/board_list.do",
+          "text": "국립대한민국임시정부기념관 채용 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "kimkoo",
+      "startedAt": "2026-10-06T00:10:21.367Z",
+      "checkedAt": "2026-10-06T00:10:31.359Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "백범김구기념관 채용 목록 첫 페이지.",
+      "error": "상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.kimkoomuseum.org/inf/inf_1_list.asp?BoardDiv=Notice",
+          "text": "백범김구기념관 채용 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "seosomun",
+      "startedAt": "2026-10-06T00:10:37.181Z",
+      "checkedAt": "2026-10-06T00:10:47.811Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "서소문성지 역사박물관 채용 목록 첫 페이지; WYD 전시사업 충원 게시물 확인.",
+      "error": "상세 일정·지원 요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+          "text": "서소문성지 역사박물관 채용 목록 첫 페이지; WYD 전시사업 충원 게시물 확인. 후보 1건 표준화. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "학예실 직원 채용 공고_WYD대비 전시사업을 위한 충원",
+            "organization": "서소문성지 역사박물관",
+            "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+            "detailStatus": "list_only",
+            "detailWarning": "목록 제목만 확인; 접수일·세부 자격 미확인."
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+              "text": "학예실 직원 채용 공고_WYD대비 전시사업을 위한 충원",
+              "source": "list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "jfac",
+      "startedAt": "2026-10-06T00:10:47.811Z",
+      "checkedAt": "2026-10-06T00:10:57.679Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "종로문화재단 채용정보 목록 첫 페이지.",
+      "error": "나머지 목록과 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.jfac.or.kr/site/main/archive/post/category/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4",
+          "text": "종로문화재단 채용정보 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "cha",
+      "startedAt": "2026-10-06T00:10:57.679Z",
+      "checkedAt": "2026-10-06T00:11:10.114Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "국가유산청 채용 목록 첫 페이지; KHS와 중복된 공개 게시판 확인.",
+      "error": "추가 페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.cha.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06",
+          "text": "국가유산청 채용 목록 첫 페이지; KHS와 중복된 공개 게시판 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "musenet",
+      "startedAt": "2026-10-06T00:11:10.114Z",
+      "checkedAt": "2026-10-06T00:11:21.197Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "경기도박물관 채용/소식 목록 첫 페이지.",
+      "error": "나머지 목록과 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://musenet.ggcf.kr/boards/notice/articles?category=03&page=1",
+          "text": "경기도박물관 채용/소식 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gcm",
+      "startedAt": "2026-10-06T00:11:21.197Z",
+      "checkedAt": "2026-10-06T00:11:30.776Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "경기도어린이박물관 관련 목록 첫 페이지.",
+      "error": "상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://gcm.ggcf.kr/boards/news/articles?category=03",
+          "text": "경기도어린이박물관 관련 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ngcm",
+      "startedAt": "2026-10-06T00:11:37.268Z",
+      "checkedAt": "2026-10-06T00:11:47.256Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "경기북부어린이박물관 관련 목록 첫 페이지.",
+      "error": "상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://ngcm.ggcf.kr/boards/news/articles?category=03",
+          "text": "경기북부어린이박물관 관련 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "jgpm",
+      "startedAt": "2026-10-06T00:11:47.256Z",
+      "checkedAt": "2026-10-06T00:11:59.200Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "전곡선사박물관 관련 목록 첫 페이지; 2026년 시간제/교육 게시물 일부 확인.",
+      "error": "상세 일정·직무요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://jgpm.ggcf.kr/boards/news/articles?category=03",
+          "text": "전곡선사박물관 관련 목록 첫 페이지; 2026년 시간제/교육 게시물 일부 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "silhak",
+      "startedAt": "2026-10-06T00:11:59.200Z",
+      "checkedAt": "2026-10-06T00:12:09.903Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "실학박물관 관련 목록 첫 페이지; 2026 단시간근로자 공고 확인.",
+      "error": "상세 일정·요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://silhak.ggcf.kr/boards/news/articles?category=03",
+          "text": "실학박물관 관련 목록 첫 페이지; 2026 단시간근로자 공고 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gjicp",
+      "startedAt": "2026-10-06T00:12:09.903Z",
+      "checkedAt": "2026-10-06T00:12:19.789Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "경기도자미술관 관련 목록 첫 페이지; 남한산성역사문화관 단시간 근로 게시물 확인.",
+      "error": "상세 일정·요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://gjicp.ggcf.kr/boards/news/articles?category=03",
+          "text": "경기도자미술관 관련 목록 첫 페이지; 남한산성역사문화관 단시간 근로 게시물 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "bcmuseum",
+      "startedAt": "2026-10-06T00:12:19.789Z",
+      "checkedAt": "2026-10-06T00:12:30.846Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "부천시박물관 관련 목록 22건 중 첫 페이지.",
+      "error": "나머지 목록과 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.bcmuseum.or.kr/ko/boards/notice/?sc=03&pageIndex=1&searchKeyword=",
+          "text": "부천시박물관 관련 목록 22건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "nyj",
+      "startedAt": "2026-10-06T00:12:41.369Z",
+      "checkedAt": "2026-10-06T00:12:52.086Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "남양주시립박물관 채용 검색 첫 화면 확인; 결과행 미표시.",
+      "error": "결과가 없는지 로딩/필터 조건 문제인지 전체 확인 미완료.",
+      "listEvidence": [
+        {
+          "url": "https://nyj.go.kr/www/selectBbsNttList.do?key=2497&bbsNo=67&pageUnit=10&searchCnd=SJ&searchKrwd=%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C%EB%A6%BD",
+          "text": "남양주시립박물관 채용 검색 첫 화면 확인; 결과행 미표시. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "hnart",
+      "startedAt": "2026-10-06T00:12:52.086Z",
+      "checkedAt": "2026-10-06T00:13:02.416Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "하남역사박물관 채용 목록 첫 페이지; 최근 직원 채용 게시물 확인.",
+      "error": "접수 마감 및 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+          "text": "하남역사박물관 채용 목록 첫 페이지; 최근 직원 채용 게시물 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "hsmuseum",
+      "startedAt": "2026-10-06T00:13:02.416Z",
+      "checkedAt": "2026-10-06T00:13:12.956Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "화성시역사박물관 관련 442건 중 첫 페이지.",
+      "error": "나머지 44페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1.jsp",
+          "text": "화성시역사박물관 관련 442건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "anseong",
+      "startedAt": "2026-10-06T00:13:12.956Z",
+      "checkedAt": "2026-10-06T00:23:38.976Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "초기 페이지 로드 타임아웃 후 공식 목록 재접속; 7페이지 중 첫 페이지 확인.",
+      "error": "나머지 6페이지 및 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.anseong.go.kr/tourPortal/museum/bbs/list.do?ptIdx=16&mId=0600000000",
+          "text": "초기 페이지 로드 타임아웃 후 공식 목록 재접속; 7페이지 중 첫 페이지 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "artic",
+      "startedAt": "2026-10-06T00:13:31.693Z",
+      "checkedAt": "2026-10-06T00:13:41.653Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "이천시립박물관 채용 검색결과 첫 화면 확인.",
+      "error": "검색 목록의 관련성/모집 상태 추가 확인 필요.",
+      "listEvidence": [
+        {
+          "url": "https://www.artic.or.kr/icmus/board/list?boardManagementNo=26&menuLevel=2&menuNo=53&searchType=total&searchWord=%EC%B1%84%EC%9A%A9",
+          "text": "이천시립박물관 채용 검색결과 첫 화면 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "ddc",
+      "startedAt": "2026-10-06T00:13:41.653Z",
+      "checkedAt": "2026-10-06T00:13:52.814Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "동두천자유수호평화박물관 채용 목록 첫 페이지.",
+      "error": "상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.ddc.go.kr/museum/selectBbsNttList.do?bbsNo=96&key=878",
+          "text": "동두천자유수호평화박물관 채용 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "history-seoul",
+      "startedAt": "2026-10-06T00:13:58.133Z",
+      "checkedAt": "2026-10-06T00:14:07.448Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "서울역사편찬원 채용 목록 78건 중 첫 페이지.",
+      "error": "나머지 페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://history.seoul.go.kr/bbsctt/list.do?key=2210200044",
+          "text": "서울역사편찬원 채용 목록 78건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "job-gg",
+      "startedAt": "2026-10-06T00:14:07.448Z",
+      "checkedAt": "2026-10-06T00:14:19.236Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "경기도일자리포털 채용 848건 중 일반 목록 첫 페이지.",
+      "error": "박물관/문화유산 관련 세부 필터 미완료.",
+      "listEvidence": [
+        {
+          "url": "https://job.gg.go.kr/pblcEmpmn/list.do",
+          "text": "경기도일자리포털 채용 848건 중 일반 목록 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "namuk",
+      "startedAt": "2026-10-06T00:14:19.236Z",
+      "checkedAt": "2026-10-06T00:14:29.291Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "국립농업박물관 채용 목록 현재 2건 확인; 접수 종료 상태.",
+      "error": "상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://namukrecruit.recruiter.co.kr/career/job",
+          "text": "국립농업박물관 채용 목록 현재 2건 확인; 접수 종료 상태. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "museum-or-kr",
+      "startedAt": "2026-10-06T00:14:29.291Z",
+      "checkedAt": "2026-10-06T00:14:38.318Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "한국박물관협회 채용 목록 285건 중 첫 페이지.",
+      "error": "나머지 28페이지 및 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://museum.or.kr/job2/",
+          "text": "한국박물관협회 채용 목록 285건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "seoul",
+      "startedAt": "2026-10-06T00:14:38.318Z",
+      "checkedAt": "2026-10-06T00:14:47.083Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "서울특별시 채용정보 첫 페이지 확인.",
+      "error": "광역 일반 채용 목록의 나머지 페이지·세부 검색 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.seoul.go.kr/news/news_employ.do",
+          "text": "서울특별시 채용정보 첫 페이지 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "korea-kr",
+      "startedAt": "2026-10-06T00:14:53.152Z",
+      "checkedAt": "2026-10-06T00:15:01.002Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "정책브리핑 구인 목록 28,741건 중 첫 페이지.",
+      "error": "나머지 목록 및 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.korea.kr/archive/recruitInfoList.do",
+          "text": "정책브리핑 구인 목록 28,741건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "kdp-aks",
+      "startedAt": "2026-10-06T00:15:01.002Z",
+      "checkedAt": "2026-10-06T00:15:09.486Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "한국학중앙연구원 연계 채용 목록 2,445건 중 첫 페이지; 문화유산·박물관 관련 후보 확인.",
+      "error": "첫 페이지 외 목록과 첨부 자격요건 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20",
+          "text": "한국학중앙연구원 연계 채용 목록 2,445건 중 첫 페이지; 문화유산·박물관 관련 후보 확인. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "work24-youth",
+      "startedAt": "2026-10-06T00:15:09.486Z",
+      "checkedAt": "2026-10-06T00:15:23.118Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "고용24 청년일경험 목록 372건 중 첫 페이지.",
+      "error": "나머지 페이지와 프로그램 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do",
+          "text": "고용24 청년일경험 목록 372건 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    },
+    {
+      "siteId": "gjf-youth",
+      "startedAt": "2026-10-06T00:15:23.118Z",
+      "checkedAt": "2026-10-06T00:22:24.588Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 6,
+        "detailOpened": 6,
+        "detailReused": 0
+      },
+      "coverage": "full",
+      "scope": "경기일자리재단 청년사업 6개 프로그램 카드 전체 및 세부 페이지 6건 확인.",
+      "expectedCount": 6,
+      "listEvidence": [
+        {
+          "url": "https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305",
+          "text": "청년사업 목록의 프로그램 카드 6건 및 6건의 상세 페이지를 모두 확인; 개별 모집 일정은 사업 안내에 미표시.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "2026년 미래내일 일경험 지원사업",
+            "organization": "경기도일자리재단",
+            "postingId": "94",
+            "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+            "status": "모집일정 미확인",
+            "experienceType": "work_experience",
+            "region": "경기",
+            "recordKind": "program_info",
+            "eligibilityText": "15세~34세 미취업 청년; 군필자는 최대 39세.",
+            "programPeriodText": "사업 운영기간 2026년 3월~2027년 2월; 개별 모집 일정 미확인.",
+            "summary": "공공기관형 미래내일 일경험 지원사업 안내.",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:22:24.588Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+              "text": "2026년 미래내일 일경험 지원사업",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+              "text": "개별 참가자 모집일정은 사업 안내에서 확인되지 않음.",
+              "source": "detail"
+            },
+            {
+              "field": "region",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+              "text": "경기도 청년사업 안내.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+              "text": "15세~34세 미취업 청년; 군필자는 최대 39세.",
+              "source": "detail"
+            },
+            {
+              "field": "programPeriodText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+              "text": "사업 운영기간 2026년 3월~2027년 2월; 개별 모집 일정 미확인.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026년 청년 기술인재 육성 지원사업",
+            "organization": "경기도일자리재단",
+            "postingId": "67",
+            "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+            "status": "모집일정 미확인",
+            "experienceType": "training",
+            "region": "경기",
+            "recordKind": "program_info",
+            "eligibilityText": "공학계약학과·기업 연계 과정; 개별 선발 요건 확인 필요.",
+            "programPeriodText": "사업기간 2026년 2월~2027년 2월.",
+            "summary": "청년 기술인재 양성 및 기업 연계 과정 안내.",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:22:24.588Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+              "text": "2026년 청년 기술인재 육성 지원사업",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+              "text": "개별 참가자 모집일정은 사업 안내에서 확인되지 않음.",
+              "source": "detail"
+            },
+            {
+              "field": "region",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+              "text": "경기도 청년사업 안내.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+              "text": "공학계약학과·기업 연계 과정; 개별 선발 요건 확인 필요.",
+              "source": "detail"
+            },
+            {
+              "field": "programPeriodText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+              "text": "사업기간 2026년 2월~2027년 2월.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026년 청년 해외취업 지원사업",
+            "organization": "경기도일자리재단",
+            "postingId": "59",
+            "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+            "status": "모집일정 미확인",
+            "experienceType": "training",
+            "region": "경기",
+            "recordKind": "program_info",
+            "eligibilityText": "경기도 거주 19~39세 미취업 청년; 일본·미국·독일 과정별 조건 확인 필요.",
+            "programPeriodText": "2026년 사업 안내; 개별 모집 일정 미확인.",
+            "summary": "해외취업 진로 준비 및 연계 지원.",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:22:24.588Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+              "text": "2026년 청년 해외취업 지원사업",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+              "text": "개별 참가자 모집일정은 사업 안내에서 확인되지 않음.",
+              "source": "detail"
+            },
+            {
+              "field": "region",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+              "text": "경기도 청년사업 안내.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+              "text": "경기도 거주 19~39세 미취업 청년; 일본·미국·독일 과정별 조건 확인 필요.",
+              "source": "detail"
+            },
+            {
+              "field": "programPeriodText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+              "text": "2026년 사업 안내; 개별 모집 일정 미확인.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026년 경기청년 취업 매칭 지원사업(매칭업 플러스)",
+            "organization": "경기도일자리재단",
+            "postingId": "57",
+            "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=57",
+            "status": "모집일정 미확인",
+            "experienceType": "work_experience",
+            "region": "경기",
+            "recordKind": "program_info",
+            "eligibilityText": "경기도 거주 19~39세 구직청년; 세부 조건은 회차별 모집공고 확인 필요.",
+            "programPeriodText": "사업 운영기간 2026년 3~11월; 개별 모집 일정 미확인.",
+            "summary": "3개월 직무경험 및 정규직 전환 지원 안내.",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:22:24.588Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=57",
+              "text": "2026년 경기청년 취업 매칭 지원사업(매칭업 플러스)",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=57",
+              "text": "개별 참가자 모집일정은 사업 안내에서 확인되지 않음.",
+              "source": "detail"
+            },
+            {
+              "field": "region",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=57",
+              "text": "경기도 청년사업 안내.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=57",
+              "text": "경기도 거주 19~39세 구직청년; 세부 조건은 회차별 모집공고 확인 필요.",
+              "source": "detail"
+            },
+            {
+              "field": "programPeriodText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=57",
+              "text": "사업 운영기간 2026년 3~11월; 개별 모집 일정 미확인.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026년 청년 맞춤형 취업지원 서비스",
+            "organization": "경기도일자리재단",
+            "postingId": "55",
+            "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+            "status": "모집일정 미확인",
+            "experienceType": "counseling",
+            "region": "경기",
+            "recordKind": "program_info",
+            "eligibilityText": "미취업 청년 대상; 상세 상담·선발 조건은 별도 확인 필요.",
+            "programPeriodText": "사업 운영기간 2026년 3~11월; 개별 모집 일정 미확인.",
+            "summary": "취업 상담 및 맞춤형 취업지원 프로그램 안내.",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:22:24.588Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+              "text": "2026년 청년 맞춤형 취업지원 서비스",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+              "text": "개별 참가자 모집일정은 사업 안내에서 확인되지 않음.",
+              "source": "detail"
+            },
+            {
+              "field": "region",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+              "text": "경기도 청년사업 안내.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+              "text": "미취업 청년 대상; 상세 상담·선발 조건은 별도 확인 필요.",
+              "source": "detail"
+            },
+            {
+              "field": "programPeriodText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+              "text": "사업 운영기간 2026년 3~11월; 개별 모집 일정 미확인.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026년 경기청년 역량강화 기회 지원사업",
+            "organization": "경기도일자리재단",
+            "postingId": "16",
+            "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+            "status": "모집일정 미확인",
+            "experienceType": "financial_support",
+            "region": "경기",
+            "recordKind": "program_info",
+            "eligibilityText": "경기도 청년의 어학·자격시험 응시료 지원; 최대 30만원.",
+            "programPeriodText": "사업 운영기간 2026년 5~12월 예정; 접수 일정은 별도 확인 필요.",
+            "summary": "개별 지원 자격과 신청기간은 공고 확인 필요.",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:22:24.588Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+              "text": "2026년 경기청년 역량강화 기회 지원사업",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+              "text": "개별 참가자 모집일정은 사업 안내에서 확인되지 않음.",
+              "source": "detail"
+            },
+            {
+              "field": "region",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+              "text": "경기도 청년사업 안내.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+              "text": "경기도 청년의 어학·자격시험 응시료 지원; 최대 30만원.",
+              "source": "detail"
+            },
+            {
+              "field": "programPeriodText",
+              "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+              "text": "사업 운영기간 2026년 5~12월 예정; 접수 일정은 별도 확인 필요.",
+              "source": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "csv-culture",
+      "startedAt": "2026-10-06T00:15:34.723Z",
+      "checkedAt": "2026-10-06T00:20:56.733Z",
+      "metrics": {
+        "listPages": 4,
+        "listRows": 3,
+        "detailOpened": 3,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "문화·모집중 필터 35건/4페이지 모두 확인; 인당뮤지엄 10·11·12월 공고 상세 페이지 3개 열람(상세 본문은 공란).",
+      "error": "35건 전부를 표준화하지 않았고 전체 목록은 미확인; 상세 페이지 공란으로 일정/자격 재검증 불가.",
+      "listEvidence": [
+        {
+          "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+          "text": "문화·모집중 필터 35건/4페이지 모두 확인; 인당뮤지엄 10월 공고를 목록에서 확인하고 10·11·12월 각 상세를 열었으나 상세 본문은 공란.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집(월 단위로 모집 중)",
+            "organization": "대구보건대학교 인당뮤지엄",
+            "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012419",
+            "postingId": "VOLT_000000000012419",
+            "experienceType": "volunteer",
+            "detailStatus": "failed",
+            "detailWarning": "이번 실행에서 상세 페이지를 열었으나 본문 필드가 공란; 기간·자격은 직전 확인분을 보존하며 재검증되지 않음.",
+            "detailCheckedAt": "2026-10-06T00:20:56.733Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+              "text": "10월 자원봉사자 모집, 대구보건대학교 인당뮤지엄, 모집중.",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "[대구보건대학교 인당뮤지엄 ] 부지현 초대전 <부지현의 코스모스> 전시 11월 자원봉사자 모집(월 단위로 모집 중)",
+            "organization": "대구보건대학교 인당뮤지엄",
+            "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012420",
+            "postingId": "VOLT_000000000012420",
+            "experienceType": "volunteer",
+            "detailStatus": "failed",
+            "detailWarning": "이번 실행에서 상세 페이지를 열었으나 본문 필드가 공란; 기간·자격은 직전 확인분을 보존하며 재검증되지 않음.",
+            "detailCheckedAt": "2026-10-06T00:20:55.384Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012420",
+              "text": "게시물 VOLT_000000000012420 상세 페이지에서 월별 제목 확인; 상세 본문은 공란.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "[대구보건대학교 인당뮤지엄 ] <부지현의 코스모스> 전시 12월 자원봉사자 모집(월 단위로 모집 중)",
+            "organization": "대구보건대학교 인당뮤지엄",
+            "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012421",
+            "postingId": "VOLT_000000000012421",
+            "experienceType": "volunteer",
+            "detailStatus": "failed",
+            "detailWarning": "이번 실행에서 상세 페이지를 열었으나 본문 필드가 공란; 기간·자격은 직전 확인분을 보존하며 재검증되지 않음.",
+            "detailCheckedAt": "2026-10-06T00:20:56.085Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012421",
+              "text": "게시물 VOLT_000000000012421 상세 페이지에서 월별 제목 확인; 상세 본문은 공란.",
+              "source": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "1365-volunteer",
+      "startedAt": "2026-10-06T00:15:38.635Z",
+      "checkedAt": "2026-10-06T00:20:19.714Z",
+      "metrics": {
+        "listPages": 5,
+        "listRows": 6,
+        "detailOpened": 4,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "박물관 봉사 모집중 검색 서울 27건/3페이지, 경기 17건/2페이지 전부 확인; 우선 후보 6건 표준화.",
+      "error": "44건 목록은 확인했으나 일부 상세만 열람; 나머지 후보의 요건·본문 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+          "text": "지역=서울특별시, 봉사명=박물관, 모집중: 27건/3페이지 모두 확인.",
+          "source": "list"
+        },
+        {
+          "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+          "text": "지역=경기도, 봉사명=박물관, 모집중: 17건/2페이지 모두 확인.",
+          "source": "list"
+        }
+      ],
+      "postings": [
+        {
+          "posting": {
+            "title": "허준축제 허준박물관 전시 부스 도우미",
+            "organization": "허준박물관",
+            "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+            "postingId": "3528668",
+            "experienceType": "volunteer",
+            "applicationStartAt": "2026-09-30",
+            "applicationEndAt": "2026-10-07",
+            "programStartAt": "2026-10-10",
+            "programEndAt": "2026-10-11",
+            "roleText": "허준축제 전시 부스 도우미; 오전 10:00~13:00.",
+            "eligibilityText": "성인.",
+            "status": "모집중",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:20:14.886Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 허준박물관 전시 부스 도우미",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+              "text": "모집기간 2026.09.30~10.07.",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+              "text": "모집기간 2026.09.30~10.07; 봉사기간 2026.10.10~10.11, 10:00~13:00.",
+              "source": "detail"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+              "text": "봉사기간 2026.10.10~10.11.",
+              "source": "detail"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+              "text": "봉사기간 2026.10.10~10.11.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+              "text": "허준축제 기간 허준박물관 전시 부스 도우미; 오전 10:00~13:00.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+              "text": "신청대상 성인.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+              "text": "모집중.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "허준축제 허준박물관 전시 부스 도우미",
+            "organization": "허준박물관",
+            "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528672",
+            "postingId": "3528672",
+            "experienceType": "volunteer",
+            "applicationStartAt": "2026-09-30",
+            "applicationEndAt": "2026-10-07",
+            "programStartAt": "2026-10-10",
+            "programEndAt": "2026-10-11",
+            "roleText": "허준축제 전시 부스 도우미; 오후 13:00~17:00.",
+            "eligibilityText": "성인.",
+            "status": "모집중",
+            "detailStatus": "list_only",
+            "detailWarning": "목록만 확인; 상세 신청요건 미검토."
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 허준박물관 전시 부스 도우미",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-09-30",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-10-07",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-10-10",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-10-11",
+              "source": "list"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "허준축제 전시 부스 도우미; 오후 13:00~17:00.",
+              "source": "list"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "성인.",
+              "source": "list"
+            },
+            {
+              "field": "status",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "모집중",
+              "source": "list"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "2026 수원광교박물관 문화행사 <이웃과 함께하는 가을문화축제> 행사 요원(자원봉사자)",
+            "organization": "수원광교박물관",
+            "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+            "postingId": "3519230",
+            "experienceType": "volunteer",
+            "applicationStartAt": "2026-09-11",
+            "applicationEndAt": "2026-10-07",
+            "programStartAt": "2026-10-09",
+            "programEndAt": "2026-10-09",
+            "roleText": "박물관 문화행사 현장 운영 지원.",
+            "eligibilityText": "성인.",
+            "status": "모집중",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:20:16.527Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026 수원광교박물관 문화행사 <이웃과 함께하는 가을문화축제> 행사 요원(자원봉사자)",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+              "text": "모집기간 2026.09.11~10.07.",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+              "text": "모집 2026.09.11~10.07; 봉사 2026.10.09, 10:00~18:00.",
+              "source": "detail"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+              "text": "봉사일 2026.10.09.",
+              "source": "detail"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+              "text": "봉사일 2026.10.09.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+              "text": "수원광교박물관 행사 운영 보조.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+              "text": "신청대상 성인.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+              "text": "모집중.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "용인박물관 행사 지원 자원봉사자",
+            "organization": "용인박물관",
+            "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+            "postingId": "3529596",
+            "experienceType": "volunteer",
+            "applicationStartAt": "2026-10-02",
+            "applicationEndAt": "2026-10-15",
+            "programStartAt": "2026-10-17",
+            "programEndAt": "2026-10-17",
+            "roleText": "박물관 행사 지원; 활동 2026.10.17 09:10~13:10.",
+            "eligibilityText": "성인.",
+            "status": "모집중",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:20:18.124Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "용인박물관 행사 지원 자원봉사자",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+              "text": "모집기간 2026.10.02~10.15.",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+              "text": "모집기간 2026.10.02~10.15; 봉사일 2026.10.17.",
+              "source": "detail"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+              "text": "봉사일 2026.10.17, 09:10~13:10.",
+              "source": "detail"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+              "text": "봉사일 2026.10.17, 09:10~13:10.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+              "text": "용인박물관 행사 지원.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+              "text": "신청대상 성인.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+              "text": "모집중.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "서울약령시한의약박물관 문화자원봉사자 모집",
+            "organization": "서울약령시한의약박물관",
+            "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+            "postingId": "3528852",
+            "experienceType": "volunteer",
+            "applicationStartAt": "2026-10-02",
+            "applicationEndAt": "2026-10-16",
+            "programStartAt": "2026-11-01",
+            "programEndAt": "2026-11-30",
+            "roleText": "한의약박물관 문화자원봉사; 오전 10:00~14:00.",
+            "eligibilityText": "성인.",
+            "status": "모집중",
+            "detailStatus": "verified",
+            "detailCheckedAt": "2026-10-06T00:20:19.714Z"
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "서울약령시한의약박물관 문화자원봉사자 모집",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+              "text": "모집기간 2026.10.02~10.16.",
+              "source": "detail"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+              "text": "모집기간 2026.10.02~10.16; 봉사기간 2026.11.01~11.30.",
+              "source": "detail"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+              "text": "봉사기간 2026.11.01~11.30, 10:00~14:00.",
+              "source": "detail"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+              "text": "봉사기간 2026.11.01~11.30, 10:00~14:00.",
+              "source": "detail"
+            },
+            {
+              "field": "roleText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+              "text": "서울약령시한의약박물관 문화자원봉사, 오전 10:00~14:00.",
+              "source": "detail"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+              "text": "신청대상 성인.",
+              "source": "detail"
+            },
+            {
+              "field": "status",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+              "text": "모집중.",
+              "source": "detail"
+            }
+          ]
+        },
+        {
+          "posting": {
+            "title": "(2026년 10월 13일~16일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+            "organization": "서울암사동유적",
+            "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519336",
+            "postingId": "3519336",
+            "experienceType": "volunteer",
+            "applicationStartAt": "2026-09-11",
+            "applicationEndAt": "2026-10-09",
+            "programStartAt": "2026-10-13",
+            "programEndAt": "2026-10-16",
+            "eligibilityText": "성인",
+            "status": "모집중",
+            "detailStatus": "list_only",
+            "detailWarning": "목록만 확인; 상세 신청요건 미검토."
+          },
+          "evidence": [
+            {
+              "field": "title",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "(2026년 10월 13일~16일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+              "source": "list"
+            },
+            {
+              "field": "applicationStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-09-11",
+              "source": "list"
+            },
+            {
+              "field": "applicationEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-10-09",
+              "source": "list"
+            },
+            {
+              "field": "programStartAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-10-13",
+              "source": "list"
+            },
+            {
+              "field": "programEndAt",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "2026-10-16",
+              "source": "list"
+            },
+            {
+              "field": "eligibilityText",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "성인",
+              "source": "list"
+            },
+            {
+              "field": "status",
+              "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+              "text": "모집중",
+              "source": "list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "startedAt": "2026-10-06T00:15:56.149Z",
+      "checkedAt": "2026-10-06T00:16:00.704Z",
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "coverage": "partial",
+      "scope": "국립중앙박물관 자원봉사 알림 231건/24페이지 중 첫 페이지.",
+      "error": "나머지 23페이지와 상세 미확인.",
+      "listEvidence": [
+        {
+          "url": "https://www.museum.go.kr/MUSEUM/contents/M0701010000.do?pageSize=10&catCustomType=united&catId=128&arcDataType=&sc=&sv=%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC",
+          "text": "국립중앙박물관 자원봉사 알림 231건/24페이지 중 첫 페이지. 확인. 전체 확인은 아님.",
+          "source": "list"
+        }
+      ],
+      "postings": []
+    }
+  ]
+}

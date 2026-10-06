@@ -1,0 +1,3695 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-06T00:54:23.017Z",
+  "fingerprint": "d669f975af7efc2dea5995eb958e2423408fd3773b74729189e2b17791f96607",
+  "inputs": {
+    "crawlers/base.ts": "9fc6cea4f08f437cd56a287ef1c30d4f5d4f17f84132a222020188350d37dfaf",
+    "crawlers/experience-urls.ts": "145ebefbe2b15c8c009dc5e069c3684ed035326efc3be426fe519ae9c072c640",
+    "crawlers/opportunity.ts": "e5b0771406ea7705c37751ce5e9db52914ac67186523823c164751f07195d4d3",
+    "crawlers/resilience.ts": "5eaf78469616daa152bb7ef7fd3a2a5a7b18714db9a25f226f23ff1eef2631da",
+    "crawlers/run-experience.ts": "87fce1b7bd4dc1e1ea5bf99836c728a746776cd1879e34250b4c1ebf928b4eec",
+    "crawlers/run.ts": "230d64a41361d4f3957b6e3f2e634452d042abbedb90249a1b4fd76d8fa201bc",
+    "crawlers/schedule.ts": "87b71b0d635dcfa51a441635c9031811739fa3cb40646177a3cdf1930456717b",
+    "crawlers/sites/anseong.ts": "ccc0c6a940929bf900ca120411033aaae477474c1d30759dcd44a164ad4d3a9e",
+    "crawlers/sites/artic.ts": "58272f558af5795b02511956062130b8a608ccf2f06fe319c1c93c3d13cd3e4c",
+    "crawlers/sites/baekje.ts": "1a9ae3c9ef3008e73b61a2c724c5a96f4fa61decb6a18c04e8f2c7590fc12452",
+    "crawlers/sites/bcmuseum.ts": "c0da8a94d7a0d7256dee54f40804a757a7e5d3fb5632e26cb4f0bbf41bd205c3",
+    "crawlers/sites/cha.ts": "61c9849325de8b6cc7e79e2ac51ca9b82c3fbeddc4235048209fb039ef5a98b6",
+    "crawlers/sites/craftmuseum.ts": "b2305dce13eb0fae130f1a3099f3a71fb813c814fd827278c1706f225115ce01",
+    "crawlers/sites/ddc.ts": "b0adc11c82d2c8aed821b4d078b6d6cfd67f2cf412cd9bb62a899426d17707ae",
+    "crawlers/sites/ep-museum.ts": "9a91533c0d826a969123cdc23b42a20c664cf50af133afb79823a51320a42c27",
+    "crawlers/sites/experience/1365.ts": "4f7a4d7a79db8866738d6b85324b5d30359a14249fce50e364cb9b986746e683",
+    "crawlers/sites/experience/csv-culture.ts": "94d1118fcbc650c261b452bff7380db5049ac6a84be869265893e9d2ac5f9308",
+    "crawlers/sites/experience/gjf-youth.ts": "b7f23591916cbcf321c0d3420f25e73c7862676e56ab6ac5a660dfef63ec4865",
+    "crawlers/sites/experience/museum-notice.ts": "3c765c54e64f1a3be6b3771fedde76874a32e28d6ca1dfbeed3eafd5a499c143",
+    "crawlers/sites/experience/work24-youth.ts": "f0d61442693084653128eee84f5c0991e966917f2a04f3e045a5bb8d7f2d32b4",
+    "crawlers/sites/ggcf.ts": "8dd4608babbfdbdf7fc5f0d7872156a6e582050f906321a90703849138368049",
+    "crawlers/sites/gmuseum.ts": "89126af6467334fcb08834a293847e821ebf15542b283be7db8b364fac67fcd9",
+    "crawlers/sites/gogung.ts": "ff6e641d5eeeac7621577dc33e2a1cce037c1368490892c16a7ee4cc1cc76787",
+    "crawlers/sites/gojobs.ts": "41763b7348542d2f95c00959f06b6a0e81c44301c7595c4567ca5d1781c1f03b",
+    "crawlers/sites/hangeul.ts": "87829a0ec9e4c3fd6830da82d1be8c432fb1a713424d95898d9fcbf6010aae5d",
+    "crawlers/sites/history-seoul.ts": "16e21c21e10755da35c8d9f98bed66e7041433232bafbd629ed91cc614087db0",
+    "crawlers/sites/hnart.ts": "2732c8649f8f7c975b52582b24159691f1e882709663273f2fd4fba309f7aa5b",
+    "crawlers/sites/hsmuseum.ts": "9cf95d2be366b0ec14f6da1b7f37499733e4b88fd98e3f9c1b55884262ee9d83",
+    "crawlers/sites/jfac.ts": "119ee8d141f49d204e40803f68cefe60aa429e9d81b3b75c2e7255e89f32f4d3",
+    "crawlers/sites/job-gg.ts": "3e7454dd8fafed749ab12da2d99e344a0c72697ec4a88d585543ed9e174c8a9d",
+    "crawlers/sites/kaah.ts": "ace232d9504fdbca9c527aef479ef991dba46738a5900b8e7b4b9ee91da41811",
+    "crawlers/sites/kdp-aks.ts": "07014256cf8e360d12b58b379aaa6e972799508104cd1b96f81aed42ef435d35",
+    "crawlers/sites/khs.ts": "062f9771dffc9e4cc92f6fcdc01c64d024adb040754ea2e51c94f559649d2c5a",
+    "crawlers/sites/kimkoo.ts": "0f7a53abef69f2b469426c14253348286136a77d264acf18e11aa3ff323e9a76",
+    "crawlers/sites/korea-kr.ts": "dee11734a92dae5d5c436237ea77ae1f07680c7d921bbf532311561158f4cdb3",
+    "crawlers/sites/much.ts": "b239ef46aeb5616b377df2d9c771fb78248d0d05cd71892250696ff1f8e13857",
+    "crawlers/sites/museum-go-kr.ts": "5ffe0d0dcca1486c7d73b6bdd1090dd8aeea8103ee202932266138feae78e2d4",
+    "crawlers/sites/museum-or-kr.ts": "04f2595ac4a03b6de6811eccb86c58f8bb62ad6a632eb40ee6d51ea8581d7ccf",
+    "crawlers/sites/museum-seoul.ts": "9999cfdd0d4b86cd29fa6147a17a82616fcf3639438efcb65beadf54ec22b7ff",
+    "crawlers/sites/namu-sdm.ts": "6b2f0a0e8c55ac941785003d6db9825e511cb429c7b4d9ed956909c2fd103d1c",
+    "crawlers/sites/namuk.ts": "be07c92be759aa35f9776fd8e4a260e0c1b5e628e4d31a62a35b4fd44aa490f0",
+    "crawlers/sites/ncs.ts": "f39b79cf0c447b04afe757ac41a8f6a8d477388f1b6d1b345bafba018b209f38",
+    "crawlers/sites/nfm.ts": "7c368b35f1a79f96c8bb1f315b0ee5e2f60c0a0798c9e562a6ed978e3cc571d6",
+    "crawlers/sites/nmkpg.ts": "e2138ea0a53c73f2f9c355530bf0025522f97f936215a4d14135b17d813cbf88",
+    "crawlers/sites/nrich.ts": "5e7353dced289bbad18d70eb28e9a5c7b1f6e1d25c52ec539d0f1495c9376132",
+    "crawlers/sites/nyj.ts": "a06b2bb517f7d3f0bc22d136884e3bf54482b3005efa6e4e9ce5d661599591e5",
+    "crawlers/sites/seosomun.ts": "47274dc0091ab32e70bfcdbc8934c090fcda245733d3f0e5e1c4ce2d6cab7dfb",
+    "crawlers/sites/seoul.ts": "68908b19fbd6130eb70903ac841200d7c9255718aec92731b7b316fd572a1b0e",
+    "crawlers/sites/warmemo.ts": "c3255f7e3f11b1bc6168a939a62a67c35b7c84a4daade14a381159fe17aa4010",
+    "crawlers/sites/yongsan.ts": "7d55abc6ebb02bad3ebee46de47dc66929da1493fe5a232234bbc837b7257fff",
+    "crawlers/types.ts": "7fdca03b75a213b62126ed20e87c5197e28554ae8d8f319416e7583dd1e1c8f3",
+    "data/experience-sources.json": "c90a318771c55de2046f2b7e29223b16dca3eacb311f6cdc80a3e6eb0b7bc004",
+    "data/learned-exclusions.json": "4aff57ab2930546a44c5231b9784263e30efbb5cd7d0f2c73c3475d49c9c1e2a",
+    "noise-keywords.txt": "4034428b304e98922bd85b18062ac426293c095be1cc97e26c97009329d0132b",
+    "url.txt": "f4c1153a1571435de3e4a325f8699a57ff5f0e1bb12fd70eeb79e5b65d9bf7a9",
+    "web/exclusions.js": "6422b0ef30f065fbda2d846c2a20f50e0504115dc1a76976e3309aa7adb0fdc6",
+    "web/model.js": "fb8ef50c75a2753ef169bae630b2bfcddce3a086e5e21661b68204ef7696680a"
+  },
+  "counts": {
+    "job": 43,
+    "experience": 5,
+    "urlFileEntries": 42
+  },
+  "sources": [
+    {
+      "id": "museum-go-kr",
+      "name": "국립중앙박물관",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+      "type": "job",
+      "module": "crawlers/sites/museum-go-kr.ts"
+    },
+    {
+      "id": "gogung",
+      "name": "국립고궁박물관",
+      "url": "https://www.gogung.go.kr/gogung/bbs/BMSR00022/list.do?gubunCd=B22_003&menuNo=800090",
+      "type": "job",
+      "module": "crawlers/sites/gogung.ts"
+    },
+    {
+      "id": "nrich",
+      "name": "국립문화유산연구원",
+      "url": "https://www.nrich.go.kr/kor/boardList.do?menuIdx=285&bbscd=40",
+      "type": "job",
+      "module": "crawlers/sites/nrich.ts"
+    },
+    {
+      "id": "nfm",
+      "name": "국립민속박물관",
+      "url": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataList.do",
+      "type": "job",
+      "module": "crawlers/sites/nfm.ts"
+    },
+    {
+      "id": "ncs",
+      "name": "NCS 공정채용",
+      "url": "https://www.ncs.go.kr/blind/bl04/RecrtNotifList.do",
+      "type": "job",
+      "module": "crawlers/sites/ncs.ts"
+    },
+    {
+      "id": "much",
+      "name": "대한민국역사박물관",
+      "url": "https://www.much.go.kr/MUCH/contents/M07090200000.do",
+      "type": "job",
+      "module": "crawlers/sites/much.ts"
+    },
+    {
+      "id": "gmuseum",
+      "name": "경기도박물관협회",
+      "url": "https://gmuseum.kr/board/jobList",
+      "type": "job",
+      "module": "crawlers/sites/gmuseum.ts"
+    },
+    {
+      "id": "hangeul",
+      "name": "국립한글박물관",
+      "url": "https://www.hangeul.go.kr/news/newsList.do?bbs_id=30&curr_menu_cd=0106010600",
+      "type": "job",
+      "module": "crawlers/sites/hangeul.ts"
+    },
+    {
+      "id": "gojobs",
+      "name": "나라일터",
+      "url": "https://www.gojobs.go.kr/apmList.do",
+      "type": "job",
+      "module": "crawlers/sites/gojobs.ts"
+    },
+    {
+      "id": "kaah",
+      "name": "한국문화유산협회",
+      "url": "https://www.kaah.kr/reqopen",
+      "type": "job",
+      "module": "crawlers/sites/kaah.ts"
+    },
+    {
+      "id": "khs",
+      "name": "국가유산청",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+      "type": "job",
+      "module": "crawlers/sites/khs.ts"
+    },
+    {
+      "id": "museum-seoul",
+      "name": "서울역사박물관",
+      "url": "https://museum.seoul.go.kr/www/board/NR_boardList.do?bbsCd=1017&sso=ok",
+      "type": "job",
+      "module": "crawlers/sites/museum-seoul.ts"
+    },
+    {
+      "id": "baekje",
+      "name": "한성백제박물관",
+      "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?mpid=SBM0501020000",
+      "type": "job",
+      "module": "crawlers/sites/baekje.ts"
+    },
+    {
+      "id": "craftmuseum",
+      "name": "서울공예박물관",
+      "url": "https://craftmuseum.seoul.go.kr/introduce/recruit_list/1",
+      "type": "job",
+      "module": "crawlers/sites/craftmuseum.ts"
+    },
+    {
+      "id": "yongsan",
+      "name": "용산역사박물관",
+      "url": "https://museum.yongsan.go.kr/articles/index?boardCode=notice&category=C1002-1",
+      "type": "job",
+      "module": "crawlers/sites/yongsan.ts"
+    },
+    {
+      "id": "ep-museum",
+      "name": "은평역사한옥박물관",
+      "url": "https://museum.ep.go.kr/board/board.asp?bbs_code=Fboard_1&gotopage=1&keyfield=title&keyword=%C3%A4%BF%EB",
+      "type": "job",
+      "module": "crawlers/sites/ep-museum.ts"
+    },
+    {
+      "id": "namu-sdm",
+      "name": "서대문자연사박물관",
+      "url": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/list",
+      "type": "job",
+      "module": "crawlers/sites/namu-sdm.ts"
+    },
+    {
+      "id": "warmemo",
+      "name": "전쟁기념관",
+      "url": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardList",
+      "type": "job",
+      "module": "crawlers/sites/warmemo.ts"
+    },
+    {
+      "id": "nmkpg",
+      "name": "국립대한민국임시정부기념관",
+      "url": "https://www.nmkpg.go.kr/main/board/1/board_list.do",
+      "type": "job",
+      "module": "crawlers/sites/nmkpg.ts"
+    },
+    {
+      "id": "kimkoo",
+      "name": "백범김구기념관",
+      "url": "https://www.kimkoomuseum.org/inf/inf_1_list.asp?BoardDiv=Notice",
+      "type": "job",
+      "module": "crawlers/sites/kimkoo.ts"
+    },
+    {
+      "id": "seosomun",
+      "name": "서소문성지 역사박물관",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+      "type": "job",
+      "module": "crawlers/sites/seosomun.ts"
+    },
+    {
+      "id": "jfac",
+      "name": "종로문화재단",
+      "url": "https://www.jfac.or.kr/site/main/archive/post/category/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4",
+      "type": "job",
+      "module": "crawlers/sites/jfac.ts"
+    },
+    {
+      "id": "cha",
+      "name": "국가유산청(cha)",
+      "url": "https://www.cha.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06",
+      "type": "job",
+      "module": "crawlers/sites/cha.ts"
+    },
+    {
+      "id": "musenet",
+      "name": "경기도박물관",
+      "url": "https://musenet.ggcf.kr/boards/notice/articles?category=03&page=1",
+      "type": "job",
+      "module": "crawlers/sites/ggcf.ts"
+    },
+    {
+      "id": "gcm",
+      "name": "경기도어린이박물관",
+      "url": "https://gcm.ggcf.kr/boards/news/articles?category=03",
+      "type": "job",
+      "module": "crawlers/sites/ggcf.ts"
+    },
+    {
+      "id": "ngcm",
+      "name": "경기북부어린이박물관",
+      "url": "https://ngcm.ggcf.kr/boards/news/articles?category=03",
+      "type": "job",
+      "module": "crawlers/sites/ggcf.ts"
+    },
+    {
+      "id": "jgpm",
+      "name": "전곡선사박물관",
+      "url": "https://jgpm.ggcf.kr/boards/news/articles?category=03",
+      "type": "job",
+      "module": "crawlers/sites/ggcf.ts"
+    },
+    {
+      "id": "silhak",
+      "name": "실학박물관",
+      "url": "https://silhak.ggcf.kr/boards/news/articles?category=03",
+      "type": "job",
+      "module": "crawlers/sites/ggcf.ts"
+    },
+    {
+      "id": "gjicp",
+      "name": "경기도자미술관",
+      "url": "https://gjicp.ggcf.kr/boards/news/articles?category=03",
+      "type": "job",
+      "module": "crawlers/sites/ggcf.ts"
+    },
+    {
+      "id": "bcmuseum",
+      "name": "부천시박물관",
+      "url": "https://www.bcmuseum.or.kr/ko/boards/notice/?sc=03&pageIndex=1&searchKeyword=",
+      "type": "job",
+      "module": "crawlers/sites/bcmuseum.ts"
+    },
+    {
+      "id": "nyj",
+      "name": "남양주시",
+      "url": "https://nyj.go.kr/www/selectBbsNttList.do?key=2497&bbsNo=67&pageUnit=10&searchCnd=SJ&searchKrwd=%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C%EB%A6%BD",
+      "type": "job",
+      "module": "crawlers/sites/nyj.ts"
+    },
+    {
+      "id": "hnart",
+      "name": "하남역사박물관",
+      "url": "https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+      "type": "job",
+      "module": "crawlers/sites/hnart.ts"
+    },
+    {
+      "id": "hsmuseum",
+      "name": "화성시역사박물관",
+      "url": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1.jsp",
+      "type": "job",
+      "module": "crawlers/sites/hsmuseum.ts"
+    },
+    {
+      "id": "anseong",
+      "name": "안성맞춤박물관",
+      "url": "https://www.anseong.go.kr/tourPortal/museum/bbs/list.do?ptIdx=16&mId=0600000000",
+      "type": "job",
+      "module": "crawlers/sites/anseong.ts"
+    },
+    {
+      "id": "artic",
+      "name": "이천시립박물관",
+      "url": "https://www.artic.or.kr/icmus/board/list?boardManagementNo=26&menuLevel=2&menuNo=53&searchType=total&searchWord=%EC%B1%84%EC%9A%A9",
+      "type": "job",
+      "module": "crawlers/sites/artic.ts"
+    },
+    {
+      "id": "ddc",
+      "name": "동두천자유수호평화박물관",
+      "url": "https://www.ddc.go.kr/museum/selectBbsNttList.do?bbsNo=96&key=878",
+      "type": "job",
+      "module": "crawlers/sites/ddc.ts"
+    },
+    {
+      "id": "history-seoul",
+      "name": "서울역사편찬원",
+      "url": "https://history.seoul.go.kr/bbsctt/list.do?key=2210200044",
+      "type": "job",
+      "module": "crawlers/sites/history-seoul.ts"
+    },
+    {
+      "id": "job-gg",
+      "name": "경기도일자리포털",
+      "url": "https://job.gg.go.kr/pblcEmpmn/list.do",
+      "type": "job",
+      "module": "crawlers/sites/job-gg.ts"
+    },
+    {
+      "id": "namuk",
+      "name": "국립농업박물관",
+      "url": "https://namukrecruit.recruiter.co.kr/career/job",
+      "type": "job",
+      "module": "crawlers/sites/namuk.ts"
+    },
+    {
+      "id": "museum-or-kr",
+      "name": "한국박물관협회",
+      "url": "https://museum.or.kr/job2/",
+      "type": "job",
+      "module": "crawlers/sites/museum-or-kr.ts"
+    },
+    {
+      "id": "seoul",
+      "name": "서울특별시",
+      "url": "https://www.seoul.go.kr/news/news_employ.do",
+      "type": "job",
+      "module": "crawlers/sites/seoul.ts"
+    },
+    {
+      "id": "korea-kr",
+      "name": "정책브리핑",
+      "url": "https://www.korea.kr/archive/recruitInfoList.do",
+      "type": "job",
+      "module": "crawlers/sites/korea-kr.ts"
+    },
+    {
+      "id": "kdp-aks",
+      "name": "한국학중앙연구원",
+      "url": "https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20",
+      "type": "job",
+      "module": "crawlers/sites/kdp-aks.ts"
+    },
+    {
+      "id": "work24-youth",
+      "name": "고용24 청년일경험",
+      "type": "experience",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do",
+      "module": "crawlers/sites/experience/work24-youth.ts"
+    },
+    {
+      "id": "gjf-youth",
+      "name": "경기일자리재단 청년사업",
+      "type": "experience",
+      "url": "https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305",
+      "module": "crawlers/sites/experience/gjf-youth.ts"
+    },
+    {
+      "id": "csv-culture",
+      "name": "문화자원봉사센터",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+      "type": "experience",
+      "module": "crawlers/sites/experience/csv-culture.ts"
+    },
+    {
+      "id": "1365-volunteer",
+      "name": "1365 자원봉사포털",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+      "type": "experience",
+      "module": "crawlers/sites/experience/1365.ts"
+    },
+    {
+      "id": "museum-notice-volunteer",
+      "name": "국립중앙박물관 알림",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701010000.do?pageSize=10&catCustomType=united&catId=128&arcDataType=&sc=&sv=%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC",
+      "type": "experience",
+      "module": "crawlers/sites/experience/museum-notice.ts"
+    }
+  ],
+  "urlFileEntries": [
+    "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+    "https://www.gogung.go.kr/gogung/bbs/BMSR00022/list.do?gubunCd=B22_003&menuNo=800090",
+    "https://www.nrich.go.kr/kor/boardList.do?menuIdx=285&bbscd=40",
+    "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataList.do",
+    "https://www.ncs.go.kr/blind/bl04/RecrtNotifList.do",
+    "https://www.much.go.kr/MUCH/contents/M07090200000.do",
+    "https://gmuseum.kr/board/jobList",
+    "https://www.hangeul.go.kr/news/newsList.do?bbs_id=30&curr_menu_cd=0106010600",
+    "https://www.kaah.kr/reqopen",
+    "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06",
+    "https://museum.seoul.go.kr/www/board/NR_boardList.do?bbsCd=1017&sso=ok",
+    "https://baekjemuseum.seoul.go.kr/module/index.jsp?mpid=SBM0501020000",
+    "https://craftmuseum.seoul.go.kr/introduce/recruit_list/1",
+    "https://museum.yongsan.go.kr/articles/index?boardCode=notice&category=C1002-1",
+    "https://museum.ep.go.kr/board/board.asp?bbs_code=Fboard_1&seq=111&gotopage=1&keyfield=title&keyword=%C3%A4%BF%EB&dept_idx=&head_idx=&page=view",
+    "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/list",
+    "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardList",
+    "https://www.nmkpg.go.kr/main/board/1/board_list.do",
+    "https://www.kimkoomuseum.org/inf/inf_1_list.asp?BoardDiv=Notice",
+    "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+    "https://www.jfac.or.kr/site/main/archive/post/category/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4",
+    "https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=&wd=1286",
+    "https://www.cha.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06",
+    "https://musenet.ggcf.kr/boards/notice/articles?category=03&page=1",
+    "https://gcm.ggcf.kr/boards/news/articles?category=03",
+    "https://ngcm.ggcf.kr/boards/news/articles?category=03",
+    "https://jgpm.ggcf.kr/boards/news/articles?category=03",
+    "https://silhak.ggcf.kr/boards/news/articles?category=03",
+    "https://www.bcmuseum.or.kr/ko/boards/notice/?sc=03&pageIndex=1&searchKeyword=",
+    "https://nyj.go.kr/www/selectBbsNttList.do?key=2497&bbsNo=67",
+    "https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+    "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1.jsp",
+    "https://www.anseong.go.kr/tourPortal/museum/bbs/list.do?ptIdx=16&mId=0600000000",
+    "https://www.artic.or.kr/icmus/board/list?boardManagementNo=26&menuLevel=2&menuNo=53&searchCategory=&searchType=total&searchWord=%EC%B1%84%EC%9A%A9",
+    "https://gjicp.ggcf.kr/boards/news/articles?category=03",
+    "https://www.ddc.go.kr/museum/selectBbsNttList.do?bbsNo=96&key=878",
+    "https://history.seoul.go.kr/bbsctt/list.do?key=2210200044",
+    "https://job.gg.go.kr/pblcEmpmn/list.do",
+    "https://museum.or.kr/job2/",
+    "https://www.seoul.go.kr/news/news_employ.do",
+    "https://www.korea.kr/archive/recruitInfoList.do",
+    "https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20"
+  ],
+  "endpointCandidates": [
+    {
+      "value": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?catCustomType=post&catId=54",
+      "kind": "literal",
+      "file": "crawlers/sites/museum-go-kr.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/museum-go-kr.ts",
+      "line": 34
+    },
+    {
+      "value": "https://www.gogung.go.kr/gogung/bbs/BMSR00022/list.do?gubunCd=B22_003&menuNo=800090",
+      "kind": "literal",
+      "file": "crawlers/sites/gogung.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.gogung.go.kr/gogung/bbs/BMSR00022/",
+      "kind": "literal",
+      "file": "crawlers/sites/gogung.ts",
+      "line": 30
+    },
+    {
+      "value": "https://www.nrich.go.kr/kor/boardList.do?menuIdx=285&bbscd=40",
+      "kind": "literal",
+      "file": "crawlers/sites/nrich.ts",
+      "line": 11
+    },
+    {
+      "value": "https://www.nrich.go.kr/kor/",
+      "kind": "literal",
+      "file": "crawlers/sites/nrich.ts",
+      "line": 38
+    },
+    {
+      "value": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataList.do",
+      "kind": "literal",
+      "file": "crawlers/sites/nfm.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.nfm.go.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/nfm.ts",
+      "line": 29
+    },
+    {
+      "value": "https://www.ncs.go.kr/blind/bl04/RecrtNotifList.do",
+      "kind": "literal",
+      "file": "crawlers/sites/ncs.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.much.go.kr/MUCH/contents/M07090200000.do",
+      "kind": "literal",
+      "file": "crawlers/sites/much.ts",
+      "line": 9
+    },
+    {
+      "value": "https://gmuseum.kr/board/jobList",
+      "kind": "literal",
+      "file": "crawlers/sites/gmuseum.ts",
+      "line": 9
+    },
+    {
+      "value": "https://gmuseum.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/gmuseum.ts",
+      "line": 30
+    },
+    {
+      "value": "https://www.hangeul.go.kr/news/newsList.do?bbs_id=30&curr_menu_cd=0106010600",
+      "kind": "literal",
+      "file": "crawlers/sites/hangeul.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.gojobs.go.kr/apmList.do",
+      "kind": "literal",
+      "file": "crawlers/sites/gojobs.ts",
+      "line": 11
+    },
+    {
+      "value": "https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400",
+      "kind": "literal",
+      "file": "crawlers/sites/gojobs.ts",
+      "line": 18
+    },
+    {
+      "value": "https://www.gojobs.go.kr/apmView.do?empmnsn=${p.empmnsn}",
+      "kind": "template",
+      "file": "crawlers/sites/gojobs.ts",
+      "line": 61
+    },
+    {
+      "value": "https://www.kaah.kr/reqopen",
+      "kind": "literal",
+      "file": "crawlers/sites/kaah.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.kaah.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/kaah.ts",
+      "line": 29
+    },
+    {
+      "value": "https://www.khs.go.kr/multiBbz/selectMultiBbzList.do?mn=NS_01_06&bbzId=newexam",
+      "kind": "literal",
+      "file": "crawlers/sites/khs.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.khs.go.kr${item.href.split(';')[0]}",
+      "kind": "template",
+      "file": "crawlers/sites/khs.ts",
+      "line": 30
+    },
+    {
+      "value": "https://museum.seoul.go.kr/www/board/NR_boardList.do?bbsCd=1017&sso=ok",
+      "kind": "literal",
+      "file": "crawlers/sites/museum-seoul.ts",
+      "line": 9
+    },
+    {
+      "value": "https://baekjemuseum.seoul.go.kr/module/index.jsp?mpid=SBM0501020000",
+      "kind": "literal",
+      "file": "crawlers/sites/baekje.ts",
+      "line": 9
+    },
+    {
+      "value": "https://baekjemuseum.seoul.go.kr/module/${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/baekje.ts",
+      "line": 30
+    },
+    {
+      "value": "https://craftmuseum.seoul.go.kr/introduce/recruit_list/1",
+      "kind": "literal",
+      "file": "crawlers/sites/craftmuseum.ts",
+      "line": 9
+    },
+    {
+      "value": "https://museum.yongsan.go.kr/articles/index?boardCode=notice&category=C1002-1",
+      "kind": "literal",
+      "file": "crawlers/sites/yongsan.ts",
+      "line": 8
+    },
+    {
+      "value": "https://museum.ep.go.kr/board/board.asp?bbs_code=Fboard_1&gotopage=1&keyfield=title&keyword=%C3%A4%BF%EB",
+      "kind": "literal",
+      "file": "crawlers/sites/ep-museum.ts",
+      "line": 9
+    },
+    {
+      "value": "https://museum.ep.go.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/ep-museum.ts",
+      "line": 37
+    },
+    {
+      "value": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/list",
+      "kind": "literal",
+      "file": "crawlers/sites/namu-sdm.ts",
+      "line": 9
+    },
+    {
+      "value": "https://namu.sdm.go.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/namu-sdm.ts",
+      "line": 29
+    },
+    {
+      "value": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardList",
+      "kind": "literal",
+      "file": "crawlers/sites/warmemo.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/warmemo.ts",
+      "line": 30
+    },
+    {
+      "value": "https://www.nmkpg.go.kr/main/board/1/board_list.do",
+      "kind": "literal",
+      "file": "crawlers/sites/nmkpg.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.nmkpg.go.kr/main/board/1/board_view.do?bcstIdx1=${item.id}",
+      "kind": "template",
+      "file": "crawlers/sites/nmkpg.ts",
+      "line": 34
+    },
+    {
+      "value": "https://www.kimkoomuseum.org/inf/inf_1_list.asp?BoardDiv=Notice",
+      "kind": "literal",
+      "file": "crawlers/sites/kimkoo.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.kimkoomuseum.org/inf/${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/kimkoo.ts",
+      "line": 38
+    },
+    {
+      "value": "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+      "kind": "literal",
+      "file": "crawlers/sites/seosomun.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.seosomun.org${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/seosomun.ts",
+      "line": 34
+    },
+    {
+      "value": "https://www.jfac.or.kr/site/main/archive/post/category/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4",
+      "kind": "literal",
+      "file": "crawlers/sites/jfac.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.jfac.or.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/jfac.ts",
+      "line": 30
+    },
+    {
+      "value": "https://www.cha.go.kr/multiBbz/selectMultiBbzList.do?bbzId=newexam&mn=NS_01_06",
+      "kind": "literal",
+      "file": "crawlers/sites/cha.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.cha.go.kr${item.href.split(';')[0]}",
+      "kind": "template",
+      "file": "crawlers/sites/cha.ts",
+      "line": 30
+    },
+    {
+      "value": "https://musenet.ggcf.kr/boards/notice/articles?category=03&page=1",
+      "kind": "literal",
+      "file": "crawlers/sites/ggcf.ts",
+      "line": 8
+    },
+    {
+      "value": "https://gcm.ggcf.kr/boards/news/articles?category=03",
+      "kind": "literal",
+      "file": "crawlers/sites/ggcf.ts",
+      "line": 9
+    },
+    {
+      "value": "https://ngcm.ggcf.kr/boards/news/articles?category=03",
+      "kind": "literal",
+      "file": "crawlers/sites/ggcf.ts",
+      "line": 10
+    },
+    {
+      "value": "https://jgpm.ggcf.kr/boards/news/articles?category=03",
+      "kind": "literal",
+      "file": "crawlers/sites/ggcf.ts",
+      "line": 11
+    },
+    {
+      "value": "https://silhak.ggcf.kr/boards/news/articles?category=03",
+      "kind": "literal",
+      "file": "crawlers/sites/ggcf.ts",
+      "line": 12
+    },
+    {
+      "value": "https://gjicp.ggcf.kr/boards/news/articles?category=03",
+      "kind": "literal",
+      "file": "crawlers/sites/ggcf.ts",
+      "line": 13
+    },
+    {
+      "value": "https://www.bcmuseum.or.kr/ko/boards/notice/?sc=03&pageIndex=1&searchKeyword=",
+      "kind": "literal",
+      "file": "crawlers/sites/bcmuseum.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.bcmuseum.or.kr/ko/boards/notice/${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/bcmuseum.ts",
+      "line": 33
+    },
+    {
+      "value": "https://nyj.go.kr/www/selectBbsNttList.do?key=2497&bbsNo=67&pageUnit=10&searchCnd=SJ&searchKrwd=%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C%EB%A6%BD",
+      "kind": "literal",
+      "file": "crawlers/sites/nyj.ts",
+      "line": 9
+    },
+    {
+      "value": "https://nyj.go.kr/www/${item.href.replace('./', '')}",
+      "kind": "template",
+      "file": "crawlers/sites/nyj.ts",
+      "line": 45
+    },
+    {
+      "value": "https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+      "kind": "literal",
+      "file": "crawlers/sites/hnart.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.hnart.or.kr/artcenter/${item.href.replace(/^\\.\\//, '')}",
+      "kind": "template",
+      "file": "crawlers/sites/hnart.ts",
+      "line": 38
+    },
+    {
+      "value": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1.jsp",
+      "kind": "literal",
+      "file": "crawlers/sites/hsmuseum.ts",
+      "line": 9
+    },
+    {
+      "value": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/hsmuseum.ts",
+      "line": 29
+    },
+    {
+      "value": "https://www.anseong.go.kr/tourPortal/museum/bbs/list.do?ptIdx=16&mId=0600000000",
+      "kind": "literal",
+      "file": "crawlers/sites/anseong.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.artic.or.kr/icmus/board/list?boardManagementNo=26&menuLevel=2&menuNo=53&searchType=total&searchWord=%EC%B1%84%EC%9A%A9",
+      "kind": "literal",
+      "file": "crawlers/sites/artic.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.artic.or.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/artic.ts",
+      "line": 36
+    },
+    {
+      "value": "https://www.ddc.go.kr/museum/selectBbsNttList.do?bbsNo=96&key=878",
+      "kind": "literal",
+      "file": "crawlers/sites/ddc.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.ddc.go.kr/museum/${item.href.replace(/^\\.\\//, '')}",
+      "kind": "template",
+      "file": "crawlers/sites/ddc.ts",
+      "line": 35
+    },
+    {
+      "value": "https://history.seoul.go.kr/bbsctt/list.do?key=2210200044",
+      "kind": "literal",
+      "file": "crawlers/sites/history-seoul.ts",
+      "line": 9
+    },
+    {
+      "value": "https://job.gg.go.kr/pblcEmpmn/list.do",
+      "kind": "literal",
+      "file": "crawlers/sites/job-gg.ts",
+      "line": 9
+    },
+    {
+      "value": "https://job.gg.go.kr/pblcEmpmn/listAjax.do",
+      "kind": "literal",
+      "file": "crawlers/sites/job-gg.ts",
+      "line": 33
+    },
+    {
+      "value": "https://job.gg.go.kr/pblcEmpmn/publicJobDetail.do?seq=${item.seq}",
+      "kind": "template",
+      "file": "crawlers/sites/job-gg.ts",
+      "line": 48
+    },
+    {
+      "value": "https://namukrecruit.recruiter.co.kr/career/job",
+      "kind": "literal",
+      "file": "crawlers/sites/namuk.ts",
+      "line": 9
+    },
+    {
+      "value": "https://namukrecruit.recruiter.co.kr",
+      "kind": "literal",
+      "file": "crawlers/sites/namuk.ts",
+      "line": 29
+    },
+    {
+      "value": "https://museum.or.kr/job2/",
+      "kind": "literal",
+      "file": "crawlers/sites/museum-or-kr.ts",
+      "line": 9
+    },
+    {
+      "value": "https://museum.or.kr${item.href.startsWith('/') ? '' : '/'}${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/museum-or-kr.ts",
+      "line": 59
+    },
+    {
+      "value": "https://www.seoul.go.kr/news/news_employ.do",
+      "kind": "literal",
+      "file": "crawlers/sites/seoul.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.seoul.go.kr/news/news_employ.do?bbsNo=166&nttNo=${item.nttNo}",
+      "kind": "template",
+      "file": "crawlers/sites/seoul.ts",
+      "line": 42
+    },
+    {
+      "value": "https://www.korea.kr/archive/recruitInfoList.do",
+      "kind": "literal",
+      "file": "crawlers/sites/korea-kr.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.korea.kr${item.href}",
+      "kind": "template",
+      "file": "crawlers/sites/korea-kr.ts",
+      "line": 41
+    },
+    {
+      "value": "https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20",
+      "kind": "literal",
+      "file": "crawlers/sites/kdp-aks.ts",
+      "line": 11
+    },
+    {
+      "value": "https://kdp.aks.ac.kr/board/boardKorView?BRD_GRU_SN=6&BRD_SN=${item.detailId}&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+      "kind": "template",
+      "file": "crawlers/sites/kdp-aks.ts",
+      "line": 48
+    },
+    {
+      "value": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do",
+      "kind": "literal",
+      "file": "crawlers/sites/experience/work24-youth.ts",
+      "line": 7
+    },
+    {
+      "value": "https://yw.work24.go.kr/d/a/${kind === 'C' ? 'selectEntrTrvlPrgmDtal' : 'selectItrnPrjtEsgPrgmDtal'}.do",
+      "kind": "template",
+      "file": "crawlers/sites/experience/work24-youth.ts",
+      "line": 50
+    },
+    {
+      "value": "https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305",
+      "kind": "literal",
+      "file": "crawlers/sites/experience/gjf-youth.ts",
+      "line": 6
+    },
+    {
+      "value": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=${id}",
+      "kind": "template",
+      "file": "crawlers/sites/experience/gjf-youth.ts",
+      "line": 21
+    },
+    {
+      "value": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+      "kind": "literal",
+      "file": "crawlers/sites/experience/csv-culture.ts",
+      "line": 22
+    },
+    {
+      "value": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=${idMatch[1]}",
+      "kind": "template",
+      "file": "crawlers/sites/experience/csv-culture.ts",
+      "line": 132
+    },
+    {
+      "value": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+      "kind": "literal",
+      "file": "crawlers/sites/experience/1365.ts",
+      "line": 17
+    },
+    {
+      "value": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=${item.id}",
+      "kind": "template",
+      "file": "crawlers/sites/experience/1365.ts",
+      "line": 121
+    },
+    {
+      "value": "https://www.museum.go.kr/MUSEUM/contents/M0701010000.do?pageSize=10&catCustomType=united&catId=128&arcDataType=&sc=&sv=%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC",
+      "kind": "literal",
+      "file": "crawlers/sites/experience/museum-notice.ts",
+      "line": 19
+    },
+    {
+      "value": "https://www.museum.go.kr",
+      "kind": "literal",
+      "file": "crawlers/sites/experience/museum-notice.ts",
+      "line": 23
+    },
+    {
+      "value": "https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do",
+      "kind": "literal",
+      "file": "crawlers/experience-urls.ts",
+      "line": 6
+    },
+    {
+      "value": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do",
+      "kind": "literal",
+      "file": "crawlers/experience-urls.ts",
+      "line": 9
+    },
+    {
+      "value": "https://www.museum.go.kr/MUSEUM/contents/M0701010000.do?pageSize=10&catCustomType=united&catId=128&arcDataType=&sc=&sv=%EC%9E%90%EC%9B%90%EB%B4%89%EC%82%AC",
+      "kind": "literal",
+      "file": "crawlers/experience-urls.ts",
+      "line": 12
+    }
+  ],
+  "knownDetails": [
+    {
+      "siteId": "museum-go-kr",
+      "kind": "detail",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+      "postingId": null
+    },
+    {
+      "siteId": "museum-go-kr",
+      "kind": "detail",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24010&cp=1&sv=",
+      "postingId": null
+    },
+    {
+      "siteId": "gogung",
+      "kind": "detail",
+      "url": "https://www.gogung.go.kr/gogung/bbs/BMSR00022/view.do?boardId=6964&menuNo=800090&gubunCd=B22_003&pageIndex=1&searchCondition=&searchKeyword=",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48368&boardTypeGubun=1",
+      "postingId": "48368"
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48325&boardTypeGubun=1",
+      "postingId": "48325"
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48306&boardTypeGubun=1",
+      "postingId": "48306"
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48397&boardTypeGubun=2",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48395&boardTypeGubun=2",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48325&boardTypeGubun=1",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48306&boardTypeGubun=1",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48390&boardTypeGubun=2",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48222&boardTypeGubun=1",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48344&boardTypeGubun=2",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48335&boardTypeGubun=2",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48320&boardTypeGubun=2",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48111&boardTypeGubun=1",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48101&boardTypeGubun=1",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48099&boardTypeGubun=1",
+      "postingId": null
+    },
+    {
+      "siteId": "nrich",
+      "kind": "detail",
+      "url": "https://www.nrich.go.kr/kor/boardView.do?menuIdx=285&bbscd=40&bbs_idx=48303&boardTypeGubun=2",
+      "postingId": null
+    },
+    {
+      "siteId": "gmuseum",
+      "kind": "detail",
+      "url": "https://gmuseum.kr/board/boardView?category=job&id=742",
+      "postingId": null
+    },
+    {
+      "siteId": "gmuseum",
+      "kind": "detail",
+      "url": "https://gmuseum.kr/board/boardView?category=job&id=723",
+      "postingId": null
+    },
+    {
+      "siteId": "gmuseum",
+      "kind": "detail",
+      "url": "https://gmuseum.kr/board/boardView?category=job&id=679",
+      "postingId": null
+    },
+    {
+      "siteId": "gmuseum",
+      "kind": "detail",
+      "url": "https://gmuseum.kr/board/boardView?category=job&id=663",
+      "postingId": null
+    },
+    {
+      "siteId": "gojobs",
+      "kind": "detail",
+      "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304990",
+      "postingId": "304990"
+    },
+    {
+      "siteId": "gojobs",
+      "kind": "detail",
+      "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304482",
+      "postingId": null
+    },
+    {
+      "siteId": "gojobs",
+      "kind": "detail",
+      "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304467",
+      "postingId": null
+    },
+    {
+      "siteId": "gojobs",
+      "kind": "detail",
+      "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304409",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/578?page=1&searchTxt=",
+      "postingId": "578"
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/577?page=1&searchTxt=",
+      "postingId": "577"
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/576?page=1&searchTxt=",
+      "postingId": "576"
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/573?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/572?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/571?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/570?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/569?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/568?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/567?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/566?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/565?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/564?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/563?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/562?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/561?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/560?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "kaah",
+      "kind": "detail",
+      "url": "https://www.kaah.kr/reqopen_view/559?page=1&searchTxt=",
+      "postingId": null
+    },
+    {
+      "siteId": "khs",
+      "kind": "detail",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+      "postingId": null
+    },
+    {
+      "siteId": "khs",
+      "kind": "detail",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9979&no=34577&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+      "postingId": null
+    },
+    {
+      "siteId": "khs",
+      "kind": "detail",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9978&no=34576&bbzId=newexam&pageIndex=1&pageUnit=10&mn=NS_01_06&strWhere=&searchWrd=&sdate=&edate=",
+      "postingId": null
+    },
+    {
+      "siteId": "khs",
+      "kind": "detail",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do",
+      "postingId": null
+    },
+    {
+      "siteId": "baekje",
+      "kind": "detail",
+      "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=SBM0503000000&mmode=content&mpid=SBM0501020000&skin=&pid=23283&strsearch=&d_s_que=&cpage=1",
+      "postingId": null
+    },
+    {
+      "siteId": "baekje",
+      "kind": "detail",
+      "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=SBM0503000000&mmode=content&mpid=SBM0501020000&skin=&pid=23263&strsearch=&d_s_que=&cpage=1",
+      "postingId": null
+    },
+    {
+      "siteId": "ep-museum",
+      "kind": "detail",
+      "url": "https://museum.ep.go.kr/board/board.asp?bbs_code=Fboard_1&seq=111&gotopage=1&keyfield=title&keyword=채용&dept_idx=&head_idx=&page=view",
+      "postingId": null
+    },
+    {
+      "siteId": "warmemo",
+      "kind": "detail",
+      "url": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardView?board_key=5227",
+      "postingId": null
+    },
+    {
+      "siteId": "seosomun",
+      "kind": "detail",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159",
+      "postingId": null
+    },
+    {
+      "siteId": "seosomun",
+      "kind": "detail",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444&pageNo=1",
+      "postingId": null
+    },
+    {
+      "siteId": "seosomun",
+      "kind": "detail",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1404&pageNo=1",
+      "postingId": null
+    },
+    {
+      "siteId": "seosomun",
+      "kind": "detail",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1376&pageNo=1",
+      "postingId": null
+    },
+    {
+      "siteId": "jfac",
+      "kind": "detail",
+      "url": "https://www.jfac.or.kr/site/main/archive/post/2026년-제7차-종로문화재단-직원-공개모집-공고",
+      "postingId": null
+    },
+    {
+      "siteId": "cha",
+      "kind": "detail",
+      "url": "https://www.cha.go.kr/multiBbz/selectMultiBbzView.do",
+      "postingId": null
+    },
+    {
+      "siteId": "bcmuseum",
+      "kind": "detail",
+      "url": "https://www.bcmuseum.or.kr/ko/boards/notice/635",
+      "postingId": null
+    },
+    {
+      "siteId": "bcmuseum",
+      "kind": "detail",
+      "url": "https://www.bcmuseum.or.kr/ko/boards/notice/634",
+      "postingId": null
+    },
+    {
+      "siteId": "bcmuseum",
+      "kind": "detail",
+      "url": "https://www.bcmuseum.or.kr/ko/boards/notice/629",
+      "postingId": null
+    },
+    {
+      "siteId": "bcmuseum",
+      "kind": "detail",
+      "url": "https://www.bcmuseum.or.kr/ko/boards/notice/628",
+      "postingId": null
+    },
+    {
+      "siteId": "bcmuseum",
+      "kind": "detail",
+      "url": "https://www.bcmuseum.or.kr/ko/boards/notice/542",
+      "postingId": null
+    },
+    {
+      "siteId": "bcmuseum",
+      "kind": "detail",
+      "url": "https://www.bcmuseum.or.kr/ko/boards/notice/535",
+      "postingId": null
+    },
+    {
+      "siteId": "nyj",
+      "kind": "detail",
+      "url": "https://nyj.go.kr/www/selectBbsNttView.do?key=2497&bbsNo=67&nttNo=476737&pageUnit=10&pageIndex=1&searchCnd=SJ&searchKrwd=%eb%82%a8%ec%96%91%ec%a3%bc%ec%8b%9c%eb%a6%bd",
+      "postingId": null
+    },
+    {
+      "siteId": "hnart",
+      "kind": "detail",
+      "url": "https://www.hnart.or.kr/artcenter/selectBbsNttView.do?key=219&bbsNo=1&nttNo=7082&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=",
+      "postingId": null
+    },
+    {
+      "siteId": "hnart",
+      "kind": "detail",
+      "url": "https://www.hnart.or.kr/artcenter/selectBbsNttView.do?key=219&bbsNo=1&nttNo=7079&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=",
+      "postingId": null
+    },
+    {
+      "siteId": "hsmuseum",
+      "kind": "detail",
+      "url": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1_view.jsp?private_code=18581838da8e4a6f4d99dcbb23df087a&board_gubun=NOTICE",
+      "postingId": null
+    },
+    {
+      "siteId": "hsmuseum",
+      "kind": "detail",
+      "url": "https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1_view.jsp?private_code=18581838da8e4a6f4d99dcbb23df087a",
+      "postingId": null
+    },
+    {
+      "siteId": "museum-or-kr",
+      "kind": "detail",
+      "url": "https://museum.or.kr/job2/?ckattempt=1&kboard_id=6&view_iframe=1&iframe_id=6aba213903b32&kboard_nonce=7c8c7c6836&mod=document&uid=7044",
+      "postingId": null
+    },
+    {
+      "siteId": "museum-or-kr",
+      "kind": "detail",
+      "url": "https://museum.or.kr/job2/?ckattempt=1&kboard_id=6&view_iframe=1&iframe_id=6aba213903b32&kboard_nonce=7c8c7c6836&mod=document&uid=7042",
+      "postingId": null
+    },
+    {
+      "siteId": "museum-or-kr",
+      "kind": "detail",
+      "url": "https://museum.or.kr/job2/?ckattempt=1&kboard_id=6&view_iframe=1&iframe_id=6aba213903b32&kboard_nonce=7c8c7c6836&mod=document&uid=6975",
+      "postingId": null
+    },
+    {
+      "siteId": "museum-or-kr",
+      "kind": "detail",
+      "url": "https://museum.or.kr/job2/?ckattempt=1&kboard_id=6&view_iframe=1&iframe_id=6aba213903b32&kboard_nonce=7c8c7c6836&mod=document&uid=6969",
+      "postingId": null
+    },
+    {
+      "siteId": "museum-or-kr",
+      "kind": "detail",
+      "url": "https://museum.or.kr/job2/?ckattempt=1&kboard_id=6&view_iframe=1&iframe_id=6aba213903b32&kboard_nonce=7c8c7c6836&mod=document&uid=6957",
+      "postingId": null
+    },
+    {
+      "siteId": "seoul",
+      "kind": "detail",
+      "url": "https://www.seoul.go.kr/news/news_employ.do?bbsNo=166&nttNo=467193",
+      "postingId": null
+    },
+    {
+      "siteId": "seoul",
+      "kind": "detail",
+      "url": "https://www.seoul.go.kr/news/news_employ.do?bbsNo=166&nttNo=467186",
+      "postingId": null
+    },
+    {
+      "siteId": "korea-kr",
+      "kind": "detail",
+      "url": "https://www.korea.kr/archive/recruitInfoView.do?dataId=395398",
+      "postingId": null
+    },
+    {
+      "siteId": "kdp-aks",
+      "kind": "detail",
+      "url": "https://www.mcst.go.kr/site/s_notice/notice/jobView.jsp?pSeq=19525&pMenuCD=0301030000&pTab=01&pAction=&pCurrentPage=1&pCntPerPage=10&pSearchType=01&pSearchWord=",
+      "postingId": null
+    },
+    {
+      "siteId": "kdp-aks",
+      "kind": "detail",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_GRU_SN=6&BRD_SN=7063&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+      "postingId": null
+    },
+    {
+      "siteId": "kdp-aks",
+      "kind": "detail",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_GRU_SN=6&BRD_SN=7075&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+      "postingId": null
+    },
+    {
+      "siteId": "kdp-aks",
+      "kind": "detail",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_GRU_SN=6&BRD_SN=7048&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
+      "postingId": null
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%EC%84%B8%EC%A2%85%ED%94%8C%EB%A0%89%EC%8A%A4%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031231202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031231202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5BKTcs%5D%20%EB%A9%80%ED%8B%B0%20AI%20Agent%20%EA%B8%B0%EB%B0%98%20%EC%A7%80%EB%8A%A5%ED%98%95%20%EA%B3%A0%EA%B0%9D%EC%83%81%EB%8B%B4%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B5%AC%EC%B6%95",
+      "postingId": "PG0020388202609180001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020388202609180001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5BKTcs%5D%20%EC%83%9D%EC%84%B1%ED%98%95%20AI%20%EA%B8%B0%EB%B0%98%20%EA%B5%90%EC%9C%A1%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%A0%9C%EC%9E%91%C2%B7%EA%B2%80%EC%A6%9D%20Agent%20%EA%B5%AC%EC%B6%95",
+      "postingId": "PG0020388202609180002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020388202609180002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5BKTcs%5D%20%EC%83%9D%EC%84%B1%ED%98%95%20AI%20%EA%B8%B0%EB%B0%98%20%EA%B8%B0%EC%97%85%20%EC%97%85%EB%AC%B4%EC%A7%80%EC%8B%9D%20%EA%B2%80%EC%83%89%C2%B7%ED%99%9C%EC%9A%A9%20Assistant%20%EA%B5%AC%EC%B6%95",
+      "postingId": "PG0020388202609180003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020388202609180003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%5D%20AI%20%EA%B8%B0%EB%B0%98%20%EA%B8%B0%ED%9B%84%EC%9C%84%EA%B8%B0%20%EA%B7%B9%EB%B3%B5%EC%9D%84%20%EC%9C%84%ED%95%9C%20%ED%83%84%EC%86%8C%EC%A4%91%EB%A6%BD%20%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EC%A0%9C%EC%95%88",
+      "postingId": "PG0020395202609040003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020395202609040003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%5D%20LX%20%EB%93%A4%EC%96%B4%EA%B0%80%EB%A9%B4%20%EB%AD%90%ED%95%B4%20%EC%9E%85%EC%82%AC%EB%B6%80%ED%84%B0%20%ED%87%B4%EC%9E%84%EA%B9%8C%EC%A7%80%208%EC%A3%BC%20%EC%99%84%EC%84%B1%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
+      "postingId": "PG0020395202609040004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020395202609040004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%5D%20LX%EC%9D%B8%EA%B6%8C%20%EA%B2%BD%EC%98%81%20%EC%86%8C%ED%86%B5%20%EA%B0%80%EC%9D%B4%EB%93%9C%EB%B6%81%20%EC%A0%9C%EC%9E%91%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
+      "postingId": "PG0020395202609040006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020395202609040006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%5D%20%EA%B2%BD%EC%98%81%EC%8B%A4%EC%A0%81%20%EC%A0%90%EA%B2%80%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B5%AC%EC%B6%95%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
+      "postingId": "PG0020395202609040001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020395202609040001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%5D%20%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%EC%97%90%EC%84%9C%20%EC%8B%A4%EC%B2%9C%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%98%88%EC%82%B0%20%EC%A0%88%EA%B0%90%20%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EC%A0%9C%EC%95%88",
+      "postingId": "PG0020395202609040002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020395202609040002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%5D%20%EB%82%B4%EA%B0%80%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%20%EC%84%B1%EC%9E%A5%ED%8C%90(%EC%A7%81%EC%9B%90%20%EC%84%B1%EC%9E%A5%EC%9D%84%20%EB%8F%95%EB%8A%94%20%EC%B5%9C%EC%A0%81%EC%9D%98%20%EB%A9%98%ED%86%A0%EB%A7%81%20%EB%AA%A8%EB%8D%B8%20%EC%84%A4%EA%B3%84)",
+      "postingId": "PG0020395202609040005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020395202609040005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%ED%86%A0%EC%A0%95%EB%B3%B4%EA%B3%B5%EC%82%AC%5D%20%ED%98%84%EA%B8%88%ED%9D%90%EB%A6%84%ED%91%9C%EB%A5%BC%20%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C%20%ED%95%9C%20%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C%20%EC%9D%B4%ED%95%B4%EC%A6%9D%EC%A7%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EA%B8%B0%ED%9A%8D",
+      "postingId": "PG0020395202609040007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020395202609040007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8B%B9%EA%B0%902%EB%8F%99%EC%83%88%EB%A7%88%EC%9D%84%EA%B8%88%EA%B3%A0(%EB%B3%B8%EC%A0%90)%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031231202609160001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031231202609160001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8B%B9%EA%B0%902%EB%8F%99%EC%83%88%EB%A7%88%EC%9D%84%EA%B8%88%EA%B3%A0(%EC%A0%9C1%EC%A7%80%EC%A0%90)%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031231202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031231202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%97%B0%EC%A7%80%EB%8F%99%EC%83%88%EB%A7%88%EC%9D%84%EA%B8%88%EA%B3%A0%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%EC%A7%81%EB%AC%B4%203%EA%B8%B0%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031172202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031172202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC%20%EC%97%A0%EC%BC%80%EC%9D%B4%EB%94%94%5D%20AI%20%EC%B1%97%EB%B4%87%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B8%B0%EB%B0%98%20%ED%92%80%EC%8A%A4%ED%83%9D%20%EC%8B%A4%EB%AC%B4%EC%9D%B8%EC%9E%AC%20%EC%96%91%EC%84%B1%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20-%202",
+      "postingId": "PG0031161202608280001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031161202608280001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%A7%80%EC%97%94%EC%86%8C%ED%94%84%ED%8A%B8%5D%20AI%20%EA%B8%B0%EB%B0%98%20%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%84%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%99%8D%EB%B3%B4%20%EC%BA%A0%ED%8E%98%EC%9D%B8%20%EB%B0%8F%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%A0%9C%EC%9E%91",
+      "postingId": "PG0020386202609140003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020386202609140003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%92%80%EB%AC%B4%EC%9B%90%EA%B1%B4%EA%B0%95%EC%83%9D%ED%99%9C%5D%EC%9C%A0%EB%8B%88%EC%97%90%EC%8A%A4_%EC%9D%B8%ED%84%B4%ED%98%95_7%EA%B8%B0(%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4)",
+      "postingId": "PG0031175202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031175202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EB%8B%A4%EC%9D%B4%EB%B2%84)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B5%BF%EC%A6%88%EC%A0%9C%EC%9E%91%EA%B4%80%EB%A6%AC)",
+      "postingId": "PG0031168202609220002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609220002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EC%97%98%EC%BD%94%EC%9E%89%ED%81%AC)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EB%B0%9C%EC%A3%BC)",
+      "postingId": "PG0031168202609220005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609220005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%ED%8C%A8%EC%8A%A4%ED%8A%B8%ED%8C%8C%EC%9D%B4%EB%B8%8C)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%B1%84%EC%9A%A9%EC%9A%B4%EC%98%81)",
+      "postingId": "PG0031168202609220010"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609220010"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%ED%8C%8C%EB%A7%88%EB%A6%AC%EC%84%9C%EC%B9%98%5D%20%EB%AC%BC%EB%A5%98%EA%B4%80%EB%A6%AC%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031233202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031233202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5BMBN%5D%20%EA%B5%AD%EB%82%B4%20%EB%B0%A9%EC%86%A1%EC%82%AC%20%EC%83%9D%EB%B0%A9%EC%86%A1%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%A0%9C%EC%9E%91%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%203%EA%B8%B0",
+      "postingId": "PG0020445202609090002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020445202609090002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B2%BD%EC%82%B0%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%EC%85%98%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%5D%20%EA%B3%B5%EA%B3%B5%ED%96%89%EC%A0%95%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EB%8C%80%EC%99%B8%ED%98%91%EB%A0%A5%ED%8C%80%C2%B7%EC%B4%9D%EB%AC%B4%ED%8C%80(10-2)",
+      "postingId": "PG0031132202609220008"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609220008"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%EC%97%90%EB%93%80%ED%85%9C)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+      "postingId": "PG0031168202609090001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609090001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%EC%97%A0%EB%94%94%EC%BA%A0%ED%8D%BC%EC%8A%A4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98%20(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+      "postingId": "PG0031168202609220006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609220006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%ED%80%B8%ED%85%80%EB%A0%88%EC%9D%BC)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4)",
+      "postingId": "PG0031168202609220009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609220009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%84%B8%EC%9A%B4%EC%95%84%EC%9D%B4%EC%97%94%ED%8B%B0%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EA%B8%B0%EC%88%A0%EC%98%81%EC%97%85(10-2)",
+      "postingId": "PG0031132202609220009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609220009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%ED%94%84%EB%A6%AC%EC%A6%98%5D%20%EC%98%88%EB%8A%A5%EB%94%94%EC%A7%80%ED%84%B8%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%A0%9C%EC%9E%91%20%EC%8B%A4%EB%AC%B4%20%EC%B2%B4%ED%97%98%20%EC%9D%B8%ED%84%B4%EC%8B%AD%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%203%EA%B8%B0",
+      "postingId": "PG0020445202609090004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020445202609090004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%95%95%EB%9F%89%EB%86%8D%ED%98%91%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%ED%98%84%ED%9D%A5%EC%9C%A0%ED%86%B5%EC%84%BC%ED%84%B0(10-2)",
+      "postingId": "PG0031132202609220003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609220003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%97%90%EC%8A%A4%ED%94%BC%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8A%A4%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%82%AC%EC%97%85%EB%B3%B8%EB%B6%80(10-2)",
+      "postingId": "PG0031132202609220006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609220006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%97%98%EB%9D%BC%EC%9D%B8%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_IT%EC%BB%A8%ED%85%90%EC%B8%A0%EC%82%AC%EC%97%85%EB%B6%80%C2%B7%EC%A0%84%EC%9E%A5%EC%82%AC%EC%97%85%EB%B6%80(10-2)",
+      "postingId": "PG0031132202609220004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609220004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%98%81%EB%82%A8%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%ED%92%88%EC%A7%88%EB%B3%B4%EC%A6%9D%ED%8C%80(10-2)",
+      "postingId": "PG0031132202609220005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609220005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B2%BD%ED%98%91%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85%ED%98%91%EB%A0%A5%EC%84%BC%ED%84%B0%5D%20%EC%BB%A8%EC%84%A4%ED%8C%85%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EB%B0%8F%20%EC%A0%95%EB%B6%80%20%EB%B3%B4%EC%A1%B0%EA%B8%88%20%EC%82%AC%EC%97%85%20%EC%9A%B4%EC%98%81%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%203%EA%B8%B0",
+      "postingId": "PG0020445202609070002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020445202609070002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B5%AD%EC%84%AC%EC%9C%A0%EA%B8%B0%EA%B3%84%EC%9C%B5%ED%95%A9%EC%97%B0%EA%B5%AC%EC%9B%90%5D%20%EA%B3%B5%EA%B3%B5%ED%96%89%EC%A0%95%20%EC%9D%B8%ED%84%B4%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EC%9A%B4%EC%98%81%EC%A7%80%EC%9B%90%EC%8B%A4(10-2)",
+      "postingId": "PG0031132202609230002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609230002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B5%AD%ED%95%9C%EC%9D%98%EC%95%BD%EC%A7%84%ED%9D%A5%EC%9B%90%5D%20%EA%B3%B5%EA%B3%B5%ED%96%89%EC%A0%95%20%EC%9D%B8%ED%84%B4%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%ED%99%8D%EB%B3%B4%EC%86%8C%ED%86%B5%ED%8C%80(10-2)",
+      "postingId": "PG0031132202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031132202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%98%B8%EA%B0%90%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%5D%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%EC%9A%A9%ED%92%88%20%EC%A0%9C%EC%9E%91%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%2010-2",
+      "postingId": "PG0031152202609040002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031152202609040002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84%EC%97%B0%EA%B3%84%ED%98%95)%5B%EB%82%A8%EB%8F%84%EB%88%84%EB%A6%AC%5D%20%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%9D%B8%ED%84%B4%ED%98%95%2016%EA%B8%B0",
+      "postingId": "PG0020405202609170002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020405202609170002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84%EC%97%B0%EA%B3%84%ED%98%95)%5B%EC%82%AC%EB%8B%A8%EB%B2%95%EC%9D%B8%20%ED%95%9C%EA%B1%B8%EC%9D%8C%20%EB%8D%94%5D%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%9D%B8%ED%84%B4%ED%98%95%2016%EA%B8%B0",
+      "postingId": "PG0020405202609170005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020405202609170005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84%EC%97%B0%EA%B3%84%ED%98%95)%5B%EC%97%A0%EB%A7%88%EC%9A%B0%EC%8A%A4%EC%9D%BC%ED%84%B0%5D%20%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%9D%B8%ED%84%B4%ED%98%95%2016%EA%B8%B0",
+      "postingId": "PG0020405202609170004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020405202609170004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84%EC%97%B0%EA%B3%84%ED%98%95)%5B%ED%95%9C%EA%B5%AD%ED%96%89%EC%A0%95%EB%B0%9C%EC%A0%84%EC%97%B0%EA%B5%AC%EC%9B%90%5D%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%9D%B8%ED%84%B4%ED%98%95%2016%EA%B8%B0",
+      "postingId": "PG0020405202609170006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020405202609170006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=AI%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%20%EC%BB%A4%EB%A6%AC%EC%96%B4%20%EC%BA%A0%ED%94%84%5B2%EA%B8%B0%5D",
+      "postingId": "PG0031202202608270001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031202202608270001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%EB%82%98%EC%9D%B8%EC%99%80%ED%8A%B8%5D%20AI%2F%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B8%B0%EB%B0%98%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B0%9C%EB%B0%9C%20%EA%B8%B0%EC%97%85%20%EA%B2%BD%EC%98%81%EC%A7%80%EC%9B%90%20%EB%B0%8F%20%EC%82%AC%EC%97%85%EC%9A%B4%EC%98%81%20%EC%8B%A4%EB%AC%B4",
+      "postingId": "PG0031182202609080001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031182202609080001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%EB%A8%BC%EB%8D%B0%EC%9D%B4%EC%98%A4%ED%94%84%5D%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B2%8C%EC%9E%84%20%EC%9C%A0%EC%A0%80%20%EA%B2%BD%ED%97%98%20%EB%B0%8F%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%9A%B4%EC%98%81%20%EC%8B%A4%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031182202609070008"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031182202609070008"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%5D%5B(%EC%A3%BC)%EC%95%A4%ED%86%A1%5D%20%EA%B5%AD%EB%82%B4%20%EC%B0%BD%EC%97%85%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%A6%AC%EC%84%9C%EC%B9%98%20%EC%9D%B8%ED%84%B4%EC%8B%AD",
+      "postingId": "PG0031182202609070006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031182202609070006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%5D%5B(%EC%A3%BC)%EC%97%90%EC%8A%A4%EC%95%A4%EC%9D%B4%EC%BB%B4%ED%8D%BC%EB%8B%88%5D%20AI%20%EA%B8%B0%EB%B0%98%20SaaS%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%EA%B2%BD%EC%98%81%EC%A7%80%EC%9B%90%EB%B6%80%EC%84%9C%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031182202609080004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031182202609080004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%5D%5B(%EC%A3%BC)%EC%97%91%EC%8A%A4%EC%99%80%EC%9D%B4%EC%A7%80%5D%20%EA%B5%AD%EB%82%B4%20%EB%A1%9C%EB%B4%87%EA%B8%B0%EC%97%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B0%8F%20%EC%82%AC%EC%97%85%20%EC%9A%B4%EC%98%81%20%EC%97%85%EB%AC%B4%20%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031182202609180003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031182202609180003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%5D%5B(%EC%A3%BC)%EC%A3%BC%EB%B9%85%5D%20%EA%B5%AD%EB%82%B4%20%EC%A0%9C%EC%A1%B0%EC%97%85%20%EB%B0%8F%20%EC%97%B0%EA%B5%AC%EA%B0%9C%EB%B0%9C%20%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%85%20%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85%20%EC%9D%B8%EC%82%AC%20%EB%B6%80%EC%84%9C%20%EC%9D%BC%EA%B2%BD%ED%98%90",
+      "postingId": "PG0031182202609070007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031182202609070007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%5D%5B(%EC%A3%BC)%ED%95%B4%EC%8B%9C%EC%8A%A4%EB%83%85%5D%20AI%20%EA%B8%B0%EB%B0%98%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%86%94%EB%A3%A8%EC%85%98%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%A4%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031182202609080003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031182202609080003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%85%B9%EC%9B%90%EC%94%A8%EC%97%94%EC%95%84%EC%9D%B4%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%A7%81%EB%AC%B41%EA%B8%B0%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031169202609100001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031169202609100001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8C%80%ED%95%9C%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%ED%98%91%ED%9A%8C%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EB%B6%84%EC%95%BC%20%EC%B2%AD%EB%85%84%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%209%EA%B8%B0",
+      "postingId": "PG0020398202609200004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020398202609200004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8B%A0%EC%84%B1%EC%97%90%EC%8A%A4%ED%8B%B0(%EC%A3%BC)%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0020419202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020419202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%94%A8%EB%A7%88%ED%81%AC%ED%98%B8%ED%85%94%5D%20%EA%B8%B0%ED%83%80%20%ED%98%B8%ED%85%94%EA%B4%80%EA%B4%91%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031233202609070003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031233202609070003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%5D%EC%9C%84%EB%B0%8B%EB%AA%A8%EB%B9%8C%EB%A6%AC%ED%8B%B0%5D%20AI%C2%B7IT%20%EC%8B%A4%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%ED%83%80%EC%9E%84%EA%B5%90%EC%9C%A1%5D%20AI%20%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%C2%B7%EA%B5%90%EC%9C%A1%ED%96%89%EC%A0%95%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609160004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609160004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%E3%88%9C%EB%B9%99%EA%B7%B8%EB%A0%88%20%EA%B9%80%ED%95%B4%EA%B3%B5%EC%9E%A5%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%E3%88%9C%EC%9C%84%EB%B0%8B%EB%AA%A8%EB%B9%8C%EB%A6%AC%ED%8B%B0%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4(%EC%97%B0%EA%B5%AC%EA%B8%B0%ED%9A%8D)%20%EC%8B%A4%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609170002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609170002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%85%B8%EC%82%AC%EB%B0%9C%EC%A0%84%EC%9E%AC%EB%8B%A8(%EB%8C%80%EA%B5%AC%EC%A4%91%EC%9E%A5%EB%85%84%EB%82%B4%EC%9D%BC%EC%84%BC%ED%84%B0)%5D%20%EA%B3%B5%EA%B3%B5%ED%96%89%EC%A0%95%20%EC%9D%BC%EA%B2%BD%ED%97%98%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%209-4",
+      "postingId": "PG0031173202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031173202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8C%80%ED%95%9C%EC%83%81%EA%B3%B5%ED%9A%8C%EC%9D%98%EC%86%8C%20%EB%B3%B8%EB%B6%80%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EC%A7%81%EB%AC%B4%203%EA%B8%B0%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0020401202609180001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020401202609180001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%A7%88%EC%BC%93%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EC%8A%A4%5D%20AI%20%EA%B5%90%EC%9C%A1%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%9A%B4%EC%98%81%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609160005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609160005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%A7%88%EC%BC%93%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EC%8A%A4%5D%20%EC%82%AC%EC%97%85%EC%9A%B4%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%EC%A7%80%EC%9B%90%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609160006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609160006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8A%A4%EC%BD%94%EC%96%B4%5D%20%EA%B2%BD%EC%98%81%EA%B4%80%EB%A6%AC%C2%B7%EC%82%AC%EB%AC%B4%EC%A7%80%EC%9B%90%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609160009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609160009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%BC%80%EC%9D%B4%EC%BC%80%EC%9D%B4(%EC%A3%BC)%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%209-4",
+      "postingId": "PG0031173202609210003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031173202609210003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EC%97%98%EC%BA%A0%ED%8D%BC%EC%8A%A4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%82%AC%EB%AC%B4%ED%96%89%EC%A0%95)",
+      "postingId": "PG0031168202609230009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609230009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EC%9C%84%EB%B8%94%EB%A7%81)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B8%B0%ED%9A%8D)",
+      "postingId": "PG0031168202609230006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609230006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%ED%95%91%ED%81%AC%EB%9E%A9)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20IT",
+      "postingId": "PG0031168202609220012"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609220012"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%ED%95%9C%EA%B5%AD%EC%A0%95%EB%B3%B4%EB%B0%A9%EC%86%A1%ED%86%B5%EC%8B%A0%EB%8C%80%EC%97%B0%ED%95%A9)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+      "postingId": "PG0031168202609230002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609230002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%ED%95%9C%EC%84%B1%EC%9E%90%EB%8F%99%EC%B0%A8)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B5%90%EC%9C%A1%ED%9B%88%EB%A0%A8%EC%9A%B4%EC%98%81)",
+      "postingId": "PG0031168202609230005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609230005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%ED%95%9C%EC%84%B1%EC%9E%90%EB%8F%99%EC%B0%A8)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9D%B8%EC%82%AC)",
+      "postingId": "PG0031168202609230004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609230004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D(%EC%9C%A0%EC%9C%A0%ED%85%8C%EC%9D%B4%EC%A7%84%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2012%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9A%B4%EC%98%81%EA%B4%80%EB%A6%AC)",
+      "postingId": "PG0031168202609230003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031168202609230003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%92%80%EB%AC%B4%EC%9B%90%ED%97%AC%EC%8A%A4%EC%BC%80%EC%96%B4%5D%EC%9C%A0%EB%8B%88%EC%97%90%EC%8A%A4_%EC%9D%B8%ED%84%B4%ED%98%95_7%EA%B8%B0(IT)",
+      "postingId": "PG0031175202609160001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031175202609160001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%E3%88%9C%ED%8D%BC%EC%8A%A4%ED%8A%B8%EC%9D%B8%EC%BD%94%EB%A6%AC%EC%95%84%5D%20%EA%B2%BD%EC%98%81%EC%A7%80%EC%9B%90%20%EC%8B%A4%EB%AC%B4%20%EC%97%AD%EB%9F%89%20%EB%8F%84%EC%95%BD%20%EC%9D%BC%EA%B2%BD%ED%97%98_2",
+      "postingId": "PG0031161202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031161202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%BF%EC%9C%8C%EC%8A%A4%ED%86%A0%EC%96%B4%5D%20%EC%84%B1%EB%82%A8%C2%B7%ED%8C%90%EA%B5%90%20%EC%A7%80%EC%97%AD%20%EC%B9%9C%ED%99%98%EA%B2%BD%20%EC%9E%90%EC%9B%90%20%EC%88%9C%ED%99%98%20%EB%B0%8F%20%EA%B8%B0%EC%A6%9D%20%EB%AC%B8%ED%99%94%20%ED%99%9C%EC%84%B1%ED%99%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
+      "postingId": "PG0020387202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020387202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%9D%B4%EC%9D%8C%EA%B8%B8%EC%97%90%EC%9D%B4%EC%B9%98%EC%95%8C%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%EC%A7%81%EB%AC%B4_%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%20%EC%97%B0%EA%B3%84%20%EC%9D%BC%EA%B2%BD%ED%97%98%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8(32%EC%B0%A8)",
+      "postingId": "PG0020393202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020393202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95)%20%5B%EC%82%BC%EC%84%B1%EC%8A%A4%ED%85%90%EB%A0%88%EC%8A%A4%EC%83%81%EA%B3%B5%5D%20(%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4)_%EA%B5%AD%EB%82%B4%20%EC%A4%91%EA%B8%B0%EC%97%85%20%EC%98%81%EC%97%85%EB%B6%80%EC%84%9C%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031174202609170004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031174202609170004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95)%5B(%EC%A3%BC)%EB%B9%84%EC%98%A8%EC%8B%9C%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%ED%84%B0%5D(%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4)ICT%EC%97%85%EC%B2%B4%20SI%EC%82%AC%EC%97%85%EA%B4%80%EB%A6%AC%20%EC%9D%BC%EA%B2%BD%ED%97%98_3%EC%B0%A8",
+      "postingId": "PG0031174202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031174202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D(AGL%20%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4%ED%8C%80)%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EC%A7%81%EA%B5%B0%20%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4%206%EC%B0%A8",
+      "postingId": "PG0031155202609180006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031155202609180006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D(%EB%8D%94%EB%B2%A4%ED%8B%B0%20HR%ED%8C%80)%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EC%A7%81%EA%B5%B0%20%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4%206%EC%B0%A8",
+      "postingId": "PG0031155202609180007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031155202609180007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D(%EB%8D%94%EB%B2%A4%ED%8B%B0%20%EC%98%81%EC%97%85%EA%B4%80%EB%A6%AC2%ED%8C%80)%20%EC%98%81%EC%97%85%ED%95%B4%EC%99%B8%EC%98%81%EC%97%85%EC%A7%81%EA%B5%B0%20%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4%206%EC%B0%A8",
+      "postingId": "PG0031155202609180009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031155202609180009"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D(%EB%8D%94%EB%B2%A4%ED%8B%B0%20%EC%98%81%EC%97%85%EA%B4%80%EB%A6%AC%ED%8C%80)%20%EC%98%81%EC%97%85%ED%95%B4%EC%99%B8%EC%98%81%EC%97%85%EC%A7%81%EA%B5%B0%20%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4%206%EC%B0%A8",
+      "postingId": "PG0031155202609180008"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031155202609180008"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D(%EB%8D%94%EB%B2%A4%ED%8B%B0%20%EC%98%81%EC%97%85%EA%B8%B0%ED%9A%8D%ED%8C%80)%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EC%A7%81%EA%B5%B0%20%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4%206%EC%B0%A8",
+      "postingId": "PG0031155202609180010"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031155202609180010"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D(%EC%A0%9C%EB%8B%88%EC%97%98%2C%20HR-Biz%EC%82%AC%EC%97%85%EB%B6%80)%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EC%A7%81%EA%B5%B0%20%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4%206%EC%B0%A8",
+      "postingId": "PG0031155202609180005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031155202609180005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8B%9C%EC%95%BC%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8%5D%202026%20IT%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_5%EC%B0%A8",
+      "postingId": "PG0031170202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031170202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%B6%A9%EC%A3%BC%EB%AC%B8%ED%99%94%EC%8B%9C%EB%8B%88%EC%96%B4%ED%81%B4%EB%9F%BD%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_8%EA%B8%B0",
+      "postingId": "PG0020426202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020426202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%BC%80%EC%9D%B4%EA%B5%90%EC%A0%95%EC%9B%90%5D%20%EC%9D%B8%ED%84%B4%ED%98%95%202%EA%B8%B0(%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4)",
+      "postingId": "PG0031190202609280001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031190202609280001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%8A%B8%EB%A0%88%EC%8A%A4%EC%B9%BC%EC%BD%94%EB%A6%AC%EC%95%84%20KTICC%5D%20%EC%9D%B8%ED%84%B4%ED%98%95%201%EA%B8%B0",
+      "postingId": "PG0031190202609280002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031190202609280002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%98%EC%9D%B4%ED%8A%B8%EC%A7%84%EB%A1%9C%5D%20%EA%B2%BD%EB%82%A8%EB%8C%80%ED%91%9C%20%EC%A3%BC%EB%A5%98%EC%A0%9C%EC%A1%B0%20%EC%A4%91%EA%B2%AC%EA%B8%B0%EC%97%85%20%EC%9D%BC%EA%B2%BD%ED%97%98%20(%EC%97%B0%EA%B5%AC%C2%B7R%26D_%ED%92%88%EC%A7%88%ED%8C%80)_1",
+      "postingId": "PG0031161202609160003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031161202609160003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%9B%88%EB%A0%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC%20%EB%91%90%EC%86%90%EC%94%A8%EC%97%94%EC%97%90%EC%9D%B4%20IT(%EC%9D%91%EC%9A%A9SW%EA%B0%9C%EB%B0%9C)%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%EC%9D%B8%ED%84%B4%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031149202609140001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031149202609140001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%9C%B4%EB%84%B7%5D%20%5B%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%5D%20B2B%20%EA%B5%90%EC%9C%A1%EA%B8%B0%EC%97%85%20%EC%B1%84%EC%9A%A9%EC%9A%B4%EC%98%81%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031116202609150002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031116202609150002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%9C%B4%EB%84%B7%5D%20%5B%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%5D%20%EA%B2%BD%EC%98%81%EC%A7%80%EC%9B%90%20%EB%B0%8F%20%EA%B5%90%EC%9C%A1%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%9A%B4%EC%98%81%20%EA%B4%80%EB%A6%AC%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031116202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031116202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95)%20%5BIGM%EC%84%B8%EA%B3%84%EA%B2%BD%EC%98%81%EC%97%B0%EA%B5%AC%EC%9B%90%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EB%8A%A5%EB%A0%A5%ED%96%A5%EC%83%81%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20(4%EC%B0%A8)",
+      "postingId": "PG0020406202609150002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020406202609150002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95)%20%5B%EB%84%A5%EC%8A%A4%ED%8A%B8%EC%97%90%EB%94%94%EC%85%98%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EB%8A%A5%EB%A0%A5%ED%96%A5%EC%83%81%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0020406202609150004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020406202609150004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95)%20%5B%EB%A1%9C%ED%84%B0%EC%8A%A4%EC%9D%B4%EC%95%A4%ED%8B%B0%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EB%8A%A5%EB%A0%A5%ED%96%A5%EC%83%81%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20(3%EC%B0%A8)",
+      "postingId": "PG0020406202609150005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020406202609150005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%91%90%EB%B6%80%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EB%8A%A5%EB%A0%A5%ED%96%A5%EC%83%81%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20(3%EC%B0%A8)",
+      "postingId": "PG0020406202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020406202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%AF%B8%EB%A6%AC%EB%94%94%5D%20%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%A6%AC%EB%A9%94%EC%9D%B4%ED%81%AC%20%EC%BA%A0%ED%8E%98%EC%9D%B8",
+      "postingId": "PG0031103202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031103202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%BA%90%EB%9F%BF%EA%B8%80%EB%A1%9C%EB%B2%8C%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EB%8A%A5%EB%A0%A5%ED%96%A5%EC%83%81%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20(%EB%B3%B8%EC%82%AC-2%EC%B0%A8)",
+      "postingId": "PG0020406202609150014"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020406202609150014"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%88%AC%EB%8B%88%EB%93%9C%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8%5D%20%EC%9B%B9%ED%88%B0%20%EA%B8%B0%ED%9A%8D%C2%B7%EC%A0%9C%EC%9E%91%C2%B7%EA%B0%9C%EB%B0%9C%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0020408202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020408202609210002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95)%5B%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC%20%EC%A0%9C%EC%9D%B4%EB%B9%84%EC%BB%B4%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%2010-4",
+      "postingId": "PG0031188202609210001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031188202609210001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%EB%B2%BD%EC%82%B0%5D%20%EC%8B%A4%EB%AC%B4%ED%98%95%20%EA%B2%BD%EC%98%81%EC%A7%80%EC%9B%90%C2%B7%ED%88%AC%EC%9E%90%EC%A0%84%EB%9E%B5%20%EC%9D%BC%EA%B2%BD%ED%97%98%20(%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4)_2",
+      "postingId": "PG0031161202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031161202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8C%80%EC%A0%84%EC%B2%AD%EB%85%84%EB%82%B4%EC%9D%BC%EC%9E%AC%EB%8B%A8%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EB%B9%84%EC%98%81%EB%A6%AC%EB%B2%95%EC%9D%B8%20%EC%B2%AD%EB%85%84%EC%A7%80%EC%9B%90%20%EB%B6%80%EC%84%9C%20%EC%9D%BC%EA%B2%BD%ED%97%98",
+      "postingId": "PG0031128202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031128202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%99%94%EB%AA%A9%ED%95%9C%EC%9E%AC%ED%99%9C%EC%A3%BC%EA%B0%84%EB%B3%B4%ED%98%B8%EC%84%BC%ED%84%B0%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%209-5",
+      "postingId": "PG0031173202609280003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031173202609280003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5BNC%20AI%5D%20Show%20Your%20World%20%3A%20VARCO%20AI%20%EA%B8%B0%EB%B0%98%20%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
+      "postingId": "PG0031123202609140001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031123202609140001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8C%80%ED%95%9C%EC%B0%BD%EC%A1%B0%EC%95%88%EC%A0%84%EC%9B%90%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%2014%EA%B8%B0",
+      "postingId": "PG0020437202609180004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020437202609180004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%94%94%EC%98%A4%EC%9E%84%ED%94%8C%EB%9E%80%ED%8A%B8%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%2014%EA%B8%B0",
+      "postingId": "PG0020437202609170002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020437202609170002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EA%B4%91%EB%B3%B5%EC%A0%90%5D%20%ED%9B%88%EB%A0%A8%EC%97%B0%EA%B3%84%ED%98%95_%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%2014%EA%B8%B0",
+      "postingId": "PG0020437202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020437202609170001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%83%8C%EB%93%9C%EB%B0%95%EC%8A%A4%5D%20%EA%B8%80%EB%A1%9C%EB%B2%8C(%EB%B6%81%EB%AF%B8)%20%ED%83%80%EA%B9%83%20SNS%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EA%B8%B0%ED%9A%8D%C2%B7%EC%A0%9C%EC%9E%91%20%EB%B0%8F%20%EC%B1%84%EB%84%90%20%EC%9A%B4%EC%98%81",
+      "postingId": "PG0031123202609140004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031123202609140004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%9C%84%EB%8D%94%EC%8A%A4%ED%8C%8C%ED%81%AC%5D%20%ED%9B%88%EB%A0%A8%EC%97%B0%EA%B3%84_%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%2014%EA%B8%B0",
+      "postingId": "PG0020437202609210003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020437202609210003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%9B%88%EB%A0%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%ED%98%B8%ED%85%94%EC%9D%B8%ED%84%B0%EC%8B%9C%ED%8B%B0_%EC%8B%9D%EC%9D%8C%ED%8C%80)%20%ED%98%B8%ED%85%94%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031157202609210001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031157202609210001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=2026%EB%85%84%20%EC%A7%84%EC%B2%9C%EC%83%81%EA%B3%B5%ED%9A%8C%EC%9D%98%EC%86%8C%20%EC%B2%AD%EB%85%84%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%207%EA%B8%B0",
+      "postingId": "PG0020376202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020376202609230001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B8%88%ED%98%B8%EC%9D%B5%EC%8A%A4%ED%94%84%EB%A0%88%EC%8A%A4%5D%20K%20-%20ReBUS%20%3A%20Space%20ON%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
+      "postingId": "PG0020410202609030006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020410202609030006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B8%88%ED%98%B8%EC%9D%B5%EC%8A%A4%ED%94%84%EB%A0%88%EC%8A%A4%5D%20%EB%B2%84%EC%8A%A4%ED%83%80%EA%B3%A0%20%EC%96%B4%EB%94%94%EA%B0%80%EC%9A%94%3F-%EA%B3%A0%EC%86%8D%EB%B2%84%EC%8A%A4%20%EC%9D%B4%EC%9A%A9%EA%B0%9D%EC%9D%84%20%EC%A7%81%EC%A0%91%20%EB%A7%8C%EB%82%98%20%EC%B0%BE%EC%95%84%EB%82%B4%EB%8A%94%20%ED%99%8D%EB%B3%B4%20%EC%BD%98%ED%85%90%EC%B8%A0",
+      "postingId": "PG0020410202609030007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020410202609030007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%85%B8%EC%9D%84%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EC%A6%88%5D%20%EC%95%84%EC%8B%9C%EC%95%84%EB%AC%B8%ED%99%94%EC%A4%91%EC%8B%AC%EB%8F%84%EC%8B%9C%20%EC%BD%98%ED%85%90%EC%B8%A0%20%ED%99%8D%EB%B3%B4%20%EC%A0%84%EB%9E%B5",
+      "postingId": "PG0020410202609030002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020410202609030002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8C%80%ED%95%9C%EA%B0%84%ED%98%B8%EC%A1%B0%EB%AC%B4%EC%82%AC%ED%98%91%ED%9A%8C%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B5%90%EC%9C%A1%EC%82%AC%EC%97%85%EA%B5%AD%20%EC%82%AC%EB%AC%B4%ED%96%89%EC%A0%95)%20%EC%8B%A4%EC%A0%84%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%948%EA%B8%B01%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609110002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609110002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%8C%80%ED%95%9C%EA%B0%84%ED%98%B8%EC%A1%B0%EB%AC%B4%EC%82%AC%ED%98%91%ED%9A%8C%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%EA%B5%AD%20%EC%82%AC%EB%AC%B4%ED%96%89%EC%A0%95)%20%EC%8B%A4%EC%A0%84%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%948%EA%B8%B01%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609110003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609110003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%94%94%EC%97%91%EC%8A%A4%EC%86%94%EB%A3%A8%EC%85%98%5D%20IT(AI%EC%86%94%EB%A3%A8%EC%85%98%20SW%EA%B0%9C%EB%B0%9C)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%203%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%94%94%EC%BC%80%EC%9D%B4%5D%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%EC%9E%90%EB%8F%99%ED%99%94%20%EA%B3%B5%EC%A0%95%20%EA%B5%AC%EC%B6%95%20%EB%B0%A9%EC%95%88%20%EC%A0%9C%EC%95%88",
+      "postingId": "PG0020410202609030005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020410202609030005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%94%94%EC%BC%80%EC%9D%B4%5D%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%EC%9E%90%EB%8F%99%ED%99%94%20%EA%B3%B5%EC%A0%95%20%EA%B5%AC%EC%B6%95%20%EB%B0%A9%EC%95%88%20%EC%A0%9C%EC%95%88",
+      "postingId": "PG0020410202609030004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020410202609030004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%94%94%EC%BC%80%EC%9D%B4%5D%20%EC%A0%9C%EC%A1%B0%EC%82%B0%EC%97%85%EC%9D%98%20AI%EA%B8%B0%EC%88%A0%20%EC%A0%81%EC%9A%A9%20%EB%B0%A9%EC%95%88%20%EC%A0%9C%EC%95%88",
+      "postingId": "PG0020410202609030003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020410202609030003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%A0%89%EC%8A%A4%EC%BD%94%EB%93%9C%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EB%B2%88%EC%97%AD%EC%82%AC%EC%97%85%EB%B6%80%EC%84%9C%20%EC%82%AC%EB%AC%B4%EB%B3%B4%EC%A1%B0)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609070002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609070002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%B0%B0%EC%9B%80%20%EB%B0%B0%EB%A1%A0%EC%A7%80%EC%A0%90%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B5%90%EC%9C%A1%ED%96%89%EC%A0%95)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609140007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609140007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%B0%B0%EC%9B%80%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B5%90%EC%9C%A1%ED%96%89%EC%A0%95)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_8%EC%A3%BC",
+      "postingId": "PG0031153202609140002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609140002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8B%9C%EC%95%A4%ED%94%BC%EC%BB%A8%EC%84%A4%ED%8C%85%5D%20IT(AI%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%84%9C%EB%B9%84%EC%8A%A4%EC%A7%80%EC%9B%90)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%203%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609140005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609140005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8B%9C%EC%95%A4%ED%94%BC%EC%BB%A8%EC%84%A4%ED%8C%85%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B3%B5%EA%B3%B5%EA%B2%BD%EC%98%81%EC%BB%A8%EC%84%A4%ED%8C%85%EB%B3%B8%EB%B6%80)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609160002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8B%9C%ED%8B%B0%EC%95%84%EC%9D%B4%EB%9E%A9%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609070004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609070004"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%9E%A9%EC%8A%A4%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%82%AC%EB%AC%B4%ED%96%89%EC%A0%95)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_8%EC%A3%BC",
+      "postingId": "PG0031153202609070005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609070005"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%9C%84%EB%93%9C%EB%A9%A4%EC%8A%A4%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B2%BD%EC%98%81%EA%B4%80%EB%A6%AC)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_8%EC%A3%BC",
+      "postingId": "PG0031153202609150002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609150002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%9C%8C%EB%B9%84%EC%86%8C%ED%94%84%ED%8A%B8%5D%20IT(UI%2FUX%EA%B8%B0%ED%9A%8D)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%203%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609070006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609070006"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC%20%EC%A7%84%EC%8A%A4%EC%BD%94%EB%A6%AC%EC%95%84%5D%EC%82%AC%EB%AC%B4.%ED%96%89%EC%A0%95%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609180001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609180001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B2%B0%EC%9D%98%EC%95%BD%ED%92%88%EB%AC%BC%EB%A5%98%5D%20%EC%9D%98%EC%95%BD%ED%92%88%20%EC%9C%A0%ED%86%B5%20%EA%B2%BD%EC%98%81.%EC%82%AC%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+      "postingId": "PG0031234202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031234202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B5%AD%ED%91%9C%EC%A4%80%ED%98%91%ED%9A%8C%5D%20%EC%82%AC%EB%AC%B4(%EA%B2%80%EC%9D%B8%EC%A6%9D%EC%84%BC%ED%84%B0%20ISO%EC%9D%B8%EC%A6%9D%EC%8B%AC%EC%82%AC%EC%A0%81%EA%B2%A9%EC%84%B1%EA%B4%80%EB%A6%AC)%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%948%EA%B8%B01%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609140003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609140003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B5%AD%ED%91%9C%EC%A4%80%ED%98%91%ED%9A%8C%5D%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%B0%BD%EC%97%85%EC%84%B1%EC%9E%A5%EC%84%BC%ED%84%B0%EC%A0%95%EB%B6%80%EC%82%AC%EC%97%85%EC%9A%B4%EC%98%81)%EC%8B%A4%EC%A0%84%EC%A7%81%EB%AC%B4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%948%EA%B8%B01%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609070013"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609070013"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EC%84%B1%EC%9E%90%EB%8F%99%EC%B0%A8%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9D%B8%EC%82%AC%EA%B5%90%EC%9C%A1)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609150007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609150007"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%B4%EC%A4%8C%5D%20IT%20(%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%203%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609140001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609140001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%B4%EC%A4%8C%5D%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4)%20%EC%8B%A4%EC%A0%84%20%EC%A7%81%EB%AC%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10%EC%9B%94%208%EA%B8%B0%201%EC%B0%A8_10%EC%A3%BC",
+      "postingId": "PG0031153202609070015"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031153202609070015"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B2%BD%EA%B8%B0%EA%B2%BD%EC%98%81%EC%9E%90%EC%B4%9D%ED%98%91%ED%9A%8C%5D%20IT%EC%A7%81%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%EC%9D%B8%ED%84%B4(3%EC%B0%A8)",
+      "postingId": "PG0020413202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020413202609070001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B3%A8%EB%93%9C%EB%84%A5%EC%8A%A4%5D%20%EB%A7%9B%EC%A7%91%20%ED%97%8C%ED%84%B0%EC%8A%A4%3A%20%EC%9D%B8%EC%8A%A4%ED%83%80%20%ED%8C%94%EB%A1%9C%EC%9B%8C%EB%A5%BC%20%EC%82%AC%EB%83%A5%ED%95%98%EB%8B%A4",
+      "postingId": "PG0031123202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0031123202609150001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%A0%9C%EC%A3%BC%EA%B4%80%EA%B4%91%EA%B3%B5%EC%82%AC%5D%20IT%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-4%EC%B0%A8",
+      "postingId": "PG0020400202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020400202609220001"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%A0%9C%EC%A3%BC%EA%B4%80%EA%B4%91%EA%B3%B5%EC%82%AC%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-4%EC%B0%A8",
+      "postingId": "PG0020400202609220002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020400202609220002"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "detail",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%A0%9C%EC%A3%BC%EA%B4%80%EA%B4%91%EA%B3%B5%EC%82%AC%5D%20%EA%B4%80%EA%B4%91%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-4%EC%B0%A8",
+      "postingId": "PG0020400202609220003"
+    },
+    {
+      "siteId": "work24-youth",
+      "kind": "form-action",
+      "url": "https://yw.work24.go.kr/d/a/selectItrnPrjtEsgPrgmDtal.do",
+      "postingId": "PG0020400202609220003"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "detail",
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+      "postingId": "94"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "information-link",
+      "url": "https://mybox.naver.com/main/web/share/url/landing?shareKey=vnESYTqKXEHoeAdJ5qmK8sdhsQWxFIuQ-HJvQHA2TqMD",
+      "postingId": "94"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "information-link",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do",
+      "postingId": "94"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "detail",
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+      "postingId": "67"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "detail",
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+      "postingId": "59"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "detail",
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+      "postingId": "55"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "information-link",
+      "url": "https://apply.jobaba.net/",
+      "postingId": "55"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "detail",
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+      "postingId": "16"
+    },
+    {
+      "siteId": "gjf-youth",
+      "kind": "information-link",
+      "url": "https://apply.jobaba.net/special/GGtestfees/main.do",
+      "postingId": "16"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012419",
+      "postingId": "VOLT_000000000012419"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012420",
+      "postingId": "VOLT_000000000012420"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012421",
+      "postingId": "VOLT_000000000012421"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012424",
+      "postingId": "VOLT_000000000012424"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012414",
+      "postingId": "VOLT_000000000012414"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012415",
+      "postingId": "VOLT_000000000012415"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012416",
+      "postingId": "VOLT_000000000012416"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012409",
+      "postingId": "VOLT_000000000012409"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012410",
+      "postingId": "VOLT_000000000012410"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012408",
+      "postingId": "VOLT_000000000012408"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012403",
+      "postingId": "VOLT_000000000012403"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012404",
+      "postingId": "VOLT_000000000012404"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012406",
+      "postingId": "VOLT_000000000012406"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012400",
+      "postingId": "VOLT_000000000012400"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012399",
+      "postingId": "VOLT_000000000012399"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012392",
+      "postingId": "VOLT_000000000012392"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012384",
+      "postingId": "VOLT_000000000012384"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012386",
+      "postingId": "VOLT_000000000012386"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012353",
+      "postingId": "VOLT_000000000012353"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012364",
+      "postingId": "VOLT_000000000012364"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012381",
+      "postingId": "VOLT_000000000012381"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012332",
+      "postingId": "VOLT_000000000012332"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012344",
+      "postingId": "VOLT_000000000012344"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012301",
+      "postingId": "VOLT_000000000012301"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012300",
+      "postingId": "VOLT_000000000012300"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012240",
+      "postingId": "VOLT_000000000012240"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012222",
+      "postingId": "VOLT_000000000012222"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012198",
+      "postingId": "VOLT_000000000012198"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012188",
+      "postingId": "VOLT_000000000012188"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012171",
+      "postingId": "VOLT_000000000012171"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012149",
+      "postingId": "VOLT_000000000012149"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012150",
+      "postingId": "VOLT_000000000012150"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012151",
+      "postingId": "VOLT_000000000012151"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012141",
+      "postingId": "VOLT_000000000012141"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012137",
+      "postingId": "VOLT_000000000012137"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000011679",
+      "postingId": "VOLT_000000000011679"
+    },
+    {
+      "siteId": "csv-culture",
+      "kind": "detail",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012092",
+      "postingId": "VOLT_000000000012092"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+      "postingId": "3528668"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528672",
+      "postingId": "3528672"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519230",
+      "postingId": "3519230"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3529596",
+      "postingId": "3529596"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528852",
+      "postingId": "3528852"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519336",
+      "postingId": "3519336"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519328",
+      "postingId": "3519328"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3504684",
+      "postingId": "3504684"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3527700",
+      "postingId": "3527700"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3507971",
+      "postingId": "3507971"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3507974",
+      "postingId": "3507974"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519287",
+      "postingId": "3519287"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519290",
+      "postingId": "3519290"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519342",
+      "postingId": "3519342"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519367",
+      "postingId": "3519367"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519373",
+      "postingId": "3519373"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3519378",
+      "postingId": "3519378"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3504685",
+      "postingId": "3504685"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3520101",
+      "postingId": "3520101"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3520103",
+      "postingId": "3520103"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3520125",
+      "postingId": "3520125"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3520127",
+      "postingId": "3520127"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3501849",
+      "postingId": "3501849"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3504686",
+      "postingId": "3504686"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3523626",
+      "postingId": "3523626"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3523628",
+      "postingId": "3523628"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3508217",
+      "postingId": "3508217"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3526366",
+      "postingId": "3526366"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3526368",
+      "postingId": "3526368"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3526375",
+      "postingId": "3526375"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3526383",
+      "postingId": "3526383"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3481420",
+      "postingId": "3481420"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3524932",
+      "postingId": "3524932"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3440599",
+      "postingId": "3440599"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3503178",
+      "postingId": "3503178"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3525201",
+      "postingId": "3525201"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3496901",
+      "postingId": "3496901"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3520546",
+      "postingId": "3520546"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3523167",
+      "postingId": "3523167"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3523168",
+      "postingId": "3523168"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3523170",
+      "postingId": "3523170"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3523171",
+      "postingId": "3523171"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3522674",
+      "postingId": "3522674"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3522676",
+      "postingId": "3522676"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3524620",
+      "postingId": "3524620"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3525120",
+      "postingId": "3525120"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3513913",
+      "postingId": "3513913"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3515953",
+      "postingId": "3515953"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "kind": "detail",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3515954",
+      "postingId": "3515954"
+    }
+  ]
+}
