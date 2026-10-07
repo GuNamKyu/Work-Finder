@@ -1,0 +1,2010 @@
+[
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "museum-go-kr:url:e895f7c447b4acf80334",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-02",
+      "deadlineDate": "2026-10-16",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+      "title": "2026년 국립춘천박물관 한시임기제(6호) 공무원 경력경쟁채용 공고",
+      "organization": "국립춘천박물관",
+      "applicationStartAt": "2026-10-14",
+      "applicationEndAt": "2026-10-16",
+      "status": "채용중",
+      "detailStatus": "list_only",
+      "detailWarning": "목록 기간 확인. HWP 지원요건은 미확인.",
+      "postingType": "job",
+      "roleText": "한시임기제 6호 일반학예 직무 1명 경력경쟁채용. 직무·자격 세부는 첨부 HWP 확인 필요.",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-02",
+          "source": "detail",
+          "evidence": "2026-10-02 등록",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-14",
+          "source": "list",
+          "evidence": "접수 2026-10-14~2026-10-16",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-16",
+          "source": "list",
+          "evidence": "접수 2026-10-14~2026-10-16",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+      "stableId": "museum-go-kr:url:e895f7c447b4acf80334",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:12:00.372Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "unchanged",
+    "stableId": "museum-go-kr:composite:be772fb9bf63a6496cf6",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": null,
+      "title": "국립청주박물관 학예연구실 기간제 근로자(육아휴직 대체인력) 채용 최종 합격자 발표",
+      "organization": "국립청주박물관",
+      "status": "합격자발표",
+      "detailStatus": "list_only",
+      "detailWarning": "채용 공고가 아닌 최종 합격자 발표; 노출 제외.",
+      "postingType": "job",
+      "scheduleEvents": [],
+      "retainedSchedule": false,
+      "canonicalUrl": null,
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "museum-go-kr:composite:be772fb9bf63a6496cf6",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "administrative_notice",
+      "relevanceReasons": [
+        "채용 기회가 아닌 전형 결과·후속 공지"
+      ],
+      "userVisible": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:12:00.372Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "unchanged"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "museum-go-kr:url:3fcfbec7ae284d353d82",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-29",
+      "deadlineDate": "2026-10-13",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24010&cp=1&sv=",
+      "title": "국립익산박물관 공무직근로자(사무보조) 채용 공고",
+      "organization": "국립익산박물관",
+      "applicationStartAt": "2026-10-08",
+      "applicationEndAt": "2026-10-13",
+      "status": "채용중",
+      "detailStatus": "list_only",
+      "detailWarning": "목록 기간 확인. 첨부 공고문 지원요건은 미확인.",
+      "postingType": "job",
+      "roleText": "공무직 사무보조 채용 공고. 상세 직무와 자격은 첨부 HWPX 확인 필요.",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-29",
+          "source": "detail",
+          "evidence": "등록일 2026-09-29",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-08",
+          "source": "list",
+          "evidence": "접수 2026-10-08~2026-10-13",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-13",
+          "source": "list",
+          "evidence": "접수 2026-10-08~2026-10-13",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24010&cp=1&sv=",
+      "stableId": "museum-go-kr:url:3fcfbec7ae284d353d82",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:12:00.372Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "new",
+    "stableId": "gogung:composite:982d7a0f83e945a01212",
+    "siteId": "gogung",
+    "siteName": "국립고궁박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": null,
+      "title": "조리원",
+      "organization": "국립고궁박물관",
+      "detailStatus": "list_only",
+      "postingType": "job",
+      "scheduleEvents": [],
+      "retainedSchedule": false,
+      "canonicalUrl": null,
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "gogung:composite:982d7a0f83e945a01212",
+      "lifecycleStatus": "fresh",
+      "fitScore": 20,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음",
+        "직무 불일치 신호: 조리원"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "administrative_notice",
+      "relevanceReasons": [
+        "채용 모집이 아닌 전시·관람·교육 안내"
+      ],
+      "userVisible": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:12:17.391Z",
+      "siteId": "gogung",
+      "siteName": "국립고궁박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "new",
+    "stableId": "nfm:url:224b7ba2d416019b0b29",
+    "siteId": "nfm",
+    "siteName": "국립민속박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-16",
+      "url": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataView/25811.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=",
+      "title": "국립민속박물관 유물과학과 공무직(학예원) 채용 공고",
+      "organization": "국립민속박물관",
+      "applicationStartAt": "2026-10-13",
+      "applicationEndAt": "2026-10-16",
+      "roleText": "학예원 1명; 수장전시 기획·운영, 기관 관람, 홍보·행사·대외협력, 소장품 취득·활용",
+      "region": "경기 파주시",
+      "detailStatus": "verified",
+      "detailWarning": "첨부 공고문 지원자격의 세부 요건은 미확인.",
+      "detailCheckedAt": "2026-10-07T00:12:29.428Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-13",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-13",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-16",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-16",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataView/25811.do?column=&bbsDataCategory=",
+      "stableId": "nfm:url:224b7ba2d416019b0b29",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관, 유물",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관, 유물"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:12:29.428Z",
+      "siteId": "nfm",
+      "siteName": "국립민속박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "new",
+    "stableId": "kaah:url:9c692d23b370b9bb8090",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-19",
+      "url": "https://www.kaah.kr/reqopen_view/580?page=1&searchTxt=",
+      "title": "(재)신라문화유산연구원 채용 공고",
+      "organization": "(재)신라문화유산연구원",
+      "applicationStartAt": "2026-10-12",
+      "applicationEndAt": "2026-10-19",
+      "roleText": "연구직 1명",
+      "detailStatus": "verified",
+      "detailWarning": "첨부파일의 세부 자격·업무 요건은 미확인.",
+      "detailCheckedAt": "2026-10-07T00:13:06.575Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-12",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-12",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-19",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-19",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/580",
+      "stableId": "kaah:url:9c692d23b370b9bb8090",
+      "lifecycleStatus": "fresh",
+      "fitScore": 26,
+      "fitBreakdown": {
+        "roleField": 6,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:13:11.614Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "new",
+    "stableId": "kaah:url:1407f45de51feb53af87",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-23",
+      "url": "https://www.kaah.kr/reqopen_view/581?page=1&searchTxt=",
+      "title": "[채용공고] 재단법인 호서문화유산연구원",
+      "organization": "재단법인 호서문화유산연구원",
+      "applicationStartAt": "2026-10-06",
+      "applicationEndAt": "2026-10-23",
+      "roleText": "매장유산 조사 보조원 2명; 정규직, 주 5일 09:00~18:00",
+      "eligibilityText": "국가유산청 매장유산 조사 보조원 자격 기준; 출장 가능; 남성은 병역필 또는 면제",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-07T00:13:11.614Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-06",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-06",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-23",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-23",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/581",
+      "stableId": "kaah:url:1407f45de51feb53af87",
+      "lifecycleStatus": "fresh",
+      "fitScore": 26,
+      "fitBreakdown": {
+        "roleField": 6,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:13:11.614Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "khs:url:64b9cf0fd5e6e882fff9",
+    "siteId": "khs",
+    "siteName": "국가유산청",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-30",
+      "deadlineDate": "2026-10-07",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_06",
+      "title": "국립문화유산연구원 미술문화유산연구실 공무직근로자(연구원 가급, 라급) 채용 공고",
+      "organization": "국립문화유산연구원",
+      "applicationStartAt": "2026-10-02",
+      "applicationEndAt": "2026-10-07",
+      "roleText": "연구원 가급·라급 2명; 국가지정 동산문화유산 정기조사·보고서 지원 및 미술문화유산 연구·학예 지원",
+      "status": "접수중",
+      "detailStatus": "verified",
+      "detailWarning": "첨부 HWP 미리보기는 브라우저에서 차단되어 세부 지원자격 미확인.",
+      "detailCheckedAt": "2026-10-07T00:11:26.747Z",
+      "postingType": "job",
+      "eligibilityText": "연구원 라급은 관련 미술사학 석사 이상, 가급은 관련 미술사학 학사 이상. 공통 만 18세 이상~60세 미만이며 남성은 병역필·면제 등 요건 적용. 2개 등급 중 하나만 지원 가능.",
+      "summary": "가급·라급 각 1명, 주 40시간, 2026-11-01 근무 시작 예정, 3개월 시용.",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "postedAt: 2026-09-30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-02",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-02",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-07",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-07",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do?id=9984&no=34582&bbzId=newexam&pageUnit=10&strWhere=&sdate=&edate=&mn=NS_01_06",
+      "stableId": "khs:url:64b9cf0fd5e6e882fff9",
+      "lifecycleStatus": "fresh",
+      "fitScore": 26,
+      "fitBreakdown": {
+        "roleField": 6,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:11:26.747Z",
+      "siteId": "khs",
+      "siteName": "국가유산청",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "seosomun:url:f5e48f42d57fecc5b75b",
+    "siteId": "seosomun",
+    "siteName": "서소문성지 역사박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-09-30",
+      "deadlineDate": "2026-10-15",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444&pageNo=1",
+      "title": "학예사 채용 공고",
+      "organization": "서소문성지역사박물관",
+      "applicationStartAt": "2026-09-30",
+      "applicationEndAt": "2026-10-15",
+      "roleText": "계약직 학예사 1명; 전시·교육·도록/편집·행정",
+      "eligibilityText": "관련 분야 석사 이상, 3급 정학예사 이상, 관련 경력 3년 이상 및 개인전 1회 이상; 외국어·천주교 역사 우대",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-07T00:13:42.821Z",
+      "postingType": "job",
+      "status": "채용중",
+      "summary": "서류발표 10.17, 면접 10.20 예정. 지원자 학력·학예사 자격·경력은 대조하지 않아 적합 여부 미확인.",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "postedAt: 2026-09-30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-09-30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-15",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444",
+      "stableId": "seosomun:url:f5e48f42d57fecc5b75b",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:13:42.821Z",
+      "siteId": "seosomun",
+      "siteName": "서소문성지 역사박물관",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "reposted",
+    "stableId": "museum-or-kr:url:435481f536769079dccb",
+    "siteId": "museum-or-kr",
+    "siteName": "한국박물관협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-21",
+      "url": "https://museum.or.kr/job2/?mode=view&idx=7080",
+      "title": "[청주대학교 박물관] 학예사 채용 공고",
+      "organization": "청주대학교 박물관",
+      "applicationStartAt": "2026-10-07",
+      "applicationEndAt": "2026-10-21",
+      "roleText": "학예사 1명, 1년 계약(1년 연장 가능); 보존·소장품 상태점검, 전시기획, 교육",
+      "eligibilityText": "준학예사 이상 자격; 역사·고고·미술사·박물관학 계열 학위 우대",
+      "region": "충북 청주시",
+      "detailStatus": "verified",
+      "detailWarning": "세부 제출서류는 공고 원문 첨부 확인 필요.",
+      "detailCheckedAt": "2026-10-07T00:13:56.159Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-07",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-07",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-21",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-21",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://museum.or.kr/job2/?mode=view&idx=7080",
+      "stableId": "museum-or-kr:url:435481f536769079dccb",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:13:56.159Z",
+      "siteId": "museum-or-kr",
+      "siteName": "한국박물관협회",
+      "changeType": "reposted"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "unchanged",
+    "stableId": "gjf-youth:id:94",
+    "siteId": "gjf-youth",
+    "siteName": "경기일자리재단 청년사업",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+      "title": "2026년 미래내일 일경험 지원사업",
+      "organization": "경기도일자리재단",
+      "postingId": "94",
+      "status": "모집일정 미확인",
+      "experienceType": "work_experience",
+      "region": "경기",
+      "recordKind": "program_info",
+      "eligibilityText": "15세~34세 미취업 청년; 군필자는 최대 39세.",
+      "programPeriodText": "사업 운영기간 2026년 3월~2027년 2월; 개별 모집 일정 미확인.",
+      "summary": "공공기관형 미래내일 일경험 지원사업 안내.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-06T00:22:24.588Z",
+      "postingType": "experience",
+      "roleText": "공공기관 특화 일경험 사업",
+      "informationLinks": [
+        {
+          "label": "공공특화 모집 관련 자료 폴더",
+          "url": "https://mybox.naver.com/main/web/share/url/landing?shareKey=vnESYTqKXEHoeAdJ5qmK8sdhsQWxFIuQ-HJvQHA2TqMD"
+        },
+        {
+          "label": "청년일경험 포털 전체",
+          "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do"
+        }
+      ],
+      "detailWarning": "사업 상세는 확인했으나 모집 바로가기는 안내자료 폴더로 연결되어 현재 접수일 미확인",
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:94",
+      "lifecycleStatus": "fresh",
+      "fitScore": 34,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 12,
+        "quality": 4
+      },
+      "fitReasons": [
+        "기회 품질: 일경험",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:07:16.881Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업",
+      "changeType": "unchanged"
+    },
+    "previous": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+      "title": "2026년 미래내일 일경험 지원사업",
+      "organization": "경기도일자리재단",
+      "postingId": "94",
+      "status": "모집일정 미확인",
+      "experienceType": "work_experience",
+      "region": "경기",
+      "recordKind": "program_info",
+      "eligibilityText": "15세~34세 미취업 청년; 군필자의 경우 최대 39세",
+      "programPeriodText": "사업 운영기간 2026년 3월~2027년 2월; 개별 모집일정 미확인",
+      "detailStatus": "verified",
+      "postingType": "experience",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "informationLinks": [
+        {
+          "label": "청년 모집 바로가기(공공특화)",
+          "url": "https://m.site.naver.com/23Oq0"
+        },
+        {
+          "label": "청년일경험 포털(전체)",
+          "url": "https://yw.work24.go.kr/main.do"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=94",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:94",
+      "lifecycleStatus": "fresh",
+      "fitScore": 34,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 12,
+        "quality": 4
+      },
+      "fitReasons": [
+        "기회 품질: 일경험",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-09-28T14:49:00Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "gjf-youth:id:67",
+    "siteId": "gjf-youth",
+    "siteName": "경기일자리재단 청년사업",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+      "title": "2026년 청년 기술인재 육성 지원사업",
+      "organization": "경기도일자리재단",
+      "postingId": "67",
+      "status": "모집일정 미확인",
+      "experienceType": "training",
+      "region": "경기",
+      "recordKind": "program_info",
+      "eligibilityText": "공학계약학과·기업 연계 과정; 개별 선발 요건 확인 필요.",
+      "programPeriodText": "사업기간 2026년 2월~2027년 2월.",
+      "summary": "청년 기술인재 양성 및 기업 연계 과정 안내.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-06T00:22:24.588Z",
+      "postingType": "experience",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:67",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:07:16.881Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업",
+      "changeType": "updated"
+    },
+    "previous": {
+      "title": "청년 엔지니어 육성 사업",
+      "organization": "경기도일자리재단",
+      "postingId": "67",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "training",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "도내 청소년 및 청년, 시흥시 기업",
+      "programPeriodText": "2026년 2월 ~ 2027년 2월",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=67",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:67",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "retained",
+      "lastConfirmedAt": "2026-09-28T08:12:16.393Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "gjf-youth:id:59",
+    "siteId": "gjf-youth",
+    "siteName": "경기일자리재단 청년사업",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+      "title": "2026년 청년 해외취업 지원사업",
+      "organization": "경기도일자리재단",
+      "postingId": "59",
+      "status": "모집일정 미확인",
+      "experienceType": "training",
+      "region": "경기",
+      "recordKind": "program_info",
+      "eligibilityText": "경기도 거주 19~39세 미취업 청년; 일본·미국·독일 과정별 조건 확인 필요.",
+      "programPeriodText": "2026년 사업 안내; 개별 모집 일정 미확인.",
+      "summary": "해외취업 진로 준비 및 연계 지원.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-06T00:22:24.588Z",
+      "postingType": "experience",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:59",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:07:16.881Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업",
+      "changeType": "updated"
+    },
+    "previous": {
+      "title": "경기청년 해외진출(일본, 미국, 독일) 사업",
+      "organization": "경기도일자리재단",
+      "postingId": "59",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "training",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "해외진출(일본, 미국, 유럽)을 희망하는 도내 19 ~ 39세 청년 미취업자 대상※ 사업 대상 및 세부 지원자격은 세부사업별로 일부 상이하여, 관련사항은 각 모집 공고문 참조必",
+      "programPeriodText": "2026년 1월 ~ 2026년 12월",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=59",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:59",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "retained",
+      "lastConfirmedAt": "2026-09-28T08:12:16.393Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "gjf-youth:id:55",
+    "siteId": "gjf-youth",
+    "siteName": "경기일자리재단 청년사업",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+      "title": "2026년 청년 맞춤형 취업지원 서비스",
+      "organization": "경기도일자리재단",
+      "postingId": "55",
+      "status": "모집일정 미확인",
+      "experienceType": "counseling",
+      "region": "경기",
+      "recordKind": "program_info",
+      "eligibilityText": "미취업 청년 대상; 상세 상담·선발 조건은 별도 확인 필요.",
+      "programPeriodText": "사업 운영기간 2026년 3~11월; 개별 모집 일정 미확인.",
+      "summary": "취업 상담 및 맞춤형 취업지원 프로그램 안내.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-06T00:22:24.588Z",
+      "postingType": "experience",
+      "informationLinks": [
+        {
+          "label": "참여 신청 바로가기",
+          "url": "https://apply.jobaba.net/"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:55",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:07:16.881Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업",
+      "changeType": "updated"
+    },
+    "previous": {
+      "title": "경기청년 맞춤형 채용지원 서비스",
+      "organization": "경기도일자리재단",
+      "postingId": "55",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "counseling",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "도내 만 18세 이상 39세 이하 미취업 청년",
+      "programPeriodText": "2026년 3월 ~ 2026년 11월",
+      "informationLinks": [
+        {
+          "label": "참여 신청 바로가기",
+          "url": "https://apply.jobaba.net/"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=55",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:55",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "retained",
+      "lastConfirmedAt": "2026-09-28T08:12:16.393Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "gjf-youth:id:16",
+    "siteId": "gjf-youth",
+    "siteName": "경기일자리재단 청년사업",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+      "title": "2026년 경기청년 역량강화 기회 지원사업",
+      "organization": "경기도일자리재단",
+      "postingId": "16",
+      "status": "모집일정 미확인",
+      "experienceType": "financial_support",
+      "region": "경기",
+      "recordKind": "program_info",
+      "eligibilityText": "경기도 청년의 어학·자격시험 응시료 지원; 최대 30만원.",
+      "programPeriodText": "사업 운영기간 2026년 5~12월 예정; 접수 일정은 별도 확인 필요.",
+      "summary": "개별 지원 자격과 신청기간은 공고 확인 필요.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-06T00:22:24.588Z",
+      "postingType": "experience",
+      "informationLinks": [
+        {
+          "label": "신청방법 바로가기",
+          "url": "https://apply.jobaba.net/special/GGtestfees/main.do"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:16",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:07:16.881Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업",
+      "changeType": "updated"
+    },
+    "previous": {
+      "title": "경기청년 역량강화 기회지원 사업",
+      "organization": "경기도일자리재단",
+      "postingId": "16",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "financial_support",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "도내 거주 미취업 청년",
+      "programPeriodText": "2026년 5월 ~ 2026년 12월 (예정)",
+      "informationLinks": [
+        {
+          "label": "신청방법 바로가기",
+          "url": "https://apply.jobaba.net/special/GGtestfees/main.do"
+        }
+      ],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=16",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:16",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "retained",
+      "lastConfirmedAt": "2026-09-28T08:12:16.393Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "csv-culture:id:VOLT_000000000012419",
+    "siteId": "csv-culture",
+    "siteName": "문화자원봉사센터",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-29",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012419",
+      "title": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집(월 단위로 모집 중)",
+      "organization": "대구보건대학교 인당뮤지엄",
+      "postingId": "VOLT_000000000012419",
+      "applicationStartAt": "2026-09-28",
+      "applicationEndAt": "2026-10-29",
+      "programStartAt": "2026-10-09",
+      "programEndAt": "2026-10-31",
+      "eligibilityText": "성인; 대구광역시 북구",
+      "experienceType": "volunteer",
+      "status": "모집중",
+      "detailStatus": "list_only",
+      "detailWarning": "목록 확인만 수행; 상세 요건 미확인.",
+      "postingType": "experience",
+      "detailCheckedAt": "2026-10-06T00:20:56.733Z",
+      "region": "대구광역시 북구",
+      "roleText": "부지현 초대전 전시에서 박물관 운영 보조 및 전시실 관람객 안내. 오전 3시간, 오후 4시간 또는 1일 최대 7시간 선택; 일요일 휴관.",
+      "programPeriodText": "월~토 중 희망일 신청; 활동시간 10:00~17:00, 오전 10:00~13:00, 오후 13:00~17:00.",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-09-28",
+          "source": "list",
+          "evidence": "모집 2026.09.28~2026.10.29",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-09",
+          "source": "list",
+          "evidence": "활동 2026.10.09~2026.10.31",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-29",
+          "source": "list",
+          "evidence": "모집 2026.09.28~2026.10.29",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-10-31",
+          "source": "list",
+          "evidence": "활동 2026.10.09~2026.10.31",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012419",
+      "stableId": "csv-culture:id:VOLT_000000000012419",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:19:46.269Z",
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "csv-culture:id:VOLT_000000000012400",
+    "siteId": "csv-culture",
+    "siteName": "문화자원봉사센터",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012400",
+      "title": "[환기미술관] 2026 환기미술관 소장품전 정기 문화자원봉사자 모집 (오전/오후)",
+      "organization": "환기미술관",
+      "postingId": "VOLT_000000000012400",
+      "applicationStartAt": "2026-09-10",
+      "applicationEndAt": "2026-12-03",
+      "programStartAt": "2026-10-01",
+      "programEndAt": "2026-12-31",
+      "eligibilityText": "성인; 서울 종로구",
+      "experienceType": "volunteer",
+      "status": "모집중",
+      "detailStatus": "list_only",
+      "detailWarning": "목록 확인만 수행; 상세 요건 미확인.",
+      "postingType": "experience",
+      "region": "서울특별시 · 종로구",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-09-10",
+          "source": "list",
+          "evidence": "모집 2026.09.10~2026.12.03",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-01",
+          "source": "list",
+          "evidence": "활동 2026.10.01~2026.12.31",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "모집 2026.09.10~2026.12.03",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "활동 2026.10.01~2026.12.31",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012400",
+      "stableId": "csv-culture:id:VOLT_000000000012400",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 7,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 미술관",
+        "보완 역량: 소장품",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 미술관, 소장품"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:19:46.269Z",
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "csv-culture:id:VOLT_000000000012332",
+    "siteId": "csv-culture",
+    "siteName": "문화자원봉사센터",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-31",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012332",
+      "title": "한국족보박물관 청소년 자원봉사 모집",
+      "organization": "한국족보박물관",
+      "postingId": "VOLT_000000000012332",
+      "applicationStartAt": "2026-08-01",
+      "applicationEndAt": "2026-12-31",
+      "programStartAt": "2026-08-01",
+      "programEndAt": "2026-12-31",
+      "eligibilityText": "청소년; 대전광역시 중구",
+      "experienceType": "volunteer",
+      "status": "모집중",
+      "detailStatus": "list_only",
+      "detailWarning": "청소년 대상; 상세 요건 미확인.",
+      "postingType": "experience",
+      "region": "대전광역시 · 중구",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-08-01",
+          "source": "list",
+          "evidence": "모집 2026.08.01~2026.12.31",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-08-01",
+          "source": "list",
+          "evidence": "활동 2026.08.01~2026.12.31",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "모집 2026.08.01~2026.12.31",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "활동 2026.08.01~2026.12.31",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012332",
+      "stableId": "csv-culture:id:VOLT_000000000012332",
+      "lifecycleStatus": "fresh",
+      "fitScore": 20,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음",
+        "직무 불일치 신호: 청소"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:19:46.269Z",
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "1365-volunteer:id:3528668",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-07",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+      "title": "허준축제 허준박물관 전시 부스 도우미",
+      "organization": "허준박물관",
+      "postingId": "3528668",
+      "applicationStartAt": "2026-09-30",
+      "applicationEndAt": "2026-10-07",
+      "programStartAt": "2026-10-10",
+      "programEndAt": "2026-10-11",
+      "roleText": "전시 부스 보조; 10월 10~11일 10:00~13:00",
+      "eligibilityText": "성인; 일자별 3명 모집, 확인 시 신청 5명",
+      "experienceType": "volunteer",
+      "status": "모집중",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-07T00:16:38.781Z",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-09-30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-07",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-07",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-10",
+          "source": "detail",
+          "evidence": "programStartAt: 2026-10-10",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-10-11",
+          "source": "detail",
+          "evidence": "programEndAt: 2026-10-11",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3528668",
+      "stableId": "1365-volunteer:id:3528668",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:18:24.959Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "new",
+    "stableId": "1365-volunteer:id:3531781",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-08",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3531781",
+      "title": "서울역사박물관 백인제가옥 음악회 행사보조(오전)",
+      "organization": "서울역사박물관 백인제가옥",
+      "postingId": "3531781",
+      "applicationStartAt": "2026-10-06",
+      "applicationEndAt": "2026-10-08",
+      "programStartAt": "2026-10-10",
+      "programEndAt": "2026-10-10",
+      "roleText": "10월 10일 11:00~14:00 행사 준비·진행 보조; 때때로 무거운 물건 운반",
+      "eligibilityText": "성인(2007년 이전 출생); 일 5명 모집",
+      "experienceType": "volunteer",
+      "status": "모집중",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-07T00:18:18.280Z",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-06",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-06",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-08",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-08",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-10",
+          "source": "detail",
+          "evidence": "programStartAt: 2026-10-10",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-10-10",
+          "source": "detail",
+          "evidence": "programEndAt: 2026-10-10",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3531781",
+      "stableId": "1365-volunteer:id:3531781",
+      "lifecycleStatus": "fresh",
+      "fitScore": 38,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:18:24.959Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "updated",
+    "stableId": "1365-volunteer:id:3504684",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-11",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3504684",
+      "title": "2026 박물관 문화공연 한빛예술단 행사 자원봉사자",
+      "organization": "국립중앙박물관",
+      "postingId": "3504684",
+      "applicationStartAt": "2026-10-02",
+      "applicationEndAt": "2026-10-11",
+      "programStartAt": "2026-10-17",
+      "programEndAt": "2026-10-17",
+      "roleText": "10월 17일 10:00~17:00 관람 동선·전단·행사 홍보·시설 안내",
+      "eligibilityText": "성인; 15명 모집, 확인 시 신청 10명",
+      "experienceType": "volunteer",
+      "status": "모집중",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-07T00:18:24.959Z",
+      "postingType": "experience",
+      "detailWarning": "목록에서 현재 일정만 재확인; 상세 미확인.",
+      "region": "서울특별시 용산구",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-02",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-02",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-11",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-11",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-17",
+          "source": "detail",
+          "evidence": "programStartAt: 2026-10-17",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-10-17",
+          "source": "detail",
+          "evidence": "programEndAt: 2026-10-17",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3504684",
+      "stableId": "1365-volunteer:id:3504684",
+      "lifecycleStatus": "fresh",
+      "fitScore": 33,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-07T00:18:24.959Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "updated"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "closed",
+    "stableId": "museum-go-kr:url:63da4d3d5b4e58e50ae3",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "2026-09-22",
+      "postedAt": "2026-09-28",
+      "deadlineDate": "2026-10-01",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24000&cp=1&sv=",
+      "title": "국립중앙박물관 문화교류홍보과 (휴직대체)기간제 근로자(홍보지원)채용 공고",
+      "organization": "중앙박물관",
+      "applicationStartAt": "2026-09-28",
+      "applicationEndAt": "2026-10-01",
+      "status": "채용중",
+      "detailStatus": "list_only",
+      "postingType": "job",
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24000&cp=1&sv=",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-22",
+          "source": "detail",
+          "evidence": "등록일 2026-09-22",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-09-28",
+          "source": "list",
+          "evidence": "접수 시작 2026-09-28",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "posted",
+          "date": "2026-09-28",
+          "label": "등록",
+          "source": "list",
+          "precision": "exact",
+          "confidence": 0.9
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-01",
+          "source": "list",
+          "evidence": "접수 마감 2026-10-01",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "stableId": "museum-go-kr:url:63da4d3d5b4e58e50ae3",
+      "lifecycleStatus": "closed",
+      "fitScore": 33,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-09-28T14:35:00Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관"
+    }
+  },
+  {
+    "runAt": "2026-10-07T00:26:13.550Z",
+    "type": "missing",
+    "stableId": "gjf-youth:id:103",
+    "siteId": "gjf-youth",
+    "siteName": "경기일자리재단 청년사업",
+    "posting": {
+      "title": "경기도 대학생 드림링크 직무실습",
+      "organization": "경기도일자리재단",
+      "postingId": "103",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=103",
+      "postingType": "experience",
+      "recordKind": "program_info",
+      "status": "모집일정 미확인",
+      "experienceType": "work_experience",
+      "region": "경기",
+      "detailStatus": "verified",
+      "summary": "공식 청년사업 안내입니다. 사업 운영기간은 접수기간이 아닙니다. 원문의 모집 공고·신청 링크에서 현재 모집 여부와 참여자격을 확인하세요.",
+      "eligibilityText": "참여대학: 4년제 및 전문대(국·공·사립대학) 중 학점연계 직무실습(현장실습) 운영 가능 대학 참여학생: 경기도 내 협력대학 재학생 및 경기도외 협력대학 재학생 중 경기도민 ※ 중",
+      "programPeriodText": "2026년 1월 ~ 2027년 1월",
+      "informationLinks": [],
+      "canonicalUrl": "https://gjf.or.kr/main/main_biz/search/view.do?main_biz_sn=103",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "scheduleEvents": [],
+      "stableId": "gjf-youth:id:103",
+      "lifecycleStatus": "fresh",
+      "fitScore": 25,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "취업지원 사업 — 대상·모집기간 별도 확인"
+      ],
+      "userVisible": true,
+      "retainedSchedule": false,
+      "verificationStatus": "retained",
+      "lastConfirmedAt": "2026-09-28T08:12:16.393Z",
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업"
+    }
+  }
+]

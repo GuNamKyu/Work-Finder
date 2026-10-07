@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261007-090032-kst",
+  "startedAt": "2026-10-07T00:00:32.853Z",
+  "finishedAt": "2026-10-07T00:25:11.205Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "full",
+      "startedAt": "2026-10-07T00:12:00.081Z",
+      "checkedAt": "2026-10-07T00:12:00.372Z",
+      "elapsedMs": 291,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 3,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용중 필터 1페이지, 총 3건 전체 목록 확인.",
+      "rawObserved": 3,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:12:13.902Z",
+      "checkedAt": "2026-10-07T00:12:17.391Z",
+      "elapsedMs": 3489,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 고궁 채용 목록 1/53페이지(총 530건); 최근 조리원 공고 목록 확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:03:49.238Z",
+      "checkedAt": "2026-10-07T00:03:52.649Z",
+      "elapsedMs": 3411,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 1페이지 확인; 국립문화유산연구원 동일 공고 교차 게시 목록 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:03:52.660Z",
+      "checkedAt": "2026-10-07T00:12:29.428Z",
+      "elapsedMs": 516768,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "채용안내 목록 확인 후 최신 유물과학과 공무직(학예원) 공고 상세 열람; 첨부 자격요건은 미확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:03:56.460Z",
+      "checkedAt": "2026-10-07T00:04:03.110Z",
+      "elapsedMs": 6650,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "사이트 진입만 확인; 등록된 직무 검색 조건 미적용이라 검색 범위 불완전.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:03.122Z",
+      "checkedAt": "2026-10-07T00:04:06.219Z",
+      "elapsedMs": 3097,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "대한민국역사박물관 채용정보; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:06.229Z",
+      "checkedAt": "2026-10-07T00:14:04.197Z",
+      "elapsedMs": 597968,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 목록 1/3페이지 확인; 자원봉사 행의 상세 열람. 잡 보드 내 자원봉사는 직무 데이터로 분류하지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:09.074Z",
+      "checkedAt": "2026-10-07T00:04:12.766Z",
+      "elapsedMs": 3692,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 | 국립한글박물관; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:14:17.957Z",
+      "checkedAt": "2026-10-07T00:14:22.308Z",
+      "elapsedMs": 4351,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 채용 검색 결과 1/19,746페이지(총 197,454건) 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:13:01.353Z",
+      "checkedAt": "2026-10-07T00:13:11.614Z",
+      "elapsedMs": 10261,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 2,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "최신 목록 1/12페이지(총 167건) 확인; 580·581번 공고 상세 2건 확인.",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:30.676Z",
+      "checkedAt": "2026-10-07T00:11:26.747Z",
+      "elapsedMs": 416071,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "시험·채용 1페이지와 국립문화유산연구원 공고 상세 확인; HWP 첨부 미리보기는 브라우저 차단.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:34.260Z",
+      "checkedAt": "2026-10-07T00:04:36.940Z",
+      "elapsedMs": 2680,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울역사박물관 공고/구인 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:36.951Z",
+      "checkedAt": "2026-10-07T00:04:39.850Z",
+      "elapsedMs": 2899,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "한성백제박물관 공고/구인 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:39.858Z",
+      "checkedAt": "2026-10-07T00:04:42.417Z",
+      "elapsedMs": 2559,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울공예박물관 공고/채용 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:42.428Z",
+      "checkedAt": "2026-10-07T00:04:46.607Z",
+      "elapsedMs": 4179,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "용산역사박물관 공지사항; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:04:46.615Z",
+      "checkedAt": "2026-10-07T00:04:49.509Z",
+      "elapsedMs": 2894,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "은평역사한옥박물관 채용 키워드 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:03.048Z",
+      "checkedAt": "2026-10-07T00:05:05.598Z",
+      "elapsedMs": 2550,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서대문자연사박물관 채용공고 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:05.609Z",
+      "checkedAt": "2026-10-07T00:05:08.201Z",
+      "elapsedMs": 2592,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "전쟁기념관 채용공고 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:08.211Z",
+      "checkedAt": "2026-10-07T00:05:12.950Z",
+      "elapsedMs": 4739,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립대한민국임시정부기념관 공지사항; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:12.958Z",
+      "checkedAt": "2026-10-07T00:05:15.674Z",
+      "elapsedMs": 2716,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "백범김구기념관 공지 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:15.683Z",
+      "checkedAt": "2026-10-07T00:13:42.821Z",
+      "elapsedMs": 507138,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "채용 게시판 최신 목록 및 nSeq=1444 학예사 공고 상세 확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:18.573Z",
+      "checkedAt": "2026-10-07T00:05:21.703Z",
+      "elapsedMs": 3130,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "종로문화재단 채용정보 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:21.715Z",
+      "checkedAt": "2026-10-07T00:05:25.184Z",
+      "elapsedMs": 3469,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국가유산청 시험·채용 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:25.195Z",
+      "checkedAt": "2026-10-07T00:05:28.298Z",
+      "elapsedMs": 3103,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기문화재단 공고 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:37.375Z",
+      "checkedAt": "2026-10-07T00:05:40.312Z",
+      "elapsedMs": 2937,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기도박물관 소식참여 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:40.324Z",
+      "checkedAt": "2026-10-07T00:05:43.474Z",
+      "elapsedMs": 3150,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "남한산성역사문화관 소식참여 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:43.482Z",
+      "checkedAt": "2026-10-07T00:05:49.747Z",
+      "elapsedMs": 6265,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기도자박물관 소식참여 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:49.759Z",
+      "checkedAt": "2026-10-07T00:05:55.939Z",
+      "elapsedMs": 6180,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "실학박물관 공지사항 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:55.952Z",
+      "checkedAt": "2026-10-07T00:05:59.394Z",
+      "elapsedMs": 3442,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기도미술관 공지사항 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:05:59.404Z",
+      "checkedAt": "2026-10-07T00:06:02.088Z",
+      "elapsedMs": 2684,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "부천시박물관 새소식 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "startedAt": "2026-10-07T00:06:02.098Z",
+      "checkedAt": "2026-10-07T00:06:04.988Z",
+      "elapsedMs": 2890,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "개발자도구감지; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:04.997Z",
+      "checkedAt": "2026-10-07T00:06:07.860Z",
+      "elapsedMs": 2863,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "화성시문화재단 공지사항 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:13.778Z",
+      "checkedAt": "2026-10-07T00:06:18.111Z",
+      "elapsedMs": 4333,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "화성시역사박물관 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:18.123Z",
+      "checkedAt": "2026-10-07T00:06:29.039Z",
+      "elapsedMs": 10916,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "안성시 문화관광 박물관 공지사항; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:29.049Z",
+      "checkedAt": "2026-10-07T00:06:31.967Z",
+      "elapsedMs": 2918,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "이천시립박물관 공지사항 검색목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:31.975Z",
+      "checkedAt": "2026-10-07T00:06:36.946Z",
+      "elapsedMs": 4971,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "자유수호평화박물관 알림마당; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:36.955Z",
+      "checkedAt": "2026-10-07T00:06:39.603Z",
+      "elapsedMs": 2648,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울역사편찬원 공지사항 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:39.611Z",
+      "checkedAt": "2026-10-07T00:06:43.658Z",
+      "elapsedMs": 4047,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "잡아바 공공일자리 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:43.669Z",
+      "checkedAt": "2026-10-07T00:06:46.586Z",
+      "elapsedMs": 2917,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립농업박물관 채용 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:13:47.148Z",
+      "checkedAt": "2026-10-07T00:13:56.159Z",
+      "elapsedMs": 9011,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "협회 공고 목록 1/29페이지(총 286건)와 최신 청주대학교 박물관 학예사 공고 상세 확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:06:58.983Z",
+      "checkedAt": "2026-10-07T00:07:01.812Z",
+      "elapsedMs": 2829,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울특별시 채용시험 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:07:01.821Z",
+      "checkedAt": "2026-10-07T00:07:05.696Z",
+      "elapsedMs": 3875,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "대한민국 정책브리핑 채용정보 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:07:05.705Z",
+      "checkedAt": "2026-10-07T00:07:08.741Z",
+      "elapsedMs": 3036,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "한국학자료통합플랫폼 채용공고 필터 목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:07:08.751Z",
+      "checkedAt": "2026-10-07T00:07:11.938Z",
+      "elapsedMs": 3187,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "청년일경험 포털 프로그램 정보; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "full",
+      "startedAt": "2026-10-07T00:07:11.948Z",
+      "checkedAt": "2026-10-07T00:07:16.881Z",
+      "elapsedMs": 4933,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 6,
+        "detailOpened": 0,
+        "detailReused": 6
+      },
+      "scope": "청년 일경험 분류 목록 1페이지의 6건 전체 확인; 기존 동일 공고 상세 검증을 재사용.",
+      "rawObserved": 6,
+      "excluded": 1
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:19:19.002Z",
+      "checkedAt": "2026-10-07T00:19:46.269Z",
+      "elapsedMs": 27267,
+      "metrics": {
+        "listPages": 4,
+        "listRows": 4,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "문화·모집중 필터의 4페이지/36건 모두 확인; 박물관·보존 관련 목록 4건 정규화, 상세 미개방.",
+      "rawObserved": 4,
+      "excluded": 1
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:16:38.781Z",
+      "checkedAt": "2026-10-07T00:18:24.959Z",
+      "elapsedMs": 106178,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 3,
+        "detailOpened": 3,
+        "detailReused": 0
+      },
+      "scope": "박물관 키워드·모집중·서울/경기 조건에서 서울 27건/3페이지와 경기 15건/2페이지 전체 확인; 고우선 상세 3건 확인.",
+      "rawObserved": 3,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-07T00:07:25.501Z",
+      "checkedAt": "2026-10-07T00:07:29.185Z",
+      "elapsedMs": 3684,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립중앙박물관 자원봉사 검색목록; 현재 등록 URL의 목록 첫 화면 확인, 전체 페이지와 상세는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}
