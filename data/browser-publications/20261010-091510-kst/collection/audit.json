@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261010-091510-kst",
+  "startedAt": "2026-10-10T00:16:51.854Z",
+  "finishedAt": "2026-10-10T00:52:25.634Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:16:51.856Z",
+      "checkedAt": "2026-10-10T00:18:35.734Z",
+      "elapsedMs": 103878,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 2,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "채용중 필터 1페이지 4행 확인; 춘천·익산 공고 2건을 상세 확인. HWP/HWPX 지원요건 미검토.",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:39:34.180Z",
+      "checkedAt": "2026-10-10T00:48:17.302Z",
+      "elapsedMs": 523122,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 첫 페이지(530건/53페이지) 확인; 최신 공고는 10/2 조리원 채용이며 다른 페이지 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:21:58.898Z",
+      "checkedAt": "2026-10-10T00:34:58.477Z",
+      "elapsedMs": 779579,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 2,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "채용정보 첫 페이지(2,650건/265페이지)와 최신 관련 공고 2건 상세 확인; 두 공고 모두 접수 종료.",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:02.410Z",
+      "checkedAt": "2026-10-10T00:34:25.104Z",
+      "elapsedMs": 742694,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "채용안내 첫 페이지(1,722건/173페이지)와 유물과학과 공무직 학예원 공고 상세 확인; 첨부 HWPX 자격 요건은 미검토.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:06.179Z",
+      "checkedAt": "2026-10-10T00:22:14.479Z",
+      "elapsedMs": 8300,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "NCS 채용공고 검색 화면의 기본 조건 확인; 목표 직무/기관 검색은 실행하지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:14.479Z",
+      "checkedAt": "2026-10-10T00:22:17.148Z",
+      "elapsedMs": 2669,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "대한민국역사박물관 채용정보 첫 페이지 확인; 결과 페이지 87개.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:17.148Z",
+      "checkedAt": "2026-10-10T00:22:19.631Z",
+      "elapsedMs": 2483,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기도박물관협회 채용 목록 첫 페이지 확인; 하반기 화성시독립운동기념관 자원봉사 등 제목 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:19.632Z",
+      "checkedAt": "2026-10-10T00:22:23.440Z",
+      "elapsedMs": 3808,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립한글박물관 채용공고 첫 페이지(768건) 확인; 교육 프로그램 운영 공고가 보이나 상세/접수 기간은 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:42.622Z",
+      "checkedAt": "2026-10-10T00:22:46.089Z",
+      "elapsedMs": 3467,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "나라일터 일반채용 검색 화면의 전체 유형 필터 확인; 검색을 제출하지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:46.089Z",
+      "checkedAt": "2026-10-10T00:37:52.650Z",
+      "elapsedMs": 906561,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "한국문화유산협회 채용공고 첫 페이지(167건/12페이지); 10/7 등록 통일문화유산연구원 준조사원·보조원 공고 상세 확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:49.123Z",
+      "checkedAt": "2026-10-10T00:50:03.117Z",
+      "elapsedMs": 1633994,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "국가유산청 시험·채용 목록 첫 페이지(9,651건)와 덕수궁관리소 10차 공고 PDF 1면 확인; 청소·시설/안전 직무 포함.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:52.792Z",
+      "checkedAt": "2026-10-10T00:22:55.731Z",
+      "elapsedMs": 2939,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울역사박물관 공고/구인 첫 페이지(530건/53페이지) 확인; 최근 일반임기제·결과 공고 제목을 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:55.731Z",
+      "checkedAt": "2026-10-10T00:22:58.161Z",
+      "elapsedMs": 2430,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "한성백제박물관 공고/구인 첫 페이지(494건) 확인; 2026년 모집 결과·합격 공고가 최신 목록에 보임.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:22:58.161Z",
+      "checkedAt": "2026-10-10T00:23:01.368Z",
+      "elapsedMs": 3207,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울공예박물관 공고/채용 첫 페이지 확인; 카페 입찰·자료 구입 등 채용 비대상 게시물이 최신.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:20.247Z",
+      "checkedAt": "2026-10-10T00:23:22.887Z",
+      "elapsedMs": 2640,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "용산역사박물관 공지 첫 페이지(13건/2페이지) 확인; 기간제근로자 공고 후보는 제목만 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:22.887Z",
+      "checkedAt": "2026-10-10T00:23:25.977Z",
+      "elapsedMs": 3090,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "은평역사한옥박물관 제목 채용 검색 결과 1건 확인(기간제 연구원); 세부 일정 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:25.977Z",
+      "checkedAt": "2026-10-10T00:23:29.297Z",
+      "elapsedMs": 3320,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서대문자연사박물관 채용 첫 페이지 확인; 시설 전기·소방 공고와 지난 청년 일자리 게시물 노출.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:29.297Z",
+      "checkedAt": "2026-10-10T00:23:32.691Z",
+      "elapsedMs": 3394,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "전쟁기념관 채용공고 첫 페이지(116건/12페이지) 확인; 2026년 2차 채용 결과·수정 공고 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:32.691Z",
+      "checkedAt": "2026-10-10T00:23:36.934Z",
+      "elapsedMs": 4243,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립대한민국임시정부기념관 공지 첫 페이지 확인; 최신 항목은 결과 발표 중심.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:36.934Z",
+      "checkedAt": "2026-10-10T00:23:39.446Z",
+      "elapsedMs": 2512,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "백범김구기념관 공지 첫 페이지 확인; 도슨트 교육 관련 게시물 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:54.158Z",
+      "checkedAt": "2026-10-10T00:35:58.355Z",
+      "elapsedMs": 724197,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "서소문성지 역사박물관 채용 게시판 첫 페이지와 학예사 채용 공고 상세 확인; 접수 9/30~10/15.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:23:57.515Z",
+      "checkedAt": "2026-10-10T00:52:25.634Z",
+      "elapsedMs": 1708119,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "종로문화재단 채용 첫 페이지와 2026년 제7차 직원 공개모집 상세 확인; 접수기간은 8/31~9/9로 종료.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:00.917Z",
+      "checkedAt": "2026-10-10T00:24:04.405Z",
+      "elapsedMs": 3488,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국가유산청 시험·채용 첫 페이지 확인; KHS에서 상세 확인한 덕수궁관리소 공고와 중복 제목이 보임.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:04.405Z",
+      "checkedAt": "2026-10-10T00:24:07.574Z",
+      "elapsedMs": 3169,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기도박물관 채용 게시판 첫 페이지 확인; 2025년 이전 교육강사 모집·결과 중심.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:07.575Z",
+      "checkedAt": "2026-10-10T00:24:10.536Z",
+      "elapsedMs": 2961,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기도어린이박물관 채용 첫 페이지 확인; 게시물은 2022년 과거 공고 중심.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:10.536Z",
+      "checkedAt": "2026-10-10T00:24:13.505Z",
+      "elapsedMs": 2969,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기북부어린이박물관 채용 첫 페이지 확인; 과거 자원봉사·초단시간 공고가 노출.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:31.919Z",
+      "checkedAt": "2026-10-10T00:24:34.828Z",
+      "elapsedMs": 2909,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "전곡선사박물관 채용 첫 페이지 확인; 2026 교육강사 인력풀 및 뮤지엄 초단시간 공고 제목 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:34.828Z",
+      "checkedAt": "2026-10-10T00:24:39.228Z",
+      "elapsedMs": 4400,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "실학박물관 채용 게시판(20건) 첫 페이지 확인; 2026 초단시간 채용 공고 제목 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:39.228Z",
+      "checkedAt": "2026-10-10T00:24:42.381Z",
+      "elapsedMs": 3153,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "남한산성역사문화관 채용 첫 페이지(33건) 확인; 2026 초단시간 근로자·교육보조강사 공고 제목 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:42.381Z",
+      "checkedAt": "2026-10-10T00:24:45.179Z",
+      "elapsedMs": 2798,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "부천시박물관 공고/채용(22건) 첫 페이지 확인; 최신은 2025 도슨트 채용 결과·공고.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "startedAt": "2026-10-10T00:24:45.179Z",
+      "checkedAt": "2026-10-10T00:24:48.372Z",
+      "elapsedMs": 3193,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "남양주시립박물관 채용 URL이 개발자도구감지 안내로 리디렉션되어 목록을 열지 못함.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:48.372Z",
+      "checkedAt": "2026-10-10T00:24:51.433Z",
+      "elapsedMs": 3061,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "하남문화예술회관 채용공고 첫 페이지(37페이지) 확인; 직원 채용 면접·육아휴직대체 시행계획·임원 공고 제목 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:51.433Z",
+      "checkedAt": "2026-10-10T00:24:55.986Z",
+      "elapsedMs": 4553,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "화성시역사박물관 공지(442건) 첫 페이지 열림; 접근성 트리에서 제목 행을 식별하지 못함.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:24:55.986Z",
+      "checkedAt": "2026-10-10T00:25:37.606Z",
+      "elapsedMs": 41620,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "안성시 박물관 공지 1/7페이지; 최초 이동 타임아웃 후 단 한 번 재시도해 목록을 열었으나 제목 행은 접근성 트리에 노출되지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:25:37.606Z",
+      "checkedAt": "2026-10-10T00:25:40.615Z",
+      "elapsedMs": 3009,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "이천시립박물관 채용 검색 1/1결과: 2025 징검다리 일자리 추가 모집(종료).",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:25:40.615Z",
+      "checkedAt": "2026-10-10T00:25:44.217Z",
+      "elapsedMs": 3602,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "동두천 자유수호평화박물관 알림마당 첫 페이지 확인; 목록 총건수와 제목이 접근성 트리에 노출되지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:25:44.218Z",
+      "checkedAt": "2026-10-10T00:25:47.174Z",
+      "elapsedMs": 2956,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울역사편찬원 78건 중 첫 페이지 확인; 일반임기제 공무원 공고 및 전형 결과 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:25:47.174Z",
+      "checkedAt": "2026-10-10T00:25:53.074Z",
+      "elapsedMs": 5900,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "잡아바 공공일자리 첫 화면의 기본 정렬/검색 결과 확인; 첫 노출은 교육행정·임원·조리원 등.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:25:53.074Z",
+      "checkedAt": "2026-10-10T00:25:55.480Z",
+      "elapsedMs": 2406,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립농업박물관 채용 페이지 제목은 표시되나 목록 항목이 접근성 트리에 나타나지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:25:55.480Z",
+      "checkedAt": "2026-10-10T00:25:58.680Z",
+      "elapsedMs": 3200,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "한국박물관협회 채용공고 첫 페이지 확인; 청주대·대구약령시한의약박물관 등 학예사 공고 제목 노출.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:25:58.680Z",
+      "checkedAt": "2026-10-10T00:26:01.691Z",
+      "elapsedMs": 3011,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울시 채용시험 검색 화면을 확인했으나 기간·상태 필터를 적용하지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:26:01.691Z",
+      "checkedAt": "2026-10-10T00:26:06.023Z",
+      "elapsedMs": 4332,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "정책브리핑 채용정보(29,138건) 첫 페이지 확인; 최신 항목은 지역공단·교사 등 비대상으로 보임.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:26:30.585Z",
+      "checkedAt": "2026-10-10T00:26:33.480Z",
+      "elapsedMs": 2895,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "한국학자료통합플랫폼 채용공고 첫 페이지(20행) 확인; 최근 노출은 연구기관·대학 교수 채용 등.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:26:33.480Z",
+      "checkedAt": "2026-10-10T00:38:28.756Z",
+      "elapsedMs": 715276,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "청년일경험 포털 전체 유형을 유지하고 모집마감순 첫 페이지 재확인(486건, 약 41페이지); 첫 노출은 비대상 직무.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:26:37.613Z",
+      "checkedAt": "2026-10-10T00:26:42.532Z",
+      "elapsedMs": 4919,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "경기도일자리재단 청년 사업 안내 목록 확인; 연간 서비스 소개와 지원제도 위주.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:26:42.532Z",
+      "checkedAt": "2026-10-10T00:32:52.353Z",
+      "elapsedMs": 369821,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 3,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "문화품앗이 필터 구분=문화, 모집현황=모집중; 총 36건/4페이지 중 첫 페이지에서 후보 3건 표준화, 2건 상세 확인.",
+      "rawObserved": 3,
+      "excluded": 0
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:26:45.961Z",
+      "checkedAt": "2026-10-10T00:39:41.173Z",
+      "elapsedMs": 775212,
+      "metrics": {
+        "listPages": 2,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "1365에서 활동명=박물관·모집중 필터, 서울 첫 페이지(3페이지)와 경기 첫 페이지(14건/2페이지) 확인; 이천시립박물관 상세 1건 확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-10T00:26:51.018Z",
+      "checkedAt": "2026-10-10T00:26:54.705Z",
+      "elapsedMs": 3687,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립중앙박물관 소식에서 자원봉사 검색 232건/5페이지 중 첫 페이지 확인; 2026 모집 전형·합격 결과 중심.",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}

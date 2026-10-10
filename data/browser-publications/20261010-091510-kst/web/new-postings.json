@@ -1,0 +1,59 @@
+[
+  {
+    "regDate": "",
+    "postedAt": "2026-10-07",
+    "deadlineDate": null,
+    "url": "https://www.kaah.kr/reqopen_view/582?page=1&searchTxt=",
+    "title": "(재)통일문화유산연구원 채용공고 (준조사원, 보조원)",
+    "organization": "(재)통일문화유산연구원",
+    "status": "채용시 마감",
+    "roleText": "문화유산 조사·연구; 준조사원 및 보조원 각 ○명, 정규직; 월~금 09:00~18:00, 현장업무 전국.",
+    "eligibilityText": "문화유산 관련 학과 학사 이상; 남성은 병역필 또는 면제; 해외여행 결격사유가 없어야 함.",
+    "region": "경상북도 경산시(현장업무 전국)",
+    "detailStatus": "verified",
+    "detailCheckedAt": "2026-10-10T00:37:52.650Z",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-07",
+        "source": "detail",
+        "evidence": "postedAt: 2026-10-07; kaah 공고의 공개 상세 확인.",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.kaah.kr/reqopen_view/582",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "kaah:url:cf4351059923cba35d42",
+    "lifecycleStatus": "rolling",
+    "fitScore": 30,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 25,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 문화유산"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-10T00:37:52.650Z",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "changeType": "new"
+  }
+]

@@ -1,0 +1,1238 @@
+{
+  "generatedAt": "2026-10-10T01:00:54.436Z",
+  "baselineCreated": false,
+  "totals": {
+    "current": 110,
+    "collected": 358,
+    "new": 1,
+    "updated": 7,
+    "reposted": 0,
+    "reopened": 0,
+    "resurfaced": 0,
+    "closed": 0,
+    "sourceIssues": 48
+  },
+  "urgent": [],
+  "changes": [
+    {
+      "type": "updated",
+      "regDate": "",
+      "postedAt": "2026-10-06",
+      "deadlineDate": "2026-10-16",
+      "url": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataView/25811.do?page=1&column=&search=&searchSDate=&searchEDate=&bbsDataCategory=",
+      "title": "국립민속박물관 유물과학과 공무직(학예원) 채용 공고",
+      "organization": "국립민속박물관",
+      "applicationStartAt": "2026-10-13",
+      "applicationEndAt": "2026-10-16",
+      "status": "접수예정",
+      "roleText": "유물과학과 공무직 학예원 1명; 소장품 활용·기획·운영, 전시·홍보·외부협력 업무.",
+      "detailStatus": "verified",
+      "detailWarning": "세부 지원자격은 첨부 HWPX 미검토.",
+      "detailCheckedAt": "2026-10-10T00:34:25.104Z",
+      "postingType": "job",
+      "region": "경기 파주시",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-06",
+          "source": "detail",
+          "evidence": "postedAt: 2026-10-06; nfm-curator 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-13",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-13; nfm-curator 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-16",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-16; nfm-curator 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.nfm.go.kr/user/bbs/home/2/1409/bbsDataView/25811.do?column=&bbsDataCategory=",
+      "stableId": "nfm:url:224b7ba2d416019b0b29",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관, 유물",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관, 유물"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:34:25.104Z",
+      "siteId": "nfm",
+      "siteName": "국립민속박물관",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "updated",
+      "regDate": "",
+      "postedAt": "2026-09-30",
+      "deadlineDate": "2026-10-15",
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444&pageNo=1",
+      "title": "모집 학예실 직원 채용 공고_WYD대비 전시사업을 위한 충원",
+      "organization": "서소문성지 역사박물관",
+      "applicationStartAt": "2026-09-30",
+      "applicationEndAt": "2026-10-15",
+      "status": "모집중",
+      "roleText": "계약직 학예사 1명; 전시 기획·운영, 교육프로그램, 도록 기획·편집·발간·행정.",
+      "eligibilityText": "관련 분야 석사 이상, 3급 정학예사 이상, 3년 이상 경력(단독 전시기획 1회 이상 포함) 필수.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-10T00:35:58.355Z",
+      "postingType": "job",
+      "summary": "서류발표 10.17, 면접 10.20 예정. 지원자 학력·학예사 자격·경력은 대조하지 않아 적합 여부 미확인.",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "postedAt: 2026-09-30; seosomun 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-09-30",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-09-30; seosomun 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-15; seosomun 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1444",
+      "stableId": "seosomun:url:f5e48f42d57fecc5b75b",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:35:58.355Z",
+      "siteId": "seosomun",
+      "siteName": "서소문성지 역사박물관",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "updated",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-30",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3520546",
+      "title": "2026년 이천시립박물관 10월 자원봉사자 모집(QR승인)",
+      "organization": "이천문화재단(이천시립박물관, 서희역사관)",
+      "postingId": "3520546",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-09-15",
+      "applicationEndAt": "2026-10-30",
+      "programStartAt": "2026-10-01",
+      "programEndAt": "2026-10-31",
+      "status": "모집중",
+      "roleText": "박물관 관람 안내 및 행정 지원; QR 출퇴근 인증, 10:00~18:00(최대 8시간 인정).",
+      "eligibilityText": "성인",
+      "region": "경기도 이천시",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-10T00:39:41.173Z",
+      "postingType": "experience",
+      "detailWarning": "목록에서만 확인; 역할 상세·개별 자격요건 미확인",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-09-15",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-09-15; icheon 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-01",
+          "source": "detail",
+          "evidence": "programStartAt: 2026-10-01; icheon 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-30",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-30; icheon 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-10-31",
+          "source": "detail",
+          "evidence": "programEndAt: 2026-10-31; icheon 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3520546",
+      "stableId": "1365-volunteer:id:3520546",
+      "lifecycleStatus": "fresh",
+      "fitScore": 46,
+      "fitBreakdown": {
+        "roleField": 26,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:39:41.173Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "updated",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do",
+      "title": "[환기미술관] 2026 환기미술관 소장품전 정기 문화자원봉사자 모집 (오전/오후)",
+      "organization": "환기미술관",
+      "postingId": "VOLT_000000000012400",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-09-10",
+      "applicationEndAt": "2026-12-03",
+      "programStartAt": "2026-10-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "roleText": "환기미술관 소장품전 정기 문화자원봉사(오전/오후); 목록 정보만 확인.",
+      "eligibilityText": "성인",
+      "detailStatus": "list_only",
+      "postingType": "experience",
+      "detailCheckedAt": "2026-10-08T00:47:06.940Z",
+      "detailWarning": "목록 확인만 수행; 상세 요건 미확인.",
+      "region": "서울특별시 · 종로구",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-09-10",
+          "source": "list",
+          "evidence": "applicationStartAt: 2026-09-10; hwan-ki 공고의 공개 목록 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-01",
+          "source": "list",
+          "evidence": "programStartAt: 2026-10-01; hwan-ki 공고의 공개 목록 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "applicationEndAt: 2026-12-03; hwan-ki 공고의 공개 목록 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "programEndAt: 2026-12-31; hwan-ki 공고의 공개 목록 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012400",
+      "stableId": "csv-culture:id:VOLT_000000000012400",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 7,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 미술관",
+        "보완 역량: 소장품",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 미술관, 소장품"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:32:52.353Z",
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "updated",
+      "regDate": "",
+      "postedAt": "2026-10-02",
+      "deadlineDate": "2026-10-16",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+      "title": "2026년 국립춘천박물관 한시임기제(6호) 공무원 경력경쟁채용 공고",
+      "organization": "국립춘천박물관",
+      "applicationStartAt": "2026-10-14",
+      "applicationEndAt": "2026-10-16",
+      "status": "접수예정",
+      "roleText": "한시임기제 6호 일반학예 직무 1명; 나라일터 온라인 접수.",
+      "detailStatus": "verified",
+      "detailWarning": "세부 지원요건은 첨부 HWP 미검토.",
+      "postingType": "job",
+      "detailCheckedAt": "2026-10-08T00:36:41.111Z",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-02",
+          "source": "detail",
+          "evidence": "postedAt: 2026-10-02; chuncheon 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-14",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-14; chuncheon 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-16",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-16; chuncheon 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24017&cp=1&sv=",
+      "stableId": "museum-go-kr:url:e895f7c447b4acf80334",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:18:35.734Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": "2026-10-07",
+      "deadlineDate": null,
+      "url": "https://www.kaah.kr/reqopen_view/582?page=1&searchTxt=",
+      "title": "(재)통일문화유산연구원 채용공고 (준조사원, 보조원)",
+      "organization": "(재)통일문화유산연구원",
+      "status": "채용시 마감",
+      "roleText": "문화유산 조사·연구; 준조사원 및 보조원 각 ○명, 정규직; 월~금 09:00~18:00, 현장업무 전국.",
+      "eligibilityText": "문화유산 관련 학과 학사 이상; 남성은 병역필 또는 면제; 해외여행 결격사유가 없어야 함.",
+      "region": "경상북도 경산시(현장업무 전국)",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-10T00:37:52.650Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-07",
+          "source": "detail",
+          "evidence": "postedAt: 2026-10-07; kaah 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/582",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "kaah:url:cf4351059923cba35d42",
+      "lifecycleStatus": "rolling",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 25,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:37:52.650Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "new",
+      "priority": "P4"
+    },
+    {
+      "type": "updated",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-29",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do",
+      "title": "[대구보건대학교 인당뮤지엄] <부지현의 코스모스> 전시 10월 자원봉사자 모집(월 단위로 모집 중 )",
+      "organization": "대구보건대학교 인당뮤지엄",
+      "postingId": "VOLT_000000000012419",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-09-28",
+      "applicationEndAt": "2026-10-29",
+      "programStartAt": "2026-10-09",
+      "programEndAt": "2026-10-31",
+      "status": "모집중",
+      "roleText": "박물관 운영 보조 및 전시실 관람객 안내; 월~토 중 신청일·오전/오후/종일 선택.",
+      "eligibilityText": "일반 성인·대학생 및 대구보건대학교 교직원",
+      "region": "대구광역시 북구",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-10T00:31:57.505Z",
+      "postingType": "experience",
+      "detailWarning": "목록 확인만 수행; 상세 요건 미확인.",
+      "programPeriodText": "월~토 중 희망일 신청; 활동시간 10:00~17:00, 오전 10:00~13:00, 오후 13:00~17:00.",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-09-28",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-09-28; indang 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-09",
+          "source": "detail",
+          "evidence": "programStartAt: 2026-10-09; indang 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-29",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2026-10-29; indang 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-10-31",
+          "source": "detail",
+          "evidence": "programEndAt: 2026-10-31; indang 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012419",
+      "stableId": "csv-culture:id:VOLT_000000000012419",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:32:52.353Z",
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "updated",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2027-01-03",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do",
+      "title": "[마이아트뮤지엄 원그로브점] <봉주르, 장자크 상페: 세상을 그린 시선> 봉사자 모집",
+      "organization": "마이아트뮤지엄 원그로브점",
+      "postingId": "VOLT_000000000012441",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-08",
+      "applicationEndAt": "2027-01-03",
+      "programStartAt": "2026-10-09",
+      "programEndAt": "2027-01-03",
+      "status": "모집중",
+      "roleText": "매주 금·토·일 중 선택, 10:30~17:00; 티켓부스 검표·운영 지원, 전시 안내 및 관람객 질서 유지.",
+      "eligibilityText": "성인",
+      "region": "서울특별시 강서구",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-10T00:32:52.353Z",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-08",
+          "source": "detail",
+          "evidence": "applicationStartAt: 2026-10-08; myart 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-10-09",
+          "source": "detail",
+          "evidence": "programStartAt: 2026-10-09; myart 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2027-01-03",
+          "source": "detail",
+          "evidence": "applicationEndAt: 2027-01-03; myart 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2027-01-03",
+          "source": "detail",
+          "evidence": "programEndAt: 2027-01-03; myart 공고의 공개 상세 확인.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012441",
+      "stableId": "csv-culture:id:VOLT_000000000012441",
+      "lifecycleStatus": "fresh",
+      "fitScore": 20,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 분야 직무경험"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-10T00:32:52.353Z",
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "changeType": "updated",
+      "priority": "P3"
+    }
+  ],
+  "sourceIssues": [
+    {
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 1,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-10-08T00:36:46.843Z",
+      "message": "부분 확인: 첫 소스 90초 기준 초과; 다른 게시판 페이지·첨부 지원요건 미확인. · 이번 확인 2건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-10-08T00:36:46.843Z"
+    },
+    {
+      "siteId": "gogung",
+      "siteName": "국립고궁박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 3,
+      "lastSuccessfulAt": "2026-09-28T08:03:34.151Z",
+      "message": "부분 확인: 나머지 52페이지 및 첨부 지원요건 미확인; 조리 직무는 후보 데이터로 정규화하지 않음. · 이번 확인 0건 / 이전 확인값 3건 보존 · 마지막 전체 성공 2026-09-28T08:03:34.151Z"
+    },
+    {
+      "siteId": "nrich",
+      "siteName": "국립문화유산연구원",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 13,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 16,
+      "lastSuccessfulAt": "2026-09-28T08:04:13.735Z",
+      "message": "부분 확인: 나머지 264페이지 미확인. · 이번 확인 2건 / 이전 확인값 16건 보존 · 마지막 전체 성공 2026-09-28T08:04:13.735Z"
+    },
+    {
+      "siteId": "nfm",
+      "siteName": "국립민속박물관",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 0,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:04:21.988Z",
+      "message": "부분 확인: 나머지 목록 페이지와 첨부 자격요건 미확인. · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:04:21.988Z"
+    },
+    {
+      "siteId": "ncs",
+      "siteName": "NCS 공정채용",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 5,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 5,
+      "lastSuccessfulAt": "2026-09-28T08:05:16.523Z",
+      "message": "부분 확인: 검색 미실행 및 전체 공고 페이지 미검토. · 이번 확인 0건 / 이전 확인값 5건 보존 · 마지막 전체 성공 2026-09-28T08:05:16.523Z"
+    },
+    {
+      "siteId": "much",
+      "siteName": "대한민국역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:05:21.586Z",
+      "message": "부분 확인: 첫 페이지만 확인; 나머지 공고·상세 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:05:21.586Z"
+    },
+    {
+      "siteId": "gmuseum",
+      "siteName": "경기도박물관협회",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 4,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 4,
+      "lastSuccessfulAt": "2026-09-28T08:05:31.584Z",
+      "message": "부분 확인: 상세·일정 미확인 및 나머지 목록 페이지 미검토. · 이번 확인 0건 / 이전 확인값 4건 보존 · 마지막 전체 성공 2026-09-28T08:05:31.584Z"
+    },
+    {
+      "siteId": "hangeul",
+      "siteName": "국립한글박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T07:43:29.195Z",
+      "message": "부분 확인: 전체 목록과 후보 공고 상세 미확인. · 이번 확인 0건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T07:43:29.195Z"
+    },
+    {
+      "siteId": "gojobs",
+      "siteName": "나라일터",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 3,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 4,
+      "lastSuccessfulAt": "2026-09-28T08:07:30.672Z",
+      "message": "부분 확인: 유형별 검색 결과 및 전체 페이지 미확인. · 이번 확인 0건 / 이전 확인값 4건 보존 · 마지막 전체 성공 2026-09-28T08:07:30.672Z"
+    },
+    {
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 15,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 20,
+      "lastSuccessfulAt": "2026-09-28T08:07:47.310Z",
+      "message": "부분 확인: 나머지 11페이지 미확인. · 이번 확인 1건 / 이전 확인값 20건 보존 · 마지막 전체 성공 2026-09-28T08:07:47.310Z"
+    },
+    {
+      "siteId": "khs",
+      "siteName": "국가유산청",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 4,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 7,
+      "lastSuccessfulAt": "2026-09-28T08:07:55.900Z",
+      "message": "부분 확인: 전체 페이지 미확인; PDF 지원 자격과 상세 일정 전체는 확인하지 않음. · 이번 확인 1건 / 이전 확인값 7건 보존 · 마지막 전체 성공 2026-09-28T08:07:55.900Z"
+    },
+    {
+      "siteId": "museum-seoul",
+      "siteName": "서울역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:03.036Z",
+      "message": "부분 확인: 나머지 52페이지와 공고 상세 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:03.036Z"
+    },
+    {
+      "siteId": "baekje",
+      "siteName": "한성백제박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 2,
+      "lastSuccessfulAt": "2026-09-28T08:08:11.563Z",
+      "message": "부분 확인: 나머지 목록 페이지와 상세 미확인. · 이번 확인 0건 / 이전 확인값 2건 보존 · 마지막 전체 성공 2026-09-28T08:08:11.563Z"
+    },
+    {
+      "siteId": "craftmuseum",
+      "siteName": "서울공예박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:22.545Z",
+      "message": "부분 확인: 나머지 목록 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:22.545Z"
+    },
+    {
+      "siteId": "yongsan",
+      "siteName": "용산역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:29.773Z",
+      "message": "부분 확인: 상세·접수일 미확인 및 두 번째 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:29.773Z"
+    },
+    {
+      "siteId": "ep-museum",
+      "siteName": "은평역사한옥박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:08:35.714Z",
+      "message": "부분 확인: 상세 및 지원일정 미확인. · 이번 확인 0건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:08:35.714Z"
+    },
+    {
+      "siteId": "namu-sdm",
+      "siteName": "서대문자연사박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:42.465Z",
+      "message": "부분 확인: 나머지 페이지 및 세부 요건 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:42.465Z"
+    },
+    {
+      "siteId": "warmemo",
+      "siteName": "전쟁기념관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:08:52.486Z",
+      "message": "부분 확인: 나머지 페이지 및 접수 종료 여부 상세 미확인. · 이번 확인 0건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:08:52.486Z"
+    },
+    {
+      "siteId": "nmkpg",
+      "siteName": "국립대한민국임시정부기념관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:01.798Z",
+      "message": "부분 확인: 나머지 페이지 및 세부 확인 미완료. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:01.798Z"
+    },
+    {
+      "siteId": "kimkoo",
+      "siteName": "백범김구기념관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:06.423Z",
+      "message": "부분 확인: 접수 기간·현재 모집 여부와 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:06.423Z"
+    },
+    {
+      "siteId": "seosomun",
+      "siteName": "서소문성지 역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 2,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 3,
+      "lastSuccessfulAt": "2026-09-28T08:09:13.422Z",
+      "message": "부분 확인: 다른 게시판 페이지 미확인. · 이번 확인 1건 / 이전 확인값 3건 보존 · 마지막 전체 성공 2026-09-28T08:09:13.422Z"
+    },
+    {
+      "siteId": "jfac",
+      "siteName": "종로문화재단",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:20.208Z",
+      "message": "부분 확인: 나머지 페이지 미확인. · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:20.208Z"
+    },
+    {
+      "siteId": "cha",
+      "siteName": "국가유산청(cha)",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 4,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 4,
+      "lastSuccessfulAt": "2026-09-28T08:09:31.493Z",
+      "message": "부분 확인: 다른 페이지와 상세 미확인. · 이번 확인 0건 / 이전 확인값 4건 보존 · 마지막 전체 성공 2026-09-28T08:09:31.493Z"
+    },
+    {
+      "siteId": "musenet",
+      "siteName": "경기도박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:37.708Z",
+      "message": "부분 확인: 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:37.708Z"
+    },
+    {
+      "siteId": "gcm",
+      "siteName": "경기도어린이박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:43.793Z",
+      "message": "부분 확인: 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:43.793Z"
+    },
+    {
+      "siteId": "ngcm",
+      "siteName": "경기북부어린이박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:49.919Z",
+      "message": "부분 확인: 나머지 페이지·현재 모집 확인 미완료. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:49.919Z"
+    },
+    {
+      "siteId": "jgpm",
+      "siteName": "전곡선사박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:56.101Z",
+      "message": "부분 확인: 상세 접수기간과 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:56.101Z"
+    },
+    {
+      "siteId": "silhak",
+      "siteName": "실학박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:10:02.320Z",
+      "message": "부분 확인: 상세와 접수기간 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:10:02.320Z"
+    },
+    {
+      "siteId": "gjicp",
+      "siteName": "경기도자미술관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:10:08.520Z",
+      "message": "부분 확인: 상세 및 접수일과 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:10:08.520Z"
+    },
+    {
+      "siteId": "bcmuseum",
+      "siteName": "부천시박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 6,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 6,
+      "lastSuccessfulAt": "2026-09-28T08:10:14.892Z",
+      "message": "부분 확인: 나머지 페이지와 현재 모집 미확인. · 이번 확인 0건 / 이전 확인값 6건 보존 · 마지막 전체 성공 2026-09-28T08:10:14.892Z"
+    },
+    {
+      "siteId": "nyj",
+      "siteName": "남양주시",
+      "status": "ERROR",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:10:36.912Z",
+      "message": "수집 실패: 공식 목록 접근 불가; 우회하지 않고 종료. · 이번 확인 0건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:10:36.912Z"
+    },
+    {
+      "siteId": "hnart",
+      "siteName": "하남역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 2,
+      "lastSuccessfulAt": "2026-09-28T08:10:43.332Z",
+      "message": "부분 확인: 전체 페이지 및 각 공고 접수현황 상세 미확인. · 이번 확인 0건 / 이전 확인값 2건 보존 · 마지막 전체 성공 2026-09-28T08:10:43.332Z"
+    },
+    {
+      "siteId": "hsmuseum",
+      "siteName": "화성시역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 2,
+      "lastSuccessfulAt": "2026-09-28T08:10:51.263Z",
+      "message": "부분 확인: 목록 제목 추출·상세 확인 실패; 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 2건 보존 · 마지막 전체 성공 2026-09-28T08:10:51.263Z"
+    },
+    {
+      "siteId": "anseong",
+      "siteName": "안성맞춤박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:11:00.256Z",
+      "message": "부분 확인: 나머지 6페이지 및 제목·상세 미확인. · 이번 확인 0건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:11:00.256Z"
+    },
+    {
+      "siteId": "artic",
+      "siteName": "이천시립박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:11:07.728Z",
+      "message": "부분 확인: 검색 결과는 과거 공고; 전체 게시판 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:11:07.728Z"
+    },
+    {
+      "siteId": "ddc",
+      "siteName": "동두천자유수호평화박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:11:13.447Z",
+      "message": "부분 확인: 목록 후보 제목·공고 기간 미확인; 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:11:13.447Z"
+    },
+    {
+      "siteId": "history-seoul",
+      "siteName": "서울역사편찬원",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:11:30.370Z",
+      "message": "부분 확인: 나머지 페이지·세부 직무 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:11:30.370Z"
+    },
+    {
+      "siteId": "job-gg",
+      "siteName": "경기도일자리포털",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 검색 미필터·나머지 결과 페이지 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "namuk",
+      "siteName": "국립농업박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": null,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-10-08T00:47:34.190Z",
+      "message": "부분 확인: 목록 후보 확인 불가; 우회하지 않고 현재 표시 범위에서 종료. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-10-08T00:47:34.190Z"
+    },
+    {
+      "siteId": "museum-or-kr",
+      "siteName": "한국박물관협회",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 5,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 6,
+      "lastSuccessfulAt": "2026-09-28T08:11:44.259Z",
+      "message": "부분 확인: 각 공고 상세·접수기간과 나머지 페이지 미확인. · 이번 확인 0건 / 이전 확인값 6건 보존 · 마지막 전체 성공 2026-09-28T08:11:44.259Z"
+    },
+    {
+      "siteId": "seoul",
+      "siteName": "서울특별시",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 2,
+      "lastSuccessfulAt": "2026-09-28T08:11:49.587Z",
+      "message": "부분 확인: 검색 결과 및 전체 채용 페이지 미검토. · 이번 확인 0건 / 이전 확인값 2건 보존 · 마지막 전체 성공 2026-09-28T08:11:49.587Z"
+    },
+    {
+      "siteId": "korea-kr",
+      "siteName": "정책브리핑",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:11:57.269Z",
+      "message": "부분 확인: 나머지 목록 페이지와 박물관/문화유산 후보 검색 미완료. · 이번 확인 0건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:11:57.269Z"
+    },
+    {
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 3,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 4,
+      "lastSuccessfulAt": "2026-09-28T08:12:05.074Z",
+      "message": "부분 확인: 나머지 게시물과 관련기관 후보 상세 미확인. · 이번 확인 0건 / 이전 확인값 4건 보존 · 마지막 전체 성공 2026-09-28T08:12:05.074Z"
+    },
+    {
+      "siteId": "work24-youth",
+      "siteName": "고용24 청년일경험",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 138,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 138,
+      "lastSuccessfulAt": "2026-09-28T08:12:06.182Z",
+      "message": "부분 확인: 첫 페이지 외 약 40페이지 및 다른 프로그램 유형의 개별 공고 상세 미확인. · 이번 확인 0건 / 이전 확인값 138건 보존 · 마지막 전체 성공 2026-09-28T08:12:06.182Z"
+    },
+    {
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 6,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 5,
+      "lastSuccessfulAt": "2026-10-07T00:07:16.881Z",
+      "message": "부분 확인: 현재 모집 공고·접수기간을 확인하지 않음. · 이번 확인 0건 / 이전 확인값 5건 보존 · 마지막 전체 성공 2026-10-07T00:07:16.881Z"
+    },
+    {
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "status": "PARTIAL",
+      "currentCount": 3,
+      "previousCount": 32,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 35,
+      "lastSuccessfulAt": "2026-09-30T06:05:42.645Z",
+      "message": "부분 확인: 나머지 3페이지 미확인; 환기미술관 항목은 목록 정보만 확인. · 이번 확인 3건 / 이전 확인값 35건 보존 · 마지막 전체 성공 2026-09-30T06:05:42.645Z"
+    },
+    {
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 7,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 70,
+      "lastSuccessfulAt": "2026-09-30T06:09:21.097Z",
+      "message": "부분 확인: 서울 나머지 2페이지와 경기 2페이지, 기타 지역 미확인. · 이번 확인 1건 / 이전 확인값 70건 보존 · 마지막 전체 성공 2026-09-30T06:09:21.097Z"
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "siteName": "국립중앙박물관 알림",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:13:59.618Z",
+      "message": "부분 확인: 나머지 4페이지 및 현재 모집 공고 상세 미확인. · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:13:59.618Z"
+    }
+  ]
+}
