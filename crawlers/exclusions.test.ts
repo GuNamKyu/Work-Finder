@@ -27,6 +27,19 @@ test('뮤지엄 기관은 기관명 노이즈어와 무관하게 박물관 경�
   assert.equal(passesExclusions(posting, 'experience', rules), true);
   assert.equal(passesExclusions({ ...posting, title: '보건소 자원봉사 모집', organization: '대구보건대학교' }, 'experience', rules), false);
 });
+test('미술관 직무는 임기제공무원 제외어와 무관하게 수집하되 일반 미술 직무는 제외한다', () => {
+  const posting: JobPosting = {
+    title: '임기제공무원(전시 기획 및 운영 분야) 경력경쟁임용시험 공고',
+    organization: '대구광역시',
+    roleText: '대구시립미술관 전시 기획 및 운영',
+    regDate: '2026-10-15',
+    deadlineDate: null,
+    url: null,
+    postingType: 'job',
+  };
+  assert.equal(passesExclusions(posting, 'job', rules), true);
+  assert.equal(passesExclusions({ ...posting, roleText: '일반 미술 교육' }, 'job', rules), false);
+});
 test('박물관 키워드가 없는 공고에는 기존 수동·학습 제외어를 적용한다', () => {
   assert.equal(passesExclusions({ ...p, title: '기간제교사 미술 모집', organization: '일반 기관' }, 'job', []), false);
   assert.equal(passesExclusions({ ...p, title: '특수장비검사관 채용', organization: '일반 기관' }, 'job', rules), false);

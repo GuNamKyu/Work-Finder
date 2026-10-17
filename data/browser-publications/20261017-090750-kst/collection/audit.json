@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261017-090750-kst",
+  "startedAt": "2026-10-17T00:07:50.230Z",
+  "finishedAt": "2026-10-17T00:30:15.182Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:07:50.230Z",
+      "checkedAt": "2026-10-17T00:07:54.008Z",
+      "elapsedMs": 3778,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용중 필터 총 3건, 1/1페이지. 경주박물관 홍보원 공고 10/19~10/26 및 결과 공고 2건 확인. 상세 미확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:07:54.009Z",
+      "checkedAt": "2026-10-17T00:07:56.139Z",
+      "elapsedMs": 2130,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:07:56.139Z",
+      "checkedAt": "2026-10-17T00:08:00.263Z",
+      "elapsedMs": 4124,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 화면 전체 게시물 2,653건, 1/266페이지. 공고와 전형결과 게시물 혼재; 현재 접수 후보는 상세 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:00.263Z",
+      "checkedAt": "2026-10-17T00:08:09.823Z",
+      "elapsedMs": 9560,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:07:50.232Z",
+      "checkedAt": "2026-10-17T00:07:59.553Z",
+      "elapsedMs": 9321,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:07:59.554Z",
+      "checkedAt": "2026-10-17T00:08:09.496Z",
+      "elapsedMs": 9942,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:09.496Z",
+      "checkedAt": "2026-10-17T00:08:12.667Z",
+      "elapsedMs": 3171,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 게시판 첫 화면 확인. 화성시독립운동기념관 자원봉사자 모집 #742 및 과거 공고 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:12.667Z",
+      "checkedAt": "2026-10-17T00:08:15.813Z",
+      "elapsedMs": 3146,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 첫 화면 총 769건 표시. 10/16 게시된 시설주임(전기) 공고와 이전 결과·채용 항목 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:07:50.232Z",
+      "checkedAt": "2026-10-17T00:07:58.628Z",
+      "elapsedMs": 8396,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:07:58.628Z",
+      "checkedAt": "2026-10-17T00:11:39.077Z",
+      "elapsedMs": 220449,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 2,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "첫 화면 169건/12페이지 중 최신 10/15 게시 공고 2건을 목록과 공식 상세에서 확인; 나머지 11페이지는 미확인.",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:04.465Z",
+      "checkedAt": "2026-10-17T00:08:08.878Z",
+      "elapsedMs": 4413,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국가유산청 시험·채용 첫 화면 확인. 신규 결과 공고 및 10/12 등록 공고 포함; 목록 정렬 후속 페이지 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:08.878Z",
+      "checkedAt": "2026-10-17T00:08:11.146Z",
+      "elapsedMs": 2268,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공고/구인 첫 화면 530건, 1/53페이지. 과거 결과와 문화유산 안전경비원 모집 게시물 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:30.058Z",
+      "checkedAt": "2026-10-17T00:08:35.838Z",
+      "elapsedMs": 5780,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:35.838Z",
+      "checkedAt": "2026-10-17T00:08:43.322Z",
+      "elapsedMs": 7484,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:43.322Z",
+      "checkedAt": "2026-10-17T00:08:47.789Z",
+      "elapsedMs": 4467,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:47.790Z",
+      "checkedAt": "2026-10-17T00:08:54.611Z",
+      "elapsedMs": 6821,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:30.058Z",
+      "checkedAt": "2026-10-17T00:08:35.560Z",
+      "elapsedMs": 5502,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 게시판 첫 화면 56건, 1/6페이지. 최근 전기·소방 및 시설관리 합격/모집 게시물 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:35.560Z",
+      "checkedAt": "2026-10-17T00:08:38.086Z",
+      "elapsedMs": 2526,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:38.086Z",
+      "checkedAt": "2026-10-17T00:08:44.342Z",
+      "elapsedMs": 6256,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:44.342Z",
+      "checkedAt": "2026-10-17T00:08:49.063Z",
+      "elapsedMs": 4721,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:30.058Z",
+      "checkedAt": "2026-10-17T00:08:33.658Z",
+      "elapsedMs": 3600,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:33.659Z",
+      "checkedAt": "2026-10-17T00:08:42.340Z",
+      "elapsedMs": 8681,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:42.340Z",
+      "checkedAt": "2026-10-17T00:08:47.226Z",
+      "elapsedMs": 4886,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:08:47.226Z",
+      "checkedAt": "2026-10-17T00:08:51.615Z",
+      "elapsedMs": 4389,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:16.944Z",
+      "checkedAt": "2026-10-17T00:09:20.945Z",
+      "elapsedMs": 4001,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:20.945Z",
+      "checkedAt": "2026-10-17T00:09:25.584Z",
+      "elapsedMs": 4639,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:25.584Z",
+      "checkedAt": "2026-10-17T00:09:36.193Z",
+      "elapsedMs": 10609,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:36.193Z",
+      "checkedAt": "2026-10-17T00:09:42.513Z",
+      "elapsedMs": 6320,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:16.944Z",
+      "checkedAt": "2026-10-17T00:09:22.922Z",
+      "elapsedMs": 5978,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:22.922Z",
+      "checkedAt": "2026-10-17T00:09:32.020Z",
+      "elapsedMs": 9098,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "startedAt": "2026-10-17T00:09:32.020Z",
+      "checkedAt": "2026-10-17T00:09:37.542Z",
+      "elapsedMs": 5522,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 남양주시 게시판 주소를 열었으나 개발자도구감지 안내 페이지로 이동해 게시판 목록을 확인하지 못함.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:37.542Z",
+      "checkedAt": "2026-10-17T00:09:41.553Z",
+      "elapsedMs": 4011,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:16.944Z",
+      "checkedAt": "2026-10-17T00:09:24.597Z",
+      "elapsedMs": 7653,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:24.598Z",
+      "checkedAt": "2026-10-17T00:09:28.011Z",
+      "elapsedMs": 3413,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:28.011Z",
+      "checkedAt": "2026-10-17T00:09:36.411Z",
+      "elapsedMs": 8400,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:36.411Z",
+      "checkedAt": "2026-10-17T00:09:40.306Z",
+      "elapsedMs": 3895,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:52.363Z",
+      "checkedAt": "2026-10-17T00:09:58.812Z",
+      "elapsedMs": 6449,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:58.812Z",
+      "checkedAt": "2026-10-17T00:10:04.668Z",
+      "elapsedMs": 5856,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공공일자리 목록 첫 화면, 65페이지 표시. 부천문화재단 임원 공개모집 등 현재 행 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:10:04.668Z",
+      "checkedAt": "2026-10-17T00:10:10.164Z",
+      "elapsedMs": 5496,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:10:10.164Z",
+      "checkedAt": "2026-10-17T00:10:14.938Z",
+      "elapsedMs": 4774,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:52.363Z",
+      "checkedAt": "2026-10-17T00:09:58.070Z",
+      "elapsedMs": 5707,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:58.070Z",
+      "checkedAt": "2026-10-17T00:10:03.999Z",
+      "elapsedMs": 5929,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 정보 첫 화면 총 29,279건, 첫 게시물 목록 확인; 대형 통합게시판의 후속 페이지는 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:10:03.999Z",
+      "checkedAt": "2026-10-17T00:27:01.003Z",
+      "elapsedMs": 1017004,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 2,
+        "detailOpened": 2,
+        "detailReused": 0
+      },
+      "scope": "한국학자료통합플랫폼 채용공고 첫 화면(2,507건/126페이지) 중 #7243 대구 임기제와 #7244 국립한국문학관 단기근로자 확인; 대구 공식 상세·23쪽 PDF의 1·3쪽 검토, 문학관 첨부 본문 미검증.",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:10:06.565Z",
+      "checkedAt": "2026-10-17T00:10:15.713Z",
+      "elapsedMs": 9148,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:09:52.363Z",
+      "checkedAt": "2026-10-17T00:10:00.853Z",
+      "elapsedMs": 8490,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 주소의 첫 페이지를 Chrome에서 확인. 페이지 전체·세부 일정 및 원문 지원요건은 이 실행에서 모두 정규화하지 못해 partial로 보존.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:10:00.853Z",
+      "checkedAt": "2026-10-17T00:25:00.413Z",
+      "elapsedMs": 899560,
+      "metrics": {
+        "listPages": 4,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "구분=문화·모집현황=모집중 필터의 38건/4페이지 모두 탐색. 현재 모집 중인 인당뮤지엄 11월 회차 1건을 갱신했으나 공식 상세 본문은 공란이라 목록 일정만 저장; 나머지 37행은 per-posting 기록 미정규화.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:10:09.798Z",
+      "checkedAt": "2026-10-17T00:24:25.328Z",
+      "elapsedMs": 855530,
+      "metrics": {
+        "listPages": 6,
+        "listRows": 2,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "봉사명=박물관·모집중·봉사기간 2026-10-17~2027-01-17: 서울 39건/4페이지와 경기도 19건/2페이지 전부 탐색. 마감 임박한 서울약령시한의약박물관 오전·오후 2행을 정규화했고 오전 상세 1건 확인; 나머지 56행은 per-posting 기록으로 정규화하지 않아 partial.",
+      "rawObserved": 2,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-17T00:10:16.608Z",
+      "checkedAt": "2026-10-17T00:10:20.269Z",
+      "elapsedMs": 3661,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "국립중앙박물관 소식에서 자원봉사 검색 232건/5페이지 중 첫 페이지 확인; 합격·전형 공지 중심.",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}

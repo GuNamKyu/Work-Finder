@@ -149,11 +149,12 @@ export function isNoiseOrganization(org: string): boolean {
   return NOISE_KEYWORDS.some(kw => containsNoiseKeyword(org, kw));
 }
 
-/** 박물관·뮤지엄 예외를 먼저 적용한 뒤 수동 제외어와 학습 제목 규칙을 평가한다. */
+/** 박물관·미술관·뮤지엄 예외를 먼저 적용한 뒤 수동 제외어와 학습 제목 규칙을 평가한다. */
 export function passesExclusions(posting: JobPosting, postingType = posting.postingType || 'job', learnedRules = LEARNED_RULES): boolean {
   // 박물관 채용·경험은 사용자가 명시적으로 수집 대상으로 지정했으므로
-  // 제목 또는 기관명에 박물관/뮤지엄이 있으면 수동/학습 제외어보다 우선한다.
-  const isMuseumOpportunity = /박물관|뮤지엄/.test([
+  // 제목 또는 기관명에 박물관/미술관/뮤지엄이 있으면 수동/학습 제외어보다 우선한다.
+  // 일반 "미술" 직무를 되살리지 않도록 미술관 명칭에만 좁게 적용한다.
+  const isMuseumOpportunity = /박물관|미술관|뮤지엄/.test([
     posting.title, posting.organization, posting.status, posting.roleText,
     posting.summary, posting.eligibilityText, posting.programPeriodText,
     ...(posting.informationLinks || []).map(link => link.label),
