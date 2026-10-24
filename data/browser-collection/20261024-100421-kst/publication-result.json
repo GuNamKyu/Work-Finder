@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261024-100421-kst",
+  "recordedAt": "2026-10-24T01:48:02.000Z",
+  "repositoryCommit": "f244143a8ec6588e50df762d1746351c2b1c62af",
+  "branch": "main",
+  "workflow": {
+    "file": "publish-browser.yml",
+    "runId": "40051142864",
+    "runNumber": 15,
+    "mode": "data-and-ui",
+    "collectionId": "20261024-100421-kst",
+    "status": "success",
+    "durationSeconds": 28,
+    "annotations": [
+      "Non-blocking Node.js 20 deprecation notices for Actions currently forced to Node.js 24.",
+      "Non-blocking ubuntu-latest migration notice for Ubuntu 26."
+    ]
+  },
+  "snapshot": {
+    "inventoryFingerprint": "3dff89cd49b6c52167c68f13f7c7ddf9b1e3aa9a438762db9baab58307ce5c1d",
+    "localVerification": "passed",
+    "gitTreeSourceFingerprint": "matched",
+    "manifestFilesMatched": 26,
+    "remoteMainMatchedCommit": true
+  },
+  "publicVerification": {
+    "url": "https://gunamkyu.github.io/Work-Finder/",
+    "candidateCompare": {
+      "dataChanged": false,
+      "uiChanged": false,
+      "changedDataFiles": [],
+      "changedUiFiles": [],
+      "recommendedMode": "none",
+      "shouldDeploy": false
+    },
+    "browser": {
+      "jobsVisibleCount": 12,
+      "experienceVolunteerCount": 60,
+      "jobsLastCollectionLabel": "2026-10-24 10:25:23 KST",
+      "experienceLastCollectionLabel": "2026-10-24 10:28:33 KST",
+      "verifiedVolunteerTitle": "[전시 지킴이] 코리아나미술관·화장박물관 자원봉사자 모집 (11월)"
+    }
+  },
+  "operationalNote": "첫 git add는 .git/index.lock Permission denied로 차단됐다. stale lock과 실행 중 Git 프로세스가 없는 것을 확인하고 .git 디렉터리에 한정한 쓰기 권한을 받아 검증된 스냅샷 경로만 stage했다."
+}
