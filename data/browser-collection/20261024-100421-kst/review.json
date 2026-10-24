@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261024-100421-kst",
+  "startedAt": "2026-10-24T01:04:21.000Z",
+  "finishedAt": "2026-10-24T01:28:33.895Z",
+  "elapsedMs": 1452895,
+  "inventoryFingerprint": "3dff89cd49b6c52167c68f13f7c7ddf9b1e3aa9a438762db9baab58307ce5c1d",
+  "registeredSources": 48,
+  "coverage": {
+    "full": 1,
+    "partial": 44,
+    "failed": 3,
+    "unvisited": 0
+  },
+  "checkedListPages": 49,
+  "normalizedListings": 12,
+  "detailPagesOpened": 12,
+  "keywordExcluded": 0,
+  "visibleNewOrReposted": 9,
+  "changeTotals": {
+    "new": 7,
+    "updated": 2,
+    "reposted": 2,
+    "reopened": 0,
+    "resurfaced": 0,
+    "closed": 0
+  },
+  "failedSources": [
+    {
+      "siteId": "cha",
+      "reason": "등록 URL에서 ERR_NAME_NOT_RESOLVED가 발생해 DNS 확인이 실패함."
+    },
+    {
+      "siteId": "nyj",
+      "reason": "개발자도구 감지 화면으로 리다이렉트되어 목록 확인을 중단함. 보안 우회는 하지 않음."
+    },
+    {
+      "siteId": "work24-youth",
+      "reason": "페이지 제목은 열렸으나 본문이 제한 시간 내 표시되지 않아 목록을 확인하지 못함."
+    }
+  ],
+  "visibleNewOrRepostedIds": [
+    "24050",
+    "24039",
+    "24035",
+    "587",
+    "584",
+    "583",
+    "582",
+    "60469",
+    "VOLT_000000000012450"
+  ],
+  "keyDates": [
+    { "postingId": "24035", "applicationEndAt": "2026-10-26" },
+    { "postingId": "24039", "applicationEndAt": "2026-10-27" },
+    { "postingId": "24050", "applicationEndAt": "2026-10-30" },
+    { "postingId": "VOLT_000000000012450", "applicationEndAt": "2026-10-30", "programEndAt": "2026-11-27" },
+    { "postingId": "60469", "applicationEndAt": "2026-11-05" },
+    { "postingId": "584", "applicationEndAt": "2026-11-15" },
+    { "postingId": "585", "applicationEndAt": "2026-12-31" }
+  ],
+  "eligibilityNotes": [
+    "세부 지원요건이 첨부 HWP/HWPX/PDF에만 있는 공고는 사용자 자격과 대조하지 않음.",
+    "법정 매장유산 조사원 자격이 요구되는 협회 공고는 사용자 자격과 대조하지 않음.",
+    "자원봉사 공고의 만 18세 이상 조건 및 일정 가능 여부는 사용자 정보가 없어 미판정."
+  ],
+  "reviewNotes": [
+    "문화자원봉사센터 문화·모집중 필터 결과 42건 중 박물관 자원봉사 후보 1건만 이번 실행에서 정규화했으며 나머지는 제외 확정이 아니라 미검토 범위임.",
+    "국립중앙박물관 채용중 필터의 8행 중 실제 채용공고 4건의 상세를 확인했고, 결과·전형 공지 4건은 기회 후보로 세지 않음.",
+    "분석 결과 현재 373건, 신규 7건, 변경 2건, 재게시 2건, 소스 경보 47건. 지원 자격을 확인하지 않은 항목은 공개 데이터에서도 미확인으로 표시함."
+  ]
+}

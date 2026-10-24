@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261024-100421-kst",
+  "startedAt": "2026-10-24T01:04:21.000Z",
+  "finishedAt": "2026-10-24T01:28:33.895Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:19:36.347Z",
+      "checkedAt": "2026-10-24T01:25:23.897Z",
+      "elapsedMs": 347550,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 4,
+        "detailOpened": 4,
+        "detailReused": 0
+      },
+      "scope": "채용중 필터 1/1페이지, 8행. 상세에서 확인한 모집 공고 4건을 정규화하고 결과·전형 공지 4건은 공고 후보에서 제외.",
+      "rawObserved": 4,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:19:40.483Z",
+      "checkedAt": "2026-10-24T01:19:44.102Z",
+      "elapsedMs": 3619,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nrich",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:19:44.102Z",
+      "checkedAt": "2026-10-24T01:19:46.942Z",
+      "elapsedMs": 2840,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:19:46.942Z",
+      "checkedAt": "2026-10-24T01:19:50.859Z",
+      "elapsedMs": 3917,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:19:50.859Z",
+      "checkedAt": "2026-10-24T01:19:56.745Z",
+      "elapsedMs": 5886,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:19:56.745Z",
+      "checkedAt": "2026-10-24T01:19:59.150Z",
+      "elapsedMs": 2405,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:19:59.150Z",
+      "checkedAt": "2026-10-24T01:20:01.351Z",
+      "elapsedMs": 2201,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:01.351Z",
+      "checkedAt": "2026-10-24T01:20:03.852Z",
+      "elapsedMs": 2501,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "첫 페이지에서 2026-10-19 한시임기제 및 2026-10-16 시설주임 공고 제목 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:03.852Z",
+      "checkedAt": "2026-10-24T01:20:06.716Z",
+      "elapsedMs": 2864,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:06.716Z",
+      "checkedAt": "2026-10-24T01:22:53.640Z",
+      "elapsedMs": 166924,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 6,
+        "detailOpened": 6,
+        "detailReused": 0
+      },
+      "scope": "첫 화면 1/12페이지(169건). 최신 목록 6건의 상세를 확인. 나머지 11페이지 미확인.",
+      "rawObserved": 6,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:09.410Z",
+      "checkedAt": "2026-10-24T01:20:13.088Z",
+      "elapsedMs": 3678,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:13.088Z",
+      "checkedAt": "2026-10-24T01:20:15.244Z",
+      "elapsedMs": 2156,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:24.668Z",
+      "checkedAt": "2026-10-24T01:20:26.550Z",
+      "elapsedMs": 1882,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:26.550Z",
+      "checkedAt": "2026-10-24T01:20:28.469Z",
+      "elapsedMs": 1919,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:28.469Z",
+      "checkedAt": "2026-10-24T01:20:30.277Z",
+      "elapsedMs": 1808,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:30.277Z",
+      "checkedAt": "2026-10-24T01:20:33.787Z",
+      "elapsedMs": 3510,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:33.788Z",
+      "checkedAt": "2026-10-24T01:23:10.389Z",
+      "elapsedMs": 156601,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "첫 화면 1/6페이지(58건). 최신 학예연구 공고 1건 상세 확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:36.267Z",
+      "checkedAt": "2026-10-24T01:20:38.416Z",
+      "elapsedMs": 2149,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:38.416Z",
+      "checkedAt": "2026-10-24T01:20:43.051Z",
+      "elapsedMs": 4635,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록 게시판 첫 화면 확인. 시설관리와 학예보조로 보이는 최근 게시물을 발견했으나 첨부 본문/접수기간을 확인하지 않음.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:43.051Z",
+      "checkedAt": "2026-10-24T01:20:44.930Z",
+      "elapsedMs": 1879,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:44.930Z",
+      "checkedAt": "2026-10-24T01:20:47.248Z",
+      "elapsedMs": 2318,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:47.248Z",
+      "checkedAt": "2026-10-24T01:20:49.698Z",
+      "elapsedMs": 2450,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용정보 목록 첫 화면 확인. 최근 채용 정보 및 온라인 지원 안내를 확인했으나 접수 일정 전체를 정규화하지 못함.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "cha",
+      "coverage": "failed",
+      "startedAt": "2026-10-24T01:20:49.698Z",
+      "checkedAt": "2026-10-24T01:20:51.035Z",
+      "elapsedMs": 1337,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:51.035Z",
+      "checkedAt": "2026-10-24T01:20:53.441Z",
+      "elapsedMs": 2406,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:20:59.881Z",
+      "checkedAt": "2026-10-24T01:21:02.279Z",
+      "elapsedMs": 2398,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:02.279Z",
+      "checkedAt": "2026-10-24T01:21:05.141Z",
+      "elapsedMs": 2862,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "jgpm",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:05.141Z",
+      "checkedAt": "2026-10-24T01:21:07.590Z",
+      "elapsedMs": 2449,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "silhak",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:07.590Z",
+      "checkedAt": "2026-10-24T01:21:10.298Z",
+      "elapsedMs": 2708,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjicp",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:10.298Z",
+      "checkedAt": "2026-10-24T01:21:13.674Z",
+      "elapsedMs": 3376,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:13.674Z",
+      "checkedAt": "2026-10-24T01:21:16.159Z",
+      "elapsedMs": 2485,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "failed",
+      "startedAt": "2026-10-24T01:21:16.159Z",
+      "checkedAt": "2026-10-24T01:21:22.652Z",
+      "elapsedMs": 6493,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:22.652Z",
+      "checkedAt": "2026-10-24T01:21:25.024Z",
+      "elapsedMs": 2372,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:25.024Z",
+      "checkedAt": "2026-10-24T01:21:28.978Z",
+      "elapsedMs": 3954,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:28.978Z",
+      "checkedAt": "2026-10-24T01:21:31.249Z",
+      "elapsedMs": 2271,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:31.249Z",
+      "checkedAt": "2026-10-24T01:21:34.343Z",
+      "elapsedMs": 3094,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:34.343Z",
+      "checkedAt": "2026-10-24T01:21:36.779Z",
+      "elapsedMs": 2436,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:45.172Z",
+      "checkedAt": "2026-10-24T01:21:47.358Z",
+      "elapsedMs": 2186,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:47.358Z",
+      "checkedAt": "2026-10-24T01:21:50.270Z",
+      "elapsedMs": 2912,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "full",
+      "startedAt": "2026-10-24T01:21:50.270Z",
+      "checkedAt": "2026-10-24T01:21:52.566Z",
+      "elapsedMs": 2296,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "진행 중인 공고만 표시하는 채용 페이지에서 '진행 중인 공고가 없어요' 확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:52.566Z",
+      "checkedAt": "2026-10-24T01:21:58.446Z",
+      "elapsedMs": 5880,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:21:58.446Z",
+      "checkedAt": "2026-10-24T01:22:00.698Z",
+      "elapsedMs": 2252,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "korea-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:22:00.698Z",
+      "checkedAt": "2026-10-24T01:22:04.469Z",
+      "elapsedMs": 3771,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:22:04.469Z",
+      "checkedAt": "2026-10-24T01:22:06.534Z",
+      "elapsedMs": 2065,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "failed",
+      "startedAt": "2026-10-24T01:22:06.534Z",
+      "checkedAt": "2026-10-24T01:22:12.510Z",
+      "elapsedMs": 5976,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:22:12.510Z",
+      "checkedAt": "2026-10-24T01:22:16.836Z",
+      "elapsedMs": 4326,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:22:16.836Z",
+      "checkedAt": "2026-10-24T01:28:33.895Z",
+      "elapsedMs": 377059,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 1,
+        "detailOpened": 1,
+        "detailReused": 0
+      },
+      "scope": "구분=문화, 모집상태=모집중. 5페이지를 순회해 42건의 필터 결과 범위를 확인.",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:22:19.243Z",
+      "checkedAt": "2026-10-24T01:22:23.976Z",
+      "elapsedMs": 4733,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 시간인증 봉사 목록 첫 화면. 검색 필터 적용 과정에서 스크립트 경고가 발생해 목표 서울/경기·박물관·모집중 검색을 완료하지 못함.",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-24T01:22:23.976Z",
+      "checkedAt": "2026-10-24T01:22:27.363Z",
+      "elapsedMs": 3387,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록된 목록 URL의 첫 화면 확인; 뒤쪽 페이지 및 세부 요건 미확인.",
+      "rawObserved": 0,
+      "excluded": 0
+    }
+  ]
+}

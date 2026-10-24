@@ -1,0 +1,1059 @@
+[
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "museum-go-kr:id:24050",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-30",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24050&cp=1&sv=",
+      "postingId": "24050",
+      "title": "국립청주박물관 공무직 근로자(전기) 채용공고",
+      "organization": "국립청주박물관",
+      "applicationStartAt": "2026-10-22",
+      "applicationEndAt": "2026-10-30",
+      "status": "채용중",
+      "roleText": "시설물관리원(전기) 1명. 채용예정일 2026-12-07(예정).",
+      "detailStatus": "verified",
+      "detailWarning": "공고문은 첨부 HWPX/PDF로 제공되며 세부 자격요건 미확인. 사용자 요건과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:25:22.187Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-22",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-22~2026-10-30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-30",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-22~2026-10-30",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24050&cp=1&sv=",
+      "stableId": "museum-go-kr:id:24050",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:25:23.897Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "museum-go-kr:id:24049",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-04",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24049&cp=1&sv=",
+      "postingId": "24049",
+      "title": "2026년 국립경주박물관 기획운영과 공무직(시설_상황), (미화_1반) 근로자 채용 공고",
+      "organization": "국립경주박물관",
+      "applicationStartAt": "2026-10-30",
+      "applicationEndAt": "2026-11-04",
+      "status": "채용중",
+      "roleText": "시설(상황), 시설물(건물)청소원 3명.",
+      "detailStatus": "verified",
+      "detailWarning": "접수 방법과 세부 자격요건은 첨부 HWPX 공고에서 확인 필요. 사용자 요건과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:25:22.794Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-30",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-30~2026-11-04",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-04",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-30~2026-11-04",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24049&cp=1&sv=",
+      "stableId": "museum-go-kr:id:24049",
+      "lifecycleStatus": "fresh",
+      "fitScore": 20,
+      "fitBreakdown": {
+        "roleField": 0,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음",
+        "직무 불일치 신호: 미화"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "low_relevance",
+      "relevanceReasons": [
+        "비대상 직무: 미화"
+      ],
+      "userVisible": false,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:25:23.897Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "museum-go-kr:id:24039",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-27",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24039&cp=1&sv=",
+      "postingId": "24039",
+      "title": "국립청주박물관 공무직 근로자(학예보조) 채용 공고",
+      "organization": "국립청주박물관",
+      "applicationStartAt": "2026-10-20",
+      "applicationEndAt": "2026-10-27",
+      "status": "채용중",
+      "roleText": "공무직 학예보조(청련관) 1명.",
+      "detailStatus": "verified",
+      "detailWarning": "세부 자격요건은 첨부 HWPX/PDF 공고에서 확인 필요. 사용자 요건과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:25:23.352Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-20",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-20~2026-10-27",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-27",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-20~2026-10-27",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24039&cp=1&sv=",
+      "stableId": "museum-go-kr:id:24039",
+      "lifecycleStatus": "fresh",
+      "fitScore": 48,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 90,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:25:23.897Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "reposted",
+    "stableId": "museum-go-kr:id:24035",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-26",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24035&cp=1&sv=",
+      "postingId": "24035",
+      "title": "2026년 국립경주박물관 교육문화교류과 공무직(홍보원) 근로자 채용 공고",
+      "organization": "국립경주박물관",
+      "applicationStartAt": "2026-10-19",
+      "applicationEndAt": "2026-10-26",
+      "status": "채용중",
+      "roleText": "교육문화교류과 홍보원 1명.",
+      "detailStatus": "verified",
+      "detailWarning": "세부 자격요건과 접수방법은 첨부 HWP 공고에서 확인 필요. 사용자 요건과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:25:23.897Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-19",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-19~2026-10-26",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-26",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-19~2026-10-26",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24035&cp=1&sv=",
+      "stableId": "museum-go-kr:id:24035",
+      "lifecycleStatus": "fresh",
+      "fitScore": 36,
+      "fitBreakdown": {
+        "roleField": 16,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 90,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:25:23.897Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "reposted"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "kaah:id:587",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-21",
+      "deadlineDate": null,
+      "url": "https://www.kaah.kr/reqopen_view/587?page=1&searchTxt=",
+      "postingId": "587",
+      "title": "(재)가람문화유산연구원 2026년 정규직 채용 공고(조사원, 준조사원)",
+      "organization": "(재)가람문화유산연구원",
+      "applicationStartAt": "2026-10-22",
+      "status": "채용 시까지",
+      "roleText": "조사원, 준조사원 각 ○명.",
+      "eligibilityText": "「매장유산 보호 및 조사에 관한 법률」제14조제2항 [별표 3] 해당 자격 기준 충족 필수. 사용자 자격과 대조하지 않음.",
+      "detailStatus": "verified",
+      "detailWarning": "문화유산 조사 관련 법정·전공 요건을 사용자 자격과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:22:50.270Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-21",
+          "source": "list",
+          "evidence": "등록일 2026-10-21",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-22",
+          "source": "detail",
+          "evidence": "접수 시작 2026-10-22",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/587",
+      "applicationEndAt": null,
+      "stableId": "kaah:id:587",
+      "lifecycleStatus": "fresh",
+      "fitScore": 31,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 4
+      },
+      "fitReasons": [
+        "기회 품질: 정규직",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:22:53.640Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "updated",
+    "stableId": "kaah:id:586",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-15",
+      "deadlineDate": null,
+      "url": "https://www.kaah.kr/reqopen_view/586?page=1&searchTxt=",
+      "postingId": "586",
+      "title": "-재단법인 더한문화유산연구원 채용공고(조사원)-",
+      "organization": "재단법인 더한문화유산연구원",
+      "applicationStartAt": "2026-10-15",
+      "status": "채용 시까지",
+      "roleText": "조사원 ○명.",
+      "eligibilityText": "「매장유산 보호 및 조사에 관한 법률 시행규칙」제14조제2항 [별표 3] 해당 자격 기준 충족 필수. 사용자 자격과 대조하지 않음.",
+      "detailStatus": "verified",
+      "detailWarning": "문화유산 조사 관련 법정·전공 요건을 사용자 자격과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:22:50.974Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-15",
+          "source": "list",
+          "evidence": "등록일 2026-10-15",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "접수 시작 2026-10-15",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/586",
+      "applicationEndAt": null,
+      "stableId": "kaah:id:586",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:22:53.640Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "updated"
+    },
+    "previous": {
+      "regDate": "",
+      "postedAt": "2026-10-15",
+      "deadlineDate": null,
+      "url": "https://www.kaah.kr/reqopen_view/586?page=1&searchTxt=",
+      "title": "(재)더한문화유산연구원 채용공고(조사원)",
+      "organization": "(재)더한문화유산연구원",
+      "postingId": "586",
+      "status": "채용시 마감",
+      "roleText": "문화유산 조사·연구 조사원; 공주 소재 및 현장 조사 업무.",
+      "eligibilityText": "매장유산 조사요원 법정 자격기준 및 관련 분야 학력 요건 충족 필요.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-17T00:11:38.082Z",
+      "detailWarning": "법정 조사요원 자격의 본인 해당 여부와 첨부 제출서류는 별도 확인 필요.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "상세 공고 게시일 2026-10-15; 채용시까지 모집.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/586",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "kaah:id:586",
+      "lifecycleStatus": "rolling",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 25,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-17T00:11:39.077Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "updated",
+    "stableId": "kaah:id:585",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-15",
+      "deadlineDate": "2026-12-31",
+      "url": "https://www.kaah.kr/reqopen_view/585?page=1&searchTxt=",
+      "postingId": "585",
+      "title": "(재)가경고고학연구소 채용공고(준조사원, 보조원)",
+      "organization": "(재)가경고고학연구소",
+      "applicationStartAt": "2026-10-15",
+      "status": "접수중(조기마감 가능)",
+      "roleText": "준조사원, 보조원 모집. 적격자 채용 시 조기 마감 가능.",
+      "eligibilityText": "매장유산 보호 및 조사에 관한 법률 시행규칙 제14조제2항 [별표 3]의 지원분야 자격 기준 충족 필수. 사용자 자격과 대조하지 않음.",
+      "detailStatus": "verified",
+      "detailWarning": "문화유산 조사 관련 법정·전공 요건을 사용자 자격과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:22:51.641Z",
+      "applicationEndAt": "2026-12-31",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-15",
+          "source": "list",
+          "evidence": "등록일 2026-10-15",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "접수 시작 2026-10-15",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-31",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-15~2026-12-31",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/585",
+      "stableId": "kaah:id:585",
+      "lifecycleStatus": "fresh",
+      "fitScore": 36,
+      "fitBreakdown": {
+        "roleField": 16,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 고고",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 고고"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:22:53.640Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "updated"
+    },
+    "previous": {
+      "regDate": "",
+      "postedAt": "2026-10-15",
+      "deadlineDate": "2026-12-31",
+      "url": "https://www.kaah.kr/reqopen_view/585?page=1&searchTxt=",
+      "title": "(재)가경고고학연구소 채용공고(준조사원, 보조원)",
+      "organization": "(재)가경고고학연구소",
+      "postingId": "585",
+      "applicationStartAt": "2026-10-15",
+      "applicationEndAt": "2026-12-31",
+      "status": "접수중(조기 마감 가능)",
+      "roleText": "준조사원·보조원; 고고학 조사 현장 업무 및 조사 결과 보고.",
+      "eligibilityText": "매장유산 조사요원 관련 법정 자격기준 충족 필요.",
+      "detailStatus": "verified",
+      "detailCheckedAt": "2026-10-17T00:11:39.077Z",
+      "detailWarning": "공고상 조기 마감 가능; 법정 자격의 본인 해당 여부와 제출서류는 별도 확인 필요.",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "상세 공고 게시일 2026-10-15.",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "접수 2026-10-15 시작, 2026-12-31까지(조기 마감 가능).",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-31",
+          "source": "detail",
+          "evidence": "접수 마감 2026-12-31, 다만 조기 마감 가능.",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/585",
+      "stableId": "kaah:id:585",
+      "lifecycleStatus": "fresh",
+      "fitScore": 36,
+      "fitBreakdown": {
+        "roleField": 16,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 고고",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 고고"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-17T00:11:39.077Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "kaah:id:584",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-14",
+      "deadlineDate": "2026-11-15",
+      "url": "https://www.kaah.kr/reqopen_view/584?page=1&searchTxt=",
+      "postingId": "584",
+      "title": "(재) 고려문화유산연구원 채용공고",
+      "organization": "(재) 고려문화유산연구원",
+      "applicationStartAt": "2026-10-15",
+      "status": "접수중",
+      "roleText": "준조사원 모집.",
+      "eligibilityText": "『매장문화유산 보호 및 조사에 관한 법률 시행규칙』에 따른 자격기준 충족 필수. 사용자 자격과 대조하지 않음.",
+      "detailStatus": "verified",
+      "detailWarning": "문화유산 조사 관련 법정·전공 요건을 사용자 자격과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:22:52.303Z",
+      "applicationEndAt": "2026-11-15",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-14",
+          "source": "list",
+          "evidence": "등록일 2026-10-14",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-15",
+          "source": "detail",
+          "evidence": "접수 시작 2026-10-15",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-15",
+          "source": "detail",
+          "evidence": "접수기간 2026-10-15~2026-11-15",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/584",
+      "stableId": "kaah:id:584",
+      "lifecycleStatus": "fresh",
+      "fitScore": 26,
+      "fitBreakdown": {
+        "roleField": 6,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:22:53.640Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "kaah:id:583",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-13",
+      "deadlineDate": null,
+      "url": "https://www.kaah.kr/reqopen_view/583?page=1&searchTxt=",
+      "postingId": "583",
+      "title": "(재)금강문화유산연구원 채용공고(준조사원, 보조원)",
+      "organization": "(재)금강문화유산연구원",
+      "applicationStartAt": "2026-10-13",
+      "status": "채용 시까지",
+      "roleText": "연구실 준조사원~보조원.",
+      "eligibilityText": "문화유산 관련 학과 졸업 조건 확인; 사용자의 학력과 대조하지 않음.",
+      "detailStatus": "verified",
+      "detailWarning": "문화유산 조사 관련 법정·전공 요건을 사용자 자격과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:22:52.973Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-13",
+          "source": "list",
+          "evidence": "등록일 2026-10-13",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-13",
+          "source": "detail",
+          "evidence": "접수 시작 2026-10-13",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/583",
+      "applicationEndAt": null,
+      "stableId": "kaah:id:583",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:22:53.640Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "reposted",
+    "stableId": "kaah:id:582",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-07",
+      "deadlineDate": null,
+      "url": "https://www.kaah.kr/reqopen_view/582?page=1&searchTxt=",
+      "postingId": "582",
+      "title": "(재)통일문화유산연구원 채용공고 (준조사원, 보조원)",
+      "organization": "(재)통일문화유산연구원",
+      "applicationStartAt": "2026-10-07",
+      "status": "채용 시까지",
+      "roleText": "문화재 조사 및 연구 준조사원, 보조원. 주 5일 근무.",
+      "eligibilityText": "공고에 자격기준 항목이 있으나 세부 기준을 확인하지 못함. 사용자 요건 미판정.",
+      "detailStatus": "verified",
+      "detailWarning": "문화유산 조사 관련 법정·전공 요건을 사용자 자격과 대조하지 않음.",
+      "detailCheckedAt": "2026-10-24T01:22:53.640Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-07",
+          "source": "list",
+          "evidence": "등록일 2026-10-07",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-10-07",
+          "source": "detail",
+          "evidence": "접수 시작 2026-10-07",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/582",
+      "applicationEndAt": null,
+      "stableId": "kaah:id:582",
+      "lifecycleStatus": "fresh",
+      "fitScore": 30,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "문화기관 공고: 문화유산"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:22:53.640Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "reposted"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "namu-sdm:id:60469",
+    "siteId": "namu-sdm",
+    "siteName": "서대문자연사박물관",
+    "posting": {
+      "regDate": "",
+      "postedAt": "2026-10-22",
+      "deadlineDate": "2026-11-05",
+      "url": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/60469?cp=1&sortOrder=BA_REGDATE&sortDirection=DESC&bcId=newsevent_news_recruitmen&baNotice=false&baCommSelec=false&baOpenDay=false&baUse=true",
+      "postingId": "60469",
+      "title": "서대문자연사박물관 일반임기제공무원(학예연구분야) 채용 공고",
+      "organization": "서대문자연사박물관",
+      "applicationStartAt": "2026-11-03",
+      "applicationEndAt": "2026-11-05",
+      "status": "접수예정",
+      "roleText": "일반임기제공무원 6급 학예연구분야 1명",
+      "eligibilityText": "세부 경력·학력·자격 기준은 공고 첨부 PDF/HWP 확인 필요; 사용자 적격성 미판정.",
+      "detailStatus": "verified",
+      "detailWarning": "본문에서 직급·분야·인원·접수기간을 확인했으나 첨부의 세부 지원자격은 미확인.",
+      "detailCheckedAt": "2026-10-24T01:23:10.389Z",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-10-22",
+          "source": "list",
+          "evidence": "등록일 2026-10-22",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_start",
+          "date": "2026-11-03",
+          "source": "detail",
+          "evidence": "원서 접수기간 2026. 11. 3.(화) ~ 2026. 11. 5.(목)",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-05",
+          "source": "detail",
+          "evidence": "원서 접수기간 2026. 11. 3.(화) ~ 2026. 11. 5.(목)",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/60469?cp=1&sortOrder=BA_REGDATE&sortDirection=DESC&bcId=newsevent_news_recruitmen&baNotice=false&baCommSelec=false&baOpenDay=false&baUse=true",
+      "stableId": "namu-sdm:id:60469",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:23:10.389Z",
+      "siteId": "namu-sdm",
+      "siteName": "서대문자연사박물관",
+      "changeType": "new"
+    }
+  },
+  {
+    "runAt": "2026-10-24T01:37:43.871Z",
+    "type": "new",
+    "stableId": "csv-culture:id:VOLT_000000000012450",
+    "siteId": "csv-culture",
+    "siteName": "문화자원봉사센터",
+    "posting": {
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-10-30",
+      "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do",
+      "postingId": "VOLT_000000000012450",
+      "title": "[전시 지킴이] 코리아나미술관·화장박물관 자원봉사자 모집 (11월)",
+      "organization": "코리아나미술관·화장박물관",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-13",
+      "applicationEndAt": "2026-10-30",
+      "programStartAt": "2026-11-02",
+      "programEndAt": "2026-11-27",
+      "status": "모집중",
+      "roleText": "전시 관람 안내 및 질서 유지, 작품 안전 관리 보조.",
+      "region": "서울특별시 강남구",
+      "eligibilityText": "문화예술에 관심 있는 만 18세 이상 성인; 전공·성별 무관. 오전·오후·종일 중 희망 시간대 선택.",
+      "summary": "월~금, 오전/오후 시간대 운영. 총 50시간 이상 활동 시 활동증명서 발급.",
+      "detailStatus": "verified",
+      "detailWarning": "성인(만 18세 이상) 대상. 사용자 연령·일정 가능 여부는 미판정.",
+      "detailCheckedAt": "2026-10-24T01:28:33.895Z",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-13",
+          "source": "list",
+          "evidence": "모집기간 2026.10.13 ~ 2026.10.30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-10-30",
+          "source": "list",
+          "evidence": "모집기간 2026.10.13 ~ 2026.10.30",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-02",
+          "source": "detail",
+          "evidence": "활동기간 2026.11.02 ~ 2026.11.27",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-27",
+          "source": "detail",
+          "evidence": "활동기간 2026.11.02 ~ 2026.11.27",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do",
+      "stableId": "csv-culture:id:VOLT_000000000012450",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 미술관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 미술관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-10-24T01:28:33.895Z",
+      "siteId": "csv-culture",
+      "siteName": "문화자원봉사센터",
+      "changeType": "new"
+    }
+  }
+]
