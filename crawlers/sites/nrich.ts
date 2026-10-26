@@ -1,4 +1,5 @@
 // 국립문화유산연구원 채용정보
+// ※ 현재 미등록: 국가유산청(khs) 게시판이 같은 공고를 커버해 보류 (excluded-sources.json)
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../types';
 import { normalizeDate, truncate } from '../base';

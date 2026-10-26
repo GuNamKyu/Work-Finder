@@ -10,7 +10,6 @@ import { saveResilientResults } from './resilience.js';
 // 개별 사이트 모듈 임포트
 import * as museumGoKr from './sites/museum-go-kr';
 import * as gogung from './sites/gogung';
-import * as nrich from './sites/nrich';
 import * as nfm from './sites/nfm';
 import * as ncs from './sites/ncs';
 import * as much from './sites/much';
@@ -43,7 +42,6 @@ import * as jobGG from './sites/job-gg';
 import * as namuk from './sites/namuk.js';
 import * as museumOrKr from './sites/museum-or-kr';
 import * as seoul from './sites/seoul';
-import * as koreaKr from './sites/korea-kr';
 import * as kdpAks from './sites/kdp-aks';
 import * as kccf from './sites/kccf';
 import * as kh from './sites/kh';
@@ -70,7 +68,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const sites: [SiteConfig, SiteScraper][] = [
   [museumGoKr.config, museumGoKr.scrape],
   [gogung.config, gogung.scrape],
-  [nrich.config, nrich.scrape],
   [nfm.config, nfm.scrape],
   [ncs.config, ncs.scrape],
   [much.config, much.scrape],
@@ -90,7 +87,7 @@ const sites: [SiteConfig, SiteScraper][] = [
   [kimkoo.config, kimkoo.scrape],
   [seosomun.config, seosomun.scrape],
   [jfac.config, jfac.scrape],
-  // ggcf 계열 8곳 (재단 본부·백남준아트센터 포함)
+  // ggcf 계열 3곳 (재단 본부 우선, 본부에 없는 공고가 있는 2곳만 개별)
   ...ggcf.configs.map(c => [c, ggcf.scrape] as [SiteConfig, SiteScraper]),
   [bcmuseum.config, bcmuseum.scrape],
   [nyj.config, nyj.scrape],
@@ -104,7 +101,6 @@ const sites: [SiteConfig, SiteScraper][] = [
   [namuk.config, namuk.scrape],
   [museumOrKr.config, museumOrKr.scrape],
   [seoul.config, seoul.scrape],
-  [koreaKr.config, koreaKr.scrape],
   [kdpAks.config, kdpAks.scrape],
   // 지방문화원 통합 채용 게시판 (서울·경기 필터)
   [kccf.config, kccf.scrape],

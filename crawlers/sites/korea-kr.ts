@@ -1,4 +1,5 @@
 // 대한민국 정책브리핑 채용정보
+// ※ 현재 미등록: 나라일터(gojobs) 목록을 옮겨 싣는 사이트라 보류 (excluded-sources.json)
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../types';
 import { normalizeDate, truncate } from '../base';

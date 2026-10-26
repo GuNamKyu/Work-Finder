@@ -21,6 +21,8 @@ url.txt에 등록된 URL 중 아직 크롤러가 없는 사이트를 감지하�
 ## Step 1: 새 URL 감지
 
 url.txt의 각 URL에서 도메인을 추출하고, crawlers/sites/ 내 기존 크롤러의 config.url과 비교한다.
+루트의 `excluded-sources.json`에 있는 사이트(제외·보류)는 새 크롤러 대상이 아니다. 같은 공고를 종합한 사이트가
+이미 수집 중이면 개별 사이트를 추가하지 말고, 그 파일에 status·reason·coveredBy·evidence와 함께 기록한다.
 
 ```bash
 # url.txt 읽기
