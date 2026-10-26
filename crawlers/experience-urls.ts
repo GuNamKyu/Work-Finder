@@ -2,6 +2,12 @@
 // 채용공고(url.txt)와 별도로 관리
 
 export const EXPERIENCE_URLS = {
+  // 고용24 청년일경험 - 일경험 프로그램 모집 목록
+  work24Youth: 'https://yw.work24.go.kr/d/a/selectWkexPrgmList.do',
+
+  // 경기일자리재단 - 청년사업 목록
+  gjfYouth: 'https://gjf.or.kr/main/main_biz/list.do?lclsf_sn=115&sclsf_sn=305',
+
   // 문화자원봉사센터 - 봉사자 모집공고 (지역: 서울/경기, 구분: 문화, 봉사명: 박물관)
   csvCulture: 'https://csv.culture.go.kr/frt/biz/provol/selectProvolList.do',
 

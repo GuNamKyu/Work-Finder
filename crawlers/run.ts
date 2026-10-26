@@ -19,7 +19,6 @@ import * as hangeul from './sites/hangeul';
 import * as gojobs from './sites/gojobs';
 import * as kaah from './sites/kaah';
 import * as khs from './sites/khs';
-import * as cha from './sites/cha';
 import * as museumSeoul from './sites/museum-seoul';
 import * as baekje from './sites/baekje';
 import * as craftmuseum from './sites/craftmuseum';
@@ -46,6 +45,24 @@ import * as museumOrKr from './sites/museum-or-kr';
 import * as seoul from './sites/seoul';
 import * as koreaKr from './sites/korea-kr';
 import * as kdpAks from './sites/kdp-aks';
+import * as kccf from './sites/kccf';
+import * as kh from './sites/kh';
+import * as arte from './sites/arte';
+import * as gokams from './sites/gokams';
+import * as yongsanCf from './sites/yongsan-cf';
+import * as seochoCf from './sites/seocho-cf';
+import * as gfac from './sites/gfac';
+import * as naruart from './sites/naruart';
+import * as ddmac from './sites/ddmac';
+import * as efac from './sites/efac';
+import * as nowonarts from './sites/nowonarts';
+import * as idfac from './sites/idfac';
+import * as snart from './sites/snart';
+import * as ansanart from './sites/ansanart';
+import * as gunpocf from './sites/gunpocf';
+import * as nyjcf from './sites/nyjcf';
+import * as gcart from './sites/gcart';
+import * as nsart from './sites/nsart';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -73,8 +90,7 @@ const sites: [SiteConfig, SiteScraper][] = [
   [kimkoo.config, kimkoo.scrape],
   [seosomun.config, seosomun.scrape],
   [jfac.config, jfac.scrape],
-  [cha.config, cha.scrape],
-  // ggcf 계열 6곳
+  // ggcf 계열 8곳 (재단 본부·백남준아트센터 포함)
   ...ggcf.configs.map(c => [c, ggcf.scrape] as [SiteConfig, SiteScraper]),
   [bcmuseum.config, bcmuseum.scrape],
   [nyj.config, nyj.scrape],
@@ -90,6 +106,28 @@ const sites: [SiteConfig, SiteScraper][] = [
   [seoul.config, seoul.scrape],
   [koreaKr.config, koreaKr.scrape],
   [kdpAks.config, kdpAks.scrape],
+  // 지방문화원 통합 채용 게시판 (서울·경기 필터)
+  [kccf.config, kccf.scrape],
+  // 문화 분야 공공기관
+  [kh.config, kh.scrape],
+  [arte.config, arte.scrape],
+  [gokams.config, gokams.scrape],
+  // 서울 자치구 문화재단
+  [yongsanCf.config, yongsanCf.scrape],
+  [seochoCf.config, seochoCf.scrape],
+  [gfac.config, gfac.scrape],
+  [naruart.config, naruart.scrape],
+  [ddmac.config, ddmac.scrape],
+  [efac.config, efac.scrape],
+  [nowonarts.config, nowonarts.scrape],
+  [idfac.config, idfac.scrape],
+  // 경기 시군 문화재단
+  [snart.config, snart.scrape],
+  [ansanart.config, ansanart.scrape],
+  [gunpocf.config, gunpocf.scrape],
+  [nyjcf.config, nyjcf.scrape],
+  [gcart.config, gcart.scrape],
+  [nsart.config, nsart.scrape],
 ];
 
 async function main() {
