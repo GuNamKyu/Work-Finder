@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261027-095201-kst-r1",
+  "recordedAt": "2026-10-27T08:31:09.117Z",
+  "repositoryCommit": "f2b96bc4255b015b1dee5a97517c9ecab6c3858f",
+  "branch": "main",
+  "workflow": {
+    "file": "publish-browser.yml",
+    "runId": "40473898874",
+    "runNumber": 17,
+    "mode": "data-and-ui",
+    "collectionId": "20261027-095201-kst-r1",
+    "status": "success",
+    "dispatchedWith": "gh CLI",
+    "annotations": [
+      "Non-blocking Node.js 20 deprecation notices for Actions currently forced to Node.js 24.",
+      "Non-blocking ubuntu-latest migration notice for Ubuntu 26."
+    ]
+  },
+  "snapshot": {
+    "inventoryFingerprint": "0582b382130ce9bd13d2705e4124888df05856df0b5a00ffb72dd0fa1a4cd964",
+    "localVerification": "passed",
+    "publishGate": "ok",
+    "manifestFilesMatched": 25,
+    "remoteMainMatchedCommit": true
+  },
+  "publicVerification": {
+    "url": "https://gunamkyu.github.io/Work-Finder/",
+    "publicJsonSha256Matched": 5,
+    "browser": "built-in",
+    "counts": {
+      "jobsSourceCount": 56,
+      "jobsVisibleCount": 52,
+      "experienceSourceCount": 5,
+      "experienceVisibleCount": 3,
+      "experienceVolunteerCount": 94,
+      "lastCollectionLabel": "2026-10-27 15:43:45 KST"
+    },
+    "checkedPosting": "[서울공예박물관] 기간제노동자(전시기획 및 운영지원) 채용공고(11.6 금) — 마감 2026-11-06 표시"
+  },
+  "note": "20261027-095201-kst와 같은 수집 관찰을 수집 기간 규칙·nmkpg 상세 링크·kdp-aks 제목 마감일 수정으로 다시 만든 개정판."
+}
