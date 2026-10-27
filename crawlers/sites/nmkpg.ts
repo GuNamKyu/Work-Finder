@@ -32,7 +32,9 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       organization: '국립대한민국임시정부기념관',
       regDate: normalizeDate(item.date),
       deadlineDate: null,
-      url: item.id ? `https://www.nmkpg.go.kr/main/board/1/board_view.do?bcstIdx1=${item.id}` : null,
+      postingId: item.id || undefined,
+      // 2026-10 확인: searchView()가 /main/board/1/{id}/board_view.do로 이동한다(예전 ?bcstIdx1= 형식은 404)
+      url: item.id ? `https://www.nmkpg.go.kr/main/board/1/${item.id}/board_view.do` : null,
     }))
   );
 }

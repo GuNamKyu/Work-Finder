@@ -11,6 +11,16 @@ export const config: SiteConfig = {
   url: 'https://kdp.aks.ac.kr/board/boardKorList?BRD_GRU_SN=6&pageUnit=20&ctgDtlCd=&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&qw=&q=&pageUnit=20',
 };
 
+/** 제목 끝 "(11.6 금)" 형식의 접수 마감일. 연도는 등록일 기준이며, 등록일보다 앞선 월이면 다음 해로 본다. */
+export function deadlineFromTitle(title: string, regDate: string): string | null {
+  const m = title.match(/\((\d{1,2})\.\s*(\d{1,2})\.?\s*[월화수목금토일]\)\s*$/);
+  if (!m || !/^\d{4}-\d{2}-\d{2}$/.test(regDate)) return null;
+  const [month, day] = [Number(m[1]), Number(m[2])];
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
+  const year = Number(regDate.slice(0, 4)) + (month < Number(regDate.slice(5, 7)) ? 1 : 0);
+  return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+}
+
 export async function scrape(page: Page): Promise<JobPosting[]> {
   await page.waitForSelector('table tbody tr', { timeout: 15000 }).catch(() => {});
   await page.waitForTimeout(1000);
@@ -48,11 +58,12 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
         ? `https://kdp.aks.ac.kr/board/boardKorView?BRD_GRU_SN=6&BRD_SN=${item.detailId}&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0`
         : null;
 
+      const regDate = normalizeDate(item.date);
       return {
         title: truncate(titleRaw),
         organization,
-        regDate: normalizeDate(item.date),
-        deadlineDate: null,
+        regDate,
+        deadlineDate: deadlineFromTitle(titleRaw, regDate),
         url,
       };
     })

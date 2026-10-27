@@ -46,10 +46,11 @@ test('보존 시 박물관 공고 수집 예외를 유지하고 확정 마감은
   const excluded = { ...p, title: '박물관 상임이사 학예본부장 모집' };
   const closed = { ...p, url: 'https://example.org/closed', deadlineDate: '2026-09-27' };
   const merged = reconcileResults([source([], 'timeout')], [source([p, excluded, closed])], [], now);
-  assert.equal(merged.results[0].postings.length, 3);
+  // 접수 마감이 지난 공고는 수집 기간 규칙으로 보존본에서도 빠진다
+  assert.equal(merged.results[0].postings.length, 2);
   assert.equal(merged.results[0].postings.some(x => x.title === excluded.title), true);
   assert.equal(merged.results[0].postings.filter(x => isActive(x, '2026-09-28')).length, 2);
-  assert.equal(isActive(merged.results[0].postings.find(x => x.url === closed.url)!, '2026-09-28'), false);
+  assert.equal(merged.results[0].postings.some(x => x.url === closed.url), false);
 });
 
 test('날짜 없는 보존 공고는 7일 지나면 기본 목록 제외, 검토 보기와 이력은 유지', () => {
@@ -83,9 +84,10 @@ test('부분 수집에서 확인한 종료 공고는 이전 모집중 사본으�
   const closed = { ...p, deadlineDate: '2026-09-27' };
   const first = reconcileResults([source([closed], '다음 페이지 실패')], [good], [], now);
   assert.equal(first.results[0].retainedCount, 0);
-  assert.equal(isActive(first.results[0].postings[0], '2026-09-28'), false);
+  // 종료 공고는 결과에서 빠지고, 이전 모집중 사본도 되살아나지 않는다
+  assert.equal(first.results[0].postings.length, 0);
   const next = reconcileResults([source([], '전체 실패')], first.results, first.cache, now);
-  assert.equal(isActive(next.results[0].postings[0], '2026-09-28'), false);
+  assert.equal(next.results[0].postings.some(x => isActive(x, '2026-09-28')), false);
 });
 
 test('같은 날 실패 후 재수집해도 누적 이력에 있는 ID를 신규로 보지 않음', () => {

@@ -47,6 +47,7 @@ export async function scrape(page: Page, config?: SiteConfig): Promise<JobPostin
 - 중복 사이트는 공고를 종합한 사이트를 우선한다(예: 산하 박물관 → 경기문화재단 본부, 국립문화유산연구원 → 국가유산청, 정책브리핑 → 나라일터). 밀린 사이트는 등록·url.txt에서 빼고 `excluded-sources.json`에 사유와 함께 기록
 - 예외: 다른 기관 공고를 다시 싣는 채용 포털(사람인 `saramin`)은 원 출처를 우선한다. 원 출처 게시판(현재·보존 공고)과 기관명·제목·등록일로 겹치는 포털 공고는 `secondary-sources.ts`가 제외하고 결과의 `secondaryDuplicates`에 남김
 - `saramin.ts`는 playMCP 사람인 도구 전용 소스(workfinder 실행에서 수집). `npm run crawl`에서는 사람인 페이지를 긁지 않고 실패로 남겨 이전 수집분을 보존
+- 수집 기간 규칙: 등록일이 한 달 넘게 지났거나 확인된 접수 마감이 지난 공고는 결과에 넣지 않는다(`resilience.ts`의 `isWithinCollectionWindow`, 결과 병합 `reconcileResults`에서 적용). 게시판에 남은 과거 공고도 이 규칙으로 빠진다
 - `kccf.ts`는 한국문화원연합회 통합 채용 게시판에서 서울(SU)·경기(GG) 지역만 선택해 수집 (한 지역 실패 시 PartialCrawlError)
 - config는 문자열 리터럴만 사용 — workfinder 스킬의 `inventory.mjs`가 코드를 실행하지 않고 AST로 읽음
 - 새 사이트 추가 시: sites/ 파일 생성 → run.ts에 import 및 sites 배열 등록
