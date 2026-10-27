@@ -92,7 +92,7 @@ export async function discover(repo, includeDetails = true) {
   }
   const urlFileEntries = (await read('url.txt')).split(/\r?\n/).map(l => decode(l.trim())).filter(Boolean);
   if (urlFileEntries.some(u => !http(u))) throw new Error('Non-URL entry in url.txt');
-  for (const path of ['noise-keywords.txt', 'data/learned-exclusions.json', 'crawlers/types.ts', 'crawlers/base.ts', 'crawlers/opportunity.ts', 'crawlers/resilience.ts', 'crawlers/schedule.ts', 'web/model.js', 'web/exclusions.js', 'data/experience-sources.json']) await read(path);
+  for (const path of ['noise-keywords.txt', 'data/learned-exclusions.json', 'crawlers/types.ts', 'crawlers/base.ts', 'crawlers/opportunity.ts', 'crawlers/resilience.ts', 'crawlers/secondary-sources.ts', 'excluded-sources.json', 'crawlers/schedule.ts', 'web/model.js', 'web/exclusions.js', 'data/experience-sources.json']) await read(path);
   const knownDetails = [];
   if (includeDetails) for (const name of ['crawlers/results.json', 'crawlers/experience-results.json']) {
     let data;

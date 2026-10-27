@@ -61,8 +61,12 @@ import * as gunpocf from './sites/gunpocf';
 import * as nyjcf from './sites/nyjcf';
 import * as gcart from './sites/gcart';
 import * as nsart from './sites/nsart';
+import * as saramin from './sites/saramin';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// playMCP 도구로만 수집하는 소스 (npm run crawl에서는 페이지를 열지 않음)
+const MCP_ONLY_SOURCES = new Set(['saramin']);
 
 // 사이트 레지스트리: [config, scraper]
 const sites: [SiteConfig, SiteScraper][] = [
@@ -124,6 +128,8 @@ const sites: [SiteConfig, SiteScraper][] = [
   [nyjcf.config, nyjcf.scrape],
   [gcart.config, gcart.scrape],
   [nsart.config, nsart.scrape],
+  // 2차 출처 채용 포털 (playMCP 전용, 원 출처와 겹치는 공고는 secondary-sources.ts가 제외)
+  [saramin.config, saramin.scrape],
 ];
 
 async function main() {
@@ -150,6 +156,12 @@ async function main() {
 
   // 순차 실행 (사이트 부하 방지)
   for (const [config, scraper] of filteredSites) {
+    if (MCP_ONLY_SOURCES.has(config.id)) {
+      // 페이지를 열지 않고 실패로 남겨 이전 MCP 수집분을 보존 (workfinder 실행에서 playMCP로 수집)
+      console.log(`[${config.id}] ${config.name} — playMCP 전용 소스, Playwright 수집 건너뜀`);
+      results.push({ site: config, postings: [], crawledAt: new Date().toISOString(), error: 'playMCP 전용 소스 — Playwright 수집 안 함, 이전 수집분 보존' });
+      continue;
+    }
     console.log(`[${config.id}] ${config.name} 크롤링 중...`);
     try {
       const result = await crawlSite(browser, config, scraper);

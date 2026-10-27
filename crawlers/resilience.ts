@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import type { CrawlResult, JobPosting } from './types.js';
 import { enrichPosting, stablePostingId } from './opportunity.js';
 import { passesExclusions } from './base.js';
+import { dropSecondaryDuplicates } from './secondary-sources.js';
 
 export async function readResults(path: string): Promise<CrawlResult[]> {
   try {
@@ -49,7 +50,8 @@ export function reconcileResults(current: CrawlResult[], previous: CrawlResult[]
   });
   // A single-source diagnostic run must not erase all other sites.
   const attempted = new Set(current.map(r => r.site.id));
-  return { results: [...results, ...previous.filter(r => !attempted.has(r.site.id))], cache: [...good.values()] };
+  // Portal copies of postings already on an original board (current or retained) are not collected.
+  return { results: dropSecondaryDuplicates([...results, ...previous.filter(r => !attempted.has(r.site.id))]), cache: [...good.values()] };
 }
 
 export async function saveResilientResults(path: string, current: CrawlResult[]) {

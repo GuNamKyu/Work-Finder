@@ -106,6 +106,8 @@ export interface CrawlResult {
   observedCount?: number;
   retainedCount?: number;
   lastSuccessfulAt?: string | null;
+  // 2차 출처(사람인 등)에서 원 출처와 겹쳐 제외한 공고 (secondary-sources.ts)
+  secondaryDuplicates?: Array<{ title: string; matchedSiteId: string; matchedTitle: string }>;
 }
 
 export type SiteScraper = (page: import('playwright').Page, config: SiteConfig) => Promise<JobPosting[]>;
