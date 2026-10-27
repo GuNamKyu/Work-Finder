@@ -1,0 +1,975 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261027-095201-kst",
+  "startedAt": "2026-10-27T00:52:01.000Z",
+  "finishedAt": "2026-10-27T06:43:45.317Z",
+  "sources": [
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T00:54:25.662Z",
+      "checkedAt": "2026-10-27T00:57:51.061Z",
+      "elapsedMs": 205399,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 안내 전체 목록 1페이지(10행) 확인, 총 2230건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T00:58:54.844Z",
+      "checkedAt": "2026-10-27T00:58:56.911Z",
+      "elapsedMs": 2067,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 전체 532건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:00:01.101Z",
+      "checkedAt": "2026-10-27T01:00:04.859Z",
+      "elapsedMs": 3758,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용안내 목록 1페이지(10행) 확인, 전체 1725건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:03:20.456Z",
+      "checkedAt": "2026-10-27T01:03:23.149Z",
+      "elapsedMs": 2693,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용정보 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 상세는 스크립트 이동(fn_goView)이라 상세 URL 없음",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:04:01.823Z",
+      "checkedAt": "2026-10-27T01:04:03.793Z",
+      "elapsedMs": 1970,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행, 번호 22~13) 확인, 2페이지(번호 12 이하) 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:04:41.756Z",
+      "checkedAt": "2026-10-27T01:04:44.100Z",
+      "elapsedMs": 2344,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 상세 링크는 스크립트 이동(href=#)",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:05:34.408Z",
+      "checkedAt": "2026-10-27T01:05:37.363Z",
+      "elapsedMs": 2955,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "모집공고 공고명 검색어 '박물관' 결과 1페이지(10행) 확인, 2~5페이지 이후 및 다른 검색어 범위 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:06:20.322Z",
+      "checkedAt": "2026-10-27T01:06:22.605Z",
+      "elapsedMs": 2283,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용(reqopen) 목록 1페이지(15행, 번호 169~155) 확인, 2페이지 이후 미확인",
+      "rawObserved": 15,
+      "excluded": 0
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:06:51.724Z",
+      "checkedAt": "2026-10-27T01:07:17.203Z",
+      "elapsedMs": 25479,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 50,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "시험/채용 목록 1~5페이지(50행) 확인, 최근 30일(2026-09-27 이후) 범위를 넘어 2026-09-18 등록분까지 확인. 6페이지 이후 과거 목록은 미확인",
+      "rawObserved": 50,
+      "excluded": 35
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:08:03.735Z",
+      "checkedAt": "2026-10-27T01:08:05.849Z",
+      "elapsedMs": 2114,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 목록 제목이 화면에서 말줄임(...) 처리됨",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:08:52.516Z",
+      "checkedAt": "2026-10-27T01:09:09.788Z",
+      "elapsedMs": 17272,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 12,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공고/채용 카드 목록 1페이지(12건) 확인, 2페이지 이후 미확인. 상세는 스크립트 열림(href=#)",
+      "rawObserved": 12,
+      "excluded": 0
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:08:23.083Z",
+      "checkedAt": "2026-10-27T01:08:24.724Z",
+      "elapsedMs": 1641,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 채용 분류 전체 13건 중 1페이지 10행 확인(번호 13~4). 3~1번 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:10:50.150Z",
+      "checkedAt": "2026-10-27T01:10:51.717Z",
+      "elapsedMs": 1567,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 11,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 게시판 목록 1페이지(11행, 상단 고정글 포함) 확인, 2페이지 이후 미확인",
+      "rawObserved": 11,
+      "excluded": 0
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "full",
+      "startedAt": "2026-10-27T01:10:51.999Z",
+      "checkedAt": "2026-10-27T01:10:53.968Z",
+      "elapsedMs": 1969,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 제목 '채용' 검색 결과 전체(1행) 확인",
+      "rawObserved": 1,
+      "excluded": 0
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:11:24.107Z",
+      "checkedAt": "2026-10-27T01:11:26.454Z",
+      "elapsedMs": 2347,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:11:26.746Z",
+      "checkedAt": "2026-10-27T01:11:28.840Z",
+      "elapsedMs": 2094,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 9
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:12:36.890Z",
+      "checkedAt": "2026-10-27T01:12:50.309Z",
+      "elapsedMs": 13419,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 17,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 목록 1페이지(고정글 포함 17행) 확인, 2페이지 이후 미확인. 채용 전용 분류 없음",
+      "rawObserved": 17,
+      "excluded": 6
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:13:26.584Z",
+      "checkedAt": "2026-10-27T01:13:30.052Z",
+      "elapsedMs": 3468,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 4,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "알림 게시판 1페이지 13행 중 '구분: 채용' 4행 확인, 2페이지 이후 미확인",
+      "rawObserved": 4,
+      "excluded": 3
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:13:30.332Z",
+      "checkedAt": "2026-10-27T01:13:32.229Z",
+      "elapsedMs": 1897,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 8,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 게시판 목록 1페이지(8행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 8,
+      "excluded": 0
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:14:05.973Z",
+      "checkedAt": "2026-10-27T01:14:08.588Z",
+      "elapsedMs": 2615,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 12,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용정보 목록 1페이지(12행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 12,
+      "excluded": 10
+    },
+    {
+      "siteId": "ggcf",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:15:45.446Z",
+      "checkedAt": "2026-10-27T01:16:05.962Z",
+      "elapsedMs": 20516,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 게시판 1페이지(15행) 확인, 총 417개 중 더보기 이후 미확인",
+      "rawObserved": 15,
+      "excluded": 2
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:15:48.631Z",
+      "checkedAt": "2026-10-27T01:15:51.633Z",
+      "elapsedMs": 3002,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 채용 분류(category=03) 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:15:51.921Z",
+      "checkedAt": "2026-10-27T01:15:54.998Z",
+      "elapsedMs": 3077,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "소식 채용 분류(category=03) 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "nyj",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:16:43.596Z",
+      "checkedAt": "2026-10-27T01:16:55.427Z",
+      "elapsedMs": 11831,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "모집공고 제목 검색어 남양주시립 결과 1페이지(10행) 확인, 2페이지 이후 미확인. 이번에는 개발자도구 감지 리다이렉트 없이 목록이 열림",
+      "rawObserved": 10,
+      "excluded": 4
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:16:41.193Z",
+      "checkedAt": "2026-10-27T01:17:32.049Z",
+      "elapsedMs": 50856,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지 채용 분류(sc=03) 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:17:32.373Z",
+      "checkedAt": "2026-10-27T01:17:34.475Z",
+      "elapsedMs": 2102,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 채용공고 분류 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 8
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:18:12.925Z",
+      "checkedAt": "2026-10-27T01:18:16.572Z",
+      "elapsedMs": 3647,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 18,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 목록 1페이지(고정글 포함 고유 18건) 확인, 2페이지 이후 미확인. 채용 전용 분류 없음",
+      "rawObserved": 18,
+      "excluded": 0
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:19:00.970Z",
+      "checkedAt": "2026-10-27T01:19:05.559Z",
+      "elapsedMs": 4589,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "게시판 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 채용 전용 분류 없음",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "artic",
+      "coverage": "full",
+      "startedAt": "2026-10-27T01:19:06.334Z",
+      "checkedAt": "2026-10-27T01:19:08.571Z",
+      "elapsedMs": 2237,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 5,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 통합검색어 채용 결과 전체(검색 결과 1건 + 상단 고정 공지 4건) 확인",
+      "rawObserved": 5,
+      "excluded": 0
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:19:52.537Z",
+      "checkedAt": "2026-10-27T01:19:54.839Z",
+      "elapsedMs": 2302,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 12,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "알림마당 목록 1페이지(고정글 포함 13행) 확인, 2페이지 이후 미확인. 채용 전용 분류 없음",
+      "rawObserved": 12,
+      "excluded": 0
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:20:35.338Z",
+      "checkedAt": "2026-10-27T01:20:37.845Z",
+      "elapsedMs": 2507,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 13,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공지사항 목록 1페이지(고정글 포함 13행) 확인, 2페이지 이후 미확인. 채용 전용 분류 없음",
+      "rawObserved": 13,
+      "excluded": 9
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "full",
+      "startedAt": "2026-10-27T01:20:38.134Z",
+      "checkedAt": "2026-10-27T01:20:42.162Z",
+      "elapsedMs": 4028,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 5,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용 포털 공고 목록 전체(접수중 5건) 확인",
+      "rawObserved": 5,
+      "excluded": 0
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:22:17.936Z",
+      "checkedAt": "2026-10-27T01:22:22.796Z",
+      "elapsedMs": 4860,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 16,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공공채용 전체 목록 1페이지(16건) 확인, 1033건/65페이지 중 2페이지 이후 미확인. 목록에는 마감일만 표시",
+      "rawObserved": 16,
+      "excluded": 15
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:23:07.224Z",
+      "checkedAt": "2026-10-27T01:23:11.177Z",
+      "elapsedMs": 3953,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고(kboard) 목록 1페이지(공지 제외 10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:23:46.942Z",
+      "checkedAt": "2026-10-27T01:23:49.222Z",
+      "elapsedMs": 2280,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용시험 공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 9
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:24:08.778Z",
+      "checkedAt": "2026-10-27T01:24:12.099Z",
+      "elapsedMs": 3321,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 20,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "한국학 소식 채용공고 분류 1페이지(20행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 20,
+      "excluded": 11
+    },
+    {
+      "siteId": "kccf",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:24:43.923Z",
+      "checkedAt": "2026-10-27T01:24:59.631Z",
+      "elapsedMs": 15708,
+      "metrics": {
+        "listPages": 2,
+        "listRows": 20,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 지역 서울특별시(SU) 1페이지 10행(총 19건)·경기도(GG) 1페이지 10행(총 15건) 각각 확인, 두 지역 모두 2페이지 미확인",
+      "rawObserved": 20,
+      "excluded": 4
+    },
+    {
+      "siteId": "kh",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:26:11.276Z",
+      "checkedAt": "2026-10-27T01:26:13.665Z",
+      "elapsedMs": 2389,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "인재채용 목록 1페이지(상단 고정글 포함 11행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 7
+    },
+    {
+      "siteId": "arte",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:26:13.955Z",
+      "checkedAt": "2026-10-27T01:26:18.314Z",
+      "elapsedMs": 4359,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(15행) 확인, 2페이지 이후 미확인. 목록에 상태·접수 마감일 표시",
+      "rawObserved": 15,
+      "excluded": 0
+    },
+    {
+      "siteId": "gokams",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:26:51.786Z",
+      "checkedAt": "2026-10-27T01:26:53.865Z",
+      "elapsedMs": 2079,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용정보 목록 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 6
+    },
+    {
+      "siteId": "yongsan-cf",
+      "coverage": "full",
+      "startedAt": "2026-10-27T01:26:54.130Z",
+      "checkedAt": "2026-10-27T01:26:56.399Z",
+      "elapsedMs": 2269,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 6,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 전체(6행, 1페이지) 확인",
+      "rawObserved": 6,
+      "excluded": 4
+    },
+    {
+      "siteId": "seocho-cf",
+      "coverage": "failed",
+      "startedAt": "2026-10-27T01:27:19.607Z",
+      "checkedAt": "2026-10-27T01:27:40.796Z",
+      "elapsedMs": 21189,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "등록 URL(https)이 http로 리다이렉트되고 Chrome이 오류 페이지(chrome-error)를 표시해 목록을 읽지 못함. 1회 재시도 동일",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:28:00.856Z",
+      "checkedAt": "2026-10-27T01:28:03.165Z",
+      "elapsedMs": 2309,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 26,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용정보 아코디언 전체 52개 차수 중 최근 3개 차수(2026년 2~4차, 26건) 확인, 이전 차수 미확인",
+      "rawObserved": 26,
+      "excluded": 14
+    },
+    {
+      "siteId": "naruart",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:28:55.089Z",
+      "checkedAt": "2026-10-27T01:29:17.814Z",
+      "elapsedMs": 22725,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(15행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 15,
+      "excluded": 11
+    },
+    {
+      "siteId": "ddmac",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:28:57.240Z",
+      "checkedAt": "2026-10-27T01:28:59.629Z",
+      "elapsedMs": 2389,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 20,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "인재채용 목록 1페이지(20행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 20,
+      "excluded": 13
+    },
+    {
+      "siteId": "efac",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:29:18.100Z",
+      "checkedAt": "2026-10-27T01:29:20.013Z",
+      "elapsedMs": 1913,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용정보 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 목록 상태 칸 표시",
+      "rawObserved": 10,
+      "excluded": 8
+    },
+    {
+      "siteId": "nowonarts",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:29:55.025Z",
+      "checkedAt": "2026-10-27T01:29:57.285Z",
+      "elapsedMs": 2260,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 5
+    },
+    {
+      "siteId": "idfac",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:29:57.565Z",
+      "checkedAt": "2026-10-27T01:29:59.413Z",
+      "elapsedMs": 1848,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(15행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 15,
+      "excluded": 14
+    },
+    {
+      "siteId": "snart",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:30:36.070Z",
+      "checkedAt": "2026-10-27T01:30:38.113Z",
+      "elapsedMs": 2043,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용안내 목록 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 10
+    },
+    {
+      "siteId": "ansanart",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:30:38.392Z",
+      "checkedAt": "2026-10-27T01:30:40.714Z",
+      "elapsedMs": 2322,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용안내 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 긴 제목은 앞 50자까지 기록",
+      "rawObserved": 10,
+      "excluded": 8
+    },
+    {
+      "siteId": "gunpocf",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:31:08.487Z",
+      "checkedAt": "2026-10-27T01:31:10.449Z",
+      "elapsedMs": 1962,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 제목 링크가 스크립트 이동(#none)이라 상세 URL 없음, 행 data-id를 공고번호로 기록",
+      "rawObserved": 10,
+      "excluded": 7
+    },
+    {
+      "siteId": "nyjcf",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:31:10.781Z",
+      "checkedAt": "2026-10-27T01:31:12.682Z",
+      "elapsedMs": 1901,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 18,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(18행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 18,
+      "excluded": 15
+    },
+    {
+      "siteId": "gcart",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:31:50.658Z",
+      "checkedAt": "2026-10-27T01:31:52.983Z",
+      "elapsedMs": 2325,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인. 목록에 접수기간·채용상태 표시",
+      "rawObserved": 10,
+      "excluded": 8
+    },
+    {
+      "siteId": "nsart",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:31:53.279Z",
+      "checkedAt": "2026-10-27T01:31:55.197Z",
+      "elapsedMs": 1918,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "채용공고 목록 1페이지(10행) 확인, 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 8
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:32:26.265Z",
+      "checkedAt": "2026-10-27T01:32:30.815Z",
+      "elapsedMs": 4550,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "NCS 분류 문화·예술·디자인·방송 > 문화·예술 > 문화재관리 필터 결과 1페이지(10행) 확인, 번호 192건 중 2페이지 이후 미확인. 세분류(04-01) 선택지는 없어 소분류까지 적용",
+      "rawObserved": 10,
+      "excluded": 2
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:33:34.406Z",
+      "checkedAt": "2026-10-27T01:33:38.099Z",
+      "elapsedMs": 3693,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "알림 게시판 자원봉사 검색 1페이지. 총 232건, 최근 1주일 이내 게시 0건",
+      "rawObserved": 0,
+      "excluded": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T01:33:38.372Z",
+      "checkedAt": "2026-10-27T01:33:42.497Z",
+      "elapsedMs": 4125,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 7,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "청년사업 목록 1페이지 7개 사업, 상세·신청 링크 미확인",
+      "rawObserved": 7,
+      "excluded": 1
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "full",
+      "startedAt": "2026-10-27T06:33:06.336Z",
+      "checkedAt": "2026-10-27T06:36:07.865Z",
+      "elapsedMs": 181529,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 44,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "간단검색 구분=문화, 모집현황=모집중. 5페이지 전체",
+      "rawObserved": 44,
+      "excluded": 9
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "full",
+      "startedAt": "2026-10-27T06:36:56.056Z",
+      "checkedAt": "2026-10-27T06:42:07.415Z",
+      "elapsedMs": 311359,
+      "metrics": {
+        "listPages": 7,
+        "listRows": 59,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "시간인증봉사 봉사명=박물관, 서울특별시 33건(4페이지)·경기도 26건(3페이지) 전체",
+      "rawObserved": 59,
+      "excluded": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "partial",
+      "startedAt": "2026-10-27T06:43:12.020Z",
+      "checkedAt": "2026-10-27T06:43:45.317Z",
+      "elapsedMs": 33297,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 48,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "프로그램 정보 목록 1페이지(48건/페이지), 총 396건 중 48건",
+      "rawObserved": 48,
+      "excluded": 35
+    },
+    {
+      "siteId": "saramin",
+      "coverage": "unvisited",
+      "rawObserved": 0,
+      "excluded": 0,
+      "secondaryDuplicates": []
+    }
+  ]
+}
