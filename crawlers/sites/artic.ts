@@ -10,11 +10,12 @@ export const config: SiteConfig = {
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {
-  return page.$$eval('table.boardCategory tbody tr', (rows) => {
+  // 2026-10 확인: 목록 표 클래스가 board_list (이전 boardCategory)
+  return page.$$eval('table.board_list tbody tr, table.boardCategory tbody tr', (rows) => {
     return rows.map(row => {
       const tds = row.querySelectorAll('td');
       if (tds.length < 3) return null;
-      const titleEl = tds[1]?.querySelector('a');
+      const titleEl = row.querySelector('td a');
       const title = titleEl?.textContent?.trim() || '';
       const href = titleEl?.getAttribute('href') || '';
       let date = '';
@@ -33,7 +34,8 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       organization: '이천시립박물관',
       regDate: normalizeDate(item.date),
       deadlineDate: null,
-      url: item.href ? `https://www.artic.or.kr${item.href}` : null,
+      // 2026-10 확인: 목록 href가 이미 절대 주소(https://www.artic.or.kr:443/...)라 그대로 결합하면 주소가 깨짐
+      url: item.href ? new URL(item.href, 'https://www.artic.or.kr').href : null,
     }))
   );
 }

@@ -12,20 +12,14 @@ export const config: SiteConfig = {
 export async function scrape(page: Page): Promise<JobPosting[]> {
   await page.waitForTimeout(3000); // SPA 렌더링 대기
 
+  // 2026-10 확인: 카드가 a.list-item > span(제목) · span(요약) · span(등록일) 구조 (이전 p/div 구조 아님)
   return page.evaluate(() => {
     const items: { title: string; date: string }[] = [];
-    const links = document.querySelectorAll('a');
-    for (const link of links) {
-      const p = link.querySelector('p');
-      const divs = link.querySelectorAll('div');
-      if (p && divs.length >= 2) {
-        const title = p.textContent?.trim() || '';
-        const lastDiv = divs[divs.length - 1];
-        const date = lastDiv?.textContent?.trim() || '';
-        if (title && date.match(/\d{4}/)) {
-          items.push({ title, date });
-        }
-      }
+    for (const card of document.querySelectorAll('a.list-item')) {
+      const spans = [...card.children];
+      const title = spans[0]?.textContent?.replace(/\s+/g, ' ').trim() || '';
+      const date = spans[spans.length - 1]?.textContent?.trim() || '';
+      if (title && /\d{4}/.test(date)) items.push({ title, date });
     }
     return items;
   }).then(items =>

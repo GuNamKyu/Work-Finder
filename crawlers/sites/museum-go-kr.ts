@@ -16,19 +16,19 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     return rows.map(row => {
       const lis = row.querySelectorAll('li');
       if (lis.length < 5) return null;
-      const org = lis[1]?.textContent?.trim() || '국립중앙박물관';
       const titleEl = lis[2]?.querySelector('a');
       const title = titleEl?.textContent?.trim() || '';
       const href = titleEl?.getAttribute('href') || '';
       const period = lis[3]?.textContent?.trim() || '';
       const status = lis[4]?.textContent?.trim() || '';
       const dateMatches = period.match(/\d{4}-\d{2}-\d{2}/g) || [];
-      return { title, org, status, href, regDate: dateMatches[0] || '', deadlineDate: dateMatches[1] || null };
+      return { title, status, href, regDate: dateMatches[0] || '', deadlineDate: dateMatches[1] || null };
     }).filter(Boolean);
   }).then(items =>
     (items as any[]).map(item => ({
       title: truncate(item.title),
-      organization: item.org,
+      // 기관 열은 '중앙박물관/소속박물관' 분류이므로 제목의 박물관명을 기관명으로 쓴다
+      organization: item.title.match(/국립[가-힣]+박물관/)?.[0] || '국립중앙박물관',
       regDate: item.regDate,
       deadlineDate: item.deadlineDate,
       url: item.href ? `https://www.museum.go.kr/MUSEUM/contents/M0701030000.do${item.href}` : null,

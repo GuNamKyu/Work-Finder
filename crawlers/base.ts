@@ -124,6 +124,15 @@ export function extractDates(text: string): string[] {
   return dates;
 }
 
+/** 상세 URL에서 공고를 식별하는 파라미터만 남기기 (목록 페이지·정렬·검색 상태가 붙으면 같은 공고의 ID가 달라짐) */
+export function keepQuery(url: string, keys: string[]): string {
+  const u = new URL(url);
+  const kept = new URLSearchParams();
+  for (const key of keys) { const v = u.searchParams.get(key); if (v !== null) kept.set(key, v); }
+  u.search = kept.toString();
+  return u.toString();
+}
+
 /** 텍스트를 최대 길이로 잘라내기 */
 export function truncate(text: string, maxLen = 80): string {
   const cleaned = text.replace(/\s+/g, ' ').trim();

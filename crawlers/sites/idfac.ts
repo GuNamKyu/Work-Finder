@@ -6,7 +6,7 @@ import { normalizeDate, truncate } from '../base';
 export const config: SiteConfig = {
   id: 'idfac',
   name: '동작문화재단',
-  url: 'http://www.idfac.or.kr/bbs/board.php?bo_table=job',
+  url: 'https://www.idfac.or.kr/bbs/board.php?bo_table=job',
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {

@@ -24,7 +24,8 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
   }).then(items =>
     (items as any[]).map(item => ({
       title: truncate(item.title),
-      organization: item.author || '경기도박물관협회',
+      // 작성자 칸은 '관리자'뿐이라 기관명이 아님 — 제목 앞 [기관명]을 사용
+      organization: item.title.match(/^\s*\[([^\]]+)\]/)?.[1]?.trim() || '경기도박물관협회',
       regDate: normalizeDate(item.date),
       deadlineDate: null,
       url: item.href ? `https://gmuseum.kr${item.href}` : null,

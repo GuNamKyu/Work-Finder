@@ -13,7 +13,8 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
   return page.$$eval('.bbsList ul li:not(.header)', (rows) => {
     return rows
       .filter(row => {
-        const tag = row.querySelector('span.tag')?.textContent?.trim() || '';
+        // 2026-10 확인: 분류 표시가 "구분: 채용"처럼 접두어를 포함
+        const tag = row.querySelector('span.tag')?.textContent?.replace(/구분\s*:/, '').trim() || '';
         return tag === '채용';
       })
       .map(row => {

@@ -7,7 +7,7 @@
 //   div[2]: 상태 + 마감
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../../types';
-import { truncate } from '../../base';
+import { normalizeDate, truncate } from '../../base';
 import { openList, submitList } from '../../navigation.js';
 import { PartialCrawlError } from '../../partial-crawl.js';
 
@@ -43,8 +43,8 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
       // 검색 버튼 클릭 (id: btnSearch)
       await submitList(page, () => page.click('#btnSearch'), '#searchHopeArea1');
 
-      // 최대 3페이지 수집
-      for (let pageNum = 1; pageNum <= 3; pageNum++) {
+      // 최대 10페이지 수집 (서울 박물관 검색은 4페이지까지 있음)
+      for (let pageNum = 1; pageNum <= 10; pageNum++) {
         if (pageNum > 1) {
           const paginated = await page.evaluate((n) => Array.from(document.querySelectorAll('a'))
             .some(a => a.textContent?.trim() === String(n) && a.getAttribute('onclick')?.includes('goPage')), pageNum);
@@ -108,7 +108,10 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
               if (t === '마감' || t === '금일' || t === '금주') deadlineText = t;
             }
 
-            return { title, org, id, region, status, deadlineText };
+            // 목록 카드에 "봉사기간 YYYY.MM.DD ~ YYYY.MM.DD", "모집기간 ..."이 함께 표시됨
+            const text = (link as HTMLElement).innerText.replace(/\s+/g, ' ');
+            const period = (label: string) => text.match(new RegExp(label + ' (\\d{4}\\.\\d{2}\\.\\d{2}) ~ (\\d{4}\\.\\d{2}\\.\\d{2})'))?.slice(1) || [];
+            return { title, org, id, region, status, deadlineText, program: period('봉사기간'), recruit: period('모집기간') };
           }).filter(i => i.title && i.id);
         });
 
@@ -125,7 +128,11 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
             title: truncate(item.title),
             organization: item.org || item.region || '1365 자원봉사포털',
             regDate: '',
-            deadlineDate: null,
+            deadlineDate: item.recruit[1] ? normalizeDate(item.recruit[1]) : null,
+            applicationStartAt: item.recruit[0] ? normalizeDate(item.recruit[0]) : null,
+            applicationEndAt: item.recruit[1] ? normalizeDate(item.recruit[1]) : null,
+            programStartAt: item.program[0] ? normalizeDate(item.program[0]) : null,
+            programEndAt: item.program[1] ? normalizeDate(item.program[1]) : null,
             url,
             region: item.region,
             status: item.status || '',

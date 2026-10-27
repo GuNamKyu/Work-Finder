@@ -18,13 +18,19 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     title: link.querySelector('.recruit_tit')?.textContent?.trim() || '',
     category: link.querySelector('.recruit_cate')?.textContent?.trim() || '',
     date: link.querySelector('.recruit_date')?.textContent?.trim() || '',
+    dday: link.querySelector('.recruit_dday')?.textContent?.trim() || '',
     href: (link as HTMLAnchorElement).href,
   })).filter(item => item.title), RECENT_ROUNDS);
-  return items.map(item => ({
-    title: truncate(item.category && item.category !== '채용공고' ? `[${item.category}] ${item.title}` : item.title),
-    organization: '관악문화재단',
-    regDate: normalizeDate(item.date),
-    deadlineDate: null,
-    url: item.href.startsWith('http') ? item.href : null,
-  }));
+  // 지원 페이지는 "YYYY-MM-DD ~ YYYY-MM-DD" 접수기간과 D-day/마감 배지를 함께 표시
+  return items.map(item => {
+    const [start, end] = item.date.split('~').map(s => s.trim());
+    return {
+      title: truncate(item.category && item.category !== '채용공고' ? `[${item.category}] ${item.title}` : item.title),
+      organization: '관악문화재단',
+      regDate: normalizeDate(start || ''),
+      deadlineDate: end ? normalizeDate(end) : null,
+      ...(item.dday === '마감' ? { status: '마감' } : {}),
+      url: item.href.startsWith('http') ? item.href : null,
+    };
+  });
 }

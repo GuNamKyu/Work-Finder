@@ -1,7 +1,7 @@
 // 서초문화재단 채용공고 (공지사항 중 RECRUIT 분류)
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../types';
-import { normalizeDate, truncate } from '../base';
+import { keepQuery, normalizeDate, truncate } from '../base';
 
 export const config: SiteConfig = {
   id: 'seocho-cf',
@@ -22,6 +22,6 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     regDate: normalizeDate(item.date),
     deadlineDate: null,
     status: item.status || undefined,
-    url: item.href.startsWith('http') ? item.href : null,
+    url: item.href.startsWith('http') ? keepQuery(item.href, []) : null,
   }));
 }

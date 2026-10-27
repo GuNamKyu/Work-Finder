@@ -1,7 +1,7 @@
 // 광진문화재단 채용공고
 import type { Page } from 'playwright';
 import type { JobPosting, SiteConfig } from '../types';
-import { normalizeDate, truncate } from '../base';
+import { keepQuery, normalizeDate, truncate } from '../base';
 
 export const config: SiteConfig = {
   id: 'naruart',
@@ -19,6 +19,6 @@ export async function scrape(page: Page): Promise<JobPosting[]> {
     organization: '광진문화재단',
     regDate: normalizeDate(item.date),
     deadlineDate: null,
-    url: item.href.startsWith('http') ? item.href : null,
+    url: item.href.startsWith('http') ? keepQuery(item.href, ['idx']) : null,
   }));
 }

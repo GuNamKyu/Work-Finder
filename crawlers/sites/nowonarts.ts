@@ -12,7 +12,8 @@ export const config: SiteConfig = {
 export async function scrape(page: Page): Promise<JobPosting[]> {
   const items = await page.$$eval('.default_tb table tbody tr', rows => rows.map(row => {
     const link = row.querySelector('td.tb_subject a') as HTMLAnchorElement | null;
-    return { title: link?.textContent?.trim() || '', href: link?.href || '', date: row.querySelector('td.tb_date')?.textContent?.trim() || '' };
+    // 새 글 배지 'N'이 제목 끝에 붙음
+    return { title: link?.textContent?.trim().replace(/\s+N$/, '') || '', href: link?.href || '', date: row.querySelector('td.tb_date')?.textContent?.trim() || '' };
   }).filter(item => item.title));
   return items.map(item => ({
     title: truncate(item.title),
