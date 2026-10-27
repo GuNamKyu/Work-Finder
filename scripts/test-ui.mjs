@@ -21,12 +21,19 @@ try {
   assert.equal(await page.locator('.kind-badge').filter({ hasText: '자원봉사' }).count(), 0);
   assert.ok(await page.locator('.kind-badge').filter({ hasText: '인턴' }).count() > 0);
   const equalActions = async () => {
-    const sizes = await page.locator('.posting').first().locator('.posting-actions button').evaluateAll(buttons => buttons.map(b => ({ width: b.getBoundingClientRect().width, height: b.getBoundingClientRect().height, cssWidth: getComputedStyle(b).width, cssHeight: getComputedStyle(b).height })));
-    assert.equal(sizes.length, 3); sizes.forEach(s => {
-      assert.equal(s.cssWidth, '112px'); assert.equal(s.cssHeight, '40px');
-      // A translated animated ancestor can round physical coordinates by tiny fractions.
-      assert.ok(Math.abs(s.width - 112) < .01 && Math.abs(s.height - 40) < .01);
-    });
+    const card = page.locator('.posting').first();
+    const sizes = await card.locator('.icon-actions button').evaluateAll(buttons => buttons.map(b => ({ cssWidth: getComputedStyle(b).width, cssHeight: getComputedStyle(b).height, label: b.getAttribute('aria-label') })));
+    // 원문·즐겨찾기·숨기기는 32×32 아이콘 한 줄, 그 아래 112×32 보고서 버튼
+    assert.equal(sizes.length, 3); sizes.forEach(s => { assert.equal(s.cssWidth, '32px'); assert.equal(s.cssHeight, '32px'); assert.ok(s.label); });
+    const report = card.locator('.report-btn');
+    assert.equal(await report.evaluate(b => getComputedStyle(b).width), '112px');
+    // 보고서는 접혀 있다가 버튼으로 열리고 닫힌다
+    assert.equal(await card.locator('.posting-report').isVisible(), false);
+    await report.click();
+    assert.equal(await card.locator('.posting-report').isVisible(), true);
+    assert.equal(await report.getAttribute('aria-expanded'), 'true');
+    await report.click();
+    assert.equal(await card.locator('.posting-report').isVisible(), false);
   };
   await equalActions();
   const p = JSON.parse(await readFile('web/experience-results.json', 'utf8')).find(r => r.site.id === 'work24-youth').postings.find(p => p.userVisible);
@@ -116,5 +123,5 @@ try {
   await page.screenshot({ path: '.test-artifacts/hidden-learning-mobile.png', fullPage: true, animations: 'disabled' });
   assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
   assert.deepEqual(errors, []);
-  console.log(`UI 검증 통과 (${baseUrl}): 비봉사 공고·즐겨찾기 보존·달력·모바일·112×40 버튼·3건 숨김 학습/내보내기/해제. 사업 안내 실데이터: ${programInfoVerified ? '통과' : '소스 실패로 미검증 (오류 표시 확인)'}. 로컬 데이터 표본: ${p.title}`);
+  console.log(`UI 검증 통과 (${baseUrl}): 비봉사 공고·즐겨찾기 보존·달력·모바일·아이콘 버튼·보고서 펼침·3건 숨김 학습/내보내기/해제. 사업 안내 실데이터: ${programInfoVerified ? '통과' : '소스 실패로 미검증 (오류 표시 확인)'}. 로컬 데이터 표본: ${p.title}`);
 } finally { await browser?.close(); server?.kill(); }

@@ -97,28 +97,47 @@ function card(p) {
   const support = p.recordKind === 'program_info';
   const badge = p.postingType === 'experience' ? TYPE_LABELS[p.experienceType] || '직무경험' : '채용';
   const review = p.eligibilityStatus === 'ineligible' ? '지원 불가 신호' : p.eligibilityStatus === 'likely_eligible' ? '초급 직무 신호 · 자격 확정 아님' : '지원요건 미확인';
+  // 카드에는 제목과 기관·접수(활동) 기간만 보이고, 자격요건·요약·경고·판단 근거는 "보고서" 패널에 모은다
+  const warnings = [
+    p.detailWarning,
+    p.verificationStatus === 'retained' && `이번 수집에서 재확인 못함 · 이전 확인값 보존 · 마지막 확인 ${p.lastConfirmedAt || '시각 미상'} · 현재 모집 여부는 원문 확인 필요`,
+    p.lifecycleStatus === 'stale_unknown' && '오래된 공고 · 마감일 미확인 (모집 중으로 확정하지 않음)',
+    p.retainedSchedule && '일부 일정은 이전 확인값 보존 · 이번 상세 수집에서 재확인 못함',
+    saved?.missingFromLatest && '현재 수집에서 미확인 · 저장 당시 사본 보존 (종료 확정 아님)',
+    saved?.retainedDates && '일부 일정은 이전 확인값 보존 · 원문 재확인 필요',
+    saved && !isActive(p) && '종료 또는 오래된 공고 · 즐겨찾기 이력으로 보존',
+    saved && p.userVisible === false && '현재 추천 대상에서 제외됨 · 사용자가 저장한 기록',
+    learnedExcluded(p) && '숨김 학습 제외 문구에 일치 · 즐겨찾기 사본은 보존',
+  ].filter(Boolean);
+  const period = support ? '접수기간 확인 전' : deadline ? `접수 ${esc(p.applicationStartAt || '시작일 미확인')} ~ ${esc(deadline)}` : '접수 마감일 미확인';
+  const activity = p.programStartAt ? ` · 활동 ${esc(p.programStartAt)} ~ ${esc(p.programEndAt || '종료일 미확인')}` : '';
+  const row = (label, value) => value ? `<dt>${label}</dt><dd>${value}</dd>` : '';
+  const links = (p.informationLinks || []).filter(l => safeUrl(l.url)).map(l => `<a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener noreferrer">${esc(l.label)} ↗</a>`).join(' · ');
   el.innerHTML = `<div class="posting-body"><div class="posting-title"><span class="kind-badge">${esc(badge)}</span> ${esc(p.title)} ${newIds.has(identity(p)) ? '<span class="posting-new">NEW</span>' : ''}</div>
-    <div class="posting-org">${esc(p.siteName)} · ${esc(p.organization)} ${esc(p.region || '')}</div>
-    <div class="posting-note">${support ? '사업 안내 · 현재 모집 여부 미확인' : `${esc(p.roleText || '')} · ${review} · ${p.relevanceTier === 'target' ? '목표 분야' : '인접 분야'}`}${p.lifecycleStatus === 'active_long' ? ' · 장기 모집' : ''}${p.lifecycleStatus === 'rolling' ? ' · 상시 모집' : ''}</div>
-    ${p.summary ? `<div class="posting-note">${esc(p.summary)}</div>` : ''}
-    ${p.eligibilityText ? `<div class="posting-note">참여대상: ${esc(p.eligibilityText)}</div>` : ''}
-    ${p.programPeriodText ? `<div class="posting-note">사업 운영기간 (접수기간 아님): ${esc(p.programPeriodText)}</div>` : ''}
-    ${(p.informationLinks || []).filter(l => safeUrl(l.url)).map(l => `<a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener noreferrer">${esc(l.label)} ↗</a>`).join(' · ')}
-    <div class="schedule-summary">${support ? '접수기간 확인 전 — 모집 중으로 표시하지 않음' : deadline ? `접수 ${esc(p.applicationStartAt || '시작일 미확인')} ~ ${esc(deadline)}` : '접수 마감일 미확인'}${p.programStartAt ? `<br>활동 ${esc(p.programStartAt)} ~ ${esc(p.programEndAt || '종료일 미확인')}` : ''}</div>
-    ${p.detailWarning ? `<div class="posting-note warning">${esc(p.detailWarning)}</div>` : ''}
-    ${p.verificationStatus === 'retained' ? `<div class="warning">이번 수집에서 재확인 못함 · 이전 확인값 보존 · 마지막 확인 ${esc(p.lastConfirmedAt || '시각 미상')} · 현재 모집 여부는 원문 확인 필요</div>` : ''}
-    ${p.lifecycleStatus === 'stale_unknown' ? '<div class="warning">오래된 공고 · 마감일 미확인 (모집 중으로 확정하지 않음)</div>' : ''}
-    ${p.retainedSchedule ? '<div class="warning">일부 일정은 이전 확인값 보존 · 이번 상세 수집에서 재확인 못함</div>' : ''}
-    ${saved?.missingFromLatest ? '<div class="warning">현재 수집에서 미확인 · 저장 당시 사본 보존 (종료 확정 아님)</div>' : ''}
-    ${saved?.retainedDates ? '<div class="warning">일부 일정은 이전 확인값 보존 · 원문 재확인 필요</div>' : ''}
-    ${saved && !isActive(p) ? '<div class="warning">종료 또는 오래된 공고 · 즐겨찾기 이력으로 보존</div>' : ''}
-    ${saved && p.userVisible === false ? '<div class="warning">현재 추천 대상에서 제외됨 · 사용자가 저장한 기록</div>' : ''}
-    ${learnedExcluded(p) ? '<div class="warning">숨김 학습 제외 문구에 일치 · 즐겨찾기 사본은 보존</div>' : ''}
-    <details><summary>일정·판단 근거</summary><ul>${dates.map(e => `<li>${esc(e.date)} ${esc(e.label)}${e.evidence ? ` — ${esc(e.evidence)}` : ''}</li>`).join('') || '<li>등록일 외 확인된 일정 없음</li>'}</ul><p>${esc([...(p.relevanceReasons || []), ...(p.eligibilityReasons || [])].join(' / '))}</p><p>적합도 ${p.fitScore ?? '-'}점은 정렬 보조값이며 지원자격을 보장하지 않습니다.</p></details></div>
-    <div class="posting-actions"><button class="source-btn">원문 열기 ↗</button><button class="fav-btn ${fav ? 'active' : ''}" aria-pressed="${fav}" aria-label="${esc(p.title)} 즐겨찾기 ${fav ? '해제' : '추가'}">${fav ? '★ 저장됨' : '☆ 즐겨찾기'}</button><button class="posting-hide-btn">${isHidden(p) ? '복원' : '숨기기'}</button></div>`;
+    <div class="schedule-summary"><span class="posting-org-inline">${esc(p.organization || p.siteName)}</span> · ${period}${activity}${warnings.length ? ' <span class="warning-mark" title="보고서에 확인할 내용이 있습니다">⚠</span>' : ''}</div>
+    <div class="posting-report" hidden><dl>
+      ${row('수집처', `${esc(p.siteName)}${p.region ? ` · ${esc(p.region)}` : ''}`)}
+      ${row('구분', support ? '사업 안내 · 현재 모집 여부 미확인' : [esc(p.roleText || ''), review, p.relevanceTier === 'target' ? '목표 분야' : '인접 분야', p.lifecycleStatus === 'active_long' ? '장기 모집' : '', p.lifecycleStatus === 'rolling' ? '상시 모집' : ''].filter(Boolean).join(' · '))}
+      ${row('참여대상·자격', esc(p.eligibilityText || ''))}
+      ${row('요약', esc(p.summary || ''))}
+      ${row('사업 운영기간', p.programPeriodText ? `${esc(p.programPeriodText)} (접수기간 아님)` : '')}
+      ${row('관련 안내', links)}
+      ${row('판단 근거', esc([...(p.relevanceReasons || []), ...(p.eligibilityReasons || [])].join(' / ')))}
+      ${row('일정 근거', `<ul>${dates.map(e => `<li>${esc(e.date)} ${esc(e.label)}${e.evidence ? ` — ${esc(e.evidence)}` : ''}</li>`).join('') || '<li>등록일 외 확인된 일정 없음</li>'}</ul>`)}
+    </dl>${warnings.map(w => `<div class="warning">${esc(w)}</div>`).join('')}<p class="posting-note">적합도 ${p.fitScore ?? '-'}점은 정렬 보조값이며 지원자격을 보장하지 않습니다.</p></div></div>
+    <div class="posting-actions"><div class="icon-actions">
+      <button class="source-btn icon-btn" title="원문 열기" aria-label="${esc(p.title)} 원문 열기">↗</button>
+      <button class="fav-btn icon-btn ${fav ? 'active' : ''}" title="${fav ? '즐겨찾기 해제' : '즐겨찾기'}" aria-pressed="${fav}" aria-label="${esc(p.title)} 즐겨찾기 ${fav ? '해제' : '추가'}">${fav ? '★' : '☆'}</button>
+      <button class="posting-hide-btn icon-btn" title="${isHidden(p) ? '복원' : '숨기기'}" aria-label="${esc(p.title)} ${isHidden(p) ? '복원' : '숨기기'}">${isHidden(p) ? '↺' : '✕'}</button>
+    </div><button class="report-btn" aria-expanded="false">보고서</button></div>`;
   el.querySelector('.source-btn').onclick = () => openSource(p);
   el.querySelector('.fav-btn').onclick = () => toggleFavorite(p);
   el.querySelector('.posting-hide-btn').onclick = () => toggleHidden(p);
+  el.querySelector('.report-btn').onclick = event => {
+    const panel = el.querySelector('.posting-report'), open = panel.hidden;
+    panel.hidden = !open; event.currentTarget.setAttribute('aria-expanded', String(open));
+    event.currentTarget.textContent = open ? '보고서 닫기' : '보고서';
+  };
   return el;
 }
 function sourceStatus() {

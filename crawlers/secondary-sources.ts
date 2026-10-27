@@ -4,8 +4,12 @@ import type { CrawlResult, JobPosting } from './types.js';
  * 다른 기관 공고를 다시 싣는 채용 포털(2차 출처). 원 출처 게시판에 같은 공고가 있으면
  * 원 출처를 남기고 2차 출처 사본은 수집에서 뺀다. (종합 게시판 우선 규칙의 예외:
  * 포털은 원문 마감·자격을 직접 관리하지 않고, 대행사가 대신 올리는 경우가 많다.)
+ * 소속·회원 기관 공고를 함께 싣는 상위 기관 게시판(국가유산청·경기문화재단·한국문화원연합회·한국문화유산협회)도
+ * 그 기관 자체 게시판에 같은 공고가 있으면 자체 게시판을 남긴다.
+ * 원 출처가 없고 여러 게시판에 같은 공고가 있으면 이 순서에서 앞선 게시판 하나만 남긴다.
  */
-export const SECONDARY_SOURCE_IDS = new Set(['saramin']);
+export const SECONDARY_SOURCE_PRIORITY = ['khs', 'ggcf', 'kccf', 'kaah', 'gojobs', 'job-gg', 'museum-or-kr', 'kdp-aks', 'saramin'];
+export const SECONDARY_SOURCE_IDS = new Set(SECONDARY_SOURCE_PRIORITY);
 
 const DATE_WINDOW_DAYS = 45;
 const TITLE_SIMILARITY = 0.5;
@@ -78,6 +82,8 @@ function titleYear(title: string): string | null {
 const MIN_ORG_SUBSTRING = 4;
 // "제3회 직원 채용 공고"처럼 핵심어가 거의 없는 제목은 한두 글자 겹침으로 같은 공고가 되지 않게 함
 const MIN_CORE_BIGRAMS = 3;
+// 날짜 없이 제목 일치만으로 같은 공고로 볼 때의 최소 길이(정리 후 글자 수). "직원 채용 공고" 같은 일반 제목 배제
+const MIN_EXACT_TITLE = 12;
 
 function sameOrganization(a: string, b: string): boolean {
   if (!a || !b) return false;
@@ -89,7 +95,18 @@ function sameOrganization(a: string, b: string): boolean {
 /** 같은 공고로 보이면 0보다 큰 유사도, 아니면 0 */
 export function matchScore(secondary: JobPosting, original: JobPosting): number {
   const orgA = actualOrganization(secondary), orgB = actualOrganization(original);
-  if (!sameOrganization(orgA, orgB)) return 0;
+  // 앞의 [기관명]과 끝의 마감 표기 "(11.6 금)"를 뺀 제목이 충분히 길고 완전히 같으면, 기관이 맞고 날짜가 어긋나지
+  // 않는 한(한쪽이라도 날짜가 없거나 기간 안) 같은 공고로 본다. 날짜 없는 포털 사본끼리의 중복을 잡기 위한 규칙.
+  const exact = (t: string) => clean(t.replace(/^\s*\[[^\]]+\]\s*/, '').replace(/\(\d{1,2}\.\s*\d{1,2}\.?\s*[월화수목금토일]\)\s*$/, ''));
+  const named = (org: string, title: string) => org.length >= MIN_ORG_SUBSTRING && clean(title).includes(org);
+  if (exact(secondary.title).length >= MIN_EXACT_TITLE && exact(secondary.title) === exact(original.title)
+    && (sameOrganization(orgA, orgB) || named(orgA, original.title) || named(orgB, secondary.title))) {
+    const a = postedDay(secondary), b = postedDay(original);
+    if (a === null || b === null || Math.abs(a - b) <= DATE_WINDOW_DAYS * 86400000) return 1;
+  }
+  // 포털이 상위 기관(예: 서울특별시 서대문구)을 기관명으로 적어도, 제목에 원 출처 기관명이 있으면 같은 기관으로 본다
+  const namedInTitle = orgB.length >= MIN_ORG_SUBSTRING && clean(secondary.title).includes(orgB);
+  if (!sameOrganization(orgA, orgB) && !namedInTitle) return 0;
   // 날짜를 모르면 연도 없는 제목만으로는 회차를 구분할 수 없으므로 같은 공고로 보지 않음
   const a = postedDay(secondary), b = postedDay(original);
   if (a === null || b === null || Math.abs(a - b) > DATE_WINDOW_DAYS * 86400000) return 0;
@@ -109,20 +126,30 @@ export function isSamePosting(secondary: JobPosting, original: JobPosting): bool
 
 /** 2차 출처 결과에서 원 출처(현재+보존 공고)와 겹치는 공고를 제거하고 제거 내역을 결과에 남긴다. */
 export function dropSecondaryDuplicates(results: CrawlResult[]): CrawlResult[] {
-  const originals = results.filter(r => !SECONDARY_SOURCE_IDS.has(r.site.id))
+  // 비교 대상: 원 출처 전체 + 우선순위가 앞선 포털에서 이미 남긴 공고
+  const kept = results.filter(r => !SECONDARY_SOURCE_IDS.has(r.site.id))
     .flatMap(r => r.postings.map(p => ({ siteId: r.site.id, posting: p })));
-  return results.map(result => {
-    if (!SECONDARY_SOURCE_IDS.has(result.site.id)) return result;
-    const removed: NonNullable<CrawlResult['secondaryDuplicates']> = [];
-    const postings = result.postings.filter(p => {
-      let match: (typeof originals)[number] | undefined, best = 0;
-      for (const o of originals) {
-        const score = matchScore(p, o.posting);
-        if (score > best) { best = score; match = o; }
-      }
-      if (match) removed.push({ title: p.title, matchedSiteId: match.siteId, matchedTitle: match.posting.title });
-      return !match;
-    });
-    return { ...result, postings, secondaryDuplicates: removed };
+  const cleaned = new Map<string, CrawlResult>();
+  for (const id of SECONDARY_SOURCE_PRIORITY) {
+    const result = results.find(r => r.site.id === id);
+    if (!result) continue;
+    const next = dropAgainst(result, kept);
+    cleaned.set(id, next);
+    kept.push(...next.postings.map(p => ({ siteId: id, posting: p })));
+  }
+  return results.map(r => cleaned.get(r.site.id) || r);
+}
+
+function dropAgainst(result: CrawlResult, originals: { siteId: string; posting: JobPosting }[]): CrawlResult {
+  const removed: NonNullable<CrawlResult['secondaryDuplicates']> = [];
+  const postings = result.postings.filter(p => {
+    let match: (typeof originals)[number] | undefined, best = 0;
+    for (const o of originals) {
+      const score = matchScore(p, o.posting);
+      if (score > best) { best = score; match = o; }
+    }
+    if (match) removed.push({ title: p.title, matchedSiteId: match.siteId, matchedTitle: match.posting.title });
+    return !match;
   });
+  return { ...result, postings, secondaryDuplicates: removed };
 }

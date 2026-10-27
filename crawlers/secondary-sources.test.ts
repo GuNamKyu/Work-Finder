@@ -80,3 +80,54 @@ test('retained original postings still suppress the portal copy when the origina
   assert.equal(results.find(r => r.site.id === 'hangeul')!.postings.length, 1);
   assert.equal(results.find(r => r.site.id === 'saramin')!.postings.length, 0);
 });
+
+// 2026-10-27 실제 중복: 서대문자연사박물관 공고가 한국학자료통합플랫폼에도, 국립민속박물관 공고가 나라일터에도 실림
+test('re-posting boards (kdp-aks, gojobs) lose copies of an original board posting', () => {
+  const results: CrawlResult[] = [
+    { site: site('namu-sdm'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('서대문자연사박물관 일반임기제공무원(학예연구분야) 채용 공고', '서대문자연사박물관', '2026-10-23')] },
+    { site: site('kdp-aks'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('[서대문자연사박물관] 일반임기제공무원(학예연구분야) 채용 공고(11.5. 목)', '서대문자연사박물관', '2026-10-23')] },
+    { site: site('nfm'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('국립민속박물관 유물과학과 공무직 근로자(학예원) 채용 공고', '국립민속박물관', '2026-10-20')] },
+    { site: site('gojobs'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('국립민속박물관 유물과학과 공무직 근로자(학예원) 채용 공고', '국립민속박물관', '2026-10-20')] },
+  ];
+  const out = dropSecondaryDuplicates(results);
+  assert.equal(out.find(r => r.site.id === 'kdp-aks')!.postings.length, 0);
+  assert.equal(out.find(r => r.site.id === 'kdp-aks')!.secondaryDuplicates?.[0].matchedSiteId, 'namu-sdm');
+  assert.equal(out.find(r => r.site.id === 'gojobs')!.postings.length, 0);
+  assert.equal(out.find(r => r.site.id === 'namu-sdm')!.postings.length, 1);
+});
+
+test('without an original, only the higher-priority portal keeps a posting shared by two portals', () => {
+  const shared = (org: string) => p(`[청주대학교 박물관] 계약직원(학예사) 공개채용 공고`, org, '2026-10-26');
+  const out = dropSecondaryDuplicates([
+    { site: site('kdp-aks'), crawledAt: '2026-10-27T00:00:00Z', postings: [shared('청주대학교 박물관')] },
+    { site: site('museum-or-kr'), crawledAt: '2026-10-27T00:00:00Z', postings: [shared('청주대학교 박물관')] },
+  ]);
+  assert.equal(out.find(r => r.site.id === 'museum-or-kr')!.postings.length, 1);
+  assert.equal(out.find(r => r.site.id === 'kdp-aks')!.postings.length, 0);
+});
+
+test('a portal that lists the parent body as organization still matches when the title names the original institution', () => {
+  // 2026-10-27 나라일터: 기관명 "서울특별시 서대문구", 원 출처 namu-sdm: "서대문자연사박물관"
+  assert.ok(isSamePosting(
+    p('서대문자연사박물관 일반임기제공무원(학예연구분야) 채용 공고', '서울특별시 서대문구', '2026-10-22'),
+    p('서대문자연사박물관 일반임기제공무원(학예연구분야) 채용 공고', '서대문자연사박물관', '2026-10-22')));
+  // 제목에 기관명이 없고 기관도 다르면 같은 공고가 아니다
+  assert.equal(isSamePosting(
+    p('일반임기제공무원(학예연구분야) 채용 공고', '서울특별시 서대문구', '2026-10-22'),
+    p('일반임기제공무원(학예연구분야) 채용 공고', '서대문자연사박물관', '2026-10-22')), false);
+});
+
+test('umbrella boards yield to the institution board; identical specific titles match without dates', () => {
+  const out = dropSecondaryDuplicates([
+    { site: site('gogung'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('2026년 제7차 국립고궁박물관 공무직 근로자(조리원) 채용 최종합격자 공고', '국립고궁박물관', '2026-10-24')] },
+    { site: site('khs'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('2026년 제7차 국립고궁박물관 공무직 근로자(조리원) 채용 최종합격자 공고', '국립고궁박물관', '2026-10-24')] },
+    { site: site('museum-or-kr'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('국립한국문학관 단기근로자 채용공고', '한국박물관협회', '')] },
+    { site: site('kdp-aks'), crawledAt: '2026-10-27T00:00:00Z', postings: [p('국립한국문학관 단기근로자 채용공고', '국립한국문학관', '')] },
+  ]);
+  assert.equal(out.find(r => r.site.id === 'gogung')!.postings.length, 1);
+  assert.equal(out.find(r => r.site.id === 'khs')!.postings.length, 0);
+  assert.equal(out.find(r => r.site.id === 'museum-or-kr')!.postings.length, 1);
+  assert.equal(out.find(r => r.site.id === 'kdp-aks')!.postings.length, 0);
+  // 짧고 일반적인 제목은 날짜 없이 같은 공고로 보지 않는다
+  assert.equal(isSamePosting(p('직원 채용 공고', '가 기관', ''), p('직원 채용 공고', '나 기관', '')), false);
+});

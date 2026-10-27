@@ -9,19 +9,28 @@ button, select { font: inherit; }
 .source-nav-item a { color: #756250; margin-right: .5rem; text-decoration: none; }
 .posting-note { color: #625c52; font-size: .8rem; margin-top: .25rem; }
 .kind-badge { display: inline-block; border: 1px solid #8c7056; border-radius: 4px; padding: 0 .4rem; font-size: .72rem; color: #755339; }
-.posting-actions { display: flex; flex-direction: column; align-items: stretch; gap: .5rem; position: static; }
-.fav-btn, .fav-btn.active { width: auto; height: auto; min-height: 40px; padding: .4rem .7rem; font-size: .85rem; border: 1px solid #a05c36; border-radius: 6px; color: #7b411f; background: #fff9ed; white-space: nowrap; opacity: 1; }
-.fav-btn.active { background: #7b411f; color: #fff; }
-.posting-hide-btn { width: auto; height: auto; font-size: .8rem; padding: .3rem; opacity: 1; color: var(--ink); }
-.posting-actions > button, .posting-actions > .fav-btn, .posting-actions > .fav-btn.active { box-sizing: border-box; width: 112px; height: 40px; min-height: 40px; flex: 0 0 auto; margin: 0; padding: .4rem .5rem; font-size: .85rem; line-height: 1.2; border: 1px solid var(--divider); border-radius: 6px; white-space: nowrap; position: static; transform: none; }
-.posting-actions > button:hover { transform: none; }
-.posting-actions > .fav-btn { border-color: #a05c36; }
+/* 오른쪽 열: 원문·즐겨찾기·숨기기 아이콘 한 줄(각 32px, 합계 112px) + 보고서 버튼(112×32) */
+.posting-actions { display: flex; flex-direction: column; align-items: stretch; gap: .4rem; position: static; width: 112px; }
+.icon-actions { display: flex; justify-content: space-between; gap: 8px; }
+.posting-actions button { box-sizing: border-box; margin: 0; position: static; transform: none; opacity: 1; border: 1px solid var(--divider); border-radius: 6px; background: var(--card); color: var(--ink); cursor: pointer; line-height: 1; }
+.posting-actions button:hover { transform: none; background: #f4ede3; }
+.posting-actions .icon-btn { width: 32px; height: 32px; min-height: 32px; padding: 0; font-size: 1rem; display: inline-flex; align-items: center; justify-content: center; }
+.posting-actions .fav-btn { border-color: #a05c36; color: #7b411f; background: #fff9ed; }
+.posting-actions .fav-btn.active { background: #7b411f; color: #fff; }
+.posting-actions .report-btn { width: 112px; height: 32px; font-size: .8rem; padding: 0 .4rem; white-space: nowrap; }
+.posting-report { margin-top: .5rem; padding: .6rem .75rem; border-top: 1px dashed var(--divider); font-size: .8rem; color: #4f493f; }
+.posting-report dl { display: grid; grid-template-columns: 6.5em minmax(0, 1fr); gap: .25rem .6rem; margin: 0 0 .4rem; }
+.posting-report dt { color: #8a8275; }
+.posting-report dd { margin: 0; overflow-wrap: anywhere; }
+.posting-report ul { margin: 0; padding-left: 1.1rem; }
+.warning-mark { color: #9b351e; }
 #exclusion-controls { max-width: 1100px; margin: 1rem auto; padding: 0 1.5rem; }
 #exclusion-controls p { font-size: .8rem; }
 .learned-rule { border-bottom: 1px solid var(--divider); padding: .6rem 0; font-size: .85rem; }
 .learned-rule button { margin-left: .6rem; }
 .learned-rule small { display: block; overflow-wrap: anywhere; }
-.schedule-summary { margin: .65rem 0; color: #713d25; font-size: .86rem; }
+.schedule-summary { margin: .3rem 0 0; color: #713d25; font-size: .84rem; }
+.schedule-summary .posting-org-inline { color: #625c52; }
 .warning, #app-message { color: #9b351e; font-size: .85rem; }
 details { font-size: .8rem; margin-top: .6rem; }
 summary { cursor: pointer; }
@@ -44,7 +53,7 @@ details ul { padding-left: 1.3rem; }
 :focus-visible { outline: 3px solid #226ca0; outline-offset: 3px; }
 @media (max-width: 650px) {
   .posting { grid-template-columns: 1fr; }
-  .posting-actions { flex-direction: row; flex-wrap: wrap; }
+  .posting-actions { flex-direction: row; align-items: center; width: auto; }
   .cal-cell { min-height: 85px; padding: .15rem; }
   .cal-cell .cal-event { font-size: .6rem; }
   .header-btns { flex-wrap: wrap; justify-content: center; }

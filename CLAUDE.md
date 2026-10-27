@@ -45,7 +45,7 @@ export async function scrape(page: Page, config?: SiteConfig): Promise<JobPostin
 
 - `ggcf.ts`는 경기문화재단 계열 3개 사이트(재단 본부 + 본부에 없는 공고가 있는 경기도박물관·경기북부어린이박물관)를 하나로 통합 (`configs` 배열 export)
 - 중복 사이트는 공고를 종합한 사이트를 우선한다(예: 산하 박물관 → 경기문화재단 본부, 국립문화유산연구원 → 국가유산청, 정책브리핑 → 나라일터). 밀린 사이트는 등록·url.txt에서 빼고 `excluded-sources.json`에 사유와 함께 기록
-- 예외: 다른 기관 공고를 다시 싣는 채용 포털(사람인 `saramin`)은 원 출처를 우선한다. 원 출처 게시판(현재·보존 공고)과 기관명·제목·등록일로 겹치는 포털 공고는 `secondary-sources.ts`가 제외하고 결과의 `secondaryDuplicates`에 남김
+- 예외: 다른 기관 공고를 다시 싣는 게시판은 공고 단위로 원 출처(기관 자체 게시판)를 우선한다. 대상은 소속·회원 기관 공고를 함께 싣는 상위 기관 게시판(국가유산청 `khs`, 경기문화재단 `ggcf`, 한국문화원연합회 `kccf`, 한국문화유산협회 `kaah`)과 포털(나라일터 `gojobs`, 경기일자리재단 `job-gg`, 한국박물관협회 `museum-or-kr`, 한국학자료통합플랫폼 `kdp-aks`, 사람인 `saramin`). 원 출처 게시판(현재·보존 공고)과 기관명·제목·등록일로 겹치거나, 충분히 긴 제목이 완전히 같은 공고는 `secondary-sources.ts`가 제외하고 결과의 `secondaryDuplicates`에 남김. 원 출처가 없고 여러 게시판에 겹치면 `SECONDARY_SOURCE_PRIORITY` 순서(위 나열 순)에서 앞선 하나만 남김
 - `saramin.ts`는 playMCP 사람인 도구 전용 소스(workfinder 실행에서 수집). `npm run crawl`에서는 사람인 페이지를 긁지 않고 실패로 남겨 이전 수집분을 보존
 - 수집 기간 규칙: 등록일이 한 달 넘게 지났거나 확인된 접수 마감이 지난 공고는 결과에 넣지 않는다(`resilience.ts`의 `isWithinCollectionWindow`, 결과 병합 `reconcileResults`에서 적용). 게시판에 남은 과거 공고도 이 규칙으로 빠진다
 - `kccf.ts`는 한국문화원연합회 통합 채용 게시판에서 서울(SU)·경기(GG) 지역만 선택해 수집 (한 지역 실패 시 PartialCrawlError)
