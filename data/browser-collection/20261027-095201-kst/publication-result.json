@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261027-095201-kst",
+  "recordedAt": "2026-10-27T07:31:41.365Z",
+  "repositoryCommit": "285cec1493da44d1bc3b02eecc83be6f062b8f58",
+  "branch": "main",
+  "workflow": {
+    "file": "publish-browser.yml",
+    "runId": "40467495602",
+    "runNumber": 16,
+    "mode": "data-and-ui",
+    "collectionId": "20261027-095201-kst",
+    "status": "success",
+    "durationSeconds": 36,
+    "annotations": [
+      "Non-blocking Node.js 20 deprecation notices for Actions currently forced to Node.js 24.",
+      "Non-blocking ubuntu-latest migration notice for Ubuntu 26."
+    ]
+  },
+  "snapshot": {
+    "inventoryFingerprint": "ef8b99f91186ab42b928fdd1386c0b432aa941213c1af885f121cf3ca8f09fd3",
+    "localVerification": "passed",
+    "gitTreeSourceFingerprint": "matched",
+    "manifestFilesMatched": 25,
+    "remoteMainMatchedCommit": true
+  },
+  "publicVerification": {
+    "url": "https://gunamkyu.github.io/Work-Finder/",
+    "publicJsonSha256Matched": 5,
+    "candidateCompare": {
+      "dataChanged": false,
+      "uiChanged": false,
+      "changedDataFiles": [],
+      "changedUiFiles": [],
+      "recommendedMode": "none",
+      "shouldDeploy": false
+    },
+    "browser": {
+      "jobsSourceCount": 56,
+      "jobsVisibleCount": 54,
+      "jobsNewCount": 14,
+      "jobsLastCollectionLabel": "2026-10-27 15:43:45 KST",
+      "experienceSourceCount": 5,
+      "experienceVolunteerCount": 94,
+      "experienceLastCollectionLabel": "2026-10-27 15:43:45 KST",
+      "failedSource": "seocho-cf",
+      "unvisitedSource": "saramin"
+    }
+  },
+  "operationalNote": "gh CLI 미설치로 로그인된 Chrome의 GitHub Actions 화면에서 dispatch했다. 사람인은 playMCP 미연결로 unvisited, 서초문화재단은 Chrome의 https→http 리다이렉트 차단으로 failed."
+}
