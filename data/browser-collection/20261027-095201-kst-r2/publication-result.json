@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261027-095201-kst-r2",
+  "recordedAt": "2026-10-27T08:49:42.155Z",
+  "repositoryCommit": "dc19dc1fb656cd7fa1ad294ca265ce1b5c8a37c9",
+  "branch": "main",
+  "workflow": {
+    "file": "publish-browser.yml",
+    "runId": "40476103154",
+    "runNumber": 18,
+    "mode": "data-and-ui",
+    "collectionId": "20261027-095201-kst-r2",
+    "status": "success",
+    "dispatchedWith": "gh CLI",
+    "annotations": [
+      "Non-blocking Node.js 20 deprecation notices for Actions currently forced to Node.js 24.",
+      "Non-blocking ubuntu-latest migration notice for Ubuntu 26."
+    ]
+  },
+  "snapshot": {
+    "inventoryFingerprint": "8dadaf87cbf37265f0e9b30649f81d7b89f5fe4c0b825e7be6e2dc2f801d9a77",
+    "localVerification": "passed",
+    "publishGate": "ok",
+    "manifestFilesMatched": 25,
+    "remoteMainMatchedCommit": true
+  },
+  "publicVerification": {
+    "url": "https://gunamkyu.github.io/Work-Finder/",
+    "publicJsonSha256Matched": 5,
+    "browser": "built-in",
+    "uiVersion": "app.js?v=20261027-card2",
+    "counts": {
+      "jobsSourceCount": 56,
+      "jobsVisibleCount": 48
+    },
+    "checks": [
+      "카드당 아이콘 버튼 3개, 보고서 펼침 동작",
+      "서대문자연사박물관 일반임기제 공고 1건만 표시",
+      "콘솔 오류 없음"
+    ]
+  },
+  "note": "20261027-095201-kst와 같은 수집 관찰을 사이트 간 중복 공고 제거(9건)와 간결한 공고 카드로 다시 만든 개정판."
+}
