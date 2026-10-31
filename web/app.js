@@ -80,8 +80,10 @@ function selectRows(skipType = false) {
     && (filter !== 'new' || newIds.has(identity(p)))
     && (!period || (p.postedAt || p.regDate || p.applicationStartAt || '') >= oldest)
     && (!query || `${p.title} ${p.organization} ${p.siteName} ${p.roleText || ''} ${p.region || ''}`.toLowerCase().includes(query)))
-    .sort((a, b) => (a.relevanceTier === 'target' ? -1 : 0) - (b.relevanceTier === 'target' ? -1 : 0) || (b.fitScore || 0) - (a.fitScore || 0) || (a.applicationEndAt || a.deadlineDate || '9999').localeCompare(b.applicationEndAt || b.deadlineDate || '9999'));
+    .sort((a, b) => freshRank(a) - freshRank(b) || (a.relevanceTier === 'target' ? -1 : 0) - (b.relevanceTier === 'target' ? -1 : 0) || (b.fitScore || 0) - (a.fitScore || 0) || (a.applicationEndAt || a.deadlineDate || '9999').localeCompare(b.applicationEndAt || b.deadlineDate || '9999'));
 }
+// 신규(NEW)와 내용이 바뀐 공고를 목록 맨 위로 올린다. 그 안에서는 기존 정렬을 따른다.
+function freshRank(p) { return newIds.has(identity(p)) ? 0 : p.changeType === 'updated' ? 1 : 2; }
 function openSource(p) {
   // Only the verified Work24 read-only detail endpoints may be opened through POST.
   const f = p.sourceForm;
@@ -113,7 +115,7 @@ function card(p) {
   const activity = p.programStartAt ? ` · 활동 ${esc(p.programStartAt)} ~ ${esc(p.programEndAt || '종료일 미확인')}` : '';
   const row = (label, value) => value ? `<dt>${label}</dt><dd>${value}</dd>` : '';
   const links = (p.informationLinks || []).filter(l => safeUrl(l.url)).map(l => `<a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener noreferrer">${esc(l.label)} ↗</a>`).join(' · ');
-  el.innerHTML = `<div class="posting-body"><div class="posting-title"><span class="kind-badge">${esc(badge)}</span> ${esc(p.title)} ${newIds.has(identity(p)) ? '<span class="posting-new">NEW</span>' : ''}</div>
+  el.innerHTML = `<div class="posting-body"><div class="posting-title"><span class="kind-badge">${esc(badge)}</span> ${esc(p.title)} ${newIds.has(identity(p)) ? '<span class="posting-new">NEW</span>' : p.changeType === 'updated' ? '<span class="posting-new posting-updated">변경</span>' : ''}</div>
     <div class="schedule-summary"><span class="posting-org-inline">${esc(p.organization || p.siteName)}</span> · ${period}${activity}${warnings.length ? ' <span class="warning-mark" title="보고서에 확인할 내용이 있습니다">⚠</span>' : ''}</div>
     <div class="posting-report" hidden><dl>
       ${row('수집처', `${esc(p.siteName)}${p.region ? ` · ${esc(p.region)}` : ''}`)}

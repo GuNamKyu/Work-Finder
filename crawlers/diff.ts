@@ -205,6 +205,9 @@ async function main(): Promise<void> {
   const newPostings = events
     .filter(e => newTypes.includes(e.type) && isUserVisiblePosting(e.posting) && isActive(e.posting))
     .map(e => ({ ...e.posting, changeType: e.type }));
+  // 웹 화면이 갱신된 공고를 위로 올릴 수 있도록 이번 실행의 변경 유형을 결과 파일에 남긴다.
+  const updatedIds = new Set(events.filter(e => e.type === 'updated').map(e => e.stableId));
+  for (const result of currentResults) for (const p of result.postings) if (p.stableId && updatedIds.has(p.stableId)) p.changeType = 'updated';
   const sourceHealth = analyzeSources(currentResults, previousResults);
   const sourceIssues = sourceHealth.filter(source => !['OK', 'RECOVERED'].includes(source.status));
   const changed = events.filter(e => e.type !== 'unchanged' && e.type !== 'baseline');

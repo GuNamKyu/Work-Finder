@@ -1,0 +1,418 @@
+[
+  {
+    "regDate": "2026-10-30",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.kaah.kr/reqopen_view/588?page=1&searchTxt=",
+    "title": "재단법인 산들문화유산연구원 연구직 채용공고",
+    "organization": "재단법인 산들문화유산연구원",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-30",
+        "source": "list",
+        "evidence": "재단법인 산들문화유산연구원 연구직 채용공고 2026-10-30",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.kaah.kr/reqopen_view/588",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "kaah:url:626a7c5e1ff066543624",
+    "lifecycleStatus": "fresh",
+    "fitScore": 26,
+    "fitBreakdown": {
+      "roleField": 6,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 문화유산"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:31:35.665Z",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-10-29",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardView?board_key=5485",
+    "title": "[2026-3차] 직원 채용 공고",
+    "organization": "전쟁기념관",
+    "status": "진행",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-29",
+        "source": "list",
+        "evidence": "[2026-3차] 직원 채용 공고 2026-10-29 진행",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.warmemo.or.kr:8443/Home/H40000/H40200/H40202/boardView?board_key=5485",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "warmemo:url:43f58b8231e35f8cbdcf",
+    "lifecycleStatus": "fresh",
+    "fitScore": 20,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 기념관"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:31:45.884Z",
+    "siteId": "warmemo",
+    "siteName": "전쟁기념관",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-10-06",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.naruart.or.kr/community/recruit_view.php?idx=13242",
+    "title": "(재)광진문화재단 2026년도 제5회 직원 공개채용 공고",
+    "organization": "광진문화재단",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-06",
+        "source": "list",
+        "evidence": "(재)광진문화재단 2026년도 제5회 직원 공개채용 공고 2026-10-06",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.naruart.or.kr/community/recruit_view.php?idx=13242",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "naruart:url:0907aafe68b64b7b989d",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:37:50.374Z",
+    "siteId": "naruart",
+    "siteName": "광진문화재단",
+    "changeType": "resurfaced"
+  },
+  {
+    "regDate": "2026-10-15",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.nowonarts.kr/channels/job/posts/6486",
+    "title": "2026년 제9차 공개채용 공고",
+    "organization": "노원문화재단",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-15",
+        "source": "list",
+        "evidence": "2026년 제9차 공개채용 공고 2026-10-15",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.nowonarts.kr/channels/job/posts/6486",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "nowonarts:url:15b73dc20f509b41c6bc",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 문화재단"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:38:20.331Z",
+    "siteId": "nowonarts",
+    "siteName": "노원문화재단",
+    "changeType": "resurfaced"
+  },
+  {
+    "regDate": "2026-10-15",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.nowonarts.kr/channels/job/posts/6485",
+    "title": "2026년 11차 노원문화재단 도서관기획실 채용 공고 [기간제]",
+    "organization": "노원문화재단",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-15",
+        "source": "list",
+        "evidence": "2026년 11차 노원문화재단 도서관기획실 채용 공고 [기간제] 2026-10-15",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.nowonarts.kr/channels/job/posts/6485",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "nowonarts:url:c64ee82c4e444411aab9",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:38:20.331Z",
+    "siteId": "nowonarts",
+    "siteName": "노원문화재단",
+    "changeType": "resurfaced"
+  },
+  {
+    "regDate": "2026-10-08",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.nowonarts.kr/channels/job/posts/6477",
+    "title": "2026년 10차 노원문화재단 도서관기획실 채용 공고 [기간제]",
+    "organization": "노원문화재단",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-08",
+        "source": "list",
+        "evidence": "2026년 10차 노원문화재단 도서관기획실 채용 공고 [기간제] 2026-10-08",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.nowonarts.kr/channels/job/posts/6477",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "nowonarts:url:ed73f84895628b33592e",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:38:20.331Z",
+    "siteId": "nowonarts",
+    "siteName": "노원문화재단",
+    "changeType": "resurfaced"
+  },
+  {
+    "regDate": "2026-10-07",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.nowonarts.kr/channels/job/posts/6473",
+    "title": "2026년 제8차 공개채용 공고",
+    "organization": "노원문화재단",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-07",
+        "source": "list",
+        "evidence": "2026년 제8차 공개채용 공고 2026-10-07",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.nowonarts.kr/channels/job/posts/6473",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "nowonarts:url:6a6b601ad076bcfef27c",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 문화재단"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:38:20.331Z",
+    "siteId": "nowonarts",
+    "siteName": "노원문화재단",
+    "changeType": "resurfaced"
+  },
+  {
+    "regDate": "2026-10-02",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": null,
+    "title": "2026년 군포문화재단 휴직 대체인력 채용 재공고",
+    "organization": "군포문화재단",
+    "postingId": "4799",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-02",
+        "source": "list",
+        "evidence": "2026년 군포문화재단 휴직 대체인력 채용 재공고 2026-10-02",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": null,
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "gunpocf:id:4799",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:38:24.902Z",
+    "siteId": "gunpocf",
+    "siteName": "군포문화재단",
+    "changeType": "resurfaced"
+  }
+]
