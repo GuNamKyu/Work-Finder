@@ -1,0 +1,448 @@
+[
+  {
+    "regDate": "2026-10-29",
+    "postedAt": null,
+    "deadlineDate": "2026-11-12",
+    "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7380&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+    "title": "[전쟁기념사업회] 학예직, 연구직 등 직원 채용 공고(11.12 목)",
+    "organization": "전쟁기념사업회",
+    "postingId": "7380",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-12",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-29",
+        "source": "list",
+        "evidence": "[전쟁기념사업회] 학예직, 연구직 등 직원 채용 공고(11.12 목) 2026-10-29 ~2026-11-12",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "[전쟁기념사업회] 학예직, 연구직 등 직원 채용 공고(11.12 목) 2026-10-29 ~2026-11-12",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7380&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+    "applicationStartAt": null,
+    "stableId": "kdp-aks:id:7380",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:51:34.118Z",
+    "siteId": "kdp-aks",
+    "siteName": "한국학중앙연구원",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-10-29",
+    "postedAt": null,
+    "deadlineDate": "2026-11-09",
+    "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7375&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+    "title": "[국외소재문화유산재단] 직원(6급, 임시계약직 사업A/사업B) 채용(11.9 월)",
+    "organization": "국외소재문화유산재단",
+    "postingId": "7375",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-09",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-29",
+        "source": "list",
+        "evidence": "[국외소재문화유산재단] 직원(6급, 임시계약직 사업A/사업B) 채용(11.9 월) 2026-10-29 ~2026-11-09",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "[국외소재문화유산재단] 직원(6급, 임시계약직 사업A/사업B) 채용(11.9 월) 2026-10-29 ~2026-11-09",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7375&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+    "applicationStartAt": null,
+    "stableId": "kdp-aks:id:7375",
+    "lifecycleStatus": "fresh",
+    "fitScore": 23,
+    "fitBreakdown": {
+      "roleField": 3,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 문화유산"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:51:34.118Z",
+    "siteId": "kdp-aks",
+    "siteName": "한국학중앙연구원",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-10-28",
+    "postedAt": null,
+    "deadlineDate": "2026-11-12",
+    "url": null,
+    "title": "2026년 하반기 직원 채용",
+    "organization": "독립기념관",
+    "status": "모집중",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-12",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-28",
+        "source": "list",
+        "evidence": "2026년 하반기 직원 채용 2026-10-28 ~2026-11-12 모집중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "2026년 하반기 직원 채용 2026-10-28 ~2026-11-12 모집중",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": null,
+    "applicationStartAt": null,
+    "stableId": "ncs:composite:821a3cf50f05b5422c7e",
+    "lifecycleStatus": "fresh",
+    "fitScore": 20,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 기념관"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:51:56.749Z",
+    "siteId": "ncs",
+    "siteName": "NCS 공정채용",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-10-22",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://museum.or.kr/job2/?mode=view&idx=7134",
+    "title": "[청주대학교 박물관] 학예사 채용 공고",
+    "organization": "청주대학교 박물관",
+    "postingId": "7134",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-22",
+        "source": "list",
+        "evidence": "[청주대학교 박물관] 학예사 채용 공고 2026-10-22",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://museum.or.kr/job2/?mode=view&idx=7134",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "museum-or-kr:id:7134",
+    "lifecycleStatus": "fresh",
+    "fitScore": 40,
+    "fitBreakdown": {
+      "roleField": 20,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 박물관"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:53:25.880Z",
+    "siteId": "museum-or-kr",
+    "siteName": "한국박물관협회",
+    "changeType": "reposted"
+  },
+  {
+    "regDate": "2026-10-15",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://museum.or.kr/job2/?mode=view&idx=7108",
+    "title": "국립한국문학관 단기근로자 채용공고",
+    "organization": "한국박물관협회",
+    "postingId": "7108",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-15",
+        "source": "list",
+        "evidence": "국립한국문학관 단기근로자 채용공고 2026-10-15",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://museum.or.kr/job2/?mode=view&idx=7108",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "museum-or-kr:id:7108",
+    "lifecycleStatus": "fresh",
+    "fitScore": 30,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 박물관"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:53:25.880Z",
+    "siteId": "museum-or-kr",
+    "siteName": "한국박물관협회",
+    "changeType": "reposted"
+  },
+  {
+    "regDate": "2026-10-06",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://museum.or.kr/job2/?mode=view&idx=7080",
+    "title": "[청주대학교 박물관] 학예사 채용 공고",
+    "organization": "청주대학교 박물관",
+    "postingId": "7080",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-06",
+        "source": "list",
+        "evidence": "[청주대학교 박물관] 학예사 채용 공고 2026-10-06",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://museum.or.kr/job2/?mode=view&idx=7080",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "museum-or-kr:id:7080",
+    "lifecycleStatus": "fresh",
+    "fitScore": 40,
+    "fitBreakdown": {
+      "roleField": 20,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 박물관"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:53:25.880Z",
+    "siteId": "museum-or-kr",
+    "siteName": "한국박물관협회",
+    "changeType": "reposted"
+  },
+  {
+    "regDate": "2026-10-26",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "http://www.seochocf.or.kr/site/main/archive/post/2026-08%EC%B0%A8-%EC%84%9C%EC%B4%88%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8-%EC%A7%81%EC%9B%90-%EC%B1%84%EC%9A%A9-%EA%B3%B5%EA%B3%A0",
+    "title": "2026-08차 서초문화재단 직원 채용 공고",
+    "organization": "서초문화재단",
+    "status": "진행중",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-26",
+        "source": "list",
+        "evidence": "2026-08차 서초문화재단 직원 채용 공고 2026-10-26 진행중",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "http://www.seochocf.or.kr/site/main/archive/post/2026-08%EC%B0%A8-%EC%84%9C%EC%B4%88%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8-%EC%A7%81%EC%9B%90-%EC%B1%84%EC%9A%A9-%EA%B3%B5%EA%B3%A0",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "seocho-cf:url:6b3099452cbee82862ae",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:53:27.120Z",
+    "siteId": "seocho-cf",
+    "siteName": "서초문화재단",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-10-07",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "http://www.seochocf.or.kr/site/main/archive/post/2026-07%EC%B0%A8-%EC%84%9C%EC%B4%88%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8-%EC%A7%81%EC%9B%90-%EC%B1%84%EC%9A%A9-%EC%9E%84%EC%9A%A9%EC%98%88%EC%A0%95%EC%9E%90-%EA%B3%B5%EA%B3%A0",
+    "title": "2026-07차 서초문화재단 직원 채용 임용예정자 공고",
+    "organization": "서초문화재단",
+    "status": "진행중",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-10-07",
+        "source": "list",
+        "evidence": "2026-07차 서초문화재단 직원 채용 임용예정자 공고 2026-10-07 진행중",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "http://www.seochocf.or.kr/site/main/archive/post/2026-07%EC%B0%A8-%EC%84%9C%EC%B4%88%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8-%EC%A7%81%EC%9B%90-%EC%B1%84%EC%9A%A9-%EC%9E%84%EC%9A%A9%EC%98%88%EC%A0%95%EC%9E%90-%EA%B3%B5%EA%B3%A0",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "seocho-cf:url:ef3bc3b611c90f52d13f",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-10-31T08:53:27.120Z",
+    "siteId": "seocho-cf",
+    "siteName": "서초문화재단",
+    "changeType": "new"
+  }
+]
