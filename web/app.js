@@ -84,6 +84,15 @@ function selectRows(skipType = false) {
 }
 // 신규(NEW)와 내용이 바뀐 공고를 목록 맨 위로 올린다. 그 안에서는 기존 정렬을 따른다.
 function freshRank(p) { return newIds.has(identity(p)) ? 0 : p.changeType === 'updated' ? 1 : 2; }
+// 근무지역은 원문 표기를 먼저, 기관 소재지(조사값)는 조사일·출처 링크와 함께 보여 준다. 미검증 값은 그렇게 표시한다.
+function locationHtml(p) {
+  const l = p.workLocation;
+  if (!l) return '';
+  const url = l.sourceUrl ? safeUrl(l.sourceUrl) : '';
+  const src = url ? ` <a href="${esc(url)}" target="_blank" rel="noopener noreferrer">기관 사이트 ↗</a>` : '';
+  const when = l.checkedAt && l.institutionArea ? ` <small>(조사 ${esc(l.checkedAt)})</small>` : '';
+  return `${esc(l.text)}${when}${src}`;
+}
 function openSource(p) {
   // Only the verified Work24 read-only detail endpoints may be opened through POST.
   const f = p.sourceForm;
@@ -118,6 +127,7 @@ function card(p) {
   el.innerHTML = `<div class="posting-body"><div class="posting-title"><span class="kind-badge">${esc(badge)}</span> ${esc(p.title)} ${newIds.has(identity(p)) ? '<span class="posting-new">NEW</span>' : p.changeType === 'updated' ? '<span class="posting-new posting-updated">변경</span>' : ''}</div>
     <div class="schedule-summary"><span class="posting-org-inline">${esc(p.organization || p.siteName)}</span> · ${period}${activity}${warnings.length ? ' <span class="warning-mark" title="보고서에 확인할 내용이 있습니다">⚠</span>' : ''}</div>
     <div class="posting-report" hidden><dl>
+      ${row('근무·기관 위치', locationHtml(p))}
       ${row('수집처', `${esc(p.siteName)}${p.region ? ` · ${esc(p.region)}` : ''}`)}
       ${row('구분', support ? '사업 안내 · 현재 모집 여부 미확인' : [esc(p.roleText || ''), review, p.relevanceTier === 'target' ? '목표 분야' : '인접 분야', p.lifecycleStatus === 'active_long' ? '장기 모집' : '', p.lifecycleStatus === 'rolling' ? '상시 모집' : ''].filter(Boolean).join(' · '))}
       ${row('참여대상·자격', esc(p.eligibilityText || ''))}

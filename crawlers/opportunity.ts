@@ -8,6 +8,7 @@ import type {
   RelevanceTier,
   ScheduleEvent,
 } from './types.js';
+import { resolveLocation } from './locations.js';
 
 const DAY_MS = 86_400_000;
 const ROLE_KEYWORDS = ['학예', '큐레이터', '박물관', '미술관', '문화재', '국가유산', '자연유산', '문화예술', '문화관광', '유물', '전시', '아카이브', '기록', '고고', '민속', '정책연구'];
@@ -287,6 +288,7 @@ export function enrichPosting(posting: JobPosting, siteId: string, now = new Dat
   partial.relevanceTier = relevance.tier;
   partial.relevanceReasons = relevance.reasons;
   partial.userVisible = relevance.visible;
+  partial.workLocation = resolveLocation(partial, siteId);
   return partial;
 }
 

@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 await mkdir('.test-artifacts',{recursive:true});
 const dir=await mkdtemp(join('.test-artifacts','analysis-'));
 for(const sub of ['crawlers','web','data']) await mkdir(join(dir,sub));
-for(const path of ['crawlers/diff.ts','crawlers/types.ts','crawlers/base.ts','crawlers/opportunity.ts','crawlers/detail-dates.ts','crawlers/schedule.ts','crawlers/partial-crawl.ts','web/model.js','web/exclusions.js','data/learned-exclusions.json','noise-keywords.txt','package.json']) await copyFile(path,join(dir,path));
+for(const path of ['crawlers/diff.ts','crawlers/types.ts','crawlers/base.ts','crawlers/opportunity.ts','crawlers/locations.ts','data/institution-locations.json','crawlers/detail-dates.ts','crawlers/schedule.ts','crawlers/partial-crawl.ts','web/model.js','web/exclusions.js','data/learned-exclusions.json','noise-keywords.txt','package.json']) await copyFile(path,join(dir,path));
 const now=new Date(),stamp=now.toISOString(),date=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul'}).format(now);
 const p={title:'테스트 박물관 학예 보조 모집',organization:'박물관',regDate:date,deadlineDate:'2099-12-31',url:'https://example.org/1',stableId:'retained-test',verificationStatus:'retained',lastConfirmedAt:'2026-09-27T01:00:00Z',postingType:'job'};
 const result={site:{id:'test',name:'테스트 박물관',url:'https://example.org'},postings:[p],crawledAt:stamp,error:'test timeout',observedCount:0,retainedCount:1,lastSuccessfulAt:p.lastConfirmedAt};

@@ -1,3 +1,16 @@
+/** 근무지·기관 위치(crawlers/locations.ts). 원문 표기를 우선하고 조사한 기관 소재지를 덧붙인다. */
+export interface WorkLocation {
+  status: 'known' | 'partial' | 'unknown';
+  text: string;
+  workArea?: string;
+  workAreaBasis?: 'posting_region' | 'title' | 'organization_text' | 'board';
+  institutionArea?: string;
+  institutionAddress?: string;
+  institutionVerified?: boolean;
+  sourceUrl?: string;
+  checkedAt?: string;
+}
+
 export interface JobPosting {
   title: string;
   organization: string;
@@ -10,6 +23,7 @@ export interface JobPosting {
   recordKind?: 'recruitment' | 'program_info';
   roleText?: string;
   region?: string;
+  workLocation?: WorkLocation;
   summary?: string;
   eligibilityText?: string;
   programPeriodText?: string;
