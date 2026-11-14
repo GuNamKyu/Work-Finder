@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261114-184616-kst",
+  "recordedAt": "2026-11-14T10:35:52Z",
+  "repositoryCommit": "4f502e9",
+  "branch": "main",
+  "workflow": { "file": "publish-browser.yml", "runId": "43585958476", "mode": "data-and-ui", "collectionId": "20261114-184616-kst", "status": "success", "dispatchedWith": "gh CLI" },
+  "snapshot": { "localVerification": "passed", "publishGate": "ok", "manifestFilesMatched": 26, "remoteMainMatchedCommit": true },
+  "publicVerification": { "url": "https://gunamkyu.github.io/Work-Finder/", "publicJsonSha256Matched": 5, "browser": "built-in" }
+}
