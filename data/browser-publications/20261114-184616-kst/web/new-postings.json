@@ -1,0 +1,3968 @@
+[
+  {
+    "regDate": "2026-11-11",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.kaah.kr/reqopen_view/593?page=1&searchTxt=",
+    "title": "(재)가람문화유산연구원 2026년 정규직 채용 공고(보존과학연구원)",
+    "organization": "(재)가람문화유산연구원",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "(재)가람문화유산연구원 2026년 정규직 채용 공고(보존과학연구원) 2026-11-11",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.kaah.kr/reqopen_view/593",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "kaah:url:e828474bbf91346f673c",
+    "lifecycleStatus": "fresh",
+    "fitScore": 34,
+    "fitBreakdown": {
+      "roleField": 6,
+      "gapFill": 7,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 4
+    },
+    "fitReasons": [
+      "보완 역량: 보존",
+      "기회 품질: 정규직",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "문화기관 공고: 문화유산"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "기관 소재지 울산 울주군 (시 단위·미검증)",
+      "institutionArea": "울산 울주군",
+      "institutionVerified": false,
+      "sourceUrl": "https://www.kaah.kr/reqopen_view/593",
+      "checkedAt": "2026-11-14"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:47:50Z",
+    "siteId": "kaah",
+    "siteName": "한국문화유산협회",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-12",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": null,
+    "title": "2026년 제4차 「서울 매력일자리-박물관 학예인력 사업」 서류전 ...",
+    "organization": "서울역사박물관",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "2026년 제4차 「서울 매력일자리-박물관 학예인력 사업」 서류전 ... 2026-11-12",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": null,
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "museum-seoul:composite:09edcceff4a9f9fe8d55",
+    "lifecycleStatus": "fresh",
+    "fitScore": 48,
+    "fitBreakdown": {
+      "roleField": 23,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "기관 소재지 서울 종로구 새문안로 55",
+      "institutionArea": "서울 종로구",
+      "institutionVerified": true,
+      "sourceUrl": "https://museum.seoul.go.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "서울 종로구 새문안로 55"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:47:53Z",
+    "siteId": "museum-seoul",
+    "siteName": "서울역사박물관",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-09",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.nmkpg.go.kr/main/board/1/860/board_view.do",
+    "title": "국립대한민국임시정부기념관 육아휴직 대체 기간제근로자(학예보조 : 교육 개발·운영) 채용 공고",
+    "organization": "국립대한민국임시정부기념관",
+    "postingId": "860",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "국립대한민국임시정부기념관 육아휴직 대체 기간제근로자(학예보조 : 교육 개발·운영) 채용 공고 2026-11-09",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.nmkpg.go.kr/main/board/1/860/board_view.do",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "nmkpg:id:860",
+    "lifecycleStatus": "fresh",
+    "fitScore": 41,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "기관 소재지 서울 서대문구 통일로 279-24",
+      "institutionArea": "서울 서대문구",
+      "institutionVerified": true,
+      "sourceUrl": "https://www.nmkpg.go.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "서울 서대문구 통일로 279-24"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:49:49Z",
+    "siteId": "nmkpg",
+    "siteName": "국립대한민국임시정부기념관",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-12",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.ggcf.kr/boards/bulletinBoards/articles/21705",
+    "title": "2026년 경기문화재단 제5회 직원 채용(일반직 및 운영직) 공고",
+    "organization": "경기문화재단",
+    "status": "진행",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "2026년 경기문화재단 제5회 직원 채용(일반직 및 운영직) 공고 2026-11-12 진행",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.ggcf.kr/boards/bulletinBoards/articles/21705",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "ggcf:url:27fc33b74a6d387b40a4",
+    "lifecycleStatus": "fresh",
+    "fitScore": 38,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "기관 소재지 경기 수원시 팔달구 인계로 178",
+      "institutionArea": "경기 수원시 팔달구",
+      "institutionVerified": true,
+      "sourceUrl": "https://www.ggcf.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "경기 수원시 팔달구 인계로 178"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:50:52Z",
+    "siteId": "ggcf",
+    "siteName": "경기문화재단",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-10",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://www.kh.or.kr/brd/board/721/L/CATEGORY/719/menu/377?brdType=R&bbIdx=120016",
+    "title": "2027년 국가유산진흥원 인천국제공항 전통문화사업 홍보 전문인력 공개모집",
+    "organization": "국가유산진흥원",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "2027년 국가유산진흥원 인천국제공항 전통문화사업 홍보 전문인력 공개모집 2026-11-10",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.kh.or.kr/brd/board/721/L/CATEGORY/719/menu/377?brdType=R&bbIdx=120016",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "kh:url:77aca8b06bc10e568f93",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 국가유산",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 국가유산"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "기관 소재지 서울 강남구 봉은사로 406",
+      "institutionArea": "서울 강남구",
+      "institutionVerified": true,
+      "sourceUrl": "https://www.kh.or.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "서울 강남구 봉은사로 406"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:51:04Z",
+    "siteId": "kh",
+    "siteName": "국가유산진흥원",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-12",
+    "postedAt": null,
+    "deadlineDate": null,
+    "url": "https://ddmac.or.kr/sub04/sub03.php?type=view&uid=9683",
+    "title": "2026년 제3차 동대문문화재단 직원 채용 공고",
+    "organization": "동대문문화재단",
+    "postingId": "9683",
+    "postingType": "job",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "2026년 제3차 동대문문화재단 직원 채용 공고 2026-11-12",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://ddmac.or.kr/sub04/sub03.php?type=view&uid=9683",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "stableId": "ddmac:id:9683",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 40,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화재"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "기관 소재지 서울 동대문구 무학로44길 38",
+      "institutionArea": "서울 동대문구",
+      "institutionVerified": true,
+      "sourceUrl": "https://ddmac.or.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "서울 동대문구 무학로44길 38"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:52:27Z",
+    "siteId": "ddmac",
+    "siteName": "동대문문화재단",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-12",
+    "postedAt": null,
+    "deadlineDate": "2026-11-26",
+    "url": "https://www.seoul.go.kr/news/news_employ.do?bbsNo=166&nttNo=470256",
+    "title": "서울특별시 서울역사박물관 일반임기제공무원(박물관운영요원-고문서·전적류) 채용시험 계획 공고",
+    "organization": "총무과",
+    "postingId": "470256",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-26",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "서울특별시 서울역사박물관 일반임기제공무원(박물관운영요원-고문서·전적류) 채용시험 계획 공고 2026-11-12 ~2026-11-26",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-26",
+        "source": "list",
+        "evidence": "서울특별시 서울역사박물관 일반임기제공무원(박물관운영요원-고문서·전적류) 채용시험 계획 공고 2026-11-12 ~2026-11-26",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.seoul.go.kr/news/news_employ.do?bbsNo=166&nttNo=470256",
+    "applicationStartAt": null,
+    "stableId": "seoul:id:470256",
+    "lifecycleStatus": "rolling",
+    "fitScore": 38,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시(게시처 기준)",
+      "workArea": "서울특별시",
+      "workAreaBasis": "board"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:54:45Z",
+    "siteId": "seoul",
+    "siteName": "서울특별시",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-13",
+    "postedAt": null,
+    "deadlineDate": "2026-11-23",
+    "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7540&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+    "title": "[경기문화재단] 학예연구직 등 직원 채용 공고(11.23 월)",
+    "organization": "경기문화재단",
+    "postingId": "7540",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-23",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-13",
+        "source": "list",
+        "evidence": "[경기문화재단] 학예연구직 등 직원 채용 공고(11.23 월) 2026-11-13 ~2026-11-23",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[경기문화재단] 학예연구직 등 직원 채용 공고(11.23 월) 2026-11-13 ~2026-11-23",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7540&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+    "applicationStartAt": null,
+    "stableId": "kdp-aks:id:7540",
+    "lifecycleStatus": "fresh",
+    "fitScore": 51,
+    "fitBreakdown": {
+      "roleField": 26,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 문화재"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "기관 소재지 경기 수원시 팔달구 인계로 178",
+      "institutionArea": "경기 수원시 팔달구",
+      "institutionVerified": true,
+      "sourceUrl": "https://www.ggcf.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "경기 수원시 팔달구 인계로 178"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:54:46Z",
+    "siteId": "kdp-aks",
+    "siteName": "한국학중앙연구원",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-13",
+    "postedAt": null,
+    "deadlineDate": "2026-11-25",
+    "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7531&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+    "title": "[추사박물관] 2026년도 제7회(재) 및 제8회 과천시 지방임기제공무원(학예연구 등) 채용시험 공고(11.25 수)",
+    "organization": "추사박물관",
+    "postingId": "7531",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-25",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-13",
+        "source": "list",
+        "evidence": "[추사박물관] 2026년도 제7회(재) 및 제8회 과천시 지방임기제공무원(학예연구 등) 채용시험 공고(11.25 수) 2026-11-13 ~2026-11-25",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-25",
+        "source": "list",
+        "evidence": "[추사박물관] 2026년도 제7회(재) 및 제8회 과천시 지방임기제공무원(학예연구 등) 채용시험 공고(11.25 수) 2026-11-13 ~2026-11-25",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7531&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+    "applicationStartAt": null,
+    "stableId": "kdp-aks:id:7531",
+    "lifecycleStatus": "rolling",
+    "fitScore": 43,
+    "fitBreakdown": {
+      "roleField": 23,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "기관 소재지 경기 과천시 (시 단위·미검증)",
+      "institutionArea": "경기 과천시",
+      "institutionVerified": false,
+      "sourceUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7531&BRD_GRU_SN=6",
+      "checkedAt": "2026-11-14"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:54:46Z",
+    "siteId": "kdp-aks",
+    "siteName": "한국학중앙연구원",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-12",
+    "postedAt": null,
+    "deadlineDate": "2026-11-25",
+    "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7516&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+    "title": "[서서울미술관] 서울특별시 일반임기제공무원(미술관학예요원) 채용시험 계획 공고(11.25 수)",
+    "organization": "서서울미술관",
+    "postingId": "7516",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-25",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "[서서울미술관] 서울특별시 일반임기제공무원(미술관학예요원) 채용시험 계획 공고(11.25 수) 2026-11-12 ~2026-11-25",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-25",
+        "source": "list",
+        "evidence": "[서서울미술관] 서울특별시 일반임기제공무원(미술관학예요원) 채용시험 계획 공고(11.25 수) 2026-11-12 ~2026-11-25",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7516&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+    "applicationStartAt": null,
+    "stableId": "kdp-aks:id:7516",
+    "lifecycleStatus": "rolling",
+    "fitScore": 45,
+    "fitBreakdown": {
+      "roleField": 20,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 미술관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 미술관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(기관명 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "organization_text"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:54:46Z",
+    "siteId": "kdp-aks",
+    "siteName": "한국학중앙연구원",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-11",
+    "postedAt": null,
+    "deadlineDate": "2026-11-19",
+    "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7509&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+    "title": "[경남문화예술진흥원] 기간제 직원 채용 공고(11.19 목)",
+    "organization": "경남문화예술진흥원",
+    "postingId": "7509",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-19",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "[경남문화예술진흥원] 기간제 직원 채용 공고(11.19 목) 2026-11-11 ~2026-11-19",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-19",
+        "source": "list",
+        "evidence": "[경남문화예술진흥원] 기간제 직원 채용 공고(11.19 목) 2026-11-11 ~2026-11-19",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7509&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+    "applicationStartAt": null,
+    "stableId": "kdp-aks:id:7509",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 문화예술",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 75,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 문화예술"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 경남(기관명 표기)",
+      "workArea": "경남",
+      "workAreaBasis": "organization_text"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:54:46Z",
+    "siteId": "kdp-aks",
+    "siteName": "한국학중앙연구원",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-17",
+    "postedAt": null,
+    "deadlineDate": "2026-11-20",
+    "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24096&cp=1&sv=",
+    "title": "국립경주박물관 공무직(소장품관리/보존처리)근로자 채용 공고",
+    "organization": "국립경주박물관",
+    "postingId": "24096",
+    "status": "채용중",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-20",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-17",
+        "source": "list",
+        "evidence": "국립경주박물관 공무직(소장품관리/보존처리)근로자 채용 공고 2026-11-17 ~2026-11-20 채용중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-20",
+        "source": "list",
+        "evidence": "국립경주박물관 공무직(소장품관리/보존처리)근로자 채용 공고 2026-11-17 ~2026-11-20 채용중",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24096&cp=1&sv=",
+    "applicationStartAt": null,
+    "stableId": "museum-go-kr:id:24096",
+    "lifecycleStatus": "fresh",
+    "fitScore": 44,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 14,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "보완 역량: 소장품, 보존",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 75,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관, 소장품"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "기관 소재지 경북 경주시 (시 단위·미검증)",
+      "institutionArea": "경북 경주시",
+      "institutionVerified": false,
+      "sourceUrl": "https://gyeongju.museum.go.kr/",
+      "checkedAt": "2026-11-14"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:56:01Z",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "changeType": "new"
+  },
+  {
+    "regDate": "2026-11-10",
+    "postedAt": null,
+    "deadlineDate": "2026-11-16",
+    "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24083&cp=1&sv=",
+    "title": "국립공주박물관 학예연구실 공무직근로자(소장품 관리 보조) 채용 공고",
+    "organization": "국립공주박물관",
+    "postingId": "24083",
+    "status": "채용중",
+    "postingType": "job",
+    "applicationEndAt": "2026-11-16",
+    "scheduleEvents": [
+      {
+        "type": "posted",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "국립공주박물관 학예연구실 공무직근로자(소장품 관리 보조) 채용 공고 2026-11-10 ~2026-11-16 채용중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-16",
+        "source": "list",
+        "evidence": "국립공주박물관 학예연구실 공무직근로자(소장품 관리 보조) 채용 공고 2026-11-10 ~2026-11-16 채용중",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24083&cp=1&sv=",
+    "applicationStartAt": null,
+    "stableId": "museum-go-kr:id:24083",
+    "lifecycleStatus": "fresh",
+    "fitScore": 50,
+    "fitBreakdown": {
+      "roleField": 23,
+      "gapFill": 7,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 학예, 박물관",
+      "보완 역량: 소장품",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 90,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 학예, 박물관, 소장품"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "기관 소재지 충남 공주시 관광단지길 34",
+      "institutionArea": "충남 공주시",
+      "institutionVerified": true,
+      "sourceUrl": "https://gongju.museum.go.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "충남 공주시 관광단지길 34"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T09:56:01Z",
+    "siteId": "museum-go-kr",
+    "siteName": "국립중앙박물관",
+    "changeType": "reposted"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012485",
+    "postingId": "VOLT_000000000012485",
+    "title": "어르신들의  공연 관람에 도움을 줄 자원봉사자를 모집합니다.",
+    "organization": "문화자원봉사센터",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-13",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-15",
+    "programEndAt": "2026-11-15",
+    "status": "모집중",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-13",
+        "source": "list",
+        "evidence": "어르신들의  공연 관람에 도움을 줄 자원봉사자를 모집합니다. / 활동기간 2026.11.15~2026.11.15 / 모집기간 2026.11.13~2026.11.14 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "어르신들의  공연 관람에 도움을 줄 자원봉사자를 모집합니다. / 활동기간 2026.11.15~2026.11.15 / 모집기간 2026.11.13~2026.11.14 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-15",
+        "source": "list",
+        "evidence": "어르신들의  공연 관람에 도움을 줄 자원봉사자를 모집합니다. / 활동기간 2026.11.15~2026.11.15 / 모집기간 2026.11.13~2026.11.14 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-11-15",
+        "source": "list",
+        "evidence": "어르신들의  공연 관람에 도움을 줄 자원봉사자를 모집합니다. / 활동기간 2026.11.15~2026.11.15 / 모집기간 2026.11.13~2026.11.14 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012485",
+    "stableId": "csv-culture:id:VOLT_000000000012485",
+    "lifecycleStatus": "fresh",
+    "fitScore": 23,
+    "fitBreakdown": {
+      "roleField": 3,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 분야 직무경험"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "unknown",
+      "text": "위치 미확인 — 원문에서 근무지를 확인하세요"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:22:54.193Z",
+    "siteId": "csv-culture",
+    "siteName": "문화자원봉사센터",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-25",
+    "url": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012480",
+    "postingId": "VOLT_000000000012480",
+    "title": "영등포문화대학 공개특강(11/25수) 봉사자모집",
+    "organization": "문화자원봉사센터",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-11-25",
+    "programStartAt": "2026-11-25",
+    "programEndAt": "2026-11-25",
+    "status": "모집중",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "영등포문화대학 공개특강(11/25수) 봉사자모집 / 활동기간 2026.11.25~2026.11.25 / 모집기간 2026.11.09~2026.11.25 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-25",
+        "source": "list",
+        "evidence": "영등포문화대학 공개특강(11/25수) 봉사자모집 / 활동기간 2026.11.25~2026.11.25 / 모집기간 2026.11.09~2026.11.25 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-25",
+        "source": "list",
+        "evidence": "영등포문화대학 공개특강(11/25수) 봉사자모집 / 활동기간 2026.11.25~2026.11.25 / 모집기간 2026.11.09~2026.11.25 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-11-25",
+        "source": "list",
+        "evidence": "영등포문화대학 공개특강(11/25수) 봉사자모집 / 활동기간 2026.11.25~2026.11.25 / 모집기간 2026.11.09~2026.11.25 / 모집중",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://csv.culture.go.kr/frt/biz/provol/selectProvolView.do?provolNo=VOLT_000000000012480",
+    "stableId": "csv-culture:id:VOLT_000000000012480",
+    "lifecycleStatus": "fresh",
+    "fitScore": 23,
+    "fitBreakdown": {
+      "roleField": 3,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 분야 직무경험"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "unknown",
+      "text": "위치 미확인 — 원문에서 근무지를 확인하세요"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:22:54.193Z",
+    "siteId": "csv-culture",
+    "siteName": "문화자원봉사센터",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-04",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548719",
+    "postingId": "3548719",
+    "title": "(2026년 12월 8일~11일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-12-04",
+    "programStartAt": "2026-12-08",
+    "programEndAt": "2026-12-11",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-04",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-08",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-11",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548719",
+    "stableId": "1365-volunteer:id:3548719",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-04",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548742",
+    "postingId": "3548742",
+    "title": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-12-04",
+    "programStartAt": "2026-12-08",
+    "programEndAt": "2026-12-11",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-04",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-08",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-11",
+        "source": "list",
+        "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548742",
+    "stableId": "1365-volunteer:id:3548742",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-10",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548745",
+    "postingId": "3548745",
+    "title": "(2026년 12월 12일~13일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-12-10",
+    "programStartAt": "2026-12-12",
+    "programEndAt": "2026-12-13",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-10",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-12",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-13",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548745",
+    "stableId": "1365-volunteer:id:3548745",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-10",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548746",
+    "postingId": "3548746",
+    "title": "(2026년 12월 12일~13일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-12-10",
+    "programStartAt": "2026-12-12",
+    "programEndAt": "2026-12-13",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-10",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-12",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-13",
+        "source": "list",
+        "evidence": "(2026년 12월 12일~13일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.12~2026.12.13 / 모집기간 2026.11.09~2026.12.10 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548746",
+    "stableId": "1365-volunteer:id:3548746",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-11",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549169",
+    "postingId": "3549169",
+    "title": "(2026년 12월 15일~18일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-10",
+    "applicationEndAt": "2026-12-11",
+    "programStartAt": "2026-12-15",
+    "programEndAt": "2026-12-18",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-11",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-15",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-18",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549169",
+    "stableId": "1365-volunteer:id:3549169",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-11",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549270",
+    "postingId": "3549270",
+    "title": "(2026년 12월 15일~18일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-10",
+    "applicationEndAt": "2026-12-11",
+    "programStartAt": "2026-12-15",
+    "programEndAt": "2026-12-18",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-11",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-15",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-18",
+        "source": "list",
+        "evidence": "(2026년 12월 15일~18일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.15~2026.12.18 / 모집기간 2026.11.10~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549270",
+    "stableId": "1365-volunteer:id:3549270",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-11",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549472",
+    "postingId": "3549472",
+    "title": "(2026년 12월 19일~20일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-12-11",
+    "programStartAt": "2026-12-19",
+    "programEndAt": "2026-12-20",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-11",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-19",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-20",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549472",
+    "stableId": "1365-volunteer:id:3549472",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-11",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549481",
+    "postingId": "3549481",
+    "title": "(2026년 12월 19일~20일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-12-11",
+    "programStartAt": "2026-12-19",
+    "programEndAt": "2026-12-20",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-11",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-19",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-20",
+        "source": "list",
+        "evidence": "(2026년 12월 19일~20일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.19~2026.12.20 / 모집기간 2026.11.11~2026.12.11 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549481",
+    "stableId": "1365-volunteer:id:3549481",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-18",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549526",
+    "postingId": "3549526",
+    "title": "(2026년 12월 22일~24일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-12-18",
+    "programStartAt": "2026-12-22",
+    "programEndAt": "2026-12-24",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-18",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-22",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-24",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549526",
+    "stableId": "1365-volunteer:id:3549526",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-18",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549530",
+    "postingId": "3549530",
+    "title": "(2026년 12월 22일~24일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+    "organization": "서울암사동유적",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-12-18",
+    "programStartAt": "2026-12-22",
+    "programEndAt": "2026-12-24",
+    "status": "모집중",
+    "region": "서울특별시 강동구",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-18",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-22",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-24",
+        "source": "list",
+        "evidence": "(2026년 12월 22일~24일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.22~2026.12.24 / 모집기간 2026.11.11~2026.12.18 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3549530",
+    "stableId": "1365-volunteer:id:3549530",
+    "lifecycleStatus": "fresh",
+    "fitScore": 35,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 12,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울특별시 강동구(원문 표기)",
+      "workArea": "서울특별시 강동구",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-26",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3541361",
+    "postingId": "3541361",
+    "title": "안산산업역사박물관 관람통제 및 관람객 안내(토요일,일요일 중 하루 오후2~5시)",
+    "organization": "433.안산산업역사박물관",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-10-26",
+    "applicationEndAt": "2026-11-26",
+    "programStartAt": "2026-11-01",
+    "programEndAt": "2026-11-29",
+    "status": "모집중",
+    "region": "경기도 안산시",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-10-26",
+        "source": "list",
+        "evidence": "안산산업역사박물관 관람통제 및 관람객 안내(토요일,일요일 중 하루 오후2~5시) / 경기도 안산시 / 433.안산산업역사박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.26~2026.11.26 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-01",
+        "source": "list",
+        "evidence": "안산산업역사박물관 관람통제 및 관람객 안내(토요일,일요일 중 하루 오후2~5시) / 경기도 안산시 / 433.안산산업역사박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.26~2026.11.26 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-26",
+        "source": "list",
+        "evidence": "안산산업역사박물관 관람통제 및 관람객 안내(토요일,일요일 중 하루 오후2~5시) / 경기도 안산시 / 433.안산산업역사박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.26~2026.11.26 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-11-29",
+        "source": "list",
+        "evidence": "안산산업역사박물관 관람통제 및 관람객 안내(토요일,일요일 중 하루 오후2~5시) / 경기도 안산시 / 433.안산산업역사박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.26~2026.11.26 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3541361",
+    "stableId": "1365-volunteer:id:3541361",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 13,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 50,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 경기도 안산시(원문 표기)",
+      "workArea": "경기도 안산시",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "resurfaced"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-23",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3515952",
+    "postingId": "3515952",
+    "title": "(2026년 10,11,12월) 자연생태박물관 주말체험 프로그램 진행 보조 자원봉사자 모집",
+    "organization": "부천시 공원조성과",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-09-08",
+    "applicationEndAt": "2026-12-23",
+    "programStartAt": "2026-10-01",
+    "programEndAt": "2026-12-31",
+    "status": "모집중",
+    "region": "경기도 부천시",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-09-08",
+        "source": "list",
+        "evidence": "(2026년 10,11,12월) 자연생태박물관 주말체험 프로그램 진행 보조 자원봉사자 모집 / 경기도 부천시 / 부천시 공원조성과 / 모집중 / 봉사기간 2026.10.01~2026.12.31 / 모집기간 2026.09.08~2026.12.23 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-10-01",
+        "source": "list",
+        "evidence": "(2026년 10,11,12월) 자연생태박물관 주말체험 프로그램 진행 보조 자원봉사자 모집 / 경기도 부천시 / 부천시 공원조성과 / 모집중 / 봉사기간 2026.10.01~2026.12.31 / 모집기간 2026.09.08~2026.12.23 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-23",
+        "source": "list",
+        "evidence": "(2026년 10,11,12월) 자연생태박물관 주말체험 프로그램 진행 보조 자원봉사자 모집 / 경기도 부천시 / 부천시 공원조성과 / 모집중 / 봉사기간 2026.10.01~2026.12.31 / 모집기간 2026.09.08~2026.12.23 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-31",
+        "source": "list",
+        "evidence": "(2026년 10,11,12월) 자연생태박물관 주말체험 프로그램 진행 보조 자원봉사자 모집 / 경기도 부천시 / 부천시 공원조성과 / 모집중 / 봉사기간 2026.10.01~2026.12.31 / 모집기간 2026.09.08~2026.12.23 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3515952",
+    "stableId": "1365-volunteer:id:3515952",
+    "lifecycleStatus": "fresh",
+    "fitScore": 30,
+    "fitBreakdown": {
+      "roleField": 10,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 경기도 부천시(원문 표기)",
+      "workArea": "경기도 부천시",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-12-30",
+    "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3550663",
+    "postingId": "3550663",
+    "title": "2026년 이천시립박물관 12월 자원봉사(QR승인)",
+    "organization": "이천문화재단(이천시립박물관, 서희역사관)",
+    "experienceType": "volunteer",
+    "applicationStartAt": "2026-11-13",
+    "applicationEndAt": "2026-12-30",
+    "programStartAt": "2026-12-01",
+    "programEndAt": "2026-12-31",
+    "status": "모집중",
+    "region": "경기도 이천시",
+    "eligibilityText": "신청대상 성인",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-13",
+        "source": "list",
+        "evidence": "2026년 이천시립박물관 12월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.13~2026.12.30 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-12-01",
+        "source": "list",
+        "evidence": "2026년 이천시립박물관 12월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.13~2026.12.30 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-12-30",
+        "source": "list",
+        "evidence": "2026년 이천시립박물관 12월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.13~2026.12.30 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2026-12-31",
+        "source": "list",
+        "evidence": "2026년 이천시립박물관 12월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.13~2026.12.30 / 신청대상 성인",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3550663",
+    "stableId": "1365-volunteer:id:3550663",
+    "lifecycleStatus": "fresh",
+    "fitScore": 46,
+    "fitBreakdown": {
+      "roleField": 26,
+      "gapFill": 0,
+      "eligibility": 10,
+      "location": 7,
+      "quality": 3
+    },
+    "fitReasons": [
+      "직무·분야: 박물관, 문화재",
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "urgencyScore": 20,
+    "eligibilityStatus": "unknown",
+    "eligibilityReasons": [
+      "목록만으로 지원요건을 확인할 수 없음"
+    ],
+    "relevanceTier": "target",
+    "relevanceReasons": [
+      "목표 직무·분야: 박물관"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "known",
+      "text": "근무지역 경기도 이천시(원문 표기) · 기관 소재지 경기 이천시 부악로 40",
+      "workArea": "경기도 이천시",
+      "workAreaBasis": "posting_region",
+      "institutionArea": "경기 이천시",
+      "institutionVerified": true,
+      "sourceUrl": "https://www.artic.or.kr/",
+      "checkedAt": "2026-11-14",
+      "institutionAddress": "경기 이천시 부악로 40"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:24:53.981Z",
+    "siteId": "1365-volunteer",
+    "siteName": "1365 자원봉사포털",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EB%8D%94%EB%93%9C%EB%A6%BC%EB%B2%84%EC%8A%A4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98%20(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "postingId": "PG0031168202611060006",
+    "title": "(더드림버스) 미래내일 일경험 (제로인턴) 15기 - 경영사무",
+    "organization": "(주)더드림버스",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-10",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "(더드림버스) 미래내일 일경험 (제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)더드림버스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "(더드림버스) 미래내일 일경험 (제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)더드림버스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "(더드림버스) 미래내일 일경험 (제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)더드림버스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "(더드림버스) 미래내일 일경험 (제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)더드림버스",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%28%EB%8D%94%EB%93%9C%EB%A6%BC%EB%B2%84%EC%8A%A4%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98+%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "stableId": "work24-youth:id:PG0031168202611060006",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EB%8D%94%EB%B9%84%EC%BD%94)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "postingId": "PG0031168202611060002",
+    "title": "(더비코) 미래내일 일경험(제로인턴) 15기 - 경영사무",
+    "organization": "주식회사더비코",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "(더비코) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사더비코",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "(더비코) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사더비코",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "(더비코) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사더비코",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "(더비코) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사더비코",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%28%EB%8D%94%EB%B9%84%EC%BD%94%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "stableId": "work24-youth:id:PG0031168202611060002",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%ED%92%80%EB%AC%B4%EC%9B%90%ED%97%AC%EC%8A%A4%EC%BC%80%EC%96%B4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "postingId": "PG0031168202611090001",
+    "title": "(풀무원헬스케어) 미래내일 일경험(제로인턴) 15기 - 경영사무",
+    "organization": "(주)풀무원헬스케어",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-10",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "(풀무원헬스케어) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)풀무원헬스케어",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "(풀무원헬스케어) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)풀무원헬스케어",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "(풀무원헬스케어) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)풀무원헬스케어",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "(풀무원헬스케어) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)풀무원헬스케어",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%28%ED%92%80%EB%AC%B4%EC%9B%90%ED%97%AC%EC%8A%A4%EC%BC%80%EC%96%B4%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "stableId": "work24-youth:id:PG0031168202611090001",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%EC%9C%A0%EC%9C%A0%ED%85%8C%EC%9D%B4%EC%A7%84%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9A%B4%EC%98%81%EA%B4%80%EB%A6%AC)",
+    "postingId": "PG0031168202611100001",
+    "title": "[국취연계형] (유유테이진메디케어) 미래내일 일경험(제로인턴) 15기 -경영사무(운영관리)",
+    "organization": "주식회사 유유테이진메디케어",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "[국취연계형] (유유테이진메디케어) 미래내일 일경험(제로인턴) 15기 -경영사무(운영관리) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 유유테이진메디케어",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형] (유유테이진메디케어) 미래내일 일경험(제로인턴) 15기 -경영사무(운영관리) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 유유테이진메디케어",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형] (유유테이진메디케어) 미래내일 일경험(제로인턴) 15기 -경영사무(운영관리) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 유유테이진메디케어",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형] (유유테이진메디케어) 미래내일 일경험(제로인턴) 15기 -경영사무(운영관리) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 유유테이진메디케어",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D+%28%EC%9C%A0%EC%9C%A0%ED%85%8C%EC%9D%B4%EC%A7%84%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%28%EC%9A%B4%EC%98%81%EA%B4%80%EB%A6%AC%29",
+    "stableId": "work24-youth:id:PG0031168202611100001",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%EC%9D%B8%ED%81%AC%EB%A1%9C%EC%8A%A4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "postingId": "PG0031168202611090002",
+    "title": "[국취연계형] (인크로스) 미래내일 일경험(제로인턴) 15기 - 경영사무",
+    "organization": "인크로스 주식회사",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-10",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-02-12",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "[국취연계형] (인크로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-02-12 / 인크로스 주식회사",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형] (인크로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-02-12 / 인크로스 주식회사",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형] (인크로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-02-12 / 인크로스 주식회사",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-02-12",
+        "source": "list",
+        "evidence": "[국취연계형] (인크로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-02-12 / 인크로스 주식회사",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D+%28%EC%9D%B8%ED%81%AC%EB%A1%9C%EC%8A%A4%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "stableId": "work24-youth:id:PG0031168202611090002",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%20(%ED%81%90%EC%97%A0%EC%95%84%EC%9D%B4%ED%8B%B0)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "postingId": "PG0031168202611100002",
+    "title": "[국취연계형] (큐엠아이티) 미래내일 일경험(제로인턴) 15기 - 경영사무",
+    "organization": "주식회사 큐엠아이티",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "[국취연계형] (큐엠아이티) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 큐엠아이티",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형] (큐엠아이티) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 큐엠아이티",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형] (큐엠아이티) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 큐엠아이티",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형] (큐엠아이티) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 큐엠아이티",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D+%28%ED%81%90%EC%97%A0%EC%95%84%EC%9D%B4%ED%8B%B0%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "stableId": "work24-youth:id:PG0031168202611100002",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D(%EC%A0%9C%EC%9D%B4%EC%95%A4%ED%94%BC%EB%A9%94%EB%94%94)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4_%EC%84%9C%EC%9A%B8)",
+    "postingId": "PG0031168202611050009",
+    "title": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_서울)",
+    "organization": "주식회사제이앤피메디",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_서울) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_서울) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_서울) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_서울) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%28%EC%A0%9C%EC%9D%B4%EC%95%A4%ED%94%BC%EB%A9%94%EB%94%94%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%28%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4_%EC%84%9C%EC%9A%B8%29",
+    "stableId": "work24-youth:id:PG0031168202611050009",
+    "lifecycleStatus": "fresh",
+    "fitScore": 38,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 12,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D(%EC%A0%9C%EC%9D%B4%EC%95%A4%ED%94%BC%EB%A9%94%EB%94%94)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4_%EC%9D%B8%EC%B2%9C)",
+    "postingId": "PG0031168202611050010",
+    "title": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_인천)",
+    "organization": "주식회사제이앤피메디",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "인천",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_인천) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_인천) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_인천) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴) 15기 - 경영사무(인사총무_인천) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%28%EC%A0%9C%EC%9D%B4%EC%95%A4%ED%94%BC%EB%A9%94%EB%94%94%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%28%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4_%EC%9D%B8%EC%B2%9C%29",
+    "stableId": "work24-youth:id:PG0031168202611050010",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 인천(원문 표기)",
+      "workArea": "인천",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D(%EC%A0%9C%EC%9D%B4%EC%95%A4%ED%94%BC%EB%A9%94%EB%94%94)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)15%EA%B8%B0-%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%ED%92%88%EC%A7%88%20IT%20%EA%B4%80%EB%A6%AC)",
+    "postingId": "PG0031168202611050011",
+    "title": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴)15기-경영사무(품질 IT 관리)",
+    "organization": "주식회사제이앤피메디",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "인천",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴)15기-경영사무(품질 IT 관리) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴)15기-경영사무(품질 IT 관리) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴)15기-경영사무(품질 IT 관리) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형](제이앤피메디) 미래내일 일경험(제로인턴)15기-경영사무(품질 IT 관리) / 직무 경영·사무 / 지역 인천 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사제이앤피메디",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%28%EC%A0%9C%EC%9D%B4%EC%95%A4%ED%94%BC%EB%A9%94%EB%94%94%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%2915%EA%B8%B0-%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%28%ED%92%88%EC%A7%88+IT+%EA%B4%80%EB%A6%AC%29",
+    "stableId": "work24-youth:id:PG0031168202611050011",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 인천(원문 표기)",
+      "workArea": "인천",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D(%EC%A1%B0%EC%84%A0%ED%98%B8%ED%85%94%EC%95%A4%EB%A6%AC%EC%A1%B0%ED%8A%B8)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98%20(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EC%83%81%ED%92%88%EA%B8%B0%ED%9A%8D)",
+    "postingId": "PG0031168202611050003",
+    "title": "[국취연계형](조선호텔앤리조트) 미래내일 일경험 (제로인턴) 15기 - 경영사무(상품기획)",
+    "organization": "(주)조선호텔앤리조트",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "[국취연계형](조선호텔앤리조트) 미래내일 일경험 (제로인턴) 15기 - 경영사무(상품기획) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)조선호텔앤리조트",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형](조선호텔앤리조트) 미래내일 일경험 (제로인턴) 15기 - 경영사무(상품기획) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)조선호텔앤리조트",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형](조선호텔앤리조트) 미래내일 일경험 (제로인턴) 15기 - 경영사무(상품기획) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)조선호텔앤리조트",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형](조선호텔앤리조트) 미래내일 일경험 (제로인턴) 15기 - 경영사무(상품기획) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / (주)조선호텔앤리조트",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%28%EC%A1%B0%EC%84%A0%ED%98%B8%ED%85%94%EC%95%A4%EB%A6%AC%EC%A1%B0%ED%8A%B8%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98+%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%28%EC%83%81%ED%92%88%EA%B8%B0%ED%9A%8D%29",
+    "stableId": "work24-youth:id:PG0031168202611050003",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D(%EC%BD%94%EC%95%84%EC%8A%A4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(HR)",
+    "postingId": "PG0031168202611050007",
+    "title": "[국취연계형](코아스) 미래내일 일경험(제로인턴) 15기 - 경영사무(HR)",
+    "organization": "（주）코아스",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-09",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-09",
+        "source": "list",
+        "evidence": "[국취연계형](코아스) 미래내일 일경험(제로인턴) 15기 - 경영사무(HR) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / （주）코아스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형](코아스) 미래내일 일경험(제로인턴) 15기 - 경영사무(HR) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / （주）코아스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형](코아스) 미래내일 일경험(제로인턴) 15기 - 경영사무(HR) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / （주）코아스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형](코아스) 미래내일 일경험(제로인턴) 15기 - 경영사무(HR) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-09~26-11-14 / 일경험기간 26-11-23~27-01-15 / （주）코아스",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%28%EC%BD%94%EC%95%84%EC%8A%A4%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%28HR%29",
+    "stableId": "work24-youth:id:PG0031168202611050007",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-14",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D(%ED%82%A8%EB%8B%A4%EA%B7%B8%EB%A1%9C%EC%8A%A4)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2015%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "postingId": "PG0031168202611050020",
+    "title": "[국취연계형](킨다그로스) 미래내일 일경험(제로인턴) 15기 - 경영사무",
+    "organization": "주식회사 킨다그로스",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-10",
+    "applicationEndAt": "2026-11-14",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-10",
+        "source": "list",
+        "evidence": "[국취연계형](킨다그로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 킨다그로스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-14",
+        "source": "list",
+        "evidence": "[국취연계형](킨다그로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 킨다그로스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[국취연계형](킨다그로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 킨다그로스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[국취연계형](킨다그로스) 미래내일 일경험(제로인턴) 15기 - 경영사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-10~26-11-14 / 일경험기간 26-11-23~27-01-15 / 주식회사 킨다그로스",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EA%B5%AD%EC%B7%A8%EC%97%B0%EA%B3%84%ED%98%95%5D%28%ED%82%A8%EB%8B%A4%EA%B7%B8%EB%A1%9C%EC%8A%A4%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+15%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4",
+    "stableId": "work24-youth:id:PG0031168202611050020",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 인턴, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-15",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B(%EC%A3%BC)%EC%8A%A4%EC%B9%B4%EC%9A%B0%ED%8A%B8%5D%20%ED%97%A4%EB%93%9C%ED%97%8C%ED%8C%85%20%EC%9A%B4%EC%98%81%EC%A7%80%EC%9B%90%20%EB%B0%8F%20%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%20%EC%B1%84%EC%9A%A9%20%EC%8B%A4%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4)_2",
+    "postingId": "PG0031161202610210002",
+    "title": "[(주)스카우트] 헤드헌팅 운영지원 및 공공기관 채용 실무 일경험(경영·사무)_2",
+    "organization": "(주)스카우트",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-10-31",
+    "applicationEndAt": "2026-11-15",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-29",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-10-31",
+        "source": "list",
+        "evidence": "[(주)스카우트] 헤드헌팅 운영지원 및 공공기관 채용 실무 일경험(경영·사무)_2 / 직무 경영·사무 / 지역 서울 / 모집기간 26-10-31~26-11-15 / 일경험기간 26-11-23~27-01-29 / (주)스카우트",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-15",
+        "source": "list",
+        "evidence": "[(주)스카우트] 헤드헌팅 운영지원 및 공공기관 채용 실무 일경험(경영·사무)_2 / 직무 경영·사무 / 지역 서울 / 모집기간 26-10-31~26-11-15 / 일경험기간 26-11-23~27-01-29 / (주)스카우트",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[(주)스카우트] 헤드헌팅 운영지원 및 공공기관 채용 실무 일경험(경영·사무)_2 / 직무 경영·사무 / 지역 서울 / 모집기간 26-10-31~26-11-15 / 일경험기간 26-11-23~27-01-29 / (주)스카우트",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-29",
+        "source": "list",
+        "evidence": "[(주)스카우트] 헤드헌팅 운영지원 및 공공기관 채용 실무 일경험(경영·사무)_2 / 직무 경영·사무 / 지역 서울 / 모집기간 26-10-31~26-11-15 / 일경험기간 26-11-23~27-01-29 / (주)스카우트",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%28%EC%A3%BC%29%EC%8A%A4%EC%B9%B4%EC%9A%B0%ED%8A%B8%5D+%ED%97%A4%EB%93%9C%ED%97%8C%ED%8C%85+%EC%9A%B4%EC%98%81%EC%A7%80%EC%9B%90+%EB%B0%8F+%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80+%EC%B1%84%EC%9A%A9+%EC%8B%A4%EB%AC%B4+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%29_2",
+    "stableId": "work24-youth:id:PG0031161202610210002",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 실무, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 100,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-16",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95)%5B%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%BC%EC%9E%90%EB%A6%AC%EC%9E%AC%EB%8B%A8%5D%EA%B3%B5%EA%B3%B5%ED%96%89%EC%A0%95%20%EC%9D%BC%EA%B2%BD%ED%97%98%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%205%EA%B8%B0_2%EC%B0%A8(8%EC%A3%BC)",
+    "postingId": "PG0031144202611040001",
+    "title": "(사회참여형)[경기도일자리재단]공공행정 일경험프로그램 5기_2차(8주)",
+    "organization": "재단법인 경기도일자리재단",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "공공행정",
+    "region": "경기",
+    "applicationStartAt": "2026-11-06",
+    "applicationEndAt": "2026-11-16",
+    "programStartAt": "2026-11-30",
+    "programEndAt": "2027-01-22",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-06",
+        "source": "list",
+        "evidence": "(사회참여형)[경기도일자리재단]공공행정 일경험프로그램 5기_2차(8주) / 직무 공공행정 / 지역 경기 / 모집기간 26-11-06~26-11-16 / 일경험기간 26-11-30~27-01-22 / 재단법인 경기도일자리재단",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-16",
+        "source": "list",
+        "evidence": "(사회참여형)[경기도일자리재단]공공행정 일경험프로그램 5기_2차(8주) / 직무 공공행정 / 지역 경기 / 모집기간 26-11-06~26-11-16 / 일경험기간 26-11-30~27-01-22 / 재단법인 경기도일자리재단",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-30",
+        "source": "list",
+        "evidence": "(사회참여형)[경기도일자리재단]공공행정 일경험프로그램 5기_2차(8주) / 직무 공공행정 / 지역 경기 / 모집기간 26-11-06~26-11-16 / 일경험기간 26-11-30~27-01-22 / 재단법인 경기도일자리재단",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-22",
+        "source": "list",
+        "evidence": "(사회참여형)[경기도일자리재단]공공행정 일경험프로그램 5기_2차(8주) / 직무 공공행정 / 지역 경기 / 모집기간 26-11-06~26-11-16 / 일경험기간 26-11-30~27-01-22 / 재단법인 경기도일자리재단",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%28%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%29%5B%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%BC%EC%9E%90%EB%A6%AC%EC%9E%AC%EB%8B%A8%5D%EA%B3%B5%EA%B3%B5%ED%96%89%EC%A0%95+%EC%9D%BC%EA%B2%BD%ED%97%98%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8+5%EA%B8%B0_2%EC%B0%A8%288%EC%A3%BC%29",
+    "stableId": "work24-youth:id:PG0031144202611040001",
+    "lifecycleStatus": "fresh",
+    "fitScore": 37,
+    "fitBreakdown": {
+      "roleField": 3,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 12,
+      "quality": 4
+    },
+    "fitReasons": [
+      "기회 품질: 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 90,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 경기(원문 표기) · 기관 소재지 경기 수원시 (시 단위·미검증)",
+      "workArea": "경기",
+      "workAreaBasis": "posting_region",
+      "institutionArea": "경기 수원시",
+      "institutionVerified": false,
+      "sourceUrl": "https://gjf.or.kr/",
+      "checkedAt": "2026-11-14"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-16",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D(%EB%B2%A0%EC%9D%B4%EB%A6%AC%EC%8A%A4%2C%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4%ED%8C%80)%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EC%A7%81%EA%B5%B0%20%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4%2010%EC%B0%A8",
+    "postingId": "PG0031155202611100005",
+    "title": "[사회참여형](베이리스,인사총무팀) 경영사무직군 청년인턴 10차",
+    "organization": "주식회사 베이리스",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "경기",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-11-16",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-01-15",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "[사회참여형](베이리스,인사총무팀) 경영사무직군 청년인턴 10차 / 직무 경영·사무 / 지역 경기 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-01-15 / 주식회사 베이리스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-16",
+        "source": "list",
+        "evidence": "[사회참여형](베이리스,인사총무팀) 경영사무직군 청년인턴 10차 / 직무 경영·사무 / 지역 경기 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-01-15 / 주식회사 베이리스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[사회참여형](베이리스,인사총무팀) 경영사무직군 청년인턴 10차 / 직무 경영·사무 / 지역 경기 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-01-15 / 주식회사 베이리스",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-15",
+        "source": "list",
+        "evidence": "[사회참여형](베이리스,인사총무팀) 경영사무직군 청년인턴 10차 / 직무 경영·사무 / 지역 경기 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-01-15 / 주식회사 베이리스",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%82%AC%ED%9A%8C%EC%B0%B8%EC%97%AC%ED%98%95%5D%28%EB%B2%A0%EC%9D%B4%EB%A6%AC%EC%8A%A4%2C%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4%ED%8C%80%29+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%EC%A7%81%EA%B5%B0+%EC%B2%AD%EB%85%84%EC%9D%B8%ED%84%B4+10%EC%B0%A8",
+    "stableId": "work24-youth:id:PG0031155202611100005",
+    "lifecycleStatus": "fresh",
+    "fitScore": 29,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 4
+    },
+    "fitReasons": [
+      "기회 품질: 인턴",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 90,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 경기(원문 표기)",
+      "workArea": "경기",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-16",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%94%84%EB%A6%AC%EC%A3%A4%5D%20%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4%20%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%203%EC%B0%A8(12%EC%A3%BC)",
+    "postingId": "PG0020404202611110001",
+    "title": "[프리죤] 경영·사무 일경험 프로그램 3차(12주)",
+    "organization": "주식회사 프리죤",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-11-16",
+    "programStartAt": "2026-11-23",
+    "programEndAt": "2027-02-12",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "[프리죤] 경영·사무 일경험 프로그램 3차(12주) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-02-12 / 주식회사 프리죤",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-16",
+        "source": "list",
+        "evidence": "[프리죤] 경영·사무 일경험 프로그램 3차(12주) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-02-12 / 주식회사 프리죤",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-23",
+        "source": "list",
+        "evidence": "[프리죤] 경영·사무 일경험 프로그램 3차(12주) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-02-12 / 주식회사 프리죤",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-02-12",
+        "source": "list",
+        "evidence": "[프리죤] 경영·사무 일경험 프로그램 3차(12주) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-16 / 일경험기간 26-11-23~27-02-12 / 주식회사 프리죤",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%94%84%EB%A6%AC%EC%A3%A4%5D+%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4+%EC%9D%BC%EA%B2%BD%ED%97%98+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8+3%EC%B0%A8%2812%EC%A3%BC%29",
+    "stableId": "work24-youth:id:PG0020404202611110001",
+    "lifecycleStatus": "fresh",
+    "fitScore": 29,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 4
+    },
+    "fitReasons": [
+      "기회 품질: 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 90,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-18",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%B7%B0%ED%8B%B0%EC%8A%A4%ED%82%A8%5D%20%EB%B7%B0%ED%8B%B0%EC%82%B0%EC%97%85%20%EC%8B%A4%EB%AC%B4%EC%9D%BC%EA%B2%BD%ED%97%98%202%EA%B8%B0",
+    "postingId": "PG0020408202611120002",
+    "title": "[뷰티스킨] 뷰티산업 실무일경험 2기",
+    "organization": "（주）뷰티스킨",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-12",
+    "applicationEndAt": "2026-11-18",
+    "programStartAt": "2026-11-30",
+    "programEndAt": "2027-01-22",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-12",
+        "source": "list",
+        "evidence": "[뷰티스킨] 뷰티산업 실무일경험 2기 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-12~26-11-18 / 일경험기간 26-11-30~27-01-22 / （주）뷰티스킨",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-18",
+        "source": "list",
+        "evidence": "[뷰티스킨] 뷰티산업 실무일경험 2기 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-12~26-11-18 / 일경험기간 26-11-30~27-01-22 / （주）뷰티스킨",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-30",
+        "source": "list",
+        "evidence": "[뷰티스킨] 뷰티산업 실무일경험 2기 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-12~26-11-18 / 일경험기간 26-11-30~27-01-22 / （주）뷰티스킨",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-01-22",
+        "source": "list",
+        "evidence": "[뷰티스킨] 뷰티산업 실무일경험 2기 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-12~26-11-18 / 일경험기간 26-11-30~27-01-22 / （주）뷰티스킨",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%B7%B0%ED%8B%B0%EC%8A%A4%ED%82%A8%5D+%EB%B7%B0%ED%8B%B0%EC%82%B0%EC%97%85+%EC%8B%A4%EB%AC%B4%EC%9D%BC%EA%B2%BD%ED%97%98+2%EA%B8%B0",
+    "stableId": "work24-youth:id:PG0020408202611120002",
+    "lifecycleStatus": "fresh",
+    "fitScore": 33,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 8
+    },
+    "fitReasons": [
+      "기회 품질: 실무, 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 75,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-19",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C%5D%20%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4%20%EC%9D%B8%ED%84%B4%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+    "postingId": "PG0020375202611110001",
+    "title": "[뱅크샐러드] 인사총무 인턴형 프로그램",
+    "organization": "주식회사 뱅크샐러드",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-13",
+    "applicationEndAt": "2026-11-19",
+    "programStartAt": "2026-11-30",
+    "programEndAt": "2027-02-05",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-13",
+        "source": "list",
+        "evidence": "[뱅크샐러드] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 뱅크샐러드",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-19",
+        "source": "list",
+        "evidence": "[뱅크샐러드] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 뱅크샐러드",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-30",
+        "source": "list",
+        "evidence": "[뱅크샐러드] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 뱅크샐러드",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-02-05",
+        "source": "list",
+        "evidence": "[뱅크샐러드] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 뱅크샐러드",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C%5D+%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4+%EC%9D%B8%ED%84%B4%ED%98%95+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+    "stableId": "work24-youth:id:PG0020375202611110001",
+    "lifecycleStatus": "fresh",
+    "fitScore": 29,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 4
+    },
+    "fitReasons": [
+      "기회 품질: 인턴",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 75,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-19",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8A%A4%ED%83%81%ED%82%A4%ED%8D%BC%5D%20%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4%20%EC%9D%B8%ED%84%B4%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+    "postingId": "PG0020375202611110002",
+    "title": "[스탁키퍼] 인사총무 인턴형 프로그램",
+    "organization": "주식회사 스탁키퍼",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-13",
+    "applicationEndAt": "2026-11-19",
+    "programStartAt": "2026-11-30",
+    "programEndAt": "2027-02-05",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-13",
+        "source": "list",
+        "evidence": "[스탁키퍼] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 스탁키퍼",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-19",
+        "source": "list",
+        "evidence": "[스탁키퍼] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 스탁키퍼",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-30",
+        "source": "list",
+        "evidence": "[스탁키퍼] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 스탁키퍼",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-02-05",
+        "source": "list",
+        "evidence": "[스탁키퍼] 인사총무 인턴형 프로그램 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-13~26-11-19 / 일경험기간 26-11-30~27-02-05 / 주식회사 스탁키퍼",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%8A%A4%ED%83%81%ED%82%A4%ED%8D%BC%5D+%EC%9D%B8%EC%82%AC%EC%B4%9D%EB%AC%B4+%EC%9D%B8%ED%84%B4%ED%98%95+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8",
+    "stableId": "work24-youth:id:PG0020375202611110002",
+    "lifecycleStatus": "fresh",
+    "fitScore": 29,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 4
+    },
+    "fitReasons": [
+      "기회 품질: 인턴",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 75,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  },
+  {
+    "regDate": "",
+    "postedAt": null,
+    "deadlineDate": "2026-11-19",
+    "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B5%AD%EA%B3%B5%EC%9D%B8%EB%85%B8%EB%AC%B4%EC%82%AC%ED%9A%8C%5D%202026%EB%85%84%20%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4",
+    "postingId": "PG0031235202611100001",
+    "title": "[한국공인노무사회] 2026년 청년일경험 프로그램_경영·사무",
+    "organization": "한국공인노무사회",
+    "recordKind": "recruitment",
+    "experienceType": "internship",
+    "roleText": "경영·사무",
+    "region": "서울",
+    "applicationStartAt": "2026-11-11",
+    "applicationEndAt": "2026-11-19",
+    "programStartAt": "2026-11-30",
+    "programEndAt": "2027-02-05",
+    "postingType": "experience",
+    "scheduleEvents": [
+      {
+        "type": "application_start",
+        "date": "2026-11-11",
+        "source": "list",
+        "evidence": "[한국공인노무사회] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-19 / 일경험기간 26-11-30~27-02-05 / 한국공인노무사회",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "application_end",
+        "date": "2026-11-19",
+        "source": "list",
+        "evidence": "[한국공인노무사회] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-19 / 일경험기간 26-11-30~27-02-05 / 한국공인노무사회",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_start",
+        "date": "2026-11-30",
+        "source": "list",
+        "evidence": "[한국공인노무사회] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-19 / 일경험기간 26-11-30~27-02-05 / 한국공인노무사회",
+        "precision": "exact",
+        "confidence": 1
+      },
+      {
+        "type": "program_end",
+        "date": "2027-02-05",
+        "source": "list",
+        "evidence": "[한국공인노무사회] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-11~26-11-19 / 일경험기간 26-11-30~27-02-05 / 한국공인노무사회",
+        "precision": "exact",
+        "confidence": 1
+      }
+    ],
+    "retainedSchedule": false,
+    "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%ED%95%9C%EA%B5%AD%EA%B3%B5%EC%9D%B8%EB%85%B8%EB%AC%B4%EC%82%AC%ED%9A%8C%5D+2026%EB%85%84+%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4",
+    "stableId": "work24-youth:id:PG0031235202611100001",
+    "lifecycleStatus": "fresh",
+    "fitScore": 29,
+    "fitBreakdown": {
+      "roleField": 0,
+      "gapFill": 0,
+      "eligibility": 18,
+      "location": 7,
+      "quality": 4
+    },
+    "fitReasons": [
+      "기회 품질: 일경험",
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "urgencyScore": 75,
+    "eligibilityStatus": "likely_eligible",
+    "eligibilityReasons": [
+      "신입·보조·인턴 등 지원 가능 신호"
+    ],
+    "relevanceTier": "adjacent",
+    "relevanceReasons": [
+      "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+    ],
+    "userVisible": true,
+    "workLocation": {
+      "status": "partial",
+      "text": "근무지역 서울(원문 표기)",
+      "workArea": "서울",
+      "workAreaBasis": "posting_region"
+    },
+    "verificationStatus": "current",
+    "lastConfirmedAt": "2026-11-14T10:01:51.960Z",
+    "siteId": "work24-youth",
+    "siteName": "고용24 청년일경험",
+    "changeType": "new"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02",
+  "checkedAt": "2026-11-14",
   "method": "각 기관 공식 홈페이지 푸터·오시는 길 표기를 브라우저로 확인했다. verified:false는 사이트 접근이 막혔거나 도로명 주소를 찾지 못해 기관명 기준 시 단위만 적은 항목이다(원문 확인 필요).",
   "siteAreaFallback": { "seoul": "서울특별시", "job-gg": "경기도" },
   "institutions": [
@@ -65,6 +65,10 @@
     { "id": "cju-museum", "names": ["청주대학교 박물관", "청주대 박물관"], "siteIds": [], "area": "충북 청주시", "verified": false, "sourceUrl": "https://museum.or.kr/job2/", "note": "대학 이름 기준(미검증)" },
     { "id": "independence", "names": ["독립기념관"], "siteIds": [], "area": "충남 천안시", "verified": false, "sourceUrl": "https://i815.or.kr/", "note": "기관명 기준 시 단위(미검증)" },
     { "id": "gongju-museum", "names": ["국립공주박물관"], "siteIds": [], "area": "충남 공주시", "address": "충남 공주시 관광단지길 34", "verified": true, "sourceUrl": "https://gongju.museum.go.kr/" },
-    { "id": "overseaschf", "names": ["국외소재문화유산재단"], "siteIds": [], "area": "서울 마포구", "address": "서울 마포구 월드컵북로 396 누리꿈스퀘어 비즈니스타워 7층", "verified": true, "sourceUrl": "https://www.overseaschf.or.kr/" }
+    { "id": "overseaschf", "names": ["국외소재문화유산재단"], "siteIds": [], "area": "서울 마포구", "address": "서울 마포구 월드컵북로 396 누리꿈스퀘어 비즈니스타워 7층", "verified": true, "sourceUrl": "https://www.overseaschf.or.kr/" },
+    { "id": "yeoksa-heritage", "names": ["재단법인 역사문화유산연구원", "역사문화유산연구원"], "siteIds": [], "area": "경기 용인시", "verified": false, "sourceUrl": "https://www.kaah.kr/reqopen_view/592", "note": "한국문화유산협회 게시 공고의 근무지 표기(경기 용인시 기흥구 동백3로11번길 51, 2층) 기준 시 단위, 기관 공식 사이트 미확인" },
+    { "id": "deohan-heritage", "names": ["재단법인 더한문화유산연구원", "더한문화유산연구원"], "siteIds": [], "area": "충남 공주시", "verified": false, "sourceUrl": "https://www.kaah.kr/reqopen_view/586", "note": "한국문화유산협회 게시 공고 본문의 주소(충남 공주시 신금1길 97-21, 근무지 표기 아님) 기준 시 단위, 기관 공식 사이트 미확인" },
+    { "id": "garam-heritage", "names": ["(재)가람문화유산연구원", "가람문화유산연구원"], "siteIds": [], "area": "울산 울주군", "verified": false, "sourceUrl": "https://www.kaah.kr/reqopen_view/593", "note": "한국문화유산협회 게시 공고의 접수처 주소(울산 울주군 범서읍 점촌5길 15, 2층) 기준 시 단위, 기관 공식 사이트 미확인" },
+    { "id": "chusa-museum", "names": ["추사박물관"], "siteIds": [], "area": "경기 과천시", "verified": false, "sourceUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7531&BRD_GRU_SN=6", "note": "공고 제목의 과천시 표기 기준 시 단위(주소 미확인)" }
   ]
 }
