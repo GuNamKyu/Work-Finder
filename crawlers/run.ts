@@ -31,7 +31,6 @@ import * as seosomun from './sites/seosomun';
 import * as jfac from './sites/jfac';
 import * as ggcf from './sites/ggcf';
 import * as bcmuseum from './sites/bcmuseum';
-import * as nyj from './sites/nyj';
 import * as hnart from './sites/hnart';
 import * as hsmuseum from './sites/hsmuseum';
 import * as anseong from './sites/anseong';
@@ -94,7 +93,6 @@ const sites: [SiteConfig, SiteScraper][] = [
   // ggcf 계열 3곳 (재단 본부 우선, 본부에 없는 공고가 있는 2곳만 개별)
   ...ggcf.configs.map(c => [c, ggcf.scrape] as [SiteConfig, SiteScraper]),
   [bcmuseum.config, bcmuseum.scrape],
-  [nyj.config, nyj.scrape],
   [hnart.config, hnart.scrape],
   [hsmuseum.config, hsmuseum.scrape],
   [anseong.config, anseong.scrape],

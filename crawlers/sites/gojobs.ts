@@ -8,7 +8,8 @@ import { PartialCrawlError } from '../partial-crawl.js';
 export const config: SiteConfig = {
   id: 'gojobs',
   name: '나라일터',
-  url: 'https://www.gojobs.go.kr/apmList.do',
+  // 메뉴 파라미터 없이 apmList.do만 열면 검색 폼만 나오고 목록 표(apmTbl)가 렌더링되지 않는다(2026-11-16 확인)
+  url: 'https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400',
 };
 
 export async function scrape(page: Page): Promise<JobPosting[]> {

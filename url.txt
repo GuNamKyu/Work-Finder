@@ -22,7 +22,6 @@ https://www.gojobs.go.kr/apmList.do?menuNo=401&amp;mngrMenuYn=N&amp;selMenuNo=40
 https://musenet.ggcf.kr/boards/notice/articles?category=03&amp;page=1
 https://ngcm.ggcf.kr/boards/news/articles?category=03
 https://www.bcmuseum.or.kr/ko/boards/notice/?sc=03&pageIndex=1&searchKeyword=
-https://nyj.go.kr/www/selectBbsNttList.do?key=2497&bbsNo=67
 https://www.hnart.or.kr/artcenter/selectBbsNttList.do?key=219&bbsNo=1&integrDeptCode=&searchKrwd=&searchCtgry=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0
 https://hsmuseum.hscity.go.kr/hsMuseum/comunity/comu1.jsp
 https://www.anseong.go.kr/tourPortal/museum/bbs/list.do?ptIdx=16&mId=0600000000
