@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261123-202622-kst",
+  "startedAt": "2026-11-23T11:26:27Z",
+  "finishedAt": "2026-11-23T11:44:30Z",
+  "sources": [
+    {
+      "siteId": "much",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:15.000Z",
+      "checkedAt": "2026-11-23T11:27:19Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 9
+    },
+    {
+      "siteId": "gmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:19Z",
+      "checkedAt": "2026-11-23T11:27:21Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 9
+    },
+    {
+      "siteId": "hangeul",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:21Z",
+      "checkedAt": "2026-11-23T11:27:22Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, 총 774건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 6
+    },
+    {
+      "siteId": "kaah",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:22Z",
+      "checkedAt": "2026-11-23T11:27:23Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(15행) 확인, 전체 : 176건 중 2페이지 이후 미확인",
+      "rawObserved": 15,
+      "excluded": 0,
+      "outsideWindow": 8,
+      "secondaryDuplicates": []
+    },
+    {
+      "siteId": "museum-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:23Z",
+      "checkedAt": "2026-11-23T11:27:24Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 7
+    },
+    {
+      "siteId": "baekje",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:24Z",
+      "checkedAt": "2026-11-23T11:27:25Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 11,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(11행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 11,
+      "excluded": 0,
+      "outsideWindow": 11
+    },
+    {
+      "siteId": "craftmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:25Z",
+      "checkedAt": "2026-11-23T11:27:26Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 12,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(12행) 확인 2페이지 이후 미확인",
+      "rawObserved": 12,
+      "excluded": 0,
+      "outsideWindow": 11
+    },
+    {
+      "siteId": "khs",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:27:57.000Z",
+      "checkedAt": "2026-11-23T11:28:01Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 3,
+        "listRows": 30,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1~3페이지 30행 확인(2026-11-09까지, 직전 실행일 11-14 이전 포함), 4페이지 이후 미확인",
+      "rawObserved": 30,
+      "excluded": 16,
+      "outsideWindow": 2,
+      "secondaryDuplicates": []
+    },
+    {
+      "siteId": "yongsan",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:01Z",
+      "checkedAt": "2026-11-23T11:28:40Z",
+      "elapsedMs": 39000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, 총 14 건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 9
+    },
+    {
+      "siteId": "ep-museum",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:40Z",
+      "checkedAt": "2026-11-23T11:28:41Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 1,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(1행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 1,
+      "excluded": 0,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "namu-sdm",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:41Z",
+      "checkedAt": "2026-11-23T11:28:42Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 6
+    },
+    {
+      "siteId": "warmemo",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:42Z",
+      "checkedAt": "2026-11-23T11:28:44Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 11,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(11행) 확인 2페이지 이후 미확인",
+      "rawObserved": 11,
+      "excluded": 9,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "nmkpg",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:44Z",
+      "checkedAt": "2026-11-23T11:28:46Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 7,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(7행) 확인 2페이지 이후 미확인",
+      "rawObserved": 7,
+      "excluded": 5,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "kimkoo",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:46Z",
+      "checkedAt": "2026-11-23T11:28:47Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 19,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(19행) 확인 2페이지 이후 미확인",
+      "rawObserved": 19,
+      "excluded": 5,
+      "outsideWindow": 10
+    },
+    {
+      "siteId": "seosomun",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:47Z",
+      "checkedAt": "2026-11-23T11:28:48Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 8,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(8행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 8,
+      "excluded": 0,
+      "outsideWindow": 8
+    },
+    {
+      "siteId": "jfac",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:48Z",
+      "checkedAt": "2026-11-23T11:28:50Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 13,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(13행) 확인 2페이지 이후 미확인",
+      "rawObserved": 13,
+      "excluded": 11,
+      "outsideWindow": 2
+    },
+    {
+      "siteId": "musenet",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:50Z",
+      "checkedAt": "2026-11-23T11:28:52Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 10
+    },
+    {
+      "siteId": "ngcm",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:28:52Z",
+      "checkedAt": "2026-11-23T11:28:53Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 10
+    },
+    {
+      "siteId": "ggcf",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:29:55.000Z",
+      "checkedAt": "2026-11-23T11:29:59Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(15행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 15,
+      "excluded": 1,
+      "outsideWindow": 13,
+      "secondaryDuplicates": []
+    },
+    {
+      "siteId": "hnart",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:29:59Z",
+      "checkedAt": "2026-11-23T11:30:00Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, 총 370건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 6,
+      "outsideWindow": 2
+    },
+    {
+      "siteId": "hsmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:00Z",
+      "checkedAt": "2026-11-23T11:30:03Z",
+      "elapsedMs": 3000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 18,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(18행) 확인, 전체 446건 중 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 18,
+      "excluded": 0,
+      "outsideWindow": 15
+    },
+    {
+      "siteId": "anseong",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:03Z",
+      "checkedAt": "2026-11-23T11:30:06Z",
+      "elapsedMs": 3000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 9
+    },
+    {
+      "siteId": "artic",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:06Z",
+      "checkedAt": "2026-11-23T11:30:07Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 3,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(3행) 확인, 총 1건 중 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 3,
+      "excluded": 0,
+      "outsideWindow": 2
+    },
+    {
+      "siteId": "ddc",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:07Z",
+      "checkedAt": "2026-11-23T11:30:09Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 11,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(11행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 11,
+      "excluded": 0,
+      "outsideWindow": 9
+    },
+    {
+      "siteId": "kh",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:09Z",
+      "checkedAt": "2026-11-23T11:30:10Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, Total : 1210 건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 7,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "arte",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:10Z",
+      "checkedAt": "2026-11-23T11:30:11Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(15행) 확인, 총 172건 중 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 15,
+      "excluded": 0,
+      "outsideWindow": 15
+    },
+    {
+      "siteId": "gokams",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:11Z",
+      "checkedAt": "2026-11-23T11:30:13Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 6,
+      "outsideWindow": 4
+    },
+    {
+      "siteId": "yongsan-cf",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:10.000Z",
+      "checkedAt": "2026-11-23T11:30:14Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 7,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(7행) 확인 2페이지 이후 미확인",
+      "rawObserved": 7,
+      "excluded": 4,
+      "outsideWindow": 2
+    },
+    {
+      "siteId": "seocho-cf",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:14Z",
+      "checkedAt": "2026-11-23T11:30:16Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 4,
+      "outsideWindow": 4
+    },
+    {
+      "siteId": "naruart",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:30:16Z",
+      "checkedAt": "2026-11-23T11:30:17Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(15행) 확인, 총 207건 중 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 15,
+      "excluded": 11,
+      "outsideWindow": 4
+    },
+    {
+      "siteId": "ddmac",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:02.000Z",
+      "checkedAt": "2026-11-23T11:31:06Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 20,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(20행) 확인 2페이지 이후 미확인",
+      "rawObserved": 20,
+      "excluded": 12,
+      "outsideWindow": 7
+    },
+    {
+      "siteId": "efac",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:06Z",
+      "checkedAt": "2026-11-23T11:31:07Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 8,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "nowonarts",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:07Z",
+      "checkedAt": "2026-11-23T11:31:08Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 10,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "idfac",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:08Z",
+      "checkedAt": "2026-11-23T11:31:09Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 15,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(15행) 확인 2페이지 이후 미확인",
+      "rawObserved": 15,
+      "excluded": 11,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "snart",
+      "coverage": "failed",
+      "startedAt": "2026-11-23T11:31:09Z",
+      "checkedAt": "2026-11-23T11:31:10Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 0,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "홈페이지 일시 중단 안내(site_ready.jsp)로 리다이렉트되어 목록 확인 불가",
+      "rawObserved": 0,
+      "excluded": 0,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "ansanart",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:10Z",
+      "checkedAt": "2026-11-23T11:31:11Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, 전체 : 17개 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 6,
+      "outsideWindow": 3
+    },
+    {
+      "siteId": "gunpocf",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:11Z",
+      "checkedAt": "2026-11-23T11:31:13Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 7,
+      "outsideWindow": 2
+    },
+    {
+      "siteId": "nyjcf",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:13Z",
+      "checkedAt": "2026-11-23T11:31:14Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 18,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(18행) 확인, 총 18건 중 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 18,
+      "excluded": 15,
+      "outsideWindow": 3
+    },
+    {
+      "siteId": "gcart",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:14Z",
+      "checkedAt": "2026-11-23T11:31:15Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, 총 193건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 9,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "nsart",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:31:15Z",
+      "checkedAt": "2026-11-23T11:31:16Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, 전체 105건 중 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 9,
+      "outsideWindow": 1
+    },
+    {
+      "siteId": "ncs",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:32:29.000Z",
+      "checkedAt": "2026-11-23T11:32:33Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "분류 필터(08-01-04-01) 목록 1페이지 확인: 모집중 0건(상위 10건 모두 마감), 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 0,
+      "excluded": 0,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "gojobs",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:32:33Z",
+      "checkedAt": "2026-11-23T11:32:41Z",
+      "elapsedMs": 8000,
+      "metrics": {
+        "listPages": 3,
+        "listRows": 27,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "모집공고 공고명 검색어 '박물관' 결과 1~2페이지(20행, Total 3087)와 '학예' 결과 1페이지(10행 중 앞 검색과 겹친 3행 제외 7행, Total 1593) 확인, 이후 페이지 미확인",
+      "rawObserved": 27,
+      "excluded": 4,
+      "outsideWindow": 14,
+      "secondaryDuplicates": [
+        {
+          "title": "국립공주박물관 학예연구실 공무직근로자(소장품 관리 보조) 채용 서류전형 합격자 및 면접전형 일정 안내",
+          "matchedSiteId": "museum-go-kr",
+          "matchedTitle": "국립공주박물관 학예연구실 공무직근로자(소장품 관리 보조) 채용 서류전형 합격자 및 면접전형 일정 안내"
+        },
+        {
+          "title": "2026년 국립경주박물관 공무직 (시설 상황), (미화 1반) 근로자 채용시험 서류전형 합격자 발표 및 면접시험 일정 공고",
+          "matchedSiteId": "museum-go-kr",
+          "matchedTitle": "2026년 국립경주박물관 공무직 (시설 상황), (미화 1반) 근로자 채용시험 서류전형 합격자 발표 및 면접시험 일정 공고"
+        },
+        {
+          "title": "국립중앙박물관 유물관리부 공무직(학예보조) 채용 공고",
+          "matchedSiteId": "museum-go-kr",
+          "matchedTitle": "국립중앙박물관 유물관리부 공무직(학예보조) 근로자 채용 공고"
+        },
+        {
+          "title": "서대문자연사박물관 시간선택제임기제공무원(기념품점 운영) 채용 공고",
+          "matchedSiteId": "namu-sdm",
+          "matchedTitle": "서대문자연사박물관 시간선택제임기제공무원(기념품점 운영) 채용 공고"
+        },
+        {
+          "title": "2026년도 제3차 국립중앙박물관 시설관리과 공무직 근로자(기계, 조경, 미화주임, 미화원) 채용 공고",
+          "matchedSiteId": "museum-go-kr",
+          "matchedTitle": "2026년도 제3차 국립중앙박물관 시설관리과 공무직 근로자(기계, 조경, 미화주임, 미화원) 채용 공고"
+        }
+      ]
+    },
+    {
+      "siteId": "seoul",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:32:41Z",
+      "checkedAt": "2026-11-23T11:33:28Z",
+      "elapsedMs": 47000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인, 총 9034건 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 7,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "kdp-aks",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:33:28Z",
+      "checkedAt": "2026-11-23T11:33:29Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 20,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(20행) 확인, 총 2701 건 중 2페이지 이후 미확인",
+      "rawObserved": 20,
+      "excluded": 5,
+      "outsideWindow": 0,
+      "secondaryDuplicates": [
+        {
+          "title": "[용산문화재단] 2026년 제4차 직원(지역문화 팀 등) 공개경쟁채용 공고(11.26 목)",
+          "matchedSiteId": "yongsan-cf",
+          "matchedTitle": "2026년 제4차 용산문화재단 직원 공개경쟁채용 공고"
+        },
+        {
+          "title": "[서울역사박물관] 서울특별시 일반임기제공무원(박물관운영요원-고문서·전적류) 채용시험 계획 공고(11.26 목)",
+          "matchedSiteId": "museum-seoul",
+          "matchedTitle": "서울특별시 서울역사박물관 일반임기제공무원(박물관운영요원-고문서·전 ..."
+        }
+      ]
+    },
+    {
+      "siteId": "namuk",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:33:29Z",
+      "checkedAt": "2026-11-23T11:33:48Z",
+      "elapsedMs": 19000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 5,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(5행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 5,
+      "excluded": 0,
+      "outsideWindow": 5
+    },
+    {
+      "siteId": "gfac",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:33:30Z",
+      "checkedAt": "2026-11-23T11:33:31Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 27,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(27행) 확인 2페이지 이후 미확인",
+      "rawObserved": 27,
+      "excluded": 15,
+      "outsideWindow": 11
+    },
+    {
+      "siteId": "history-seoul",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:33:31Z",
+      "checkedAt": "2026-11-23T11:33:32Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 5,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(5행) 확인, 전체80건 중 2페이지 이후 미확인",
+      "rawObserved": 5,
+      "excluded": 5,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "bcmuseum",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:33:32Z",
+      "checkedAt": "2026-11-23T11:33:34Z",
+      "elapsedMs": 2000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 10
+    },
+    {
+      "siteId": "museum-go-kr",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:34:28.000Z",
+      "checkedAt": "2026-11-23T11:34:32Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 3
+    },
+    {
+      "siteId": "gogung",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:34:32Z",
+      "checkedAt": "2026-11-23T11:34:33Z",
+      "elapsedMs": 1000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 7
+    },
+    {
+      "siteId": "nfm",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:34:33Z",
+      "checkedAt": "2026-11-23T11:34:36Z",
+      "elapsedMs": 3000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 5
+    },
+    {
+      "siteId": "kccf",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:35:06.000Z",
+      "checkedAt": "2026-11-23T11:35:10Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 20,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "서울(SU) 10행·경기(GG) 10행 1페이지 확인, 2페이지 이후 미확인(서울 첫 조회는 총 0건으로 표시되어 3초 뒤 다시 읽음)",
+      "rawObserved": 20,
+      "excluded": 6,
+      "outsideWindow": 12,
+      "secondaryDuplicates": []
+    },
+    {
+      "siteId": "museum-or-kr",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:35:10Z",
+      "checkedAt": "2026-11-23T11:35:30Z",
+      "elapsedMs": 20000,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 10,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "목록 1페이지(10행, kboard iframe) 확인, 전체 293 중 2페이지 이후 미확인",
+      "rawObserved": 10,
+      "excluded": 0,
+      "outsideWindow": 5,
+      "secondaryDuplicates": []
+    },
+    {
+      "siteId": "job-gg",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:35:30Z",
+      "checkedAt": "2026-11-23T11:35:50Z",
+      "elapsedMs": 20000,
+      "metrics": {
+        "listPages": 2,
+        "listRows": 30,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "공공일자리 목록 1페이지(16행, 1,627건 중)와 근무지 남양주시 필터 1페이지(19건 중 16행, 앞 목록과 겹친 2행 제외 14행) 확인, 이후 페이지 미확인. 남양주시(nyj) 게시판 대체 확인",
+      "rawObserved": 30,
+      "excluded": 23,
+      "outsideWindow": 0,
+      "secondaryDuplicates": []
+    },
+    {
+      "siteId": "saramin",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:44:26.000Z",
+      "checkedAt": "2026-11-23T11:44:30Z",
+      "elapsedMs": 4000,
+      "metrics": {
+        "listPages": 2,
+        "listRows": 8,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "playMCP 사람인 search_saramin_jobs 조회. 하위직무 코드가 도구에서 적용되지 않아 근무지 서울·경기 + 검색어 '박물관'(최신 40건)·'학예사'(최신 30건, 등록일순)로 조회하고, 제목·회사명에 박물관·미술관·학예·문화재·유산·기념관·도슨트·문화원·문화재단이 있는 8건만 기록(겹친 2건 제외). 등록일은 도구가 주지 않아 비움, 마감일은 D-day 표기로 계산(기준 2026-11-23). 확인 시각은 도구 호출 전후 근사",
+      "rawObserved": 8,
+      "excluded": 0,
+      "outsideWindow": 0,
+      "secondaryDuplicates": []
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:42:21.000Z",
+      "checkedAt": "2026-11-23T11:42:22.618Z",
+      "elapsedMs": 1618,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 0,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "알림 게시판 자원봉사 검색 1페이지. 총 232건, 최근 1주일 이내 게시 0건",
+      "rawObserved": 0,
+      "excluded": 0,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "gjf-youth",
+      "coverage": "partial",
+      "startedAt": "2026-11-23T11:42:18.000Z",
+      "checkedAt": "2026-11-23T11:42:20.266Z",
+      "elapsedMs": 2266,
+      "metrics": {
+        "listPages": 1,
+        "listRows": 7,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "청년사업 목록 1페이지 7개 사업, 상세·신청 링크 미확인",
+      "rawObserved": 7,
+      "excluded": 1,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "csv-culture",
+      "coverage": "full",
+      "startedAt": "2026-11-23T11:39:20.000Z",
+      "checkedAt": "2026-11-23T11:39:46.823Z",
+      "elapsedMs": 26823,
+      "metrics": {
+        "listPages": 4,
+        "listRows": 31,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "간단검색 구분=문화, 모집현황=모집중. 4페이지 전체",
+      "rawObserved": 31,
+      "excluded": 6,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "1365-volunteer",
+      "coverage": "full",
+      "startedAt": "2026-11-23T11:40:20.000Z",
+      "checkedAt": "2026-11-23T11:41:58.274Z",
+      "elapsedMs": 98274,
+      "metrics": {
+        "listPages": 6,
+        "listRows": 44,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "시간인증봉사 봉사명=박물관, 서울특별시 31건·경기도 13건 전체",
+      "rawObserved": 44,
+      "excluded": 0,
+      "outsideWindow": 0
+    },
+    {
+      "siteId": "work24-youth",
+      "coverage": "full",
+      "startedAt": "2026-11-23T11:36:20.000Z",
+      "checkedAt": "2026-11-23T11:38:43.358Z",
+      "elapsedMs": 143358,
+      "metrics": {
+        "listPages": 5,
+        "listRows": 195,
+        "detailOpened": 0,
+        "detailReused": 0
+      },
+      "scope": "프로그램 정보 목록 1~5페이지 전체(48건/페이지)에서 현재 모집 중인 195건, 총 195건",
+      "rawObserved": 195,
+      "excluded": 103,
+      "outsideWindow": 0
+    }
+  ]
+}
