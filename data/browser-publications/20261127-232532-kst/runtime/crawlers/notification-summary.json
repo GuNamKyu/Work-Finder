@@ -1,0 +1,4613 @@
+{
+  "generatedAt": "2026-11-27T23:45:44.285Z",
+  "baselineCreated": false,
+  "totals": {
+    "current": 185,
+    "collected": 343,
+    "new": 73,
+    "updated": 2,
+    "reposted": 1,
+    "reopened": 2,
+    "resurfaced": 0,
+    "closed": 6,
+    "sourceIssues": 58
+  },
+  "urgent": [],
+  "changes": [
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=400462",
+      "title": "2026년 국립청주박물관 공무직(학예 보조-교육) 채용 공고",
+      "organization": "문화체육관광부 국립중앙박물관 청주박물관 학예연구실",
+      "postingId": "400462",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-03",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "2026년 국립청주박물관 공무직(학예 보조-교육) 채용 공고 2026-11-25 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "2026년 국립청주박물관 공무직(학예 보조-교육) 채용 공고 2026-11-25 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.gojobs.go.kr/apmView.do?empmnsn=400462",
+      "applicationStartAt": null,
+      "stableId": "gojobs:id:400462",
+      "lifecycleStatus": "fresh",
+      "fitScore": 58,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 서울 용산구 서빙고로 137",
+        "institutionArea": "서울 용산구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.museum.go.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울 용산구 서빙고로 137"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:33:58Z",
+      "siteId": "gojobs",
+      "siteName": "나라일터",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=400470",
+      "title": "2026년 국립부여박물관 공무직 근로자(학예보조)(일반경쟁/장애인제한경쟁) 채용 공고",
+      "organization": "문화체육관광부 국립중앙박물관 부여박물관 학예연구실",
+      "postingId": "400470",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-03",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "2026년 국립부여박물관 공무직 근로자(학예보조)(일반경쟁/장애인제한경쟁) 채용 공고 2026-11-25 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "2026년 국립부여박물관 공무직 근로자(학예보조)(일반경쟁/장애인제한경쟁) 채용 공고 2026-11-25 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.gojobs.go.kr/apmView.do?empmnsn=400470",
+      "applicationStartAt": null,
+      "stableId": "gojobs:id:400470",
+      "lifecycleStatus": "fresh",
+      "fitScore": 54,
+      "fitBreakdown": {
+        "roleField": 26,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 서울 용산구 서빙고로 137",
+        "institutionArea": "서울 용산구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.museum.go.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울 용산구 서빙고로 137"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:33:58Z",
+      "siteId": "gojobs",
+      "siteName": "나라일터",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-26",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24115&cp=1&sv=",
+      "title": "국립청주박물관 학예연구실 공무직 근로자(학예보조) 채용 공고",
+      "organization": "국립청주박물관",
+      "postingId": "24115",
+      "status": "채용중",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-03",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-26",
+          "source": "list",
+          "evidence": "국립청주박물관 학예연구실 공무직 근로자(학예보조) 채용 공고 2026-11-26 ~2026-12-03 채용중",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "국립청주박물관 학예연구실 공무직 근로자(학예보조) 채용 공고 2026-11-26 ~2026-12-03 채용중",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24115&cp=1&sv=",
+      "applicationStartAt": null,
+      "stableId": "museum-go-kr:id:24115",
+      "lifecycleStatus": "fresh",
+      "fitScore": 51,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 충북 청주시 (시 단위·미검증)",
+        "institutionArea": "충북 청주시",
+        "institutionVerified": false,
+        "sourceUrl": "https://cheongju.museum.go.kr/",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:33:25Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "missing",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-30",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3536269",
+      "postingId": "3536269",
+      "title": "■ 11월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검",
+      "organization": "안양문화예술재단",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-15",
+      "applicationEndAt": "2026-11-30",
+      "programStartAt": "2026-11-01",
+      "programEndAt": "2026-11-30",
+      "status": "모집중",
+      "region": "경기도 안양시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-15",
+          "source": "list",
+          "evidence": "■ 11월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.15~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-01",
+          "source": "list",
+          "evidence": "■ 11월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.15~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "■ 11월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.15~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "■ 11월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.15~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3536269",
+      "stableId": "1365-volunteer:id:3536269",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화예술, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 90,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 안양시(원문 표기)",
+        "workArea": "경기도 안양시",
+        "workAreaBasis": "posting_region"
+      },
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-05",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55680580",
+      "title": "(재)두양문화재단 이함미술관 학예사 채용공고",
+      "organization": "재단법인 두양문화재단",
+      "postingId": "55680580",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-05",
+      "scheduleEvents": [
+        {
+          "type": "application_end",
+          "date": "2026-12-05",
+          "source": "list",
+          "evidence": "(재)두양문화재단 이함미술관 학예사 채용공고 ~2026-12-05",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55680580",
+      "applicationStartAt": null,
+      "stableId": "saramin:id:55680580",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 미술관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 미술관, 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 경기 양평군 (시 단위·미검증)",
+        "institutionArea": "경기 양평군",
+        "institutionVerified": false,
+        "sourceUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55680580",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:37:30Z",
+      "siteId": "saramin",
+      "siteName": "사람인",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-27",
+      "postedAt": null,
+      "deadlineDate": "2026-12-09",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7665&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+      "title": "[호림미술관] 성보문화재단 기간제 학예직 연구원 모집 공고(12.9. 수)",
+      "organization": "호림미술관",
+      "postingId": "7665",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-09",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-27",
+          "source": "list",
+          "evidence": "[호림미술관] 성보문화재단 기간제 학예직 연구원 모집 공고(12.9. 수) 2026-11-27 ~2026-12-09",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-09",
+          "source": "list",
+          "evidence": "[호림미술관] 성보문화재단 기간제 학예직 연구원 모집 공고(12.9. 수) 2026-11-27 ~2026-12-09",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7665&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+      "applicationStartAt": null,
+      "stableId": "kdp-aks:id:7665",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 미술관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 미술관, 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 서울특별시 관악구 남부순환로 152길 53",
+        "institutionArea": "서울 관악구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.horimmuseum.org/ko",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울특별시 관악구 남부순환로 152길 53"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:32:26Z",
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-24",
+      "postedAt": null,
+      "deadlineDate": "2026-12-08",
+      "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=400402",
+      "title": "2026 수성문화재단 미술관 전문 학예인력 채용 공고(학예사, 전문기간제)",
+      "organization": "수성문화재단",
+      "postingId": "400402",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-08",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "2026 수성문화재단 미술관 전문 학예인력 채용 공고(학예사, 전문기간제) 2026-11-24 ~2026-12-08",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-08",
+          "source": "list",
+          "evidence": "2026 수성문화재단 미술관 전문 학예인력 채용 공고(학예사, 전문기간제) 2026-11-24 ~2026-12-08",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.gojobs.go.kr/apmView.do?empmnsn=400402",
+      "applicationStartAt": null,
+      "stableId": "gojobs:id:400402",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 미술관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 미술관, 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 대구 수성구 무학로 180",
+        "institutionArea": "대구 수성구",
+        "institutionVerified": true,
+        "sourceUrl": "https://ssartpia.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "대구 수성구 무학로 180"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:33:58Z",
+      "siteId": "gojobs",
+      "siteName": "나라일터",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1458&pageNo=1",
+      "title": "WYD대비 전시사업을 위한 학예사 충원모집",
+      "organization": "서소문성지 역사박물관",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "WYD대비 전시사업을 위한 학예사 충원모집 2026-11-25",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.seosomun.org/retrieveBoard.do?mCode=159&mode=V&nSeq=1458",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "seosomun:url:7ae7aaff940225194aa5",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 서울 중구 칠패로 5",
+        "institutionArea": "서울 중구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.seosomun.org/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울 중구 칠패로 5"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:27:38Z",
+      "siteId": "seosomun",
+      "siteName": "서소문성지 역사박물관",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-30",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555393",
+      "postingId": "3555393",
+      "title": "■ 12월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검",
+      "organization": "안양문화예술재단",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-24",
+      "applicationEndAt": "2026-12-30",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "region": "경기도 안양시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-30",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오전] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555393",
+      "stableId": "1365-volunteer:id:3555393",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화예술, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 안양시(원문 표기)",
+        "workArea": "경기도 안양시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-30",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555394",
+      "postingId": "3555394",
+      "title": "■ 12월 [성인모집/오후] 박물관 관람객 안내 및 전시실 환경 점검",
+      "organization": "안양문화예술재단",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-24",
+      "applicationEndAt": "2026-12-30",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "region": "경기도 안양시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오후] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오후] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-30",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오후] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "■ 12월 [성인모집/오후] 박물관 관람객 안내 및 전시실 환경 점검 / 경기도 안양시 / 안양문화예술재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.24~2026.12.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555394",
+      "stableId": "1365-volunteer:id:3555394",
+      "lifecycleStatus": "fresh",
+      "fitScore": 50,
+      "fitBreakdown": {
+        "roleField": 30,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화예술, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 안양시(원문 표기)",
+        "workArea": "경기도 안양시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-26",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7648&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+      "title": "[국립부여박물관] 2026년 공무직 근로자(학예보조) 채용 공고(12.3 목)",
+      "organization": "국립부여박물관",
+      "postingId": "7648",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-03",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-26",
+          "source": "list",
+          "evidence": "[국립부여박물관] 2026년 공무직 근로자(학예보조) 채용 공고(12.3 목) 2026-11-26 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "[국립부여박물관] 2026년 공무직 근로자(학예보조) 채용 공고(12.3 목) 2026-11-26 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7648&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+      "applicationStartAt": null,
+      "stableId": "kdp-aks:id:7648",
+      "lifecycleStatus": "fresh",
+      "fitScore": 48,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 충청남도 부여군 부여읍 금성로 5",
+        "institutionArea": "충남 부여군",
+        "institutionVerified": true,
+        "sourceUrl": "https://buyeo.museum.go.kr/index.do",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "충청남도 부여군 부여읍 금성로 5"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:32:26Z",
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": "2026-12-02",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24118&cp=1&sv=",
+      "title": "[채용]국립익산박물관 공무직[학예보조] 근로자 채용 공고",
+      "organization": "국립익산박물관",
+      "postingId": "24118",
+      "status": "채용중",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-02",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "[채용]국립익산박물관 공무직[학예보조] 근로자 채용 공고 2026-11-25 ~2026-12-02 채용중",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-02",
+          "source": "list",
+          "evidence": "[채용]국립익산박물관 공무직[학예보조] 근로자 채용 공고 2026-11-25 ~2026-12-02 채용중",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701030000.do?schM=view&catCustomType=post&catId=54&arcId=24118&cp=1&sv=",
+      "applicationStartAt": null,
+      "stableId": "museum-go-kr:id:24118",
+      "lifecycleStatus": "fresh",
+      "fitScore": 48,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 전북 익산시 (시 단위·미검증)",
+        "institutionArea": "전북 익산시",
+        "institutionVerified": false,
+        "sourceUrl": "https://iksan.museum.go.kr/",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:33:25Z",
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": null,
+      "title": "2026년 제4차 「서울 매력일자리-박물관 학예인력 사업」 최종 ...",
+      "organization": "서울역사박물관",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "2026년 제4차 「서울 매력일자리-박물관 학예인력 사업」 최종 ... 2026-11-25",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": null,
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "museum-seoul:composite:2463be145f793f5e7dc8",
+      "lifecycleStatus": "fresh",
+      "fitScore": 48,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 서울 종로구 새문안로 55",
+        "institutionArea": "서울 종로구",
+        "institutionVerified": true,
+        "sourceUrl": "https://museum.seoul.go.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울 종로구 새문안로 55"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:26:46Z",
+      "siteId": "museum-seoul",
+      "siteName": "서울역사박물관",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "missing",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-28",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3533573",
+      "postingId": "3533573",
+      "title": "2026년 이천시립박물관 11월 자원봉사(QR승인)",
+      "organization": "이천문화재단(이천시립박물관, 서희역사관)",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-10",
+      "applicationEndAt": "2026-11-28",
+      "programStartAt": "2026-11-03",
+      "programEndAt": "2026-11-29",
+      "status": "모집중",
+      "region": "경기도 이천시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-10",
+          "source": "list",
+          "evidence": "2026년 이천시립박물관 11월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.11.03~2026.11.29 / 모집기간 2026.10.10~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-03",
+          "source": "list",
+          "evidence": "2026년 이천시립박물관 11월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.11.03~2026.11.29 / 모집기간 2026.10.10~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-28",
+          "source": "list",
+          "evidence": "2026년 이천시립박물관 11월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.11.03~2026.11.29 / 모집기간 2026.10.10~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-29",
+          "source": "list",
+          "evidence": "2026년 이천시립박물관 11월 자원봉사(QR승인) / 경기도 이천시 / 이천문화재단(이천시립박물관, 서희역사관) / 모집중 / 봉사기간 2026.11.03~2026.11.29 / 모집기간 2026.10.10~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3533573",
+      "stableId": "1365-volunteer:id:3533573",
+      "lifecycleStatus": "fresh",
+      "fitScore": 46,
+      "fitBreakdown": {
+        "roleField": 26,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "workLocation": {
+        "status": "known",
+        "text": "근무지역 경기도 이천시(원문 표기) · 기관 소재지 경기 이천시 부악로 40",
+        "workArea": "경기도 이천시",
+        "workAreaBasis": "posting_region",
+        "institutionArea": "경기 이천시",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.artic.or.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "경기 이천시 부악로 40"
+      },
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7646&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+      "title": "[국립청주박물관] 학예연구실 공무직 근로자(교육) 채용 공고(12.3 목)",
+      "organization": "국립청주박물관",
+      "postingId": "7646",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-03",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "[국립청주박물관] 학예연구실 공무직 근로자(교육) 채용 공고(12.3 목) 2026-11-25 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "[국립청주박물관] 학예연구실 공무직 근로자(교육) 채용 공고(12.3 목) 2026-11-25 ~2026-12-03",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7646&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+      "applicationStartAt": null,
+      "stableId": "kdp-aks:id:7646",
+      "lifecycleStatus": "fresh",
+      "fitScore": 46,
+      "fitBreakdown": {
+        "roleField": 26,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 충북 청주시 (시 단위·미검증)",
+        "institutionArea": "충북 청주시",
+        "institutionVerified": false,
+        "sourceUrl": "https://cheongju.museum.go.kr/",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:32:26Z",
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-27",
+      "postedAt": null,
+      "deadlineDate": "2026-12-16",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7666&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+      "title": "[서소문성지 역사박물관] 학예연구사 채용(12.16 수)",
+      "organization": "서소문성지 역사박물관",
+      "postingId": "7666",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-16",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-27",
+          "source": "list",
+          "evidence": "[서소문성지 역사박물관] 학예연구사 채용(12.16 수) 2026-11-27 ~2026-12-16",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-16",
+          "source": "list",
+          "evidence": "[서소문성지 역사박물관] 학예연구사 채용(12.16 수) 2026-11-27 ~2026-12-16",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7666&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+      "applicationStartAt": null,
+      "stableId": "kdp-aks:id:7666",
+      "lifecycleStatus": "fresh",
+      "fitScore": 46,
+      "fitBreakdown": {
+        "roleField": 26,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 서울 중구 칠패로 5",
+        "institutionArea": "서울 중구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.seosomun.org/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울 중구 칠패로 5"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:32:26Z",
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "updated",
+      "regDate": "2026-11-20",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/60486?cp=1&sortOrder=BA_REGDATE&sortDirection=DESC&bcId=newsevent_news_recruitmen&baNotice=false&baCommSelec=false&baOpenDay=false&baUse=true",
+      "title": "서대문자연사박물관 2027년 서울 매력일자리(자연사 전공 학예사 양성) 참여자 모집",
+      "organization": "서대문자연사박물관",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-20",
+          "source": "list",
+          "evidence": "서대문자연사박물관 2027년 서울 매력일자리(자연사 전공 학예사 양성) 참여자 모집 2026-11-20",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://namu.sdm.go.kr/web/main/bbs/newsevent_news_recruitmen/60486?cp=1&sortOrder=BA_REGDATE&sortDirection=DESC&bcId=newsevent_news_recruitmen&baNotice=false&baCommSelec=false&baOpenDay=false&baUse=true",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "namu-sdm:url:2e8b044a2e8c34c219e9",
+      "lifecycleStatus": "fresh",
+      "fitScore": 45,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 서울 서대문구 연희로32길 51",
+        "institutionArea": "서울 서대문구",
+        "institutionVerified": true,
+        "sourceUrl": "https://namu.sdm.go.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울 서대문구 연희로32길 51"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:27:32Z",
+      "siteId": "namu-sdm",
+      "siteName": "서대문자연사박물관",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "closed",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-26",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3545065",
+      "postingId": "3545065",
+      "title": "2026년 11월 넷마블게임박물관 평일 오후 자원봉사",
+      "organization": "재단법인 넷마블문화재단",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-02",
+      "applicationEndAt": "2026-11-26",
+      "programStartAt": "2026-11-02",
+      "programEndAt": "2026-11-30",
+      "status": "모집중",
+      "region": "서울특별시 구로구",
+      "eligibilityText": "신청대상 성인·청소년",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-02",
+          "source": "list",
+          "evidence": "2026년 11월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.11.02~2026.11.26 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-02",
+          "source": "list",
+          "evidence": "2026년 11월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.11.02~2026.11.26 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-26",
+          "source": "list",
+          "evidence": "2026년 11월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.11.02~2026.11.26 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "2026년 11월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.11.02~2026.11.26 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3545065",
+      "stableId": "1365-volunteer:id:3545065",
+      "lifecycleStatus": "closed",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 구로구(원문 표기)",
+        "workArea": "서울특별시 구로구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-27",
+      "postedAt": null,
+      "deadlineDate": "2026-12-01",
+      "url": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7667&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20&pageIndex=1",
+      "title": "[하남문화재단] 채용공고 2026년 제6회 직원채용(전시기획) 시행계획 공고(12.1 화)",
+      "organization": "하남문화재단",
+      "postingId": "7667",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-01",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-27",
+          "source": "list",
+          "evidence": "[하남문화재단] 채용공고 2026년 제6회 직원채용(전시기획) 시행계획 공고(12.1 화) 2026-11-27 ~2026-12-01",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "[하남문화재단] 채용공고 2026년 제6회 직원채용(전시기획) 시행계획 공고(12.1 화) 2026-11-27 ~2026-12-01",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://kdp.aks.ac.kr/board/boardKorView?BRD_SN=7667&BRD_GRU_SN=6&itemId=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0&pageUnit=20",
+      "applicationStartAt": null,
+      "stableId": "kdp-aks:id:7667",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 문화재, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 90,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 경기 하남시 신평로 125",
+        "institutionArea": "경기 하남시",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.hnart.or.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "경기 하남시 신평로 125"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:32:26Z",
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-06",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55657862",
+      "title": "[한화문화재단 / 퐁피두센터 한화] 어시스턴트 큐레이터 채용",
+      "organization": "(재)한화문화재단",
+      "postingId": "55657862",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-06",
+      "scheduleEvents": [
+        {
+          "type": "application_end",
+          "date": "2026-12-06",
+          "source": "list",
+          "evidence": "[한화문화재단 / 퐁피두센터 한화] 어시스턴트 큐레이터 채용 ~2026-12-06",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55657862",
+      "applicationStartAt": null,
+      "stableId": "saramin:id:55657862",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 큐레이터, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 큐레이터, 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 서울 영등포구 (시 단위·미검증)",
+        "institutionArea": "서울 영등포구",
+        "institutionVerified": false,
+        "sourceUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55657862",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:37:30Z",
+      "siteId": "saramin",
+      "siteName": "사람인",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-28",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3556519",
+      "postingId": "3556519",
+      "title": "2026년 12월 넷마블게임박물관 평일 오후 자원봉사",
+      "organization": "재단법인 넷마블문화재단",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-25",
+      "applicationEndAt": "2026-12-28",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "region": "서울특별시 구로구",
+      "eligibilityText": "신청대상 성인·청소년",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-28",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 평일 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3556519",
+      "stableId": "1365-volunteer:id:3556519",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 구로구(원문 표기)",
+        "workArea": "서울특별시 구로구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-28",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3556521",
+      "postingId": "3556521",
+      "title": "2026년 12월 넷마블게임박물관 주말 오후 자원봉사",
+      "organization": "재단법인 넷마블문화재단",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-25",
+      "applicationEndAt": "2026-12-28",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "region": "서울특별시 구로구",
+      "eligibilityText": "신청대상 성인·청소년",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 주말 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 주말 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-28",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 주말 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "2026년 12월 넷마블게임박물관 주말 오후 자원봉사 / 서울특별시 구로구 / 재단법인 넷마블문화재단 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.25~2026.12.28 / 신청대상 성인·청소년",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3556521",
+      "stableId": "1365-volunteer:id:3556521",
+      "lifecycleStatus": "fresh",
+      "fitScore": 43,
+      "fitBreakdown": {
+        "roleField": 23,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 구로구(원문 표기)",
+        "workArea": "서울특별시 구로구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "closed",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-27",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3540331",
+      "postingId": "3540331",
+      "title": "국립항공박물관 11월 전시실 오전 자원봉사",
+      "organization": "국립항공박물관",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-24",
+      "applicationEndAt": "2026-11-27",
+      "programStartAt": "2026-11-01",
+      "programEndAt": "2026-11-30",
+      "status": "모집중",
+      "region": "서울특별시 강서구",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-24",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-01",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-27",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3540331",
+      "stableId": "1365-volunteer:id:3540331",
+      "lifecycleStatus": "closed",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 강서구(원문 표기)",
+        "workArea": "서울특별시 강서구",
+        "workAreaBasis": "posting_region"
+      },
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "closed",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-27",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3540332",
+      "postingId": "3540332",
+      "title": "국립항공박물관 11월 전시실 오후 자원봉사",
+      "organization": "국립항공박물관",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-24",
+      "applicationEndAt": "2026-11-27",
+      "programStartAt": "2026-11-01",
+      "programEndAt": "2026-11-30",
+      "status": "모집중",
+      "region": "서울특별시 강서구",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-24",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-01",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-27",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "국립항공박물관 11월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.11.01~2026.11.30 / 모집기간 2026.10.24~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3540332",
+      "stableId": "1365-volunteer:id:3540332",
+      "lifecycleStatus": "closed",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 강서구(원문 표기)",
+        "workArea": "서울특별시 강서구",
+        "workAreaBasis": "posting_region"
+      },
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "closed",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-27",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3536846",
+      "postingId": "3536846",
+      "title": "평택민속박물관 자원봉사자 모집(시간 조정 가능)",
+      "organization": "평택민속박물관",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-16",
+      "applicationEndAt": "2026-11-27",
+      "programStartAt": "2026-11-02",
+      "programEndAt": "2026-11-30",
+      "status": "모집중",
+      "region": "경기도 평택시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-16",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.10.16~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-02",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.10.16~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-27",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.10.16~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.11.02~2026.11.30 / 모집기간 2026.10.16~2026.11.27 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3536846",
+      "stableId": "1365-volunteer:id:3536846",
+      "lifecycleStatus": "closed",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 민속",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 민속"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 평택시(원문 표기)",
+        "workArea": "경기도 평택시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "missing",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-28",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3537856",
+      "postingId": "3537856",
+      "title": "[시흥오이도박물관] 전시관람 보조(성인) / 토일(주말 오후) 14:00~18:00",
+      "organization": "시흥오이도박물관(시흥시관광과)",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-10-19",
+      "applicationEndAt": "2026-11-28",
+      "programStartAt": "2026-11-01",
+      "programEndAt": "2026-11-29",
+      "status": "모집중",
+      "region": "경기도 시흥시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-10-19",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 토일(주말 오후) 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.19~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-11-01",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 토일(주말 오후) 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.19~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-28",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 토일(주말 오후) 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.19~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-11-29",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 토일(주말 오후) 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.11.01~2026.11.29 / 모집기간 2026.10.19~2026.11.28 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3537856",
+      "stableId": "1365-volunteer:id:3537856",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 100,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 시흥시(원문 표기)",
+        "workArea": "경기도 시흥시",
+        "workAreaBasis": "posting_region"
+      },
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-09",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3556461",
+      "postingId": "3556461",
+      "title": "[국립민속박물관 파주] 자원봉사자 모집",
+      "organization": "국립민속박물관 파주",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-25",
+      "applicationEndAt": "2026-12-09",
+      "programStartAt": "2027-01-01",
+      "programEndAt": "2027-03-31",
+      "status": "모집중",
+      "region": "경기도 파주시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "[국립민속박물관 파주] 자원봉사자 모집 / 경기도 파주시 / 국립민속박물관 파주 / 모집중 / 봉사기간 2027.01.01~2027.03.31 / 모집기간 2026.11.25~2026.12.09 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-09",
+          "source": "list",
+          "evidence": "[국립민속박물관 파주] 자원봉사자 모집 / 경기도 파주시 / 국립민속박물관 파주 / 모집중 / 봉사기간 2027.01.01~2027.03.31 / 모집기간 2026.11.25~2026.12.09 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2027-01-01",
+          "source": "list",
+          "evidence": "[국립민속박물관 파주] 자원봉사자 모집 / 경기도 파주시 / 국립민속박물관 파주 / 모집중 / 봉사기간 2027.01.01~2027.03.31 / 모집기간 2026.11.25~2026.12.09 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2027-03-31",
+          "source": "list",
+          "evidence": "[국립민속박물관 파주] 자원봉사자 모집 / 경기도 파주시 / 국립민속박물관 파주 / 모집중 / 봉사기간 2027.01.01~2027.03.31 / 모집기간 2026.11.25~2026.12.09 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3556461",
+      "stableId": "1365-volunteer:id:3556461",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 민속",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 민속"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "근무지역 경기도 파주시(원문 표기) · 기관 소재지 서울 종로구 삼청로 37",
+        "workArea": "경기도 파주시",
+        "workAreaBasis": "posting_region",
+        "institutionArea": "서울 종로구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.nfm.go.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "서울 종로구 삼청로 37"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "updated",
+      "regDate": "2026-11-19",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://museum.or.kr/job2/?mode=view&idx=7190",
+      "title": "[청주대학교 박물관] 학예사 채용 공고",
+      "organization": "청주대학교 박물관",
+      "postingId": "7190",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-19",
+          "source": "list",
+          "evidence": "[청주대학교 박물관] 학예사 채용 공고 2026-11-19",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://museum.or.kr/job2/?mode=view&idx=7190",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "museum-or-kr:id:7190",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 충북 청주시 (시 단위·미검증)",
+        "institutionArea": "충북 청주시",
+        "institutionVerified": false,
+        "sourceUrl": "https://museum.or.kr/job2/",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:35:09Z",
+      "siteId": "museum-or-kr",
+      "siteName": "한국박물관협회",
+      "changeType": "updated",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55677451",
+      "title": "[풀짚공예박물관] 2027년 학예인력 채용 공고 (기간제)",
+      "organization": "풀짚공예박물관",
+      "postingId": "55677451",
+      "postingType": "job",
+      "scheduleEvents": [],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55677451",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "saramin:id:55677451",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 경기 광주시 (시 단위·미검증)",
+        "institutionArea": "경기 광주시",
+        "institutionVerified": false,
+        "sourceUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55677451",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:37:30Z",
+      "siteId": "saramin",
+      "siteName": "사람인",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-24",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3557320",
+      "postingId": "3557320",
+      "title": "국립항공박물관 12월 전시실 오전 자원봉사",
+      "organization": "국립항공박물관",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-28",
+      "applicationEndAt": "2026-12-24",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "region": "서울특별시 강서구",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-28",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-24",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오전 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3557320",
+      "stableId": "1365-volunteer:id:3557320",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 강서구(원문 표기)",
+        "workArea": "서울특별시 강서구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-24",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3557321",
+      "postingId": "3557321",
+      "title": "국립항공박물관 12월 전시실 오후 자원봉사",
+      "organization": "국립항공박물관",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-28",
+      "applicationEndAt": "2026-12-24",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "region": "서울특별시 강서구",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-28",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-24",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "국립항공박물관 12월 전시실 오후 자원봉사 / 서울특별시 강서구 / 국립항공박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.28~2026.12.24 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3557321",
+      "stableId": "1365-volunteer:id:3557321",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 강서구(원문 표기)",
+        "workArea": "서울특별시 강서구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "reopened",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-15",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3552779",
+      "postingId": "3552779",
+      "title": "평택민속박물관 자원봉사자 모집(시간 조정 가능)",
+      "organization": "평택민속박물관",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-27",
+      "applicationEndAt": "2026-12-15",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-31",
+      "status": "모집중",
+      "region": "경기도 평택시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-27",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.27~2026.12.15 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.27~2026.12.15 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-15",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.27~2026.12.15 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-31",
+          "source": "list",
+          "evidence": "평택민속박물관 자원봉사자 모집(시간 조정 가능) / 경기도 평택시 / 평택민속박물관 / 모집중 / 봉사기간 2026.12.01~2026.12.31 / 모집기간 2026.11.27~2026.12.15 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3552779",
+      "stableId": "1365-volunteer:id:3552779",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 민속",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 민속"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 평택시(원문 표기)",
+        "workArea": "경기도 평택시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "reopened",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-26",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555682",
+      "postingId": "3555682",
+      "title": "[시흥오이도박물관] 전시관람 보조(성인)  / 주말(토일) 오전 10:00~14:00",
+      "organization": "시흥오이도박물관(시흥시관광과)",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-24",
+      "applicationEndAt": "2026-12-26",
+      "programStartAt": "2026-12-05",
+      "programEndAt": "2026-12-27",
+      "status": "모집중",
+      "region": "경기도 시흥시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인)  / 주말(토일) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-05",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인)  / 주말(토일) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-26",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인)  / 주말(토일) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-27",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인)  / 주말(토일) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555682",
+      "stableId": "1365-volunteer:id:3555682",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 시흥시(원문 표기)",
+        "workArea": "경기도 시흥시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-26",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555683",
+      "postingId": "3555683",
+      "title": "[시흥오이도박물관] 전시관람 보조(성인) / 주말(토일) 오후 14:00~18:00",
+      "organization": "시흥오이도박물관(시흥시관광과)",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-24",
+      "applicationEndAt": "2026-12-26",
+      "programStartAt": "2026-12-05",
+      "programEndAt": "2026-12-27",
+      "status": "모집중",
+      "region": "경기도 시흥시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-05",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-26",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-27",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 전시관람 보조(성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555683",
+      "stableId": "1365-volunteer:id:3555683",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 시흥시(원문 표기)",
+        "workArea": "경기도 시흥시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-26",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555684",
+      "postingId": "3555684",
+      "title": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 토일(주말) 오전 10:00~14:00",
+      "organization": "시흥오이도박물관(시흥시관광과)",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-24",
+      "applicationEndAt": "2026-12-26",
+      "programStartAt": "2026-12-05",
+      "programEndAt": "2026-12-27",
+      "status": "모집중",
+      "region": "경기도 시흥시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 토일(주말) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-05",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 토일(주말) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-26",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 토일(주말) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-27",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 토일(주말) 오전 10:00~14:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555684",
+      "stableId": "1365-volunteer:id:3555684",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 시흥시(원문 표기)",
+        "workArea": "경기도 시흥시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-26",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555685",
+      "postingId": "3555685",
+      "title": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 주말(토일) 오후 14:00~18:00",
+      "organization": "시흥오이도박물관(시흥시관광과)",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-24",
+      "applicationEndAt": "2026-12-26",
+      "programStartAt": "2026-12-05",
+      "programEndAt": "2026-12-27",
+      "status": "모집중",
+      "region": "경기도 시흥시",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-05",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-26",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-27",
+          "source": "list",
+          "evidence": "[시흥오이도박물관] 상설전시실 안내데스크 방문객 안내 (성인) / 주말(토일) 오후 14:00~18:00 / 경기도 시흥시 / 시흥오이도박물관(시흥시관광과) / 모집중 / 봉사기간 2026.12.05~2026.12.27 / 모집기간 2026.11.24~2026.12.26 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3555685",
+      "stableId": "1365-volunteer:id:3555685",
+      "lifecycleStatus": "fresh",
+      "fitScore": 40,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관, 전시",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 20,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관, 전시"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 경기도 시흥시(원문 표기)",
+        "workArea": "경기도 시흥시",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:42:38.707Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-07",
+      "url": "https://job.gg.go.kr/pblcEmpmn/publicJobDetail.do?seq=90342",
+      "title": "[남양주시] 2027년 제1회 남양주문화재단 정규직 채용 공고",
+      "organization": "남양주문화재단",
+      "postingId": "90342",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-07",
+      "scheduleEvents": [
+        {
+          "type": "application_end",
+          "date": "2026-12-07",
+          "source": "list",
+          "evidence": "[남양주시] 2027년 제1회 남양주문화재단 정규직 채용 공고 ~2026-12-07",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://job.gg.go.kr/pblcEmpmn/publicJobDetail.do?seq=90342",
+      "applicationStartAt": null,
+      "stableId": "job-gg:id:90342",
+      "lifecycleStatus": "fresh",
+      "fitScore": 39,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 4
+      },
+      "fitReasons": [
+        "직무·분야: 문화재",
+        "기회 품질: 정규직",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 남양주시(제목 표기)",
+        "workArea": "남양주시",
+        "workAreaBasis": "title"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:35:50Z",
+      "siteId": "job-gg",
+      "siteName": "경기도일자리포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://www.nyjcf.or.kr/www/25?action=read&action-value=ad2e0263bf4f4c4f49e6c6369995f2a1",
+      "title": "남양주문화재단 직원 채용 모집 공고(정규직)",
+      "organization": "남양주시문화재단",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "남양주문화재단 직원 채용 모집 공고(정규직) 2026-11-25",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.nyjcf.or.kr/www/25?action=read&action-value=ad2e0263bf4f4c4f49e6c6369995f2a1",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "nyjcf:url:b6d74bb085f7f39c8008",
+      "lifecycleStatus": "fresh",
+      "fitScore": 39,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 4
+      },
+      "fitReasons": [
+        "직무·분야: 문화재",
+        "기회 품질: 정규직",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 경기 남양주시 석실로 724",
+        "institutionArea": "경기 남양주시",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.nyjcf.or.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "경기 남양주시 석실로 724"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:29:57Z",
+      "siteId": "nyjcf",
+      "siteName": "남양주시문화재단",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "reopened",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-04",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55693829",
+      "title": "학예팀 채용(작품 구독·아트테크 서비스/신입~2년 미만 경력)",
+      "organization": "(주)오픈갤러리",
+      "postingId": "55693829",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-04",
+      "scheduleEvents": [
+        {
+          "type": "application_end",
+          "date": "2026-12-04",
+          "source": "list",
+          "evidence": "학예팀 채용(작품 구독·아트테크 서비스/신입~2년 미만 경력) ~2026-12-04",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55693829",
+      "applicationStartAt": null,
+      "stableId": "saramin:id:55693829",
+      "lifecycleStatus": "fresh",
+      "fitScore": 38,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 서울 성동구 (시 단위·미검증)",
+        "institutionArea": "서울 성동구",
+        "institutionVerified": false,
+        "sourceUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55570548",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:37:30Z",
+      "siteId": "saramin",
+      "siteName": "사람인",
+      "changeType": "reopened",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-07",
+      "url": "https://job.gg.go.kr/pblcEmpmn/publicJobDetail.do?seq=90343",
+      "title": "[남양주시] 2027년 제1회 남양주문화재단 기간제근로자 채용 공고",
+      "organization": "남양주문화재단",
+      "postingId": "90343",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-07",
+      "scheduleEvents": [
+        {
+          "type": "application_end",
+          "date": "2026-12-07",
+          "source": "list",
+          "evidence": "[남양주시] 2027년 제1회 남양주문화재단 기간제근로자 채용 공고 ~2026-12-07",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://job.gg.go.kr/pblcEmpmn/publicJobDetail.do?seq=90343",
+      "applicationStartAt": null,
+      "stableId": "job-gg:id:90343",
+      "lifecycleStatus": "fresh",
+      "fitScore": 38,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 남양주시(제목 표기)",
+        "workArea": "남양주시",
+        "workAreaBasis": "title"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:35:50Z",
+      "siteId": "job-gg",
+      "siteName": "경기도일자리포털",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-24",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://www.ggcf.kr/boards/bulletinBoards/articles/21743",
+      "title": "2026년 경기문화재단 제11차 기간제 근로자 채용",
+      "organization": "경기문화재단",
+      "status": "진행",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "2026년 경기문화재단 제11차 기간제 근로자 채용 2026-11-24 진행",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.ggcf.kr/boards/bulletinBoards/articles/21743",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "ggcf:url:0faf8711b94e7b91d545",
+      "lifecycleStatus": "fresh",
+      "fitScore": 38,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 경기 수원시 팔달구 인계로 178",
+        "institutionArea": "경기 수원시 팔달구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.ggcf.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "경기 수원시 팔달구 인계로 178"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:28:21Z",
+      "siteId": "ggcf",
+      "siteName": "경기문화재단",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-24",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://www.ggcf.kr/boards/bulletinBoards/articles/21741",
+      "title": "2026년 경기문화재단 제5회 직원채용(일반직 및 운영직) 필기시험 공고",
+      "organization": "경기문화재단",
+      "status": "진행",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "2026년 경기문화재단 제5회 직원채용(일반직 및 운영직) 필기시험 공고 2026-11-24 진행",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.ggcf.kr/boards/bulletinBoards/articles/21741",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "ggcf:url:e9a5b7e38141126c3e17",
+      "lifecycleStatus": "fresh",
+      "fitScore": 38,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 경기 수원시 팔달구 인계로 178",
+        "institutionArea": "경기 수원시 팔달구",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.ggcf.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "경기 수원시 팔달구 인계로 178"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:28:21Z",
+      "siteId": "ggcf",
+      "siteName": "경기문화재단",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://www.nyjcf.or.kr/www/25?action=read&action-value=5cacb307f0ced5a47bae6bfe1fa4f7ab",
+      "title": "남양주문화재단 직원 채용 모집 공고(기간제)",
+      "organization": "남양주시문화재단",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "남양주문화재단 직원 채용 모집 공고(기간제) 2026-11-25",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.nyjcf.or.kr/www/25?action=read&action-value=5cacb307f0ced5a47bae6bfe1fa4f7ab",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "nyjcf:url:3752ac7b014904bd1c83",
+      "lifecycleStatus": "fresh",
+      "fitScore": 38,
+      "fitBreakdown": {
+        "roleField": 13,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "known",
+        "text": "기관 소재지 경기 남양주시 석실로 724",
+        "institutionArea": "경기 남양주시",
+        "institutionVerified": true,
+        "sourceUrl": "https://www.nyjcf.or.kr/",
+        "checkedAt": "2026-11-28",
+        "institutionAddress": "경기 남양주시 석실로 724"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:29:57Z",
+      "siteId": "nyjcf",
+      "siteName": "남양주시문화재단",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-03",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%84%9C%EC%9A%B8%ED%98%84%EB%8C%80%EA%B5%90%EC%9C%A1%EC%9E%AC%EB%8B%A8%5D%202026%EB%85%84%20%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4",
+      "postingId": "PG0031235202611190004",
+      "title": "[서울현대교육재단] 2026년 청년일경험 프로그램_경영·사무",
+      "organization": "재단법인 서울현대교육재단",
+      "recordKind": "recruitment",
+      "experienceType": "internship",
+      "roleText": "경영·사무",
+      "region": "서울",
+      "applicationStartAt": "2026-11-24",
+      "applicationEndAt": "2026-12-03",
+      "programStartAt": "2026-12-14",
+      "programEndAt": "2027-02-15",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-24",
+          "source": "list",
+          "evidence": "[서울현대교육재단] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-24~26-12-03 / 일경험기간 26-12-14~27-02-15 / 재단법인 서울현대교육재단",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-03",
+          "source": "list",
+          "evidence": "[서울현대교육재단] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-24~26-12-03 / 일경험기간 26-12-14~27-02-15 / 재단법인 서울현대교육재단",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-14",
+          "source": "list",
+          "evidence": "[서울현대교육재단] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-24~26-12-03 / 일경험기간 26-12-14~27-02-15 / 재단법인 서울현대교육재단",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2027-02-15",
+          "source": "list",
+          "evidence": "[서울현대교육재단] 2026년 청년일경험 프로그램_경영·사무 / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-24~26-12-03 / 일경험기간 26-12-14~27-02-15 / 재단법인 서울현대교육재단",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%5B%EC%84%9C%EC%9A%B8%ED%98%84%EB%8C%80%EA%B5%90%EC%9C%A1%EC%9E%AC%EB%8B%A8%5D+2026%EB%85%84+%EC%B2%AD%EB%85%84%EC%9D%BC%EA%B2%BD%ED%97%98+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EA%B2%BD%EC%98%81%C2%B7%EC%82%AC%EB%AC%B4",
+      "stableId": "work24-youth:id:PG0031235202611190004",
+      "lifecycleStatus": "fresh",
+      "fitScore": 37,
+      "fitBreakdown": {
+        "roleField": 3,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 12,
+        "quality": 4
+      },
+      "fitReasons": [
+        "기회 품질: 일경험",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울(원문 표기)",
+        "workArea": "서울",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:40:05.668Z",
+      "siteId": "work24-youth",
+      "siteName": "고용24 청년일경험",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-30",
+      "url": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=(%EC%8B%9D%EC%9D%98%EC%95%BD%EA%B7%9C%EC%A0%9C%EA%B3%BC%ED%95%99%EC%9B%90)%20%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC%20%EC%9D%BC%EA%B2%BD%ED%97%98(%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4)%2016%EA%B8%B0%20-%20%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4(%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%EC%A7%80%EC%9B%90)",
+      "postingId": "PG0031168202611250007",
+      "title": "(식의약규제과학원) 미래내일 일경험(제로인턴) 16기 - 경영사무(교육운영지원)",
+      "organization": "재단법인 식의약규제과학원",
+      "recordKind": "recruitment",
+      "experienceType": "internship",
+      "roleText": "경영·사무",
+      "region": "서울",
+      "applicationStartAt": "2026-11-26",
+      "applicationEndAt": "2026-11-30",
+      "programStartAt": "2026-12-07",
+      "programEndAt": "2027-01-29",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-26",
+          "source": "list",
+          "evidence": "(식의약규제과학원) 미래내일 일경험(제로인턴) 16기 - 경영사무(교육운영지원) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-26~26-11-30 / 일경험기간 26-12-07~27-01-29 / 재단법인 식의약규제과학원",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "(식의약규제과학원) 미래내일 일경험(제로인턴) 16기 - 경영사무(교육운영지원) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-26~26-11-30 / 일경험기간 26-12-07~27-01-29 / 재단법인 식의약규제과학원",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-07",
+          "source": "list",
+          "evidence": "(식의약규제과학원) 미래내일 일경험(제로인턴) 16기 - 경영사무(교육운영지원) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-26~26-11-30 / 일경험기간 26-12-07~27-01-29 / 재단법인 식의약규제과학원",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2027-01-29",
+          "source": "list",
+          "evidence": "(식의약규제과학원) 미래내일 일경험(제로인턴) 16기 - 경영사무(교육운영지원) / 직무 경영·사무 / 지역 서울 / 모집기간 26-11-26~26-11-30 / 일경험기간 26-12-07~27-01-29 / 재단법인 식의약규제과학원",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://yw.work24.go.kr/d/a/selectWkexPrgmList.do?pgnm=%28%EC%8B%9D%EC%9D%98%EC%95%BD%EA%B7%9C%EC%A0%9C%EA%B3%BC%ED%95%99%EC%9B%90%29+%EB%AF%B8%EB%9E%98%EB%82%B4%EC%9D%BC+%EC%9D%BC%EA%B2%BD%ED%97%98%28%EC%A0%9C%EB%A1%9C%EC%9D%B8%ED%84%B4%29+16%EA%B8%B0+-+%EA%B2%BD%EC%98%81%EC%82%AC%EB%AC%B4%28%EA%B5%90%EC%9C%A1%EC%9A%B4%EC%98%81%EC%A7%80%EC%9B%90%29",
+      "stableId": "work24-youth:id:PG0031168202611250007",
+      "lifecycleStatus": "fresh",
+      "fitScore": 36,
+      "fitBreakdown": {
+        "roleField": 3,
+        "gapFill": 0,
+        "eligibility": 18,
+        "location": 7,
+        "quality": 8
+      },
+      "fitReasons": [
+        "기회 품질: 인턴, 일경험",
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "urgencyScore": 90,
+      "eligibilityStatus": "likely_eligible",
+      "eligibilityReasons": [
+        "신입·보조·인턴 등 지원 가능 신호"
+      ],
+      "relevanceTier": "adjacent",
+      "relevanceReasons": [
+        "수도권 사무·행정 경험 — 학예 경력인정은 미확인"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울(원문 표기)",
+        "workArea": "서울",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:40:05.668Z",
+      "siteId": "work24-youth",
+      "siteName": "고용24 청년일경험",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-08",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55660474",
+      "title": "[다보성갤러리] 경력직 학예사(큐레이터) 채용 공고",
+      "organization": "다보성갤러리",
+      "postingId": "55660474",
+      "postingType": "job",
+      "applicationEndAt": "2026-12-08",
+      "scheduleEvents": [
+        {
+          "type": "application_end",
+          "date": "2026-12-08",
+          "source": "list",
+          "evidence": "[다보성갤러리] 경력직 학예사(큐레이터) 채용 공고 ~2026-12-08",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55660474",
+      "applicationStartAt": null,
+      "stableId": "saramin:id:55660474",
+      "lifecycleStatus": "fresh",
+      "fitScore": 36,
+      "fitBreakdown": {
+        "roleField": 20,
+        "gapFill": 0,
+        "eligibility": 6,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 학예, 큐레이터",
+        "경력·학위·자격요건 상세 확인 필요"
+      ],
+      "urgencyScore": 50,
+      "eligibilityStatus": "needs_review",
+      "eligibilityReasons": [
+        "경력·학위·자격요건 상세 확인 필요"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 학예, 큐레이터"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "기관 소재지 서울 종로구 (시 단위·미검증)",
+        "institutionArea": "서울 종로구",
+        "institutionVerified": false,
+        "sourceUrl": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55660474",
+        "checkedAt": "2026-11-28"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:37:30Z",
+      "siteId": "saramin",
+      "siteName": "사람인",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "new",
+      "regDate": "2026-11-25",
+      "postedAt": null,
+      "deadlineDate": null,
+      "url": "https://www.kaah.kr/reqopen_view/598?page=1&searchTxt=",
+      "title": "(재)동북아문화재연구원 채용공고",
+      "organization": "(재)동북아문화재연구원",
+      "postingType": "job",
+      "scheduleEvents": [
+        {
+          "type": "posted",
+          "date": "2026-11-25",
+          "source": "list",
+          "evidence": "(재)동북아문화재연구원 채용공고 2026-11-25",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.kaah.kr/reqopen_view/598",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "stableId": "kaah:url:8480ba5bfd9bb10452d1",
+      "lifecycleStatus": "fresh",
+      "fitScore": 36,
+      "fitBreakdown": {
+        "roleField": 16,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 7,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 문화재",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 40,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 문화재"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "unknown",
+        "text": "위치 미확인 — 원문에서 근무지를 확인하세요"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-27T23:26:44Z",
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "changeType": "new",
+      "priority": "P3"
+    },
+    {
+      "type": "missing",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-30",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3545227",
+      "postingId": "3545227",
+      "title": "(2026년 12월 1일~4일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내",
+      "organization": "서울암사동유적",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-02",
+      "applicationEndAt": "2026-11-30",
+      "programStartAt": "2026-12-01",
+      "programEndAt": "2026-12-04",
+      "status": "모집중",
+      "region": "서울특별시 강동구",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-02",
+          "source": "list",
+          "evidence": "(2026년 12월 1일~4일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.01~2026.12.04 / 모집기간 2026.11.02~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "(2026년 12월 1일~4일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.01~2026.12.04 / 모집기간 2026.11.02~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-01",
+          "source": "list",
+          "evidence": "(2026년 12월 1일~4일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.01~2026.12.04 / 모집기간 2026.11.02~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-04",
+          "source": "list",
+          "evidence": "(2026년 12월 1일~4일 09:50~13:50) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.01~2026.12.04 / 모집기간 2026.11.02~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3545227",
+      "stableId": "1365-volunteer:id:3545227",
+      "lifecycleStatus": "fresh",
+      "fitScore": 35,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 90,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 강동구(원문 표기)",
+        "workArea": "서울특별시 강동구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "missing",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-11-30",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3545695",
+      "postingId": "3545695",
+      "title": "(2026년 12월 5일~6일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+      "organization": "서울암사동유적",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-04",
+      "applicationEndAt": "2026-11-30",
+      "programStartAt": "2026-12-05",
+      "programEndAt": "2026-12-06",
+      "status": "모집중",
+      "region": "서울특별시 강동구",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-04",
+          "source": "list",
+          "evidence": "(2026년 12월 5일~6일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.05~2026.12.06 / 모집기간 2026.11.04~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-11-30",
+          "source": "list",
+          "evidence": "(2026년 12월 5일~6일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.05~2026.12.06 / 모집기간 2026.11.04~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-05",
+          "source": "list",
+          "evidence": "(2026년 12월 5일~6일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.05~2026.12.06 / 모집기간 2026.11.04~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-06",
+          "source": "list",
+          "evidence": "(2026년 12월 5일~6일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.05~2026.12.06 / 모집기간 2026.11.04~2026.11.30 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3545695",
+      "stableId": "1365-volunteer:id:3545695",
+      "lifecycleStatus": "fresh",
+      "fitScore": 35,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 90,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 강동구(원문 표기)",
+        "workArea": "서울특별시 강동구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    },
+    {
+      "type": "missing",
+      "regDate": "",
+      "postedAt": null,
+      "deadlineDate": "2026-12-04",
+      "url": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548742",
+      "postingId": "3548742",
+      "title": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내",
+      "organization": "서울암사동유적",
+      "experienceType": "volunteer",
+      "applicationStartAt": "2026-11-09",
+      "applicationEndAt": "2026-12-04",
+      "programStartAt": "2026-12-08",
+      "programEndAt": "2026-12-11",
+      "status": "모집중",
+      "region": "서울특별시 강동구",
+      "eligibilityText": "신청대상 성인",
+      "postingType": "experience",
+      "scheduleEvents": [
+        {
+          "type": "application_start",
+          "date": "2026-11-09",
+          "source": "list",
+          "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "application_end",
+          "date": "2026-12-04",
+          "source": "list",
+          "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_start",
+          "date": "2026-12-08",
+          "source": "list",
+          "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        },
+        {
+          "type": "program_end",
+          "date": "2026-12-11",
+          "source": "list",
+          "evidence": "(2026년 12월 8일~11일 13:20~17:20) 암사동선사유적박물관 자원봉사자 모집 안내 / 서울특별시 강동구 / 서울암사동유적 / 모집중 / 봉사기간 2026.12.08~2026.12.11 / 모집기간 2026.11.09~2026.12.04 / 신청대상 성인",
+          "precision": "exact",
+          "confidence": 1
+        }
+      ],
+      "retainedSchedule": false,
+      "canonicalUrl": "https://www.1365.go.kr/vols/1572247904127/partcptn/timeCptn.do?type=show&progrmRegistNo=3548742",
+      "stableId": "1365-volunteer:id:3548742",
+      "lifecycleStatus": "fresh",
+      "fitScore": 35,
+      "fitBreakdown": {
+        "roleField": 10,
+        "gapFill": 0,
+        "eligibility": 10,
+        "location": 12,
+        "quality": 3
+      },
+      "fitReasons": [
+        "직무·분야: 박물관",
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "urgencyScore": 75,
+      "eligibilityStatus": "unknown",
+      "eligibilityReasons": [
+        "목록만으로 지원요건을 확인할 수 없음"
+      ],
+      "relevanceTier": "target",
+      "relevanceReasons": [
+        "목표 직무·분야: 박물관"
+      ],
+      "userVisible": true,
+      "workLocation": {
+        "status": "partial",
+        "text": "근무지역 서울특별시 강동구(원문 표기)",
+        "workArea": "서울특별시 강동구",
+        "workAreaBasis": "posting_region"
+      },
+      "verificationStatus": "current",
+      "lastConfirmedAt": "2026-11-23T11:41:58.274Z",
+      "siteId": "1365-volunteer",
+      "siteName": "1365 자원봉사포털",
+      "priority": "P3"
+    }
+  ],
+  "sourceIssues": [
+    {
+      "siteId": "much",
+      "siteName": "대한민국역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:05:21.586Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 2건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:05:21.586Z"
+    },
+    {
+      "siteId": "gmuseum",
+      "siteName": "경기도박물관협회",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:05:31.584Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:05:31.584Z"
+    },
+    {
+      "siteId": "hangeul",
+      "siteName": "국립한글박물관",
+      "status": "PARTIAL",
+      "currentCount": 4,
+      "previousCount": 4,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T07:43:29.195Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 총 774건 중 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 4건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T07:43:29.195Z"
+    },
+    {
+      "siteId": "kaah",
+      "siteName": "한국문화유산협회",
+      "status": "PARTIAL",
+      "currentCount": 10,
+      "previousCount": 7,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:07:47.310Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(15행) 확인, 전체 : 179건 중 2페이지 이후 미확인 · 이번 확인 10건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:07:47.310Z"
+    },
+    {
+      "siteId": "museum-seoul",
+      "siteName": "서울역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 4,
+      "previousCount": 3,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:03.036Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 4건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:03.036Z"
+    },
+    {
+      "siteId": "baekje",
+      "siteName": "한성백제박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:11.563Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(11행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:11.563Z"
+    },
+    {
+      "siteId": "craftmuseum",
+      "siteName": "서울공예박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:08:22.545Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(12행) 확인 2페이지 이후 미확인 · 이번 확인 0건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:08:22.545Z"
+    },
+    {
+      "siteId": "yongsan",
+      "siteName": "용산역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:29.773Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 총 14 건 중 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:29.773Z"
+    },
+    {
+      "siteId": "ep-museum",
+      "siteName": "은평역사한옥박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-10-27T01:10:53.968Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(1행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-10-27T01:10:53.968Z"
+    },
+    {
+      "siteId": "namu-sdm",
+      "siteName": "서대문자연사박물관",
+      "status": "PARTIAL",
+      "currentCount": 4,
+      "previousCount": 4,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:42.465Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 4건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:42.465Z"
+    },
+    {
+      "siteId": "warmemo",
+      "siteName": "전쟁기념관",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:08:52.486Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(11행) 확인 2페이지 이후 미확인 · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:08:52.486Z"
+    },
+    {
+      "siteId": "nmkpg",
+      "siteName": "국립대한민국임시정부기념관",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:01.798Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(7행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:01.798Z"
+    },
+    {
+      "siteId": "kimkoo",
+      "siteName": "백범김구기념관",
+      "status": "PARTIAL",
+      "currentCount": 3,
+      "previousCount": 4,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:06.423Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(19행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 3건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:06.423Z"
+    },
+    {
+      "siteId": "seosomun",
+      "siteName": "서소문성지 역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:09:13.422Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(8행) 확인 2페이지 이후 미확인 · 이번 확인 1건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:09:13.422Z"
+    },
+    {
+      "siteId": "jfac",
+      "siteName": "종로문화재단",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:20.208Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(13행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:20.208Z"
+    },
+    {
+      "siteId": "musenet",
+      "siteName": "경기도박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:37.708Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:37.708Z"
+    },
+    {
+      "siteId": "ngcm",
+      "siteName": "경기북부어린이박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:09:49.919Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:09:49.919Z"
+    },
+    {
+      "siteId": "ggcf",
+      "siteName": "경기문화재단",
+      "status": "PARTIAL",
+      "currentCount": 3,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(15행) 확인 2페이지 이후 미확인 · 이번 확인 3건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "hnart",
+      "siteName": "하남역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:10:43.332Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 총 370건 중 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 2건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:10:43.332Z"
+    },
+    {
+      "siteId": "anseong",
+      "siteName": "안성맞춤박물관",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:11:00.256Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:11:00.256Z"
+    },
+    {
+      "siteId": "ddc",
+      "siteName": "동두천자유수호평화박물관",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:11:13.447Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(11행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 2건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:11:13.447Z"
+    },
+    {
+      "siteId": "kh",
+      "siteName": "국가유산진흥원",
+      "status": "PARTIAL",
+      "currentCount": 3,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(11행) 확인, Total : 1211 건 중 2페이지 이후 미확인 · 이번 확인 3건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "arte",
+      "siteName": "한국문화예술교육진흥원",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(15행) 확인, 총 172건 중 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "gokams",
+      "siteName": "예술경영지원센터",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "hsmuseum",
+      "siteName": "화성시역사박물관",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 3,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:10:51.263Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(18행) 확인, 전체 446건 중 2페이지 이후 미확인 · 이번 확인 2건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:10:51.263Z"
+    },
+    {
+      "siteId": "artic",
+      "siteName": "이천시립박물관",
+      "status": "ERROR",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-10-27T01:19:08.571Z",
+      "message": "수집 실패: HTTP 503 응답(2회 확인)으로 목록 확인 불가 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-10-27T01:19:08.571Z"
+    },
+    {
+      "siteId": "yongsan-cf",
+      "siteName": "용산문화재단",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-10-27T01:26:56.399Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(7행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 1건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-10-27T01:26:56.399Z"
+    },
+    {
+      "siteId": "seocho-cf",
+      "siteName": "서초문화재단",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 2건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "naruart",
+      "siteName": "광진문화재단",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(15행) 확인, 총 207건 중 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "ddmac",
+      "siteName": "동대문문화재단",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(20행) 확인 2페이지 이후 미확인 · 이번 확인 2건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "efac",
+      "siteName": "은평문화재단",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 1건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "nowonarts",
+      "siteName": "노원문화재단",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 0건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "idfac",
+      "siteName": "동작문화재단",
+      "status": "PARTIAL",
+      "currentCount": 3,
+      "previousCount": 3,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(15행) 확인 2페이지 이후 미확인 · 이번 확인 3건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "ansanart",
+      "siteName": "안산문화재단",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 전체 : 18개 중 2페이지 이후 미확인 · 이번 확인 1건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "gunpocf",
+      "siteName": "군포문화재단",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 1건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "nyjcf",
+      "siteName": "남양주시문화재단",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(20행) 확인, 총 20건 중 2페이지 이후 미확인 · 이번 확인 2건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "gcart",
+      "siteName": "과천문화재단",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 총 194건 중 2페이지 이후 미확인 · 이번 확인 0건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "nsart",
+      "siteName": "광주시문화재단",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 전체 106건 중 2페이지 이후 미확인 · 이번 확인 1건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "snart",
+      "siteName": "성남문화재단",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 총 779 건 중 2페이지 이후 미확인 · 이번 확인 1건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "khs",
+      "siteName": "국가유산청",
+      "status": "PARTIAL",
+      "currentCount": 6,
+      "previousCount": 13,
+      "deadlineCoverage": 60,
+      "urlCoverage": 100,
+      "retainedCount": 8,
+      "lastSuccessfulAt": "2026-09-28T08:07:55.900Z",
+      "message": "부분 확인: 부분 확인: 목록 1~3페이지 30행 확인(2026-11-19까지, 직전 실행일 11-23 이전 포함), 4페이지 이후 미확인 · 이번 확인 6건 / 이전 확인값 8건 보존 · 마지막 전체 성공 2026-09-28T08:07:55.900Z"
+    },
+    {
+      "siteId": "ncs",
+      "siteName": "NCS 공정채용",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:05:16.523Z",
+      "message": "부분 확인: 부분 확인: 분류 필터(08-01-04-01) 목록 1페이지 확인: 모집중 0건(상위 10건 모두 마감), 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:05:16.523Z"
+    },
+    {
+      "siteId": "seoul",
+      "siteName": "서울특별시",
+      "status": "PARTIAL",
+      "currentCount": 2,
+      "previousCount": 8,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 3,
+      "lastSuccessfulAt": "2026-09-28T08:11:49.587Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인, 총 9056건 중 2페이지 이후 미확인 · 이번 확인 2건 / 이전 확인값 3건 보존 · 마지막 전체 성공 2026-09-28T08:11:49.587Z"
+    },
+    {
+      "siteId": "namuk",
+      "siteName": "국립농업박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-10-27T01:20:42.162Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(5행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-10-27T01:20:42.162Z"
+    },
+    {
+      "siteId": "gfac",
+      "siteName": "관악문화재단",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 1,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 목록 1페이지(28행) 확인 2페이지 이후 미확인 · 이번 확인 0건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "history-seoul",
+      "siteName": "서울역사편찬원",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:11:30.370Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(5행) 확인, 전체80건 중 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:11:30.370Z"
+    },
+    {
+      "siteId": "bcmuseum",
+      "siteName": "부천시박물관",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:10:14.892Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:10:14.892Z"
+    },
+    {
+      "siteId": "kdp-aks",
+      "siteName": "한국학중앙연구원",
+      "status": "PARTIAL",
+      "currentCount": 11,
+      "previousCount": 23,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 14,
+      "lastSuccessfulAt": "2026-09-28T08:12:05.074Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(20행) 확인, 총 2738 건 중 2페이지 이후 미확인 · 이번 확인 11건 / 이전 확인값 14건 보존 · 마지막 전체 성공 2026-09-28T08:12:05.074Z"
+    },
+    {
+      "siteId": "museum-go-kr",
+      "siteName": "국립중앙박물관",
+      "status": "PARTIAL",
+      "currentCount": 7,
+      "previousCount": 16,
+      "deadlineCoverage": 57,
+      "urlCoverage": 100,
+      "retainedCount": 9,
+      "lastSuccessfulAt": "2026-10-08T00:36:46.843Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 7건 / 이전 확인값 9건 보존 · 마지막 전체 성공 2026-10-08T00:36:46.843Z"
+    },
+    {
+      "siteId": "gogung",
+      "siteName": "국립고궁박물관",
+      "status": "PARTIAL",
+      "currentCount": 3,
+      "previousCount": 4,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 1,
+      "lastSuccessfulAt": "2026-09-28T08:03:34.151Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 이번 확인 3건 / 이전 확인값 1건 보존 · 마지막 전체 성공 2026-09-28T08:03:34.151Z"
+    },
+    {
+      "siteId": "nfm",
+      "siteName": "국립민속박물관",
+      "status": "PARTIAL",
+      "currentCount": 4,
+      "previousCount": 5,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:04:21.988Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행) 확인 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 4건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:04:21.988Z"
+    },
+    {
+      "siteId": "gojobs",
+      "siteName": "나라일터",
+      "status": "PARTIAL",
+      "currentCount": 11,
+      "previousCount": 4,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:07:30.672Z",
+      "message": "부분 확인: 부분 확인: 모집공고 공고명 검색어 '박물관' 결과 1~2페이지(20행, Total 3095)와 '학예' 결과 1페이지(10행 중 앞 검색과 겹친 5행 제외 5행, Total 1600) 확인, 이후 페이지 미확인 · 이번 확인 11건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:07:30.672Z"
+    },
+    {
+      "siteId": "kccf",
+      "siteName": "한국문화원연합회",
+      "status": "PARTIAL",
+      "currentCount": 1,
+      "previousCount": 2,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 서울(SU) 10행·경기(GG) 10행 1페이지 확인, 2페이지 이후 미확인 · 직전과 동일 · 이번 확인 1건 / 이전 확인값 0건 보존"
+    },
+    {
+      "siteId": "museum-or-kr",
+      "siteName": "한국박물관협회",
+      "status": "PARTIAL",
+      "currentCount": 5,
+      "previousCount": 5,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:11:44.259Z",
+      "message": "부분 확인: 부분 확인: 목록 1페이지(10행, kboard iframe) 확인, 전체 293 중 2페이지 이후 미확인 · 이번 확인 5건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:11:44.259Z"
+    },
+    {
+      "siteId": "job-gg",
+      "siteName": "경기도일자리포털",
+      "status": "PARTIAL",
+      "currentCount": 13,
+      "previousCount": 15,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 6,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: 공공일자리 목록 1페이지(16행)와 근무지 남양주시 필터 1페이지(28건 중 16행, 앞 목록과 겹친 행 없음) 확인, 이후 페이지 미확인. 남양주시(nyj) 게시판 대체 확인 · 이번 확인 13건 / 이전 확인값 6건 보존"
+    },
+    {
+      "siteId": "saramin",
+      "siteName": "사람인",
+      "status": "PARTIAL",
+      "currentCount": 11,
+      "previousCount": 10,
+      "deadlineCoverage": 91,
+      "urlCoverage": 100,
+      "retainedCount": 1,
+      "lastSuccessfulAt": null,
+      "message": "부분 확인: 부분 확인: playMCP 사람인 search_saramin_jobs 조회. 하위직무 코드가 도구에서 적용되지 않아 근무지 서울·경기 + 검색어 '박물관'(최신 40건)·'학예사'(최신 30건, 등록일순)로 조회하고, 제목·회사명에 박물관·미술관·학예·문화재·유산·기념관·도슨트·문화원·문화재단이 있는 11건만 기록(겹친 3건 제외). 대행사(커리어넷) 공고는 제목 앞 기관명(평택문화원)을 기관으로 적음. 등록일은 도구가 주지 않아 비움, 마감일은 D-day 표기로 계산(기준 2026-11-28 KST). 확인 시각은 도구 호출 전후 근사 · 이번 확인 11건 / 이전 확인값 1건 보존"
+    },
+    {
+      "siteId": "museum-notice-volunteer",
+      "siteName": "국립중앙박물관 알림",
+      "status": "PARTIAL",
+      "currentCount": 0,
+      "previousCount": 0,
+      "deadlineCoverage": 0,
+      "urlCoverage": 0,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-09-28T08:13:59.618Z",
+      "message": "부분 확인: 부분 확인: 자원봉사 검색 결과 1페이지만 확인, 현재 모집 공고 미식별 · 이번 확인 0건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-09-28T08:13:59.618Z"
+    },
+    {
+      "siteId": "gjf-youth",
+      "siteName": "경기일자리재단 청년사업",
+      "status": "PARTIAL",
+      "currentCount": 6,
+      "previousCount": 6,
+      "deadlineCoverage": 0,
+      "urlCoverage": 100,
+      "retainedCount": 0,
+      "lastSuccessfulAt": "2026-10-07T00:07:16.881Z",
+      "message": "부분 확인: 부분 확인: 사업 목록만 확인, 상세 미확인 · 이번 확인 6건 / 이전 확인값 0건 보존 · 마지막 전체 성공 2026-10-07T00:07:16.881Z"
+    },
+    {
+      "siteId": "work24-youth",
+      "siteName": "고용24 청년일경험",
+      "status": "PARTIAL",
+      "currentCount": 81,
+      "previousCount": 92,
+      "deadlineCoverage": 100,
+      "urlCoverage": 100,
+      "retainedCount": 17,
+      "lastSuccessfulAt": "2026-11-23T11:38:43.358Z",
+      "message": "부분 확인: 부분 확인: 총 275건 중 179건(1~3페이지 전체·4~6페이지 서울/경기)만 확인, 나머지 페이지 미확인 · 이번 확인 81건 / 이전 확인값 17건 보존 · 마지막 전체 성공 2026-11-23T11:38:43.358Z"
+    }
+  ]
+}
