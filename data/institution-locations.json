@@ -44,7 +44,7 @@
     { "id": "snart", "names": ["성남문화재단"], "siteIds": ["snart"], "siteDefault": true, "area": "경기 성남시 분당구", "address": "경기 성남시 분당구 성남대로 808", "verified": true, "sourceUrl": "https://www.snart.or.kr/" },
     { "id": "ansanart", "names": ["안산문화재단"], "siteIds": ["ansanart"], "siteDefault": true, "area": "경기 안산시 단원구", "address": "경기 안산시 단원구 화랑로 312", "verified": true, "sourceUrl": "https://www.ansanart.com/" },
     { "id": "gunpocf", "names": ["군포문화재단"], "siteIds": ["gunpocf"], "siteDefault": true, "area": "경기 군포시", "address": "경기 군포시 고산로 599", "verified": true, "sourceUrl": "https://www.gunpocf.or.kr/" },
-    { "id": "nyjcf", "names": ["남양주시문화재단"], "siteIds": ["nyjcf"], "siteDefault": true, "area": "경기 남양주시", "address": "경기 남양주시 석실로 724", "verified": true, "sourceUrl": "https://www.nyjcf.or.kr/" },
+    { "id": "nyjcf", "names": ["남양주시문화재단", "남양주문화재단"], "siteIds": ["nyjcf"], "siteDefault": true, "area": "경기 남양주시", "address": "경기 남양주시 석실로 724", "verified": true, "sourceUrl": "https://www.nyjcf.or.kr/" },
     { "id": "gcart", "names": ["과천문화재단"], "siteIds": ["gcart"], "siteDefault": true, "area": "경기 과천시", "address": "경기 과천시 통영로 5", "verified": true, "sourceUrl": "https://www.gcart.or.kr/" },
     { "id": "nsart", "names": ["광주시문화재단"], "siteIds": ["nsart"], "siteDefault": true, "area": "경기 광주시", "address": "경기 광주시 회안대로 891", "verified": true, "sourceUrl": "https://www.nsart.or.kr/" },
     { "id": "khs", "names": ["국가유산청"], "siteIds": ["khs"], "area": "대전 서구", "address": "대전 서구 청사로 189", "verified": true, "sourceUrl": "https://www.khs.go.kr/", "note": "정부대전청사. 산하기관(국립문화유산연구원 등)은 별도 소재지" },
